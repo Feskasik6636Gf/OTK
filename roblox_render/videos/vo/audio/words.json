@@ -1,0 +1,1782 @@
+[
+{
+"word": "In",
+"start": 0.0,
+"end": 0.134
+},
+{
+"word": "this",
+"start": 0.134,
+"end": 0.284
+},
+{
+"word": "world,",
+"start": 0.284,
+"end": 0.552
+},
+{
+"word": "if",
+"start": 0.719,
+"end": 0.803
+},
+{
+"word": "you",
+"start": 0.803,
+"end": 0.887
+},
+{
+"word": "put",
+"start": 0.887,
+"end": 1.004
+},
+{
+"word": "on",
+"start": 1.004,
+"end": 1.121
+},
+{
+"word": "someone",
+"start": 1.121,
+"end": 1.322
+},
+{
+"word": "else's",
+"start": 1.322,
+"end": 1.639
+},
+{
+"word": "shoes,",
+"start": 1.639,
+"end": 1.84
+},
+{
+"word": "you",
+"start": 2.074,
+"end": 2.108
+},
+{
+"word": "swap",
+"start": 2.108,
+"end": 2.342
+},
+{
+"word": "bodies",
+"start": 2.342,
+"end": 2.626
+},
+{
+"word": "with",
+"start": 2.626,
+"end": 2.76
+},
+{
+"word": "them.",
+"start": 2.76,
+"end": 2.928
+},
+{
+"word": "You",
+"start": 3.162,
+"end": 3.212
+},
+{
+"word": "stay",
+"start": 3.212,
+"end": 3.429
+},
+{
+"word": "swapped",
+"start": 3.429,
+"end": 3.714
+},
+{
+"word": "until",
+"start": 3.714,
+"end": 3.915
+},
+{
+"word": "you",
+"start": 3.915,
+"end": 4.065
+},
+{
+"word": "both",
+"start": 4.065,
+"end": 4.216
+},
+{
+"word": "take",
+"start": 4.216,
+"end": 4.383
+},
+{
+"word": "the",
+"start": 4.383,
+"end": 4.5
+},
+{
+"word": "shoes",
+"start": 4.5,
+"end": 4.634
+},
+{
+"word": "off",
+"start": 4.634,
+"end": 4.801
+},
+{
+"word": "at",
+"start": 4.801,
+"end": 4.952
+},
+{
+"word": "the",
+"start": 4.952,
+"end": 5.052
+},
+{
+"word": "exact",
+"start": 5.052,
+"end": 5.336
+},
+{
+"word": "same",
+"start": 5.336,
+"end": 5.587
+},
+{
+"word": "second.",
+"start": 5.587,
+"end": 5.939
+},
+{
+"word": "So",
+"start": 6.273,
+"end": 6.357
+},
+{
+"word": "shoe",
+"start": 6.424,
+"end": 6.675
+},
+{
+"word": "stores",
+"start": 6.675,
+"end": 6.892
+},
+{
+"word": "have",
+"start": 6.892,
+"end": 7.076
+},
+{
+"word": "security",
+"start": 7.076,
+"end": 7.361
+},
+{
+"word": "guards.",
+"start": 7.511,
+"end": 7.645
+},
+{
+"word": "Bowling",
+"start": 7.913,
+"end": 8.08
+},
+{
+"word": "alleys",
+"start": 8.08,
+"end": 8.314
+},
+{
+"word": "were",
+"start": 8.314,
+"end": 8.465
+},
+{
+"word": "banned",
+"start": 8.465,
+"end": 8.716
+},
+{
+"word": "in",
+"start": 8.716,
+"end": 8.883
+},
+{
+"word": "2003",
+"start": 8.883,
+"end": 9.402
+},
+{
+"word": "after",
+"start": 9.552,
+"end": 9.719
+},
+{
+"word": "the",
+"start": 9.719,
+"end": 9.853
+},
+{
+"word": "whole",
+"start": 9.853,
+"end": 10.037
+},
+{
+"word": "town",
+"start": 10.037,
+"end": 10.288
+},
+{
+"word": "swapped",
+"start": 10.288,
+"end": 10.556
+},
+{
+"word": "at",
+"start": 10.556,
+"end": 10.69
+},
+{
+"word": "once.",
+"start": 10.69,
+"end": 10.941
+},
+{
+"word": "Nobody",
+"start": 11.275,
+"end": 11.493
+},
+{
+"word": "owns",
+"start": 11.493,
+"end": 11.811
+},
+{
+"word": "shoelaces.",
+"start": 11.811,
+"end": 12.279
+},
+{
+"word": "Everyone",
+"start": 12.613,
+"end": 12.831
+},
+{
+"word": "wears",
+"start": 12.831,
+"end": 13.032
+},
+{
+"word": "Velcro",
+"start": 13.032,
+"end": 13.333
+},
+{
+"word": "for",
+"start": 13.416,
+"end": 13.567
+},
+{
+"word": "a",
+"start": 13.567,
+"end": 13.651
+},
+{
+"word": "fast",
+"start": 13.651,
+"end": 13.801
+},
+{
+"word": "escape.",
+"start": 13.801,
+"end": 14.086
+},
+{
+"word": "At",
+"start": 14.37,
+"end": 14.487
+},
+{
+"word": "weddings,",
+"start": 14.487,
+"end": 14.705
+},
+{
+"word": "the",
+"start": 15.006,
+"end": 15.006
+},
+{
+"word": "bride",
+"start": 15.006,
+"end": 15.173
+},
+{
+"word": "and",
+"start": 15.173,
+"end": 15.324
+},
+{
+"word": "groom",
+"start": 15.324,
+"end": 15.457
+},
+{
+"word": "swap",
+"start": 15.457,
+"end": 15.725
+},
+{
+"word": "shoes",
+"start": 15.725,
+"end": 15.993
+},
+{
+"word": "for",
+"start": 15.993,
+"end": 16.193
+},
+{
+"word": "one",
+"start": 16.193,
+"end": 16.411
+},
+{
+"word": "minute.",
+"start": 16.411,
+"end": 16.628
+},
+{
+"word": "That's",
+"start": 16.863,
+"end": 17.047
+},
+{
+"word": "the",
+"start": 17.047,
+"end": 17.147
+},
+{
+"word": "vow.",
+"start": 17.147,
+"end": 17.331
+},
+{
+"word": "\"I've",
+"start": 17.565,
+"end": 17.766
+},
+{
+"word": "walked",
+"start": 17.766,
+"end": 17.9
+},
+{
+"word": "in",
+"start": 17.9,
+"end": 18.034
+},
+{
+"word": "your",
+"start": 18.034,
+"end": 18.134
+},
+{
+"word": "shoes.\"",
+"start": 18.134,
+"end": 18.418
+},
+{
+"word": "My",
+"start": 18.686,
+"end": 18.803
+},
+{
+"word": "uncle",
+"start": 18.803,
+"end": 18.987
+},
+{
+"word": "once",
+"start": 18.987,
+"end": 19.205
+},
+{
+"word": "tried",
+"start": 19.205,
+"end": 19.389
+},
+{
+"word": "on",
+"start": 19.389,
+"end": 19.506
+},
+{
+"word": "the",
+"start": 19.506,
+"end": 19.606
+},
+{
+"word": "dog's",
+"start": 19.606,
+"end": 19.891
+},
+{
+"word": "booties.",
+"start": 19.891,
+"end": 20.192
+},
+{
+"word": "He",
+"start": 20.359,
+"end": 20.459
+},
+{
+"word": "barked",
+"start": 20.459,
+"end": 20.677
+},
+{
+"word": "for",
+"start": 20.677,
+"end": 20.844
+},
+{
+"word": "a",
+"start": 20.844,
+"end": 21.045
+},
+{
+"word": "week.",
+"start": 21.045,
+"end": 21.162
+},
+{
+"word": "I'm",
+"start": 21.43,
+"end": 21.614
+},
+{
+"word": "Leo,",
+"start": 21.614,
+"end": 21.747
+},
+{
+"word": "I'm",
+"start": 21.948,
+"end": 22.149
+},
+{
+"word": "11,",
+"start": 22.149,
+"end": 22.299
+},
+{
+"word": "and",
+"start": 22.483,
+"end": 22.684
+},
+{
+"word": "nobody",
+"start": 22.684,
+"end": 22.952
+},
+{
+"word": "has",
+"start": 22.952,
+"end": 23.169
+},
+{
+"word": "ever",
+"start": 23.169,
+"end": 23.437
+},
+{
+"word": "touched",
+"start": 23.437,
+"end": 23.688
+},
+{
+"word": "my",
+"start": 23.688,
+"end": 23.889
+},
+{
+"word": "sneakers.",
+"start": 23.889,
+"end": 24.14
+},
+{
+"word": "Next",
+"start": 24.349,
+"end": 24.608
+},
+{
+"word": "door",
+"start": 24.608,
+"end": 24.809
+},
+{
+"word": "lives",
+"start": 24.809,
+"end": 25.01
+},
+{
+"word": "Mr.",
+"start": 25.01,
+"end": 25.294
+},
+{
+"word": "Pruitt,",
+"start": 25.411,
+"end": 25.478
+},
+{
+"word": "the",
+"start": 25.729,
+"end": 25.829
+},
+{
+"word": "grumpiest",
+"start": 25.829,
+"end": 26.231
+},
+{
+"word": "man",
+"start": 26.231,
+"end": 26.431
+},
+{
+"word": "alive.",
+"start": 26.431,
+"end": 26.783
+},
+{
+"word": "He's",
+"start": 27.067,
+"end": 27.184
+},
+{
+"word": "worn",
+"start": 27.184,
+"end": 27.268
+},
+{
+"word": "the",
+"start": 27.268,
+"end": 27.435
+},
+{
+"word": "same",
+"start": 27.435,
+"end": 27.636
+},
+{
+"word": "brown",
+"start": 27.636,
+"end": 27.87
+},
+{
+"word": "boots",
+"start": 27.87,
+"end": 28.071
+},
+{
+"word": "for",
+"start": 28.071,
+"end": 28.288
+},
+{
+"word": "40",
+"start": 28.288,
+"end": 28.573
+},
+{
+"word": "years.",
+"start": 28.573,
+"end": 28.891
+},
+{
+"word": "Every",
+"start": 29.208,
+"end": 29.426
+},
+{
+"word": "ball",
+"start": 29.426,
+"end": 29.576
+},
+{
+"word": "that",
+"start": 29.576,
+"end": 29.71
+},
+{
+"word": "lands",
+"start": 29.71,
+"end": 29.827
+},
+{
+"word": "in",
+"start": 29.827,
+"end": 29.961
+},
+{
+"word": "his",
+"start": 29.961,
+"end": 30.078
+},
+{
+"word": "yard",
+"start": 30.078,
+"end": 30.279
+},
+{
+"word": "disappears",
+"start": 30.279,
+"end": 30.747
+},
+{
+"word": "forever.",
+"start": 30.839,
+"end": 31.216
+},
+{
+"word": "Last",
+"start": 31.517,
+"end": 31.684
+},
+{
+"word": "Tuesday,",
+"start": 31.684,
+"end": 31.969
+},
+{
+"word": "it",
+"start": 32.103,
+"end": 32.186
+},
+{
+"word": "was",
+"start": 32.186,
+"end": 32.253
+},
+{
+"word": "my",
+"start": 32.253,
+"end": 32.37
+},
+{
+"word": "brand",
+"start": 32.37,
+"end": 32.604
+},
+{
+"word": "new",
+"start": 32.604,
+"end": 32.772
+},
+{
+"word": "soccer",
+"start": 32.772,
+"end": 32.989
+},
+{
+"word": "ball.",
+"start": 32.989,
+"end": 33.223
+},
+{
+"word": "The",
+"start": 33.424,
+"end": 33.508
+},
+{
+"word": "big",
+"start": 33.508,
+"end": 33.642
+},
+{
+"word": "kid",
+"start": 33.642,
+"end": 33.775
+},
+{
+"word": "said,",
+"start": 33.775,
+"end": 33.993
+},
+{
+"word": "\"Wear",
+"start": 34.194,
+"end": 34.244
+},
+{
+"word": "Pruitt's",
+"start": 34.244,
+"end": 34.595
+},
+{
+"word": "boots.",
+"start": 34.595,
+"end": 34.712
+},
+{
+"word": "Get",
+"start": 34.913,
+"end": 34.997
+},
+{
+"word": "it",
+"start": 34.997,
+"end": 35.08
+},
+{
+"word": "back",
+"start": 35.08,
+"end": 35.181
+},
+{
+"word": "yourself.\"",
+"start": 35.181,
+"end": 35.565
+},
+{
+"word": "His",
+"start": 35.766,
+"end": 35.917
+},
+{
+"word": "boots",
+"start": 35.917,
+"end": 36.101
+},
+{
+"word": "sat",
+"start": 36.101,
+"end": 36.301
+},
+{
+"word": "on",
+"start": 36.301,
+"end": 36.435
+},
+{
+"word": "the",
+"start": 36.435,
+"end": 36.536
+},
+{
+"word": "porch.",
+"start": 36.628,
+"end": 36.77
+},
+{
+"word": "He",
+"start": 36.971,
+"end": 37.088
+},
+{
+"word": "was",
+"start": 37.088,
+"end": 37.188
+},
+{
+"word": "asleep",
+"start": 37.188,
+"end": 37.439
+},
+{
+"word": "in",
+"start": 37.439,
+"end": 37.573
+},
+{
+"word": "his",
+"start": 37.573,
+"end": 37.673
+},
+{
+"word": "chair,",
+"start": 37.673,
+"end": 37.907
+},
+{
+"word": "in",
+"start": 38.041,
+"end": 38.158
+},
+{
+"word": "socks.",
+"start": 38.158,
+"end": 38.476
+},
+{
+"word": "I",
+"start": 38.744,
+"end": 38.844
+},
+{
+"word": "stepped",
+"start": 38.844,
+"end": 39.078
+},
+{
+"word": "in.",
+"start": 39.078,
+"end": 39.346
+},
+{
+"word": "Crack!",
+"start": 39.58,
+"end": 39.781
+},
+{
+"word": "My",
+"start": 40.032,
+"end": 40.233
+},
+{
+"word": "knees",
+"start": 40.233,
+"end": 40.417
+},
+{
+"word": "sounded",
+"start": 40.417,
+"end": 40.634
+},
+{
+"word": "like",
+"start": 40.634,
+"end": 40.852
+},
+{
+"word": "popcorn.",
+"start": 40.969,
+"end": 41.17
+},
+{
+"word": "I",
+"start": 41.437,
+"end": 41.538
+},
+{
+"word": "was",
+"start": 41.538,
+"end": 41.671
+},
+{
+"word": "78.",
+"start": 41.671,
+"end": 42.039
+},
+{
+"word": "And",
+"start": 42.307,
+"end": 42.391
+},
+{
+"word": "on",
+"start": 42.391,
+"end": 42.525
+},
+{
+"word": "his",
+"start": 42.525,
+"end": 42.642
+},
+{
+"word": "chair,",
+"start": 42.642,
+"end": 42.893
+},
+{
+"word": "rubbing",
+"start": 42.993,
+"end": 43.21
+},
+{
+"word": "his",
+"start": 43.21,
+"end": 43.378
+},
+{
+"word": "eyes,",
+"start": 43.378,
+"end": 43.629
+},
+{
+"word": "was",
+"start": 43.762,
+"end": 43.88
+},
+{
+"word": "me.",
+"start": 43.88,
+"end": 44.08
+},
+{
+"word": "\"Well,\"",
+"start": 44.264,
+"end": 44.515
+},
+{
+"word": "said",
+"start": 44.716,
+"end": 44.833
+},
+{
+"word": "me,",
+"start": 44.833,
+"end": 45.017
+},
+{
+"word": "in",
+"start": 45.151,
+"end": 45.201
+},
+{
+"word": "my",
+"start": 45.201,
+"end": 45.368
+},
+{
+"word": "voice.",
+"start": 45.368,
+"end": 45.569
+},
+{
+"word": "\"Finally.\"",
+"start": 45.92,
+"end": 46.205
+},
+{
+"word": "Then",
+"start": 46.523,
+"end": 46.69
+},
+{
+"word": "me",
+"start": 46.941,
+"end": 46.991
+},
+{
+"word": "ran",
+"start": 46.991,
+"end": 47.225
+},
+{
+"word": "out",
+"start": 47.225,
+"end": 47.342
+},
+{
+"word": "the",
+"start": 47.342,
+"end": 47.443
+},
+{
+"word": "door.",
+"start": 47.443,
+"end": 47.627
+},
+{
+"word": "I",
+"start": 47.844,
+"end": 47.978
+},
+{
+"word": "limped",
+"start": 47.978,
+"end": 48.145
+},
+{
+"word": "inside",
+"start": 48.145,
+"end": 48.413
+},
+{
+"word": "to",
+"start": 48.413,
+"end": 48.58
+},
+{
+"word": "find",
+"start": 48.58,
+"end": 48.697
+},
+{
+"word": "my",
+"start": 48.697,
+"end": 48.865
+},
+{
+"word": "ball.",
+"start": 48.865,
+"end": 49.049
+},
+{
+"word": "I",
+"start": 49.174,
+"end": 49.333
+},
+{
+"word": "found",
+"start": 49.333,
+"end": 49.484
+},
+{
+"word": "all",
+"start": 49.484,
+"end": 49.718
+},
+{
+"word": "of",
+"start": 49.718,
+"end": 49.868
+},
+{
+"word": "them.",
+"start": 49.868,
+"end": 50.036
+},
+{
+"word": "Hundreds",
+"start": 50.404,
+"end": 50.504
+},
+{
+"word": "of",
+"start": 50.504,
+"end": 50.722
+},
+{
+"word": "balls",
+"start": 50.722,
+"end": 50.872
+},
+{
+"word": "on",
+"start": 50.872,
+"end": 51.056
+},
+{
+"word": "shelves,",
+"start": 51.056,
+"end": 51.374
+},
+{
+"word": "each",
+"start": 51.508,
+"end": 51.642
+},
+{
+"word": "with",
+"start": 51.642,
+"end": 51.776
+},
+{
+"word": "a",
+"start": 51.776,
+"end": 51.859
+},
+{
+"word": "little",
+"start": 51.859,
+"end": 51.993
+},
+{
+"word": "label.",
+"start": 51.993,
+"end": 52.261
+},
+{
+"word": "Red",
+"start": 52.545,
+"end": 52.629
+},
+{
+"word": "ball,",
+"start": 52.629,
+"end": 52.813
+},
+{
+"word": "1994.",
+"start": 52.98,
+"end": 53.432
+},
+{
+"word": "Blue",
+"start": 53.783,
+"end": 53.883
+},
+{
+"word": "ball,",
+"start": 53.883,
+"end": 54.067
+},
+{
+"word": "2008.",
+"start": 54.235,
+"end": 54.686
+},
+{
+"word": "Leo's",
+"start": 55.021,
+"end": 55.255
+},
+{
+"word": "ball,",
+"start": 55.255,
+"end": 55.389
+},
+{
+"word": "Tuesday.",
+"start": 55.54,
+"end": 55.807
+},
+{
+"word": "Beside",
+"start": 56.058,
+"end": 56.343
+},
+{
+"word": "them,",
+"start": 56.343,
+"end": 56.476
+},
+{
+"word": "a",
+"start": 56.627,
+"end": 56.744
+},
+{
+"word": "chair",
+"start": 56.744,
+"end": 56.878
+},
+{
+"word": "by",
+"start": 56.878,
+"end": 57.012
+},
+{
+"word": "the",
+"start": 57.012,
+"end": 57.129
+},
+{
+"word": "window,",
+"start": 57.129,
+"end": 57.33
+},
+{
+"word": "facing",
+"start": 57.48,
+"end": 57.664
+},
+{
+"word": "the",
+"start": 57.664,
+"end": 57.815
+},
+{
+"word": "yard.",
+"start": 57.815,
+"end": 58.032
+},
+{
+"word": "He",
+"start": 58.233,
+"end": 58.317
+},
+{
+"word": "wasn't",
+"start": 58.317,
+"end": 58.501
+},
+{
+"word": "stealing",
+"start": 58.501,
+"end": 58.768
+},
+{
+"word": "them.",
+"start": 58.768,
+"end": 58.969
+},
+{
+"word": "He",
+"start": 59.153,
+"end": 59.237
+},
+{
+"word": "was",
+"start": 59.237,
+"end": 59.387
+},
+{
+"word": "waiting",
+"start": 59.387,
+"end": 59.571
+},
+{
+"word": "for",
+"start": 59.571,
+"end": 59.722
+},
+{
+"word": "someone",
+"start": 59.722,
+"end": 59.906
+},
+{
+"word": "to",
+"start": 59.906,
+"end": 60.056
+},
+{
+"word": "knock",
+"start": 60.056,
+"end": 60.207
+},
+{
+"word": "and",
+"start": 60.207,
+"end": 60.341
+},
+{
+"word": "ask.",
+"start": 60.341,
+"end": 60.608
+},
+{
+"word": "Outside,",
+"start": 60.826,
+"end": 61.127
+},
+{
+"word": "Mr.",
+"start": 61.378,
+"end": 61.562
+},
+{
+"word": "Pruitt",
+"start": 61.629,
+"end": 61.729
+},
+{
+"word": "was",
+"start": 61.729,
+"end": 61.913
+},
+{
+"word": "in",
+"start": 61.913,
+"end": 62.064
+},
+{
+"word": "my",
+"start": 62.064,
+"end": 62.248
+},
+{
+"word": "body,",
+"start": 62.248,
+"end": 62.465
+},
+{
+"word": "playing",
+"start": 62.599,
+"end": 62.75
+},
+{
+"word": "soccer",
+"start": 62.75,
+"end": 63.034
+},
+{
+"word": "with",
+"start": 63.034,
+"end": 63.185
+},
+{
+"word": "the",
+"start": 63.185,
+"end": 63.285
+},
+{
+"word": "big",
+"start": 63.285,
+"end": 63.385
+},
+{
+"word": "kids.",
+"start": 63.385,
+"end": 63.62
+},
+{
+"word": "Running.",
+"start": 63.921,
+"end": 64.121
+},
+{
+"word": "Laughing.",
+"start": 64.489,
+"end": 64.791
+},
+{
+"word": "He",
+"start": 64.941,
+"end": 65.058
+},
+{
+"word": "hadn't",
+"start": 65.058,
+"end": 65.292
+},
+{
+"word": "run",
+"start": 65.292,
+"end": 65.46
+},
+{
+"word": "in",
+"start": 65.46,
+"end": 65.644
+},
+{
+"word": "50",
+"start": 65.66,
+"end": 65.962
+},
+{
+"word": "years.",
+"start": 65.962,
+"end": 66.296
+},
+{
+"word": "When",
+"start": 66.564,
+"end": 66.647
+},
+{
+"word": "I",
+"start": 66.647,
+"end": 66.748
+},
+{
+"word": "told",
+"start": 66.748,
+"end": 66.882
+},
+{
+"word": "him",
+"start": 66.882,
+"end": 66.982
+},
+{
+"word": "we",
+"start": 66.982,
+"end": 67.066
+},
+{
+"word": "had",
+"start": 67.066,
+"end": 67.149
+},
+{
+"word": "to",
+"start": 67.149,
+"end": 67.266
+},
+{
+"word": "swap",
+"start": 67.266,
+"end": 67.417
+},
+{
+"word": "back,",
+"start": 67.417,
+"end": 67.668
+},
+{
+"word": "he",
+"start": 67.802,
+"end": 67.902
+},
+{
+"word": "looked",
+"start": 67.902,
+"end": 68.019
+},
+{
+"word": "at",
+"start": 68.019,
+"end": 68.103
+},
+{
+"word": "my",
+"start": 68.103,
+"end": 68.237
+},
+{
+"word": "legs",
+"start": 68.237,
+"end": 68.404
+},
+{
+"word": "and",
+"start": 68.404,
+"end": 68.555
+},
+{
+"word": "said,",
+"start": 68.555,
+"end": 68.722
+},
+{
+"word": "\"Five",
+"start": 68.856,
+"end": 68.989
+},
+{
+"word": "more",
+"start": 68.989,
+"end": 69.14
+},
+{
+"word": "minutes?\"",
+"start": 69.14,
+"end": 69.374
+},
+{
+"word": "So",
+"start": 69.575,
+"end": 69.843
+},
+{
+"word": "I",
+"start": 69.96,
+"end": 70.06
+},
+{
+"word": "did",
+"start": 70.06,
+"end": 70.144
+},
+{
+"word": "the",
+"start": 70.144,
+"end": 70.261
+},
+{
+"word": "only",
+"start": 70.261,
+"end": 70.395
+},
+{
+"word": "thing",
+"start": 70.395,
+"end": 70.529
+},
+{
+"word": "I",
+"start": 70.529,
+"end": 70.612
+},
+{
+"word": "could.",
+"start": 70.612,
+"end": 70.83
+},
+{
+"word": "I",
+"start": 71.047,
+"end": 71.131
+},
+{
+"word": "stood",
+"start": 71.131,
+"end": 71.315
+},
+{
+"word": "on",
+"start": 71.315,
+"end": 71.432
+},
+{
+"word": "the",
+"start": 71.432,
+"end": 71.516
+},
+{
+"word": "porch",
+"start": 71.516,
+"end": 71.733
+},
+{
+"word": "in",
+"start": 71.833,
+"end": 71.967
+},
+{
+"word": "his",
+"start": 71.967,
+"end": 72.134
+},
+{
+"word": "body",
+"start": 72.134,
+"end": 72.352
+},
+{
+"word": "and",
+"start": 72.419,
+"end": 72.536
+},
+{
+"word": "yelled,",
+"start": 72.536,
+"end": 72.737
+},
+{
+"word": "\"Anyone",
+"start": 72.77,
+"end": 73.038
+},
+{
+"word": "want",
+"start": 73.038,
+"end": 73.222
+},
+{
+"word": "their",
+"start": 73.222,
+"end": 73.339
+},
+{
+"word": "balls",
+"start": 73.339,
+"end": 73.54
+},
+{
+"word": "back?",
+"start": 73.54,
+"end": 73.824
+},
+{
+"word": "Knock",
+"start": 74.075,
+"end": 74.175
+},
+{
+"word": "on",
+"start": 74.175,
+"end": 74.292
+},
+{
+"word": "the",
+"start": 74.292,
+"end": 74.393
+},
+{
+"word": "door",
+"start": 74.393,
+"end": 74.61
+},
+{
+"word": "and",
+"start": 74.744,
+"end": 74.794
+},
+{
+"word": "you",
+"start": 74.794,
+"end": 74.895
+},
+{
+"word": "have",
+"start": 74.895,
+"end": 75.045
+},
+{
+"word": "to",
+"start": 75.045,
+"end": 75.162
+},
+{
+"word": "stay",
+"start": 75.162,
+"end": 75.296
+},
+{
+"word": "for",
+"start": 75.296,
+"end": 75.413
+},
+{
+"word": "lemonade.\"",
+"start": 75.413,
+"end": 75.832
+},
+{
+"word": "30",
+"start": 76.116,
+"end": 76.266
+},
+{
+"word": "kids",
+"start": 76.3,
+"end": 76.551
+},
+{
+"word": "lined",
+"start": 76.551,
+"end": 76.735
+},
+{
+"word": "up.",
+"start": 76.735,
+"end": 77.019
+},
+{
+"word": "We",
+"start": 77.203,
+"end": 77.287
+},
+{
+"word": "took",
+"start": 77.287,
+"end": 77.404
+},
+{
+"word": "off",
+"start": 77.404,
+"end": 77.538
+},
+{
+"word": "the",
+"start": 77.538,
+"end": 77.655
+},
+{
+"word": "shoes",
+"start": 77.655,
+"end": 77.856
+},
+{
+"word": "at",
+"start": 77.856,
+"end": 78.006
+},
+{
+"word": "the",
+"start": 78.006,
+"end": 78.107
+},
+{
+"word": "exact",
+"start": 78.107,
+"end": 78.408
+},
+{
+"word": "same",
+"start": 78.408,
+"end": 78.675
+},
+{
+"word": "second.",
+"start": 78.675,
+"end": 78.993
+},
+{
+"word": "Now",
+"start": 79.211,
+"end": 79.411
+},
+{
+"word": "I",
+"start": 79.562,
+"end": 79.646
+},
+{
+"word": "knock",
+"start": 79.646,
+"end": 79.813
+},
+{
+"word": "every",
+"start": 79.813,
+"end": 80.081
+},
+{
+"word": "day.",
+"start": 80.081,
+"end": 80.315
+},
+{
+"word": "And",
+"start": 80.549,
+"end": 80.616
+},
+{
+"word": "Mr.",
+"start": 80.616,
+"end": 80.767
+},
+{
+"word": "Pruitt?",
+"start": 80.85,
+"end": 80.984
+},
+{
+"word": "He",
+"start": 81.268,
+"end": 81.335
+},
+{
+"word": "kicks",
+"start": 81.335,
+"end": 81.503
+},
+{
+"word": "balls",
+"start": 81.503,
+"end": 81.687
+},
+{
+"word": "into",
+"start": 81.687,
+"end": 81.871
+},
+{
+"word": "his",
+"start": 81.871,
+"end": 81.988
+},
+{
+"word": "own",
+"start": 81.988,
+"end": 82.088
+},
+{
+"word": "yard",
+"start": 82.088,
+"end": 82.339
+},
+{
+"word": "on",
+"start": 82.439,
+"end": 82.54
+},
+{
+"word": "purpose.",
+"start": 82.54,
+"end": 82.791
+}
+]
