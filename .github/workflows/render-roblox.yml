@@ -6,6 +6,8 @@ on:
       - "roblox_render/videos/**/shots.py"
       - ".github/workflows/render-roblox.yml"
   workflow_dispatch:
+env:
+  SLUG: vo2
 permissions:
   contents: write
 jobs:
@@ -15,8 +17,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        part: ["1-4", "5-9", "10-12", "13-17", "18-22", "23-26", "27-30", "31-35", "36-40", "41-45",
-               "46-48", "49-53", "54-57", "58-60", "61-63", "64-67", "68-71", "72-75", "76-79", "80-82"]
+        part: ["1-3", "4-7", "8-12", "13-17", "18-22", "23-26", "27-30", "31-35", "36-40", "41-44", "45-48", "49-52",
+               "53-55", "56-60", "61-65", "66-69", "70-72", "73-77", "78-80"]
     steps:
       - uses: actions/checkout@v4
       - name: System libs (software OpenGL for EEVEE)
@@ -39,25 +41,25 @@ jobs:
         env:
           RENDER_PCT: "67"
         run: |
-          ~/blender/blender -b --factory-startup -P roblox_render/tools/render.py -- vo final ${{ matrix.part }} 12 2>&1 \
+          ~/blender/blender -b --factory-startup -P roblox_render/tools/render.py -- $SLUG final ${{ matrix.part }} 12 2>&1 \
             | grep -E "shot [0-9]+ |FAILED|Traceback|Error:|line [0-9]" | grep -v EGL || true
-          ls roblox_render/videos/vo/frames | wc -l
+          ls roblox_render/videos/${{ env.SLUG }}/frames | wc -l
       - name: Backup raw frames
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: frames-${{ matrix.part }}
-          path: roblox_render/videos/vo/frames
+          name: ${{ env.SLUG }}-frames-${{ matrix.part }}
+          path: roblox_render/videos/${{ env.SLUG }}/frames
           retention-days: 3
           compression-level: 0
       - name: Encode part
         run: |
-          cd roblox_render/videos/vo/frames
+          cd roblox_render/videos/${{ env.SLUG }}/frames
           first=$(ls *.png | sort | head -1 | cut -d. -f1)
           n=$(ls *.png | wc -l)
           mkdir -p "$GITHUB_WORKSPACE/roblox_render/out"
           ffmpeg -v error -y -framerate 30 -start_number $((10#$first)) -i %04d.png -frames:v $n \
-            -vf scale=720:1280:flags=lanczos -c:v libx264 -preset slow -crf 11 -pix_fmt yuv420p "$GITHUB_WORKSPACE/roblox_render/out/part_${first}_${n}.mp4"
+            -vf scale=720:1280:flags=lanczos -c:v libx264 -preset slow -crf 11 -pix_fmt yuv420p "$GITHUB_WORKSPACE/roblox_render/out/${SLUG}_part_${first}_${n}.mp4"
           ls -la "$GITHUB_WORKSPACE/roblox_render/out"
       - name: Push part
         run: |
