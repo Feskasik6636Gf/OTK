@@ -1,0 +1,1787 @@
+[
+ {
+  "word": "My",
+  "start": 0.0,
+  "end": 0.19
+ },
+ {
+  "word": "dad",
+  "start": 0.19,
+  "end": 0.397
+ },
+ {
+  "word": "is",
+  "start": 0.397,
+  "end": 0.622
+ },
+ {
+  "word": "two",
+  "start": 0.622,
+  "end": 0.829
+ },
+ {
+  "word": "inches",
+  "start": 0.829,
+  "end": 1.019
+ },
+ {
+  "word": "tall,",
+  "start": 1.019,
+  "end": 1.347
+ },
+ {
+  "word": "and",
+  "start": 1.485,
+  "end": 1.572
+ },
+ {
+  "word": "he's",
+  "start": 1.572,
+  "end": 1.761
+ },
+ {
+  "word": "the",
+  "start": 1.761,
+  "end": 1.917
+ },
+ {
+  "word": "biggest",
+  "start": 1.917,
+  "end": 2.176
+ },
+ {
+  "word": "hero",
+  "start": 2.176,
+  "end": 2.47
+ },
+ {
+  "word": "I",
+  "start": 2.47,
+  "end": 2.694
+ },
+ {
+  "word": "know.",
+  "start": 2.694,
+  "end": 2.919
+ },
+ {
+  "word": "You",
+  "start": 3.195,
+  "end": 3.212
+ },
+ {
+  "word": "see,",
+  "start": 3.212,
+  "end": 3.402
+ },
+ {
+  "word": "in",
+  "start": 3.575,
+  "end": 3.627
+ },
+ {
+  "word": "this",
+  "start": 3.627,
+  "end": 3.782
+ },
+ {
+  "word": "world,",
+  "start": 3.782,
+  "end": 4.041
+ },
+ {
+  "word": "every",
+  "start": 4.231,
+  "end": 4.335
+ },
+ {
+  "word": "time",
+  "start": 4.335,
+  "end": 4.507
+ },
+ {
+  "word": "a",
+  "start": 4.507,
+  "end": 4.646
+ },
+ {
+  "word": "dad",
+  "start": 4.646,
+  "end": 4.766
+ },
+ {
+  "word": "says,",
+  "start": 4.766,
+  "end": 5.025
+ },
+ {
+  "word": "\"Ask",
+  "start": 5.215,
+  "end": 5.302
+ },
+ {
+  "word": "your",
+  "start": 5.302,
+  "end": 5.457
+ },
+ {
+  "word": "mom,\"",
+  "start": 5.457,
+  "end": 5.664
+ },
+ {
+  "word": "he",
+  "start": 5.803,
+  "end": 5.889
+ },
+ {
+  "word": "shrinks",
+  "start": 5.889,
+  "end": 6.2
+ },
+ {
+  "word": "one",
+  "start": 6.2,
+  "end": 6.459
+ },
+ {
+  "word": "inch.",
+  "start": 6.606,
+  "end": 6.804
+ },
+ {
+  "word": "And",
+  "start": 7.193,
+  "end": 7.227
+ },
+ {
+  "word": "the",
+  "start": 7.227,
+  "end": 7.331
+ },
+ {
+  "word": "only",
+  "start": 7.331,
+  "end": 7.607
+ },
+ {
+  "word": "way",
+  "start": 7.607,
+  "end": 7.745
+ },
+ {
+  "word": "to",
+  "start": 7.745,
+  "end": 7.849
+ },
+ {
+  "word": "grow",
+  "start": 7.849,
+  "end": 7.97
+ },
+ {
+  "word": "back",
+  "start": 7.97,
+  "end": 8.212
+ },
+ {
+  "word": "is",
+  "start": 8.229,
+  "end": 8.436
+ },
+ {
+  "word": "to",
+  "start": 8.436,
+  "end": 8.557
+ },
+ {
+  "word": "make",
+  "start": 8.557,
+  "end": 8.661
+ },
+ {
+  "word": "a",
+  "start": 8.661,
+  "end": 8.816
+ },
+ {
+  "word": "decision.",
+  "start": 8.816,
+  "end": 9.11
+ },
+ {
+  "word": "By",
+  "start": 9.222,
+  "end": 9.421
+ },
+ {
+  "word": "himself.",
+  "start": 9.421,
+  "end": 9.835
+ },
+ {
+  "word": "So",
+  "start": 10.163,
+  "end": 10.267
+ },
+ {
+  "word": "you",
+  "start": 10.267,
+  "end": 10.457
+ },
+ {
+  "word": "can",
+  "start": 10.457,
+  "end": 10.56
+ },
+ {
+  "word": "tell",
+  "start": 10.56,
+  "end": 10.698
+ },
+ {
+  "word": "everything",
+  "start": 10.707,
+  "end": 11.096
+ },
+ {
+  "word": "about",
+  "start": 11.096,
+  "end": 11.286
+ },
+ {
+  "word": "a",
+  "start": 11.286,
+  "end": 11.407
+ },
+ {
+  "word": "dad",
+  "start": 11.407,
+  "end": 11.545
+ },
+ {
+  "word": "by",
+  "start": 11.545,
+  "end": 11.7
+ },
+ {
+  "word": "his",
+  "start": 11.7,
+  "end": 11.838
+ },
+ {
+  "word": "height.",
+  "start": 11.838,
+  "end": 12.08
+ },
+ {
+  "word": "Seven",
+  "start": 12.391,
+  "end": 12.546
+ },
+ {
+  "word": "foot",
+  "start": 12.546,
+  "end": 12.667
+ },
+ {
+  "word": "dads?",
+  "start": 12.667,
+  "end": 12.892
+ },
+ {
+  "word": "They",
+  "start": 13.168,
+  "end": 13.22
+ },
+ {
+  "word": "pick",
+  "start": 13.22,
+  "end": 13.341
+ },
+ {
+  "word": "the",
+  "start": 13.341,
+  "end": 13.479
+ },
+ {
+  "word": "restaurant,",
+  "start": 13.479,
+  "end": 13.807
+ },
+ {
+  "word": "fix",
+  "start": 13.98,
+  "end": 14.083
+ },
+ {
+  "word": "the",
+  "start": 14.083,
+  "end": 14.256
+ },
+ {
+  "word": "sink,",
+  "start": 14.256,
+  "end": 14.446
+ },
+ {
+  "word": "and",
+  "start": 14.515,
+  "end": 14.688
+ },
+ {
+  "word": "never",
+  "start": 14.688,
+  "end": 14.912
+ },
+ {
+  "word": "check",
+  "start": 14.912,
+  "end": 15.102
+ },
+ {
+  "word": "the",
+  "start": 15.102,
+  "end": 15.206
+ },
+ {
+  "word": "group",
+  "start": 15.206,
+  "end": 15.327
+ },
+ {
+  "word": "chat.",
+  "start": 15.327,
+  "end": 15.534
+ },
+ {
+  "word": "Dads",
+  "start": 15.828,
+  "end": 15.862
+ },
+ {
+  "word": "at",
+  "start": 15.862,
+  "end": 15.966
+ },
+ {
+  "word": "the",
+  "start": 15.966,
+  "end": 16.069
+ },
+ {
+  "word": "playground",
+  "start": 16.069,
+  "end": 16.363
+ },
+ {
+  "word": "ride",
+  "start": 16.363,
+  "end": 16.622
+ },
+ {
+  "word": "on",
+  "start": 16.622,
+  "end": 16.76
+ },
+ {
+  "word": "skateboards",
+  "start": 16.76,
+  "end": 17.123
+ },
+ {
+  "word": "like",
+  "start": 17.123,
+  "end": 17.295
+ },
+ {
+  "word": "little",
+  "start": 17.295,
+  "end": 17.468
+ },
+ {
+  "word": "surfers.",
+  "start": 17.468,
+  "end": 17.917
+ },
+ {
+  "word": "And",
+  "start": 18.003,
+  "end": 18.193
+ },
+ {
+  "word": "some",
+  "start": 18.193,
+  "end": 18.366
+ },
+ {
+  "word": "dads",
+  "start": 18.366,
+  "end": 18.556
+ },
+ {
+  "word": "live",
+  "start": 18.556,
+  "end": 18.694
+ },
+ {
+  "word": "in",
+  "start": 18.694,
+  "end": 18.815
+ },
+ {
+  "word": "dollhouses",
+  "start": 18.815,
+  "end": 19.195
+ },
+ {
+  "word": "and",
+  "start": 19.195,
+  "end": 19.42
+ },
+ {
+  "word": "get",
+  "start": 19.42,
+  "end": 19.523
+ },
+ {
+  "word": "carried",
+  "start": 19.54,
+  "end": 19.782
+ },
+ {
+  "word": "to",
+  "start": 19.782,
+  "end": 19.938
+ },
+ {
+  "word": "work",
+  "start": 19.938,
+  "end": 20.059
+ },
+ {
+  "word": "in",
+  "start": 20.059,
+  "end": 20.197
+ },
+ {
+  "word": "lunchboxes.",
+  "start": 20.197,
+  "end": 20.628
+ },
+ {
+  "word": "My",
+  "start": 20.974,
+  "end": 21.077
+ },
+ {
+  "word": "dad?",
+  "start": 21.077,
+  "end": 21.285
+ },
+ {
+  "word": "He",
+  "start": 21.526,
+  "end": 21.561
+ },
+ {
+  "word": "lives",
+  "start": 21.561,
+  "end": 21.699
+ },
+ {
+  "word": "in",
+  "start": 21.699,
+  "end": 21.786
+ },
+ {
+  "word": "a",
+  "start": 21.786,
+  "end": 21.924
+ },
+ {
+  "word": "shoebox",
+  "start": 21.924,
+  "end": 22.165
+ },
+ {
+  "word": "on",
+  "start": 22.165,
+  "end": 22.304
+ },
+ {
+  "word": "the",
+  "start": 22.304,
+  "end": 22.39
+ },
+ {
+  "word": "kitchen",
+  "start": 22.39,
+  "end": 22.528
+ },
+ {
+  "word": "counter.",
+  "start": 22.528,
+  "end": 22.822
+ },
+ {
+  "word": "\"Dad,",
+  "start": 23.081,
+  "end": 23.253
+ },
+ {
+  "word": "can",
+  "start": 23.392,
+  "end": 23.461
+ },
+ {
+  "word": "I",
+  "start": 23.461,
+  "end": 23.547
+ },
+ {
+  "word": "go",
+  "start": 23.547,
+  "end": 23.616
+ },
+ {
+  "word": "to",
+  "start": 23.616,
+  "end": 23.754
+ },
+ {
+  "word": "Tyler's?\"",
+  "start": 23.754,
+  "end": 24.1
+ },
+ {
+  "word": "\"Ask",
+  "start": 24.29,
+  "end": 24.445
+ },
+ {
+  "word": "your",
+  "start": 24.445,
+  "end": 24.566
+ },
+ {
+  "word": "mom.\"",
+  "start": 24.566,
+  "end": 24.773
+ },
+ {
+  "word": "\"Dad,",
+  "start": 25.162,
+  "end": 25.343
+ },
+ {
+  "word": "pizza",
+  "start": 25.498,
+  "end": 25.775
+ },
+ {
+  "word": "or",
+  "start": 25.775,
+  "end": 26.034
+ },
+ {
+  "word": "tacos?\"",
+  "start": 26.034,
+  "end": 26.362
+ },
+ {
+  "word": "\"Ask",
+  "start": 26.707,
+  "end": 26.794
+ },
+ {
+  "word": "your",
+  "start": 26.794,
+  "end": 26.932
+ },
+ {
+  "word": "mom.\"",
+  "start": 26.932,
+  "end": 27.139
+ },
+ {
+  "word": "\"Dad,",
+  "start": 27.528,
+  "end": 27.787
+ },
+ {
+  "word": "do",
+  "start": 27.942,
+  "end": 28.011
+ },
+ {
+  "word": "you",
+  "start": 28.011,
+  "end": 28.098
+ },
+ {
+  "word": "like",
+  "start": 28.098,
+  "end": 28.184
+ },
+ {
+  "word": "your",
+  "start": 28.184,
+  "end": 28.287
+ },
+ {
+  "word": "new",
+  "start": 28.287,
+  "end": 28.408
+ },
+ {
+  "word": "shoes?\"",
+  "start": 28.408,
+  "end": 28.633
+ },
+ {
+  "word": "\"Ask",
+  "start": 28.944,
+  "end": 29.099
+ },
+ {
+  "word": "your",
+  "start": 29.099,
+  "end": 29.289
+ },
+ {
+  "word": "mom.\"",
+  "start": 29.289,
+  "end": 29.548
+ },
+ {
+  "word": "Mom",
+  "start": 29.937,
+  "end": 30.109
+ },
+ {
+  "word": "has",
+  "start": 30.109,
+  "end": 30.248
+ },
+ {
+  "word": "to",
+  "start": 30.248,
+  "end": 30.386
+ },
+ {
+  "word": "wear",
+  "start": 30.386,
+  "end": 30.489
+ },
+ {
+  "word": "him",
+  "start": 30.489,
+  "end": 30.593
+ },
+ {
+  "word": "on",
+  "start": 30.593,
+  "end": 30.697
+ },
+ {
+  "word": "a",
+  "start": 30.697,
+  "end": 30.8
+ },
+ {
+  "word": "necklace",
+  "start": 30.8,
+  "end": 31.042
+ },
+ {
+  "word": "so",
+  "start": 31.042,
+  "end": 31.215
+ },
+ {
+  "word": "she",
+  "start": 31.215,
+  "end": 31.301
+ },
+ {
+  "word": "doesn't",
+  "start": 31.301,
+  "end": 31.474
+ },
+ {
+  "word": "lose",
+  "start": 31.474,
+  "end": 31.629
+ },
+ {
+  "word": "him.",
+  "start": 31.629,
+  "end": 31.871
+ },
+ {
+  "word": "But",
+  "start": 32.078,
+  "end": 32.095
+ },
+ {
+  "word": "one",
+  "start": 32.095,
+  "end": 32.303
+ },
+ {
+  "word": "summer",
+  "start": 32.303,
+  "end": 32.493
+ },
+ {
+  "word": "day,",
+  "start": 32.493,
+  "end": 32.752
+ },
+ {
+  "word": "my",
+  "start": 32.907,
+  "end": 33.011
+ },
+ {
+  "word": "baby",
+  "start": 33.011,
+  "end": 33.235
+ },
+ {
+  "word": "sister",
+  "start": 33.235,
+  "end": 33.494
+ },
+ {
+  "word": "grabbed",
+  "start": 33.529,
+  "end": 33.771
+ },
+ {
+  "word": "the",
+  "start": 33.771,
+  "end": 33.909
+ },
+ {
+  "word": "car",
+  "start": 33.909,
+  "end": 34.03
+ },
+ {
+  "word": "keys,",
+  "start": 34.03,
+  "end": 34.289
+ },
+ {
+  "word": "climbed",
+  "start": 34.427,
+  "end": 34.634
+ },
+ {
+  "word": "into",
+  "start": 34.634,
+  "end": 34.807
+ },
+ {
+  "word": "the",
+  "start": 34.807,
+  "end": 34.928
+ },
+ {
+  "word": "car,",
+  "start": 34.928,
+  "end": 35.135
+ },
+ {
+  "word": "and",
+  "start": 35.359,
+  "end": 35.446
+ },
+ {
+  "word": "click!",
+  "start": 35.446,
+  "end": 35.687
+ },
+ {
+  "word": "She",
+  "start": 35.998,
+  "end": 36.085
+ },
+ {
+  "word": "locked",
+  "start": 36.085,
+  "end": 36.326
+ },
+ {
+  "word": "herself",
+  "start": 36.326,
+  "end": 36.585
+ },
+ {
+  "word": "in.",
+  "start": 36.585,
+  "end": 36.845
+ },
+ {
+  "word": "Engine",
+  "start": 37.052,
+  "end": 37.19
+ },
+ {
+  "word": "off,",
+  "start": 37.19,
+  "end": 37.501
+ },
+ {
+  "word": "windows",
+  "start": 37.708,
+  "end": 37.812
+ },
+ {
+  "word": "up.",
+  "start": 37.812,
+  "end": 38.122
+ },
+ {
+  "word": "It",
+  "start": 38.399,
+  "end": 38.485
+ },
+ {
+  "word": "was",
+  "start": 38.485,
+  "end": 38.606
+ },
+ {
+  "word": "a",
+  "start": 38.606,
+  "end": 38.66
+ },
+ {
+  "word": "hundred",
+  "start": 38.66,
+  "end": 39.038
+ },
+ {
+  "word": "degrees",
+  "start": 39.038,
+  "end": 39.331
+ },
+ {
+  "word": "outside.",
+  "start": 39.331,
+  "end": 39.763
+ },
+ {
+  "word": "Mom",
+  "start": 40.057,
+  "end": 40.16
+ },
+ {
+  "word": "was",
+  "start": 40.16,
+  "end": 40.281
+ },
+ {
+  "word": "at",
+  "start": 40.281,
+  "end": 40.385
+ },
+ {
+  "word": "work.",
+  "start": 40.385,
+  "end": 40.592
+ },
+ {
+  "word": "The",
+  "start": 40.834,
+  "end": 40.92
+ },
+ {
+  "word": "only",
+  "start": 40.92,
+  "end": 41.214
+ },
+ {
+  "word": "opening",
+  "start": 41.214,
+  "end": 41.525
+ },
+ {
+  "word": "was",
+  "start": 41.525,
+  "end": 41.697
+ },
+ {
+  "word": "a",
+  "start": 41.74,
+  "end": 41.956
+ },
+ {
+  "word": "tiny",
+  "start": 41.956,
+  "end": 42.164
+ },
+ {
+  "word": "gap",
+  "start": 42.164,
+  "end": 42.371
+ },
+ {
+  "word": "at",
+  "start": 42.371,
+  "end": 42.509
+ },
+ {
+  "word": "the",
+  "start": 42.509,
+  "end": 42.613
+ },
+ {
+  "word": "top",
+  "start": 42.613,
+  "end": 42.716
+ },
+ {
+  "word": "of",
+  "start": 42.716,
+  "end": 42.82
+ },
+ {
+  "word": "the",
+  "start": 42.82,
+  "end": 42.906
+ },
+ {
+  "word": "window.",
+  "start": 42.906,
+  "end": 43.131
+ },
+ {
+  "word": "One",
+  "start": 43.459,
+  "end": 43.597
+ },
+ {
+  "word": "inch.",
+  "start": 43.77,
+  "end": 43.908
+ },
+ {
+  "word": "Dad",
+  "start": 44.219,
+  "end": 44.34
+ },
+ {
+  "word": "ran",
+  "start": 44.34,
+  "end": 44.599
+ },
+ {
+  "word": "up",
+  "start": 44.599,
+  "end": 44.719
+ },
+ {
+  "word": "the",
+  "start": 44.719,
+  "end": 44.823
+ },
+ {
+  "word": "door",
+  "start": 44.823,
+  "end": 44.944
+ },
+ {
+  "word": "handle.",
+  "start": 44.944,
+  "end": 45.203
+ },
+ {
+  "word": "He",
+  "start": 45.41,
+  "end": 45.497
+ },
+ {
+  "word": "was",
+  "start": 45.497,
+  "end": 45.583
+ },
+ {
+  "word": "too",
+  "start": 45.583,
+  "end": 45.721
+ },
+ {
+  "word": "big.",
+  "start": 45.721,
+  "end": 45.98
+ },
+ {
+  "word": "Two",
+  "start": 46.274,
+  "end": 46.429
+ },
+ {
+  "word": "whole",
+  "start": 46.429,
+  "end": 46.688
+ },
+ {
+  "word": "inches.",
+  "start": 46.688,
+  "end": 46.982
+ },
+ {
+  "word": "Then",
+  "start": 47.275,
+  "end": 47.465
+ },
+ {
+  "word": "I",
+  "start": 47.534,
+  "end": 47.724
+ },
+ {
+  "word": "noticed",
+  "start": 47.724,
+  "end": 47.949
+ },
+ {
+  "word": "something.",
+  "start": 48.096,
+  "end": 48.294
+ },
+ {
+  "word": "If",
+  "start": 48.415,
+  "end": 48.605
+ },
+ {
+  "word": "he",
+  "start": 48.605,
+  "end": 48.778
+ },
+ {
+  "word": "couldn't",
+  "start": 48.778,
+  "end": 49.037
+ },
+ {
+  "word": "shrink",
+  "start": 49.037,
+  "end": 49.244
+ },
+ {
+  "word": "himself,",
+  "start": 49.244,
+  "end": 49.589
+ },
+ {
+  "word": "I",
+  "start": 49.814,
+  "end": 49.935
+ },
+ {
+  "word": "could",
+  "start": 49.935,
+  "end": 50.125
+ },
+ {
+  "word": "make",
+  "start": 50.125,
+  "end": 50.315
+ },
+ {
+  "word": "him.",
+  "start": 50.315,
+  "end": 50.574
+ },
+ {
+  "word": "\"Dad,",
+  "start": 50.85,
+  "end": 50.936
+ },
+ {
+  "word": "can",
+  "start": 51.04,
+  "end": 51.144
+ },
+ {
+  "word": "I",
+  "start": 51.144,
+  "end": 51.23
+ },
+ {
+  "word": "get",
+  "start": 51.23,
+  "end": 51.316
+ },
+ {
+  "word": "a",
+  "start": 51.316,
+  "end": 51.437
+ },
+ {
+  "word": "tattoo?\"",
+  "start": 51.437,
+  "end": 51.662
+ },
+ {
+  "word": "\"Ask",
+  "start": 51.99,
+  "end": 52.111
+ },
+ {
+  "word": "your",
+  "start": 52.111,
+  "end": 52.266
+ },
+ {
+  "word": "mom.\"",
+  "start": 52.266,
+  "end": 52.491
+ },
+ {
+  "word": "\"Can",
+  "start": 52.836,
+  "end": 52.888
+ },
+ {
+  "word": "I",
+  "start": 52.957,
+  "end": 53.199
+ },
+ {
+  "word": "drive",
+  "start": 53.199,
+  "end": 53.337
+ },
+ {
+  "word": "the",
+  "start": 53.337,
+  "end": 53.458
+ },
+ {
+  "word": "car?\"",
+  "start": 53.458,
+  "end": 53.648
+ },
+ {
+  "word": "\"Ask",
+  "start": 53.941,
+  "end": 54.08
+ },
+ {
+  "word": "your",
+  "start": 54.08,
+  "end": 54.269
+ },
+ {
+  "word": "mom.\"",
+  "start": 54.269,
+  "end": 54.58
+ },
+ {
+  "word": "\"Can",
+  "start": 54.969,
+  "end": 55.142
+ },
+ {
+  "word": "I",
+  "start": 55.142,
+  "end": 55.28
+ },
+ {
+  "word": "adopt",
+  "start": 55.28,
+  "end": 55.47
+ },
+ {
+  "word": "a",
+  "start": 55.47,
+  "end": 55.608
+ },
+ {
+  "word": "horse?\"",
+  "start": 55.608,
+  "end": 55.832
+ },
+ {
+  "word": "\"Ask",
+  "start": 56.195,
+  "end": 56.402
+ },
+ {
+  "word": "your",
+  "start": 56.463,
+  "end": 56.817
+ },
+ {
+  "word": "mom.\"",
+  "start": 56.834,
+  "end": 57.318
+ },
+ {
+  "word": "He",
+  "start": 57.706,
+  "end": 57.775
+ },
+ {
+  "word": "was",
+  "start": 57.775,
+  "end": 57.879
+ },
+ {
+  "word": "the",
+  "start": 57.879,
+  "end": 58.052
+ },
+ {
+  "word": "size",
+  "start": 58.052,
+  "end": 58.276
+ },
+ {
+  "word": "of",
+  "start": 58.276,
+  "end": 58.414
+ },
+ {
+  "word": "a",
+  "start": 58.449,
+  "end": 58.604
+ },
+ {
+  "word": "peanut.",
+  "start": 58.604,
+  "end": 58.829
+ },
+ {
+  "word": "He",
+  "start": 59.157,
+  "end": 59.226
+ },
+ {
+  "word": "squeezed",
+  "start": 59.226,
+  "end": 59.519
+ },
+ {
+  "word": "through",
+  "start": 59.519,
+  "end": 59.675
+ },
+ {
+  "word": "the",
+  "start": 59.675,
+  "end": 59.813
+ },
+ {
+  "word": "gap,",
+  "start": 59.813,
+  "end": 59.968
+ },
+ {
+  "word": "slid",
+  "start": 60.124,
+  "end": 60.314
+ },
+ {
+  "word": "down",
+  "start": 60.314,
+  "end": 60.487
+ },
+ {
+  "word": "the",
+  "start": 60.487,
+  "end": 60.625
+ },
+ {
+  "word": "seat,",
+  "start": 60.625,
+  "end": 60.78
+ },
+ {
+  "word": "ran",
+  "start": 60.936,
+  "end": 61.056
+ },
+ {
+  "word": "across",
+  "start": 61.056,
+  "end": 61.281
+ },
+ {
+  "word": "the",
+  "start": 61.281,
+  "end": 61.419
+ },
+ {
+  "word": "keys,",
+  "start": 61.419,
+  "end": 61.592
+ },
+ {
+  "word": "and",
+  "start": 61.661,
+  "end": 61.799
+ },
+ {
+  "word": "jumped",
+  "start": 61.799,
+  "end": 62.024
+ },
+ {
+  "word": "on",
+  "start": 62.024,
+  "end": 62.144
+ },
+ {
+  "word": "the",
+  "start": 62.144,
+  "end": 62.265
+ },
+ {
+  "word": "unlock",
+  "start": 62.265,
+  "end": 62.438
+ },
+ {
+  "word": "button",
+  "start": 62.438,
+  "end": 62.628
+ },
+ {
+  "word": "with",
+  "start": 62.628,
+  "end": 62.783
+ },
+ {
+  "word": "both",
+  "start": 62.783,
+  "end": 62.991
+ },
+ {
+  "word": "feet.",
+  "start": 62.991,
+  "end": 63.267
+ },
+ {
+  "word": "The",
+  "start": 63.655,
+  "end": 63.811
+ },
+ {
+  "word": "door",
+  "start": 63.811,
+  "end": 64.018
+ },
+ {
+  "word": "swung",
+  "start": 64.018,
+  "end": 64.312
+ },
+ {
+  "word": "open.",
+  "start": 64.312,
+  "end": 64.605
+ },
+ {
+  "word": "My",
+  "start": 64.813,
+  "end": 64.951
+ },
+ {
+  "word": "sister",
+  "start": 64.951,
+  "end": 65.158
+ },
+ {
+  "word": "was",
+  "start": 65.158,
+  "end": 65.348
+ },
+ {
+  "word": "safe.",
+  "start": 65.348,
+  "end": 65.624
+ },
+ {
+  "word": "That",
+  "start": 65.883,
+  "end": 66.021
+ },
+ {
+  "word": "night,",
+  "start": 66.021,
+  "end": 66.229
+ },
+ {
+  "word": "my",
+  "start": 66.419,
+  "end": 66.522
+ },
+ {
+  "word": "dad",
+  "start": 66.522,
+  "end": 66.643
+ },
+ {
+  "word": "climbed",
+  "start": 66.643,
+  "end": 66.937
+ },
+ {
+  "word": "onto",
+  "start": 66.937,
+  "end": 67.109
+ },
+ {
+  "word": "the",
+  "start": 67.109,
+  "end": 67.23
+ },
+ {
+  "word": "table,",
+  "start": 67.23,
+  "end": 67.489
+ },
+ {
+  "word": "looked",
+  "start": 67.645,
+  "end": 67.835
+ },
+ {
+  "word": "me",
+  "start": 67.835,
+  "end": 67.973
+ },
+ {
+  "word": "in",
+  "start": 67.973,
+  "end": 68.059
+ },
+ {
+  "word": "the",
+  "start": 68.059,
+  "end": 68.197
+ },
+ {
+  "word": "eye,",
+  "start": 68.197,
+  "end": 68.336
+ },
+ {
+  "word": "and",
+  "start": 68.336,
+  "end": 68.543
+ },
+ {
+  "word": "said,",
+  "start": 68.543,
+  "end": 68.698
+ },
+ {
+  "word": "\"Pizza.",
+  "start": 68.854,
+  "end": 69.061
+ },
+ {
+  "word": "We're",
+  "start": 69.268,
+  "end": 69.458
+ },
+ {
+  "word": "getting",
+  "start": 69.458,
+  "end": 69.631
+ },
+ {
+  "word": "pizza,",
+  "start": 69.631,
+  "end": 69.942
+ },
+ {
+  "word": "and",
+  "start": 70.019,
+  "end": 70.218
+ },
+ {
+  "word": "you're",
+  "start": 70.218,
+  "end": 70.391
+ },
+ {
+  "word": "going",
+  "start": 70.391,
+  "end": 70.511
+ },
+ {
+  "word": "to",
+  "start": 70.511,
+  "end": 70.598
+ },
+ {
+  "word": "bed",
+  "start": 70.598,
+  "end": 70.684
+ },
+ {
+  "word": "at",
+  "start": 70.684,
+  "end": 70.84
+ },
+ {
+  "word": "nine.",
+  "start": 70.84,
+  "end": 71.047
+ },
+ {
+  "word": "And",
+  "start": 71.22,
+  "end": 71.34
+ },
+ {
+  "word": "these",
+  "start": 71.34,
+  "end": 71.427
+ },
+ {
+  "word": "shoes?",
+  "start": 71.427,
+  "end": 71.686
+ },
+ {
+  "word": "I",
+  "start": 71.893,
+  "end": 72.083
+ },
+ {
+  "word": "love",
+  "start": 72.083,
+  "end": 72.325
+ },
+ {
+  "word": "these",
+  "start": 72.325,
+  "end": 72.532
+ },
+ {
+  "word": "shoes!\"",
+  "start": 72.722,
+  "end": 72.86
+ },
+ {
+  "word": "He",
+  "start": 73.249,
+  "end": 73.594
+ },
+ {
+  "word": "grew",
+  "start": 73.594,
+  "end": 73.939
+ },
+ {
+  "word": "back",
+  "start": 73.939,
+  "end": 74.112
+ },
+ {
+  "word": "taller",
+  "start": 74.112,
+  "end": 74.458
+ },
+ {
+  "word": "than",
+  "start": 74.458,
+  "end": 74.613
+ },
+ {
+  "word": "ever.",
+  "start": 74.613,
+  "end": 74.958
+ },
+ {
+  "word": "Six",
+  "start": 75.269,
+  "end": 75.407
+ },
+ {
+  "word": "foot",
+  "start": 75.407,
+  "end": 75.528
+ },
+ {
+  "word": "three.",
+  "start": 75.554,
+  "end": 75.822
+ },
+ {
+  "word": "He",
+  "start": 76.115,
+  "end": 76.185
+ },
+ {
+  "word": "had",
+  "start": 76.185,
+  "end": 76.271
+ },
+ {
+  "word": "to",
+  "start": 76.271,
+  "end": 76.374
+ },
+ {
+  "word": "duck",
+  "start": 76.374,
+  "end": 76.564
+ },
+ {
+  "word": "under",
+  "start": 76.564,
+  "end": 76.72
+ },
+ {
+  "word": "the",
+  "start": 76.72,
+  "end": 76.875
+ },
+ {
+  "word": "door",
+  "start": 76.875,
+  "end": 77.013
+ },
+ {
+  "word": "frame.",
+  "start": 77.013,
+  "end": 77.29
+ },
+ {
+  "word": "Then",
+  "start": 77.549,
+  "end": 77.583
+ },
+ {
+  "word": "I",
+  "start": 77.583,
+  "end": 77.704
+ },
+ {
+  "word": "asked,",
+  "start": 77.704,
+  "end": 77.929
+ },
+ {
+  "word": "\"Dad,",
+  "start": 78.136,
+  "end": 78.274
+ },
+ {
+  "word": "can",
+  "start": 78.43,
+  "end": 78.481
+ },
+ {
+  "word": "I",
+  "start": 78.481,
+  "end": 78.585
+ },
+ {
+  "word": "have",
+  "start": 78.585,
+  "end": 78.689
+ },
+ {
+  "word": "ice",
+  "start": 78.689,
+  "end": 78.827
+ },
+ {
+  "word": "cream",
+  "start": 78.827,
+  "end": 78.948
+ },
+ {
+  "word": "for",
+  "start": 78.948,
+  "end": 79.069
+ },
+ {
+  "word": "dinner?\"",
+  "start": 79.069,
+  "end": 79.241
+ },
+ {
+  "word": "\"Yes.\"",
+  "start": 79.552,
+  "end": 79.708
+ },
+ {
+  "word": "And",
+  "start": 80.018,
+  "end": 80.087
+ },
+ {
+  "word": "Mom",
+  "start": 80.087,
+  "end": 80.26
+ },
+ {
+  "word": "walked",
+  "start": 80.26,
+  "end": 80.467
+ },
+ {
+  "word": "in.",
+  "start": 80.467,
+  "end": 80.657
+ },
+ {
+  "word": "\"Who",
+  "start": 80.83,
+  "end": 80.951
+ },
+ {
+  "word": "said",
+  "start": 80.951,
+  "end": 81.141
+ },
+ {
+  "word": "yes?\"",
+  "start": 81.141,
+  "end": 81.452
+ },
+ {
+  "word": "Dad",
+  "start": 81.745,
+  "end": 81.883
+ },
+ {
+  "word": "froze.",
+  "start": 81.883,
+  "end": 82.143
+ },
+ {
+  "word": "\"Ask",
+  "start": 82.505,
+  "end": 82.661
+ },
+ {
+  "word": "your",
+  "start": 82.661,
+  "end": 82.781
+ },
+ {
+  "word": "mom.\"",
+  "start": 82.781,
+  "end": 83.023
+ },
+ {
+  "word": "Fwoop!",
+  "start": 83.06,
+  "end": 83.38
+ }
+]
