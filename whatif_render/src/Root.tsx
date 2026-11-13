@@ -4,17 +4,24 @@ import {Long, LONG_FRAMES} from './Long';
 import {Short, SHORT_FRAMES} from './Short';
 import {Sheet, SheetProps, sheetSize} from './Sheet';
 import {PauseTime} from './reference/PauseTime';
+import {RUBIK, CAVEAT} from './fonts-inline';
 
 /* open-licence fonts from public/fonts, loaded before the first frame renders */
 // generous timeout: with several render tabs at once a cold font load can take a while;
 // if it still fails the frame renders with the fallback font instead of crashing
 const fontsReady = delayRender('fonts', {timeoutInMilliseconds: 120000});
+const b64 = (s: string) => {
+	const bin = atob(s);
+	const u = new Uint8Array(bin.length);
+	for (let i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i);
+	return u.buffer;
+};
 Promise.all(
 	[
-		['Rubik', 'fonts/Rubik.ttf', '300 900'],
-		['Caveat', 'fonts/Caveat.ttf', '400 700'],
-	].map(([family, file, weight]) => {
-		const f = new FontFace(family, `url(${staticFile(file)})`, {weight});
+		['Rubik', RUBIK, '300 900'],
+		['Caveat', CAVEAT, '400 700'],
+	].map(([family, data, weight]) => {
+		const f = new FontFace(family, b64(data), {weight});
 		document.fonts.add(f);
 		return f.load();
 	}),
@@ -25,7 +32,7 @@ function release() {
 	released = true;
 	continueRender(fontsReady);
 }
-setTimeout(release, 60000); // never let a slow font kill a render
+setTimeout(release, 8000); // never let a slow font kill a render
 
 // headings are heavy unless a text asks for another weight (the style's chunky lettering)
 const css = document.createElement('style');
