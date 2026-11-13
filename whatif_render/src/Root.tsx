@@ -1,5 +1,5 @@
 import React from 'react';
-import {Composition, continueRender, delayRender, staticFile} from 'remotion';
+import {Composition} from 'remotion';
 import {Long, LONG_FRAMES} from './Long';
 import {Short, SHORT_FRAMES} from './Short';
 import {Sheet, SheetProps, sheetSize} from './Sheet';
@@ -9,30 +9,12 @@ import {RUBIK, CAVEAT} from './fonts-inline';
 /* open-licence fonts from public/fonts, loaded before the first frame renders */
 // generous timeout: with several render tabs at once a cold font load can take a while;
 // if it still fails the frame renders with the fallback font instead of crashing
-const fontsReady = delayRender('fonts', {timeoutInMilliseconds: 120000});
-const b64 = (s: string) => {
-	const bin = atob(s);
-	const u = new Uint8Array(bin.length);
-	for (let i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i);
-	return u.buffer;
-};
-Promise.all(
-	[
-		['Rubik', RUBIK, '300 900'],
-		['Caveat', CAVEAT, '400 700'],
-	].map(([family, data, weight]) => {
-		const f = new FontFace(family, b64(data), {weight});
-		document.fonts.add(f);
-		return f.load();
-	}),
-).then(() => release(), () => release());
-let released = false;
-function release() {
-	if (released) return;
-	released = true;
-	continueRender(fontsReady);
-}
-setTimeout(release, 8000); // never let a slow font kill a render
+/* fonts are inlined (base64) and injected as CSS @font-face: nothing to fetch, nothing to wait
+   for, so a busy render tab can never stall on a font handle */
+const fontCss = document.createElement('style');
+fontCss.textContent = `@font-face{font-family:'Rubik';src:url(data:font/ttf;base64,${RUBIK}) format('truetype');font-weight:300 900;font-display:block}
+@font-face{font-family:'Caveat';src:url(data:font/ttf;base64,${CAVEAT}) format('truetype');font-weight:400 700;font-display:block}`;
+document.head.appendChild(fontCss);
 
 // headings are heavy unless a text asks for another weight (the style's chunky lettering)
 const css = document.createElement('style');

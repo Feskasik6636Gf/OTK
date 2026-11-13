@@ -61,7 +61,7 @@ jobs:
           echo "frames $S-$E"
           n=$(printf %03d ${{ matrix.i }})
           for a in 1 2 3; do
-            npx remotion render Long out/c$n.mp4 --frames=$S-$E --muted --gl=angle --concurrency=4 --crf=18 --log=error --timeout=120000 && break
+            npx remotion render Long out/c$n.mp4 --frames=$S-$E --muted --gl=angle --concurrency=4 --crf=18 --log=error --timeout=240000 && break
             echo "retry $a"
           done
           ls -la out/c$n.mp4
