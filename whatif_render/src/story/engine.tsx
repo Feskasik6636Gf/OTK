@@ -310,7 +310,7 @@ const actPose = (a: Act, base: Pose, f: number, k: number, D: number, gf: number
 		case 'mic':
 			return {pose: reach({...base, head: base.head + Math.sin(f / 9) * 3}, 'F', [38, -128], k), m: 'open'};
 		case 'raise':
-			return {pose: {...base, armF: [lerpN(base.armF[0], 172, k), lerpN(base.armF[1], 6, k)]}, m: 'flat', look: [0.6, -0.3]};
+			return {pose: {...base, head: base.head - 6 * k, armF: [lerpN(base.armF[0], 138, k), lerpN(base.armF[1], 32, k)]}, m: 'flat', look: [0.6, -0.3]};
 		case 'stare':
 			return {pose: {...base, lean: base.lean + 10 * k, head: base.head + 6 * k}, e: 'angry', m: 'flat', look: [1, 0]};
 		case 'sad':
@@ -527,6 +527,7 @@ const CrowdG: React.FC<{c: Crowd; f: number; gf: number}> = ({c, f, gf}) => {
 				const hipY = seat ?? fl - 157 * s;
 				return (
 					<g key={i}>
+						{seat !== undefined ? <g transform={`translate(${x},${fl - 100 * s}) scale(${s}) translate(${-x},${-(fl - 100 * s)})`}><Chair x={x - 10 * facing} y={fl - 100 * s} facing={facing} /></g> : null}
 						<ellipse cx={x} cy={fl + 4} rx={60 * s} ry={10 * s} fill="#000" opacity={0.18} />
 						<Stickman id={`cr${c.seed ?? ''}${i}`} x={x} y={hipY - lift * s} scale={s * (0.92 + r * 0.16)} facing={facing} pose={pose} blink={(gf + i * 17) % 97 < 4 ? 1 : 0} expr={expr} mouth={mouth} look={[facing * 0.4, 0]} {...crowdLook2(i, c.seed ?? 'cr')} />
 						{(c.mode === 'laugh' || c.mode === 'sitLaugh' || c.mode === 'conga') && i % 3 === 0 ? <HaFx x={x} y={hipY - 230 * s} f={f + i * 5} s={s * 0.8} seed={'c' + i} c={i % 2 ? '#ffd34a' : '#fff'} /> : null}
