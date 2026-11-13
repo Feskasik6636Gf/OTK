@@ -78,13 +78,13 @@ const list = path.join(dir, 'list.txt');
 fs.writeFileSync(list, files.map((f) => `file '${path.basename(f)}'`).join('\n'));
 const silent = path.join(dir, 'video.mp4');
 let r = spawnSync(ff, ['-hide_banner', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', list, '-c', 'copy', silent], {stdio: 'inherit'});
-if (r.status !== 0) process.exit(1);
+if (r.status !== 0) { say('concat failed: status=' + r.status + ' signal=' + r.signal + ' error=' + (r.error && r.error.message)); process.exit(1); }
 // sound: bed + voices straight from the timeline, then -16 LUFS
 const mix = path.join(dir, 'mix.wav');
 r = spawnSync(process.execPath, [path.join(ROOT, 'tools', 'mix-audio.mjs'), tlFile, path.join('public', c.bed ?? 'sfx/bed.wav'), String(c.bedVolume ?? 1), mix], {stdio: 'inherit', cwd: ROOT});
-if (r.status !== 0) process.exit(1);
+if (r.status !== 0) { say('mix-audio failed: status=' + r.status + ' signal=' + r.signal + ' error=' + (r.error && r.error.message)); process.exit(1); }
 r = spawnSync(process.execPath, [path.join(ROOT, 'tools', 'loudness.mjs'), mix, silent, out, '-16'], {stdio: 'inherit', cwd: ROOT});
-if (r.status !== 0) process.exit(1);
+if (r.status !== 0) { say('loudness failed: status=' + r.status + ' signal=' + r.signal + ' error=' + (r.error && r.error.message)); process.exit(1); }
 if (short) {
 	const phone = out.replace(/\.mp4$/, '_phone.mp4');
 	spawnSync(ff, ['-hide_banner', '-v', 'error', '-y', '-i', out, '-c:v', 'libx264', '-crf', '26', '-preset', 'medium', '-c:a', 'copy', '-movflags', '+faststart', phone], {stdio: 'inherit'});

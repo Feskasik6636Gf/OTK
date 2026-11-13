@@ -13,7 +13,18 @@ env:
   RENDER_SCALE: '1'
 
 jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      reuse: ${{ steps.r.outputs.reuse }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: r
+        run: echo "reuse=$(cat hoodie-video/.reuse-run 2>/dev/null | tr -d '[:space:]')" >> "$GITHUB_OUTPUT"
+
   render:
+    needs: plan
+    if: ${{ needs.plan.outputs.reuse == '' }}
     runs-on: ubuntu-latest
     timeout-minutes: 150
     strategy:
@@ -42,7 +53,8 @@ jobs:
           if-no-files-found: error
 
   assemble:
-    needs: render
+    needs: [plan, render]
+    if: ${{ !cancelled() && (needs.render.result == 'success' || needs.render.result == 'skipped') }}
     runs-on: ubuntu-latest
     timeout-minutes: 60
     defaults:
@@ -61,6 +73,8 @@ jobs:
           pattern: chunks-*
           merge-multiple: true
           path: hoodie-video/out/chunks_Long
+          run-id: ${{ needs.plan.outputs.reuse || github.run_id }}
+          github-token: ${{ github.token }}
       - name: Sound bed
         run: node tools/make-sound.mjs
       - name: Join chunks and mix sound
