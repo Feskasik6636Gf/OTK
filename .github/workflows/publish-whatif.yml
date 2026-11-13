@@ -1,0 +1,32 @@
+name: publish-whatif
+on:
+  push:
+    branches: [ccr-35429cab-utw896]
+    paths:
+      - "whatif_render/result/audio.m4a"
+      - ".github/workflows/publish-whatif.yml"
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build final video (picture + sound, no re-encode)
+        run: |
+          sudo apt-get install -y -qq ffmpeg >/dev/null 2>&1 || true
+          cat whatif_render/result/video_silent.part* > video_silent.mp4
+          ffmpeg -v error -y -i video_silent.mp4 -i whatif_render/result/audio.m4a -map 0:v -map 1:a -c copy -movflags +faststart WhatIf_Humor1000_full_1080p.mp4
+          ls -la WhatIf_Humor1000_full_1080p.mp4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: WhatIf_Humor1000_full_1080p
+          path: WhatIf_Humor1000_full_1080p.mp4
+          retention-days: 30
+          compression-level: 0
+      - name: Release with direct download link
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete whatif-humor-1000 -y --cleanup-tag 2>/dev/null || true
+          gh release create whatif-humor-1000 WhatIf_Humor1000_full_1080p.mp4 --target ${{ github.sha }} --title "What if your sense of humor was 1000? (full, 1080p)" --notes "Uncompressed render, 12:49, 1920x1080, English text."
