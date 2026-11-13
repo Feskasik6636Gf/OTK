@@ -75,6 +75,8 @@ jobs:
           path: hoodie-video/out/chunks_Long
           run-id: ${{ needs.plan.outputs.reuse || github.run_id }}
           github-token: ${{ github.token }}
+      - name: Make bundled ffmpeg executable
+        run: chmod +x node_modules/@remotion/compositor-*/*
       - name: Sound bed
         run: node tools/make-sound.mjs
       - name: Join chunks and mix sound
