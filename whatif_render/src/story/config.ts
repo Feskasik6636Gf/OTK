@@ -11,10 +11,10 @@ export const STORY: {
 	musicVolume?: number;
 	endCaption?: string[];
 } = {
-	title: 'Что если твой юмор — 1000?',
+	title: 'What if your sense of humor was 1000?',
 	hero: 'hero',
 	counter: {
-		label: 'ЮМОР',
+		label: 'HUMOR',
 		color: '#ff2338',
 		keys: [
 			{line: '001', v: 1000},

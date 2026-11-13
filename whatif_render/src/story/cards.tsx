@@ -37,7 +37,7 @@ const Fig: React.FC<{x: number; y: number; s?: number; who?: string; t?: number;
 /* 10 vs 1000 */
 const Ten: React.FC<{b: Beat}> = () => {
 	const {f} = useShot();
-	return <Split f={f} a={{label: 'ОБЫЧНЫЙ ЧЕЛОВЕК', num: '10', color: '#9fd2f0', who: 'kid3'}} b={{label: 'ТВОЙ ЮМОР', num: '1000', color: '#ff2338', who: 'hero', bg: '#3a1020'}} />;
+	return <Split f={f} a={{label: 'MOST PEOPLE', num: '10', color: '#9fd2f0', who: 'kid3'}} b={{label: 'YOUR HUMOR', num: '1000', color: '#ff2338', who: 'hero', bg: '#3a1020'}} />;
 };
 
 /* rats laugh in ultrasound */
@@ -46,7 +46,7 @@ const Rats: React.FC<{b: Beat}> = () => {
 	const hz = Math.round(interpolate(f, [20, dur * 0.7], [20, 50], {...clamp, easing: Easing.out(Easing.cubic)}));
 	return (
 		<Board tint="#1a2a50">
-			<T x={960} y={140} t={f - 2} size={64}>КРЫСЫ ТОЖЕ СМЕЮТСЯ</T>
+			<T x={960} y={140} t={f - 2} size={64}>RATS LAUGH TOO</T>
 			{[0, 1, 2].map((i) => (
 				<g key={i} opacity={sp(f - 10 - i * 6)}>
 					<Rat x={520 + i * 420} y={700} f={f + i * 7} laugh={1} s={1.4} flip={i === 2} />
@@ -62,11 +62,11 @@ const Rats: React.FC<{b: Beat}> = () => {
 			})}
 			<g transform="translate(960,900)" opacity={sp(f - 30)}>
 				<rect x={-430} y={-60} width={860} height={110} rx={24} fill="#11142c" stroke="#7ff0ff" strokeWidth={4} />
-				<text x={-390} y={14} fontSize={42} fontFamily={FONT} fill="#7ff0ff">ЧАСТОТА ПИСКА:</text>
-				<text x={390} y={16} textAnchor="end" fontSize={60} fontFamily={FONT} fontWeight={900} fill="#fff">{hz} кГц</text>
+				<text x={-390} y={14} fontSize={42} fontFamily={FONT} fill="#7ff0ff">SQUEAK PITCH:</text>
+				<text x={390} y={16} textAnchor="end" fontSize={60} fontFamily={FONT} fontWeight={900} fill="#fff">{hz} kHz</text>
 			</g>
-			<T x={1600} y={300} t={f - dur * 0.5} size={40} c="#ff9ab8">человек не слышит!</T>
-			<Cite text="Panksepp, 2000-е — «смех» крыс при щекотке" t={f} />
+			<T x={1600} y={300} t={f - dur * 0.5} size={40} c="#ff9ab8">too high for humans!</T>
+			<Cite text="Panksepp, 2000s — tickled rats “laugh”" t={f} />
 		</Board>
 	);
 };
@@ -77,7 +77,7 @@ const Brain: React.FC<{b: Beat}> = () => {
 	const glow = interpolate(f, [dur * 0.35, dur * 0.6], [0, 1], clamp);
 	return (
 		<Board tint="#2a1a50">
-			<T x={960} y={130} t={f - 2} size={60}>СМЕХ ЗАРАЗЕН</T>
+			<T x={960} y={130} t={f - 2} size={60}>LAUGHTER IS CONTAGIOUS</T>
 			<Fig id="br1" x={420} y={860} s={1.6} who="kid2" laugh t={f - 4} />
 			{[0, 1, 2].map((i) => {
 				const k = ((f / 18 + i / 3) % 1);
@@ -94,8 +94,8 @@ const Brain: React.FC<{b: Beat}> = () => {
 						))
 					: null}
 			</g>
-			<T x={1360} y={900} t={f - dur * 0.45} size={44} c="#ffd34a">«готовься смеяться!»</T>
-			<Cite text="Scott и др., UCL, 2006" t={f} />
+			<T x={1360} y={900} t={f - dur * 0.45} size={44} c="#ffd34a">“get ready to laugh!”</T>
+			<Cite text="Scott et al., UCL, 2006" t={f} />
 		</Board>
 	);
 };
@@ -106,23 +106,23 @@ const Study: React.FC<{b: Beat}> = () => {
 	const pct = Math.round(interpolate(f, [20, dur * 0.6], [0, 80], {...clamp, easing: Easing.out(Easing.cubic)}));
 	return (
 		<Board tint="#1a3a40">
-			<T x={960} y={130} t={f - 2} size={56}>1 200 СЛУЧАЕВ СМЕХА</T>
+			<T x={960} y={130} t={f - 2} size={56}>LISTENING TO REAL LAUGHTER</T>
 			<g transform="translate(560,600)">
 				<circle r={260} fill="#2a4a50" />
 				<path d={`M0,0 L0,-260 A260,260 0 ${pct > 50 ? 1 : 0},1 ${260 * Math.sin((pct / 100) * Math.PI * 2)},${-260 * Math.cos((pct / 100) * Math.PI * 2)} Z`} fill="#ffd34a" />
 				<circle r={150} fill="#1a3a40" />
 				<text y={30} textAnchor="middle" fontSize={96} fontFamily={FONT} fontWeight={900} fill="#fff">{pct}%</text>
 			</g>
-			<T x={1340} y={420} t={f - 20} size={50} c="#ffd34a" anchor="middle">смеются НЕ над шутками</T>
+			<T x={1340} y={420} t={f - 20} size={50} c="#ffd34a" anchor="middle">most laughs are NOT jokes</T>
 			<g opacity={sp(f - dur * 0.45)}>
 				<rect x={1060} y={520} width={560} height={90} rx={45} fill="#fbf8ef" />
-				<text x={1340} y={580} textAnchor="middle" fontSize={40} fontFamily={FONT} fill="#1b1e2a">«Увидимся позже»</text>
+				<text x={1340} y={580} textAnchor="middle" fontSize={40} fontFamily={FONT} fill="#1b1e2a">“See you later”</text>
 			</g>
 			<g opacity={sp(f - dur * 0.6)}>
 				<rect x={1100} y={650} width={480} height={90} rx={45} fill="#fbf8ef" />
-				<text x={1340} y={710} textAnchor="middle" fontSize={40} fontFamily={FONT} fill="#1b1e2a">«Ты уверен?»</text>
+				<text x={1340} y={710} textAnchor="middle" fontSize={40} fontFamily={FONT} fill="#1b1e2a">“Are you sure?”</text>
 			</g>
-			<Cite text="Robert Provine, 1990-е" t={f} />
+			<Cite text="Robert Provine, 1990s" t={f} />
 		</Board>
 	);
 };
@@ -133,7 +133,7 @@ const X30: React.FC<{b: Beat}> = () => {
 	const h = interpolate(f, [10, dur * 0.6], [0, 1], {...clamp, easing: Easing.out(Easing.cubic)});
 	return (
 		<Board tint="#3a1a30">
-			<T x={960} y={130} t={f - 2} size={50}>В КОМПАНИИ СМЕЁМСЯ В 30 РАЗ ЧАЩЕ</T>
+			<T x={960} y={130} t={f - 2} size={50}>30× MORE LAUGHS WITH OTHERS</T>
 			<rect x={520} y={860 - 20} width={240} height={20} fill="#9aa3b5" />
 			<rect x={1160} y={860 - 600 * h} width={240} height={600 * h} rx={10} fill="#ff2338" />
 			<rect x={520} y={860 - 20 * h} width={240} height={20 * h} fill="#9aa3b5" />
@@ -161,9 +161,9 @@ const Views: React.FC<{b: Beat}> = () => {
 				<g transform="translate(0,-210)">
 					<Stickman id="vw" x={0} y={40} scale={0.7} pose={{lean: -8, head: -6, armF: [150, 20], armB: [-20, 10], legB: [-4, 0], legF: [4, 0]}} {...CAST.hero} look={[0, 0]} faceTurn={0.1} />
 				</g>
-				<text x={0} y={30} textAnchor="middle" fontSize={34} fontFamily={FONT} fill="#fff">ШКОЛЬНОЕ ШОУ</text>
-				<text x={0} y={140} textAnchor="middle" fontSize={84} fontFamily={FONT} fontWeight={900} fill="#ffd34a">{v.toLocaleString('ru-RU')}</text>
-				<text x={0} y={200} textAnchor="middle" fontSize={34} fontFamily={FONT} fill="#aab3d6">просмотров</text>
+				<text x={0} y={30} textAnchor="middle" fontSize={34} fontFamily={FONT} fill="#fff">SCHOOL TALENT SHOW</text>
+				<text x={0} y={140} textAnchor="middle" fontSize={84} fontFamily={FONT} fontWeight={900} fill="#ffd34a">{v.toLocaleString('en-US')}</text>
+				<text x={0} y={200} textAnchor="middle" fontSize={34} fontFamily={FONT} fill="#aab3d6">views</text>
 				{Array.from({length: 8}).map((_, i) => {
 					const k = ((f / 16 + i / 8) % 1);
 					return (
@@ -183,9 +183,9 @@ const Tanz: React.FC<{b: Beat}> = () => {
 	const spread = interpolate(f, [10, dur * 0.85], [0, 1], clamp);
 	return (
 		<Board tint="#3a2a10">
-			<T x={960} y={120} t={f - 2} size={60}>ТАНГАНЬИКА, 1962</T>
+			<T x={960} y={120} t={f - 2} size={60}>TANGANYIKA, 1962</T>
 			<path d="M700,300 C820,240 1060,260 1180,320 C1300,380 1320,520 1260,640 C1220,760 1120,880 980,900 C860,910 760,820 720,700 C680,580 620,380 700,300 Z" fill="#c98a4a" stroke="#ffd34a" strokeWidth={4} />
-			<text x={980} y={560} textAnchor="middle" fontSize={34} fontFamily={HAND} fill="#5a3a1a">Танзания</text>
+			<text x={980} y={560} textAnchor="middle" fontSize={34} fontFamily={HAND} fill="#5a3a1a">Tanzania</text>
 			{Array.from({length: 60}).map((_, i) => {
 				const a = random('tz' + i) * Math.PI * 2;
 				const r = Math.sqrt(random('tr' + i)) * 260;
@@ -193,10 +193,10 @@ const Tanz: React.FC<{b: Beat}> = () => {
 				return <circle key={i} cx={900 + Math.cos(a) * r * 1.2} cy={520 + Math.sin(a) * r} r={on ? 9 + 3 * Math.sin(f / 3 + i) : 5} fill={on ? '#ff2338' : '#7a5a3a'} />;
 			})}
 			<circle cx={900} cy={520} r={30 + 10 * Math.sin(f / 4)} fill="none" stroke="#ff2338" strokeWidth={6} />
-			<T x={1560} y={430} t={f - dur * 0.3} size={56} c="#ffd34a">~1000 человек</T>
-			<T x={1560} y={540} t={f - dur * 0.55} size={44}>школы закрыты</T>
-			<T x={1560} y={620} t={f - dur * 0.55} size={44}>на месяцы</T>
-			<Cite text="«Эпидемия смеха», Кашаша, 1962" t={f} />
+			<T x={1560} y={430} t={f - dur * 0.3} size={56} c="#ffd34a">~1,000 people</T>
+			<T x={1560} y={540} t={f - dur * 0.55} size={44}>schools closed</T>
+			<T x={1560} y={620} t={f - dur * 0.55} size={44}>for months</T>
+			<Cite text="Tanganyika laughter epidemic, Kashasha, 1962" t={f} />
 		</Board>
 	);
 };
@@ -208,7 +208,7 @@ const Pain: React.FC<{b: Beat}> = () => {
 	const b = interpolate(f, [8, dur * 0.9], [0, 1], clamp);
 	return (
 		<Board tint="#102a4a">
-			<T x={960} y={120} t={f - 2} size={56}>РУКА В ЛЕДЯНОЙ ВОДЕ</T>
+			<T x={960} y={120} t={f - 2} size={56}>HAND IN ICE WATER</T>
 			{[0, 1].map((i) => (
 				<g key={i} transform={`translate(${560 + i * 800},640)`}>
 					<rect x={-180} y={-60} width={360} height={260} rx={20} fill="#7ad0ff" opacity={0.5} />
@@ -218,11 +218,11 @@ const Pain: React.FC<{b: Beat}> = () => {
 					<rect x={-28} y={-260} width={56} height={260} rx={28} fill="#f2c4a0" />
 					<rect x={-200} y={-420} width={400} height={30} rx={15} fill="#2a3a5a" />
 					<rect x={-200} y={-420} width={400 * (i ? b : a)} height={30} rx={15} fill={i ? '#ffd34a' : '#9aa3b5'} />
-					<text x={0} y={-450} textAnchor="middle" fontSize={40} fontFamily={FONT} fill="#fff">{i ? 'посмеялись вместе' : 'без смеха'}</text>
-					<text x={0} y={280} textAnchor="middle" fontSize={54} fontFamily={FONT} fontWeight={900} fill={i ? '#ffd34a' : '#cfd6df'}>{Math.round((i ? b : a) * 100)} с</text>
+					<text x={0} y={-450} textAnchor="middle" fontSize={40} fontFamily={FONT} fill="#fff">{i ? 'laughed together' : 'no laughing'}</text>
+					<text x={0} y={280} textAnchor="middle" fontSize={54} fontFamily={FONT} fontWeight={900} fill={i ? '#ffd34a' : '#cfd6df'}>{Math.round((i ? b : a) * 100)} s</text>
 				</g>
 			))}
-			<Cite text="Dunbar и др., Оксфорд, 2011" t={f} />
+			<Cite text="Dunbar et al., Oxford, 2011" t={f} />
 		</Board>
 	);
 };
@@ -230,7 +230,7 @@ const Pain: React.FC<{b: Beat}> = () => {
 /* raised hand = serious (rule card) */
 const Rule: React.FC<{b: Beat}> = () => {
 	const {f} = useShot();
-	return <RuleCard n="1" title="ПРАВИЛО" text="Поднял руку — значит, говоришь всерьёз" t={f} icon={<g transform="scale(1.6)"><rect x={-18} y={-80} width={36} height={110} rx={18} fill="#f4f1e6" /><rect x={-40} y={-70} width={16} height={60} rx={8} fill="#f4f1e6" transform="rotate(-20)" /></g>} />;
+	return <RuleCard n="1" title="RULE" text="Hand up means you mean it" t={f} icon={<g transform="scale(1.6)"><rect x={-18} y={-80} width={36} height={110} rx={18} fill="#f4f1e6" /><rect x={-40} y={-70} width={16} height={60} rx={8} fill="#f4f1e6" transform="rotate(-20)" /></g>} />;
 };
 
 /* final question + like/subscribe */
@@ -245,16 +245,16 @@ const Outro: React.FC<{b: Beat}> = () => {
 				<g transform={`translate(1500,330) rotate(${Math.sin(f / 10) * 8}) scale(${sp(f - 4)})`}>
 					<IconG i="q" s={2.6} />
 				</g>
-				<T x={1300} y={560} t={f - 8} size={60}>ЕСЛИ БЫ ТВОЙ ЮМОР</T>
-				<T x={1300} y={650} t={f - 14} size={92} c="#ffd34a">БЫЛ 1000…</T>
-				<T x={1300} y={780} t={f - dur * 0.35} size={48}>напиши худшую шутку в комментах</T>
+				<T x={1300} y={560} t={f - 8} size={60}>IF YOUR HUMOR</T>
+				<T x={1300} y={650} t={f - 14} size={92} c="#ffd34a">WAS 1000…</T>
+				<T x={1300} y={780} t={f - dur * 0.35} size={48}>tell us your worst joke below</T>
 				<g transform={`translate(1150,920) scale(${sp(f - dur * 0.55)})`}>
 					<rect x={-150} y={-50} width={300} height={100} rx={50} fill="#ff2338" />
-					<text y={16} textAnchor="middle" fontSize={44} fontFamily={FONT} fontWeight={900} fill="#fff">ЛАЙК</text>
+					<text y={16} textAnchor="middle" fontSize={44} fontFamily={FONT} fontWeight={900} fill="#fff">LIKE</text>
 				</g>
 				<g transform={`translate(1500,920) scale(${sp(f - dur * 0.65)})`}>
 					<rect x={-190} y={-50} width={380} height={100} rx={50} fill="#fff" />
-					<text y={16} textAnchor="middle" fontSize={40} fontFamily={FONT} fontWeight={900} fill="#c62a2a">ПОДПИСКА</text>
+					<text y={16} textAnchor="middle" fontSize={40} fontFamily={FONT} fontWeight={900} fill="#c62a2a">SUBSCRIBE</text>
 				</g>
 			</svg>
 		</AbsoluteFill>
@@ -267,7 +267,7 @@ const Spread: React.FC<{b: Beat}> = () => {
 	const r = interpolate(f, [0, dur], [40, 1100], clamp);
 	return (
 		<Board tint="#1a1040">
-			<T x={960} y={120} t={f - 2} size={56}>СМЕХ ПЕРЕДАЁТСЯ, КАК ПРОСТУДА</T>
+			<T x={960} y={120} t={f - 2} size={56}>LAUGHTER SPREADS LIKE A COLD</T>
 			{Array.from({length: 120}).map((_, i) => {
 				const x = random('sx' + i) * 1800 + 60;
 				const y = random('sy' + i) * 780 + 220;
@@ -290,7 +290,7 @@ const Safe: React.FC<{b: Beat}> = () => {
 			<g transform={`translate(960,${300 + Math.sin(f / 12) * 10}) scale(${sp(f - 10) * (1 + 0.06 * Math.sin(f / 5))})`}>
 				<IconG i="heart" s={3} />
 			</g>
-			<T x={960} y={140} t={f - dur * 0.25} size={56}>«Мне с тобой безопасно»</T>
+			<T x={960} y={140} t={f - dur * 0.25} size={56}>“I feel safe with you”</T>
 		</Board>
 	);
 };

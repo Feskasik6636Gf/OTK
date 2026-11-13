@@ -92,13 +92,13 @@ const LOCS: Record<Loc, {bg: string; light?: any; set: (f: number, b: Beat) => R
 	kitchen: {bg: '#f3e6c4', light: {x: 50, y: 15, o: 0.42}, set: () => <Kitchen />},
 	kitchenN: {bg: '#2a2a48', light: {x: 50, y: 20, night: true, o: 0.4}, set: () => <Kitchen night />},
 	classroom: {bg: '#e9dcb4', light: {x: 80, y: 20, o: 0.42}, set: (f) => <Classroom f={f} />},
-	science: {bg: '#bfe0d4', light: {x: 80, y: 20, o: 0.42}, set: (f) => <Classroom f={f} science board="Биология" />},
+	science: {bg: '#bfe0d4', light: {x: 80, y: 20, o: 0.42}, set: (f) => <Classroom f={f} science board="Biology" />},
 	cafeteria: {bg: '#f7d9a8', light: {x: 20, y: 15, o: 0.4}, set: (f) => <Cafeteria f={f} />},
 	corridor: {bg: '#f1e6c8', light: {x: 80, y: 15, o: 0.42}, set: (f) => <Corridor f={f} />},
 	lab: {bg: '#cfe8ef', light: {x: 40, y: 10, o: 0.4}, set: (f) => <Lab f={f} />},
 	road: {bg: '#7cc0ec', light: {x: 30, y: 10, o: 0.45}, set: (f) => <Road f={f} />},
 	stage: {bg: '#20163a', light: {x: 50, y: 10, o: 0.5, c: '255,220,160'}, set: (f, b) => <BigStage f={f} smoke={b.smoke} alarm={b.alarm} />},
-	hall: {bg: '#20163a', light: {x: 50, y: 10, o: 0.5, c: '255,220,160'}, set: (f, b) => <BigStage f={f} title="ВЫПУСКНОЙ ГОДА" smoke={b.smoke} alarm={b.alarm} />},
+	hall: {bg: '#20163a', light: {x: 50, y: 10, o: 0.5, c: '255,220,160'}, set: (f, b) => <BigStage f={f} title="END-OF-YEAR ASSEMBLY" smoke={b.smoke} alarm={b.alarm} />},
 	club: {bg: '#3a1a18', light: {x: 50, y: 5, o: 0.55, c: '255,200,220'}, set: (f) => <Club f={f} />},
 	studio: {bg: '#141a3a', light: {x: 60, y: 10, o: 0.5, c: '200,180,255'}, set: (f) => <Studio f={f} />},
 	city: {bg: '#070b26', light: {x: 80, y: 10, night: true, o: 0.4}, set: (f) => <NightCity f={f} />},
@@ -152,7 +152,7 @@ const Item: React.FC<{i: ActorB['item']}> = ({i}) => {
 		case 'cup':
 			return <g><rect x={-14} y={-30} width={28} height={30} rx={5} fill="#f2f2f2" /><rect x={-14} y={-30} width={28} height={8} fill="#b0703a" /></g>;
 		case 'ticket':
-			return <g transform="rotate(-15)"><rect x={-34} y={-24} width={68} height={40} rx={4} fill="#ffe08a" stroke="#c94a3a" strokeWidth={3} /><text x={0} y={2} textAnchor="middle" fontSize={14} fontFamily={FONT} fill="#c94a3a">ШТРАФ</text></g>;
+			return <g transform="rotate(-15)"><rect x={-34} y={-24} width={68} height={40} rx={4} fill="#ffe08a" stroke="#c94a3a" strokeWidth={3} /><text x={0} y={2} textAnchor="middle" fontSize={14} fontFamily={FONT} fill="#c94a3a">TICKET</text></g>;
 		case 'pizza':
 			return <g><path d="M0,0 L-30,-60 Q0,-75 30,-60 Z" fill="#f2c45a" /><circle cx={-6} cy={-44} r={6} fill="#c62a2a" /><circle cx={8} cy={-30} r={5} fill="#c62a2a" /></g>;
 		case 'tray':
@@ -190,7 +190,7 @@ export const IconG: React.FC<{i: Icon; s?: number}> = ({i, s = 1}) => {
 		case 'clock':
 			return c(<g><circle r={44} fill="#fff" stroke="#333" strokeWidth={6} /><line x1={0} y1={0} x2={0} y2={-28} stroke="#222" strokeWidth={5} /><line x1={0} y1={0} x2={20} y2={8} stroke="#222" strokeWidth={5} /></g>);
 		case 'ticket':
-			return c(<g><rect x={-60} y={-34} width={120} height={68} rx={6} fill="#ffe08a" stroke="#c94a3a" strokeWidth={5} /><text y={10} textAnchor="middle" fontSize={26} fontFamily={FONT} fill="#c94a3a">ШТРАФ</text></g>);
+			return c(<g><rect x={-60} y={-34} width={120} height={68} rx={6} fill="#ffe08a" stroke="#c94a3a" strokeWidth={5} /><text y={10} textAnchor="middle" fontSize={26} fontFamily={FONT} fill="#c94a3a">TICKET</text></g>);
 		case 'tv':
 			return c(<g><rect x={-60} y={-44} width={120} height={84} rx={10} fill="#2b2f3a" /><rect x={-50} y={-36} width={100} height={66} fill="#7ad0ff" /></g>);
 		case 'brain':
@@ -347,7 +347,7 @@ const HaFx: React.FC<{x: number; y: number; f: number; s: number; seed: string; 
 			const side = (i % 2 ? 1 : -1) * (40 + 30 * random(seed + i));
 			return (
 				<text key={i} x={x + side * s + Math.sin(t * 6 + i) * 8} y={y - t * 120 * s} fontSize={(30 + 14 * (1 - t)) * s} fontFamily={FONT} fontWeight={900} fill={c} stroke="#1b1028" strokeWidth={5 * s} paintOrder="stroke" textAnchor="middle" opacity={Math.min(1, (1 - t) * 2)} transform={`rotate(${side > 0 ? 12 : -12} ${x + side * s} ${y - t * 120 * s})`}>
-					ХА
+					HA
 				</text>
 			);
 		})}
@@ -794,8 +794,7 @@ export const BeatShot: React.FC<{b: Beat; idx: number; lineNo: number; cards: Re
 							const k = spring({frame: t, fps: 30, config: {damping: 9, stiffness: 160}});
 							switch (x.k) {
 								case 'text':
-									if (x.x !== undefined) return null;
-									return <TextPop key={i} t={x.t ?? ''} x={h.x + 220} y={h.y - 80} k={k} c={x.c} size={x.size} f={f} />;
+									return null; // drawn in screen space (ScreenFx) so it is never cut off
 								case 'icon':
 									return (
 										<g key={i} transform={`translate(${x.x ?? h.x + 170},${(x.y ?? h.y - 110) + Math.sin(f / 8) * 8}) rotate(${Math.sin(f / 10) * 8}) scale(${k * (x.size ?? 1)})`}>
@@ -886,13 +885,13 @@ const ScreenFx: React.FC<{b: Beat; f: number; D: number}> = ({b, f, D}) => (
 					);
 				}
 				case 'text': {
-					if (x.x === undefined) return null;
 					const k = spring({frame: t, fps: 30, config: {damping: 9, stiffness: 160}});
-					const sz = x.size ?? 90;
+					const sz = Math.min(x.size ?? 90, 1700 / Math.max(1, (x.t ?? '').length * 0.62));
+					const yy = x.y !== undefined && x.y > 500 ? x.y : 960;
 					return (
 						<AbsoluteFill key={i} style={{pointerEvents: 'none'}}>
 							<svg viewBox="0 0 1920 1080" width={1920} height={1080}>
-								<TextPop t={x.t ?? ''} x={Math.min(1920 - (x.t ?? '').length * sz * 0.36 - 40, Math.max((x.t ?? '').length * sz * 0.36 + 40, x.x))} y={Math.max(sz + 20, x.y ?? 300)} k={k} c={x.c} size={sz} f={f} />
+								<TextPop t={x.t ?? ''} x={Math.min(1920 - (x.t ?? '').length * sz * 0.36 - 40, Math.max((x.t ?? '').length * sz * 0.36 + 40, x.x ?? 960))} y={yy} k={k} c={x.c} size={sz} f={f} />
 							</svg>
 						</AbsoluteFill>
 					);

@@ -64,10 +64,10 @@ export const Office: React.FC<{f: number; laugh?: number}> = ({f, laugh = 0}) =>
 		<rect x={760} y={170} width={260} height={190} fill="#c9a14a" />
 		<rect x={775} y={185} width={230} height={160} fill="#f8f1dc" />
 		<text x={890} y={240} textAnchor="middle" fontSize={22} fontFamily={HAND} fill="#5a4a2a">
-			ДИПЛОМ
+			DIPLOMA
 		</text>
 		<text x={890} y={290} textAnchor="middle" fontSize={20} fontFamily={HAND} fill="#5a4a2a">
-			Р. Грейсон
+			R. Grayson
 		</text>
 		<line x1={1150} y1={130} x2={1150} y2={600} stroke="#c9a14a" strokeWidth={8} />
 		<path d={`M1154,140 q60,${14 + Math.sin(f / 12) * 6} 120,0 v110 q-60,${-14 + Math.sin(f / 12 + 1) * 6} -120,0 z`} fill="#c62a3a" />
@@ -94,13 +94,13 @@ export const BigDesk: React.FC<{x?: number}> = ({x = 1100}) => (
 		<rect x={x + 120} y={730} width={120} height={30} rx={3} fill="#f2efe6" />
 		<rect x={x + 60} y={700} width={40} height={60} rx={6} fill="#c9a14a" />
 		<text x={x} y={860} textAnchor="middle" fontSize={26} fontFamily={FONT} fill="#e8c88a">
-			ДИРЕКТОР
+			PRINCIPAL
 		</text>
 	</Svg>
 );
 
 /* -------------------------------- classroom -------------------------------- */
-export const Classroom: React.FC<{f: number; board?: string; science?: boolean}> = ({f, board = 'История', science}) => (
+export const Classroom: React.FC<{f: number; board?: string; science?: boolean}> = ({f, board = 'History', science}) => (
 	<Svg>
 		<Wall id="cl-w" a={science ? '#bfe0d4' : '#e9dcb4'} b={science ? '#a6cfc0' : '#dccb98'} />
 		<rect x={-500} y={640} width={2900} height={260} fill={science ? '#8fbfae' : '#c9b37e'} />
@@ -172,7 +172,7 @@ export const Cafeteria: React.FC<{f: number}> = ({f}) => (
 		))}
 		<rect x={1260} y={150} width={560} height={110} rx={10} fill="#3a2a40" />
 		<text x={1540} y={222} textAnchor="middle" fontSize={50} fontFamily={FONT} fill="#ffd34a">
-			СТОЛОВАЯ
+			CAFETERIA
 		</text>
 		<Window x={120} y={160} w={300} h={260} sky={['#9fd2f0', '#e6f4fb']} id="cf-win" f={f} />
 		<Window x={560} y={160} w={300} h={260} sky={['#9fd2f0', '#e6f4fb']} id="cf-win2" f={f} />
@@ -277,7 +277,7 @@ export const CarSide: React.FC<{x: number; y?: number; c?: string; police?: bool
 			<ellipse cx={0} cy={6} rx={300} ry={20} fill="#000" opacity={0.25} />
 			<path d="M-290,-40 L-290,-130 Q-280,-150 -230,-155 L-150,-160 L-90,-240 L120,-240 L200,-160 L270,-150 Q295,-140 295,-110 L295,-40 Z" fill={police ? '#f4f6fa' : c} />
 			{police ? <rect x={-290} y={-120} width={585} height={40} fill="#2b3a7a" /> : null}
-			{police ? <text x={0} y={-90} textAnchor="middle" fontSize={30} fontFamily={FONT} fill="#fff">ПОЛИЦИЯ</text> : null}
+			{police ? <text x={0} y={-90} textAnchor="middle" fontSize={30} fontFamily={FONT} fill="#fff">POLICE</text> : null}
 			<path d="M-70,-226 L110,-226 L172,-162 L-120,-162 Z" fill="#bfe3ff" />
 			<line x1={30} y1={-226} x2={30} y2={-162} stroke={police ? '#f4f6fa' : c} strokeWidth={10} />
 			{open > 0 ? <rect x={-60} y={-200} width={90} height={36} fill="#000" opacity={0.25 * open} /> : null}
@@ -300,7 +300,7 @@ export const CarSide: React.FC<{x: number; y?: number; c?: string; police?: bool
 };
 
 /* -------------------------- talent show / big stage ------------------------- */
-export const BigStage: React.FC<{f: number; title?: string; smoke?: number; alarm?: number}> = ({f, title = 'ШКОЛЬНЫЙ ТАЛАНТ-ШОУ', smoke = 0, alarm = 0}) => (
+export const BigStage: React.FC<{f: number; title?: string; smoke?: number; alarm?: number}> = ({f, title = 'SCHOOL TALENT SHOW', smoke = 0, alarm = 0}) => (
 	<Svg>
 		<Wall id="bs-w" a="#20163a" b="#3a1f4a" />
 		{Array.from({length: 10}).map((_, i) => (
@@ -367,7 +367,7 @@ export const Club: React.FC<{f: number}> = ({f}) => (
 				Comedy
 			</text>
 			<text x={960} y={360} textAnchor="middle" fontSize={70} fontFamily={FONT} fill="#7ff0ff" style={{filter: 'drop-shadow(0 0 14px #2ad0ff)'}}>
-				КЛУБ СМЕХА
+				COMEDY CLUB
 			</text>
 		</g>
 		<ellipse cx={960} cy={900} rx={520} ry={60} fill="#fff6d0" opacity={0.18} />
@@ -394,7 +394,7 @@ export const Studio: React.FC<{f: number}> = ({f}) => (
 		<rect x={-500} y={620} width={2900} height={20} fill="#ff4f8b" opacity={0.7} />
 		<rect x={1360} y={360} width={420} height={70} rx={10} fill="#ff4f8b" />
 		<text x={1570} y={410} textAnchor="middle" fontSize={34} fontFamily={FONT} fill="#fff">
-			ВЕЧЕРНЕЕ ШОУ
+			LATE NIGHT SHOW
 		</text>
 		{/* host desk */}
 		<rect x={1250} y={700} width={520} height={200} rx={20} fill="#3a2a6a" />
@@ -526,7 +526,7 @@ export const Field: React.FC<{f: number; smoke?: number; trucks?: number; dusk?:
 			)}
 			<rect x={760} y={260} width={280} height={60} fill="#2b3366" />
 			<text x={900} y={302} textAnchor="middle" fontSize={30} fontFamily={FONT} fill="#fff">
-				ШКОЛА
+				SCHOOL
 			</text>
 			{smoke > 0 ? (
 				<g opacity={smoke}>
@@ -632,7 +632,7 @@ export const Village: React.FC<{f: number}> = ({f}) => (
 		))}
 		<rect x={760} y={560} width={260} height={50} fill="#2b3366" />
 		<text x={890} y={596} textAnchor="middle" fontSize={26} fontFamily={FONT} fill="#fff">
-			ШКОЛА 1962
+			SCHOOL, 1962
 		</text>
 		<Floor c="#b97a3a" lines="none" />
 	</Svg>
