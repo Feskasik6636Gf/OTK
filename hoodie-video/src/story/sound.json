@@ -56,20 +56,8 @@
 "music": [
 {
 "from": "001",
-"to": "031",
-"style": "pizz",
-"amp": 0.2
-},
-{
-"from": "032",
-"to": "299",
-"style": "pad-tense",
-"amp": 0.22
-},
-{
-"from": "300",
 "to": "end",
-"style": "pad-warm",
+"style": "piano",
 "amp": 0.22
 }
 ],
