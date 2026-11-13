@@ -162,9 +162,11 @@ const pianoSection = (t0, t1, amp = 0.2) => {
 	for (let t = t0; t < t1 - 1; t += bar, k++) {
 		const fade = Math.min(sm(t, t0, t0 + 3), 1 - sm(t, t1 - 3, t1));
 		const c = chords[k % 4];
-		pluck(t, c[0] - 12, amp * fade * 0.9, 0.9993, -0.2, 0.5, 0.25, 3.2);
-		c.forEach((m, i) => pluck(t + 0.4 + i * 0.35, m + 12, amp * fade * 0.5, 0.9992, -0.3 + i * 0.3, 0.6, 0.3, 2.8));
-		pluck(t + 1.9, c[2] + 12, amp * fade * 0.4, 0.9992, 0.3, 0.6, 0.3, 2.2);
+		// quieter while the narrator speaks
+		const dk = (tt) => (duckAt(tt) ? 0.3 : 1);
+		pluck(t, c[0] - 12, amp * fade * 0.9 * dk(t), 0.9993, -0.2, 0.5, 0.25, 3.2);
+		c.forEach((m, i) => pluck(t + 0.4 + i * 0.35, m + 12, amp * fade * 0.5 * dk(t + 0.4 + i * 0.35), 0.9992, -0.3 + i * 0.3, 0.6, 0.3, 2.8));
+		pluck(t + 1.9, c[2] + 12, amp * fade * 0.4 * dk(t + 1.9), 0.9992, 0.3, 0.6, 0.3, 2.2);
 	}
 };
 
