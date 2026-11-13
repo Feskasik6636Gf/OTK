@@ -1,0 +1,1994 @@
+[
+{
+"id": "001_N",
+"sp": "N",
+"t": "One lion, 100 men, and one guy with a strength of 1,000.",
+"gap": 0.29
+},
+{
+"id": "002_N",
+"sp": "N",
+"t": "Dropped into the middle of the Amazon rainforest, 30 days.",
+"gap": 0.41
+},
+{
+"id": "003_N",
+"sp": "N",
+"t": "No food, no phones, no weapons.",
+"gap": 0.55
+},
+{
+"id": "004_N",
+"sp": "N",
+"t": "Every player gets a wristband with one red button.",
+"gap": 0.41
+},
+{
+"id": "005_N",
+"sp": "N",
+"t": "Press it, and a helicopter takes you home.",
+"gap": 0.41
+},
+{
+"id": "006_N",
+"sp": "N",
+"t": "But you're out.",
+"gap": 0.43
+},
+{
+"id": "007_N",
+"sp": "N",
+"t": "The question the whole internet keeps arguing about.",
+"gap": 0.47
+},
+{
+"id": "008_N",
+"sp": "N",
+"t": "Who actually survives the jungle?",
+"gap": 0.34
+},
+{
+"id": "009_N",
+"sp": "N",
+"t": "On Day 29, all three of them will end up at the same river",
+"gap": 0.02
+},
+{
+"id": "010_N",
+"sp": "N",
+"t": "in the same flood at the same moment.",
+"gap": 0.29
+},
+{
+"id": "011_N",
+"sp": "N",
+"t": "And what happens there will surprise everyone.",
+"gap": 0.53
+},
+{
+"id": "012_N",
+"sp": "N",
+"t": "But first, let's meet the players.",
+"gap": 0.71
+},
+{
+"id": "013_N",
+"sp": "N",
+"t": "Player 1, the lion.",
+"gap": 0.43
+},
+{
+"id": "014_N",
+"sp": "N",
+"t": "200 kilos of muscle, teeth, and attitude.",
+"gap": 0.45
+},
+{
+"id": "015_N",
+"sp": "N",
+"t": "He can run 60 kilometers an hour in short bursts.",
+"gap": 0.43
+},
+{
+"id": "016_N",
+"sp": "N",
+"t": "His roar can be heard 8 kilometers away.",
+"gap": 0.51
+},
+{
+"id": "017_N",
+"sp": "N",
+"t": "On the savannah, he's the king.",
+"gap": 0.63
+},
+{
+"id": "018_N",
+"sp": "N",
+"t": "Player 2, 100 ordinary men.",
+"gap": 0.39
+},
+{
+"id": "019_N",
+"sp": "N",
+"t": "A plumber, a dentist, a pizza delivery guy.",
+"gap": 0.27
+},
+{
+"id": "020_N",
+"sp": "N",
+"t": "Two accountants, a math teacher, and 94 other guys",
+"gap": 0.02
+},
+{
+"id": "021_N",
+"sp": "N",
+"t": "who have never slept outside in their lives.",
+"gap": 0.39
+},
+{
+"id": "022_N",
+"sp": "N",
+"t": "The loudest one is Danny, a car salesman from Ohio.",
+"gap": 0.51
+},
+{
+"id": "023_N",
+"sp": "N",
+"t": "The quietest one is Sam, who grew up on a farm",
+"gap": 0.02
+},
+{
+"id": "024_N",
+"sp": "N",
+"t": "and hasn't said a word yet.",
+"gap": 0.57
+},
+{
+"id": "025_N",
+"sp": "N",
+"t": "Player 3, Max.",
+"gap": 0.55
+},
+{
+"id": "026_N",
+"sp": "N",
+"t": "16 years old.",
+"gap": 0.25
+},
+{
+"id": "027_N",
+"sp": "N",
+"t": "A hundred times stronger than a normal human.",
+"gap": 0.02
+},
+{
+"id": "028_N",
+"sp": "N",
+"t": "Some of you know him from last time.",
+"gap": 0.29
+},
+{
+"id": "029_N",
+"sp": "N",
+"t": "He once lifted a steel door with a lever his brother designed.",
+"gap": 0.45
+},
+{
+"id": "030_N",
+"sp": "N",
+"t": "But this time, his brother isn't here.",
+"gap": 0.49
+},
+{
+"id": "031_N",
+"sp": "N",
+"t": "No Theo, no plan, just muscles.",
+"gap": 0.81
+},
+{
+"id": "032_N",
+"sp": "N",
+"t": "Day 1, the helicopter disappears and the jungle closes in.",
+"gap": 0.51
+},
+{
+"id": "033_N",
+"sp": "N",
+"t": "The lion has the first problem, and he doesn't even know it yet.",
+"gap": 0.43
+},
+{
+"id": "034_N",
+"sp": "N",
+"t": "Lions don't live in rainforests.",
+"gap": 0.03
+},
+{
+"id": "035_N",
+"sp": "N",
+"t": "They're built for open grassland, where they can see prey from far away.",
+"gap": 0.35
+},
+{
+"id": "036_N",
+"sp": "N",
+"t": "Here, he can't see more than 10 meters in any direction.",
+"gap": 0.47
+},
+{
+"id": "037_N",
+"sp": "N",
+"t": "Trees, vines, leaves, more leaves.",
+"gap": 0.41
+},
+{
+"id": "038_N",
+"sp": "N",
+"t": "The king of the savannah looks around like a tourist who took the wrong bus.",
+"gap": 0.63
+},
+{
+"id": "039_N",
+"sp": "N",
+"t": "The hundred men have a different problem.",
+"gap": 0.35
+},
+{
+"id": "040_N",
+"sp": "N",
+"t": "They spend the first 40 minutes arguing about who's in charge.",
+"gap": 0.53
+},
+{
+"id": "041_N",
+"sp": "N",
+"t": "Danny votes for Danny.",
+"gap": 0.39
+},
+{
+"id": "042_N",
+"sp": "N",
+"t": "Danny wins.",
+"gap": 0.47
+},
+{
+"id": "043_N",
+"sp": "N",
+"t": "Sam says nothing.",
+"gap": 0.45
+},
+{
+"id": "044_N",
+"sp": "N",
+"t": "And Max?",
+"gap": 0.49
+},
+{
+"id": "045_N",
+"sp": "N",
+"t": "Max punches a tree.",
+"gap": 0.39
+},
+{
+"id": "046_N",
+"sp": "N",
+"t": "The tree falls.",
+"gap": 0.47
+},
+{
+"id": "047_N",
+"sp": "N",
+"t": "He punches another one.",
+"gap": 0.02
+},
+{
+"id": "048_N",
+"sp": "N",
+"t": "Within an hour, he's built a shelter out of whole logs,",
+"gap": 0.09
+},
+{
+"id": "049_N",
+"sp": "N",
+"t": "with a roof so thick that nothing gets through.",
+"gap": 0.43
+},
+{
+"id": "050_N",
+"sp": "N",
+"t": "He lies down inside and thinks, this is going to be easy.",
+"gap": 0.67
+},
+{
+"id": "051_N",
+"sp": "N",
+"t": "Round 1, Shelter, Max.",
+"gap": 0.71
+},
+{
+"id": "052_N",
+"sp": "N",
+"t": "Day 2, the heat.",
+"gap": 0.47
+},
+{
+"id": "053_N",
+"sp": "N",
+"t": "The Amazon isn't just hot.",
+"gap": 0.31
+},
+{
+"id": "054_N",
+"sp": "N",
+"t": "It's wet hot.",
+"gap": 0.37
+},
+{
+"id": "055_N",
+"sp": "N",
+"t": "The air is so full of water that sweat can't dry off your skin.",
+"gap": 0.37
+},
+{
+"id": "056_N",
+"sp": "N",
+"t": "And sweat only cools you down when it dries.",
+"gap": 0.02
+},
+{
+"id": "057_N",
+"sp": "N",
+"t": "So your body keeps heating up, like a car engine with no radiator.",
+"gap": 0.53
+},
+{
+"id": "058_N",
+"sp": "N",
+"t": "Max is thirsty.",
+"gap": 0.51
+},
+{
+"id": "059_N",
+"sp": "N",
+"t": "There's water everywhere.",
+"gap": 0.41
+},
+{
+"id": "060_N",
+"sp": "N",
+"t": "A river right next to his shelter.",
+"gap": 0.43
+},
+{
+"id": "061_N",
+"sp": "N",
+"t": "He drinks, a lot.",
+"gap": 0.27
+},
+{
+"id": "062_N",
+"sp": "N",
+"t": "The hundred men are thirsty too.",
+"gap": 0.69
+},
+{
+"id": "063_N",
+"sp": "N",
+"t": "Danny walks toward the river.",
+"gap": 0.57
+},
+{
+"id": "064_N",
+"sp": "N",
+"t": "And Sam finally speaks.",
+"gap": 0.61
+},
+{
+"id": "065_SAM",
+"sp": "SAM",
+"t": "Don't.",
+"gap": 0.23
+},
+{
+"id": "066_SAM",
+"sp": "SAM",
+"t": "Boil it first.",
+"gap": 0.51
+},
+{
+"id": "067_N",
+"sp": "N",
+"t": "River water in the jungle is full of bacteria and parasites.",
+"gap": 0.65
+},
+{
+"id": "068_N",
+"sp": "N",
+"t": "You can't see them.",
+"gap": 0.31
+},
+{
+"id": "069_N",
+"sp": "N",
+"t": "You can't punch them.",
+"gap": 0.39
+},
+{
+"id": "070_N",
+"sp": "N",
+"t": "The men spend six hours making fire by rubbing sticks together.",
+"gap": 0.47
+},
+{
+"id": "071_N",
+"sp": "N",
+"t": "They take turns, 10 men at a time, until their hands are blistered.",
+"gap": 0.33
+},
+{
+"id": "072_N",
+"sp": "N",
+"t": "When the first spark catches,",
+"gap": 0.31
+},
+{
+"id": "073_N",
+"sp": "N",
+"t": "a hundred grown men cheer like they've won the World Cup.",
+"gap": 0.49
+},
+{
+"id": "074_N",
+"sp": "N",
+"t": "They boil it in a pot the plumber made from river clay.",
+"gap": 0.45
+},
+{
+"id": "075_N",
+"sp": "N",
+"t": "It's ugly.",
+"gap": 0.51
+},
+{
+"id": "076_N",
+"sp": "N",
+"t": "It works.",
+"gap": 0.69
+},
+{
+"id": "077_N",
+"sp": "N",
+"t": "On day three, Max can't get out of his shelter.",
+"gap": 0.57
+},
+{
+"id": "078_N",
+"sp": "N",
+"t": "Fever, stomach cramps.",
+"gap": 0.53
+},
+{
+"id": "079_N",
+"sp": "N",
+"t": "The strongest human on earth is lying on the floor,",
+"gap": 0.02
+},
+{
+"id": "080_N",
+"sp": "N",
+"t": "defeated by something smaller than a grain of sand.",
+"gap": 0.49
+},
+{
+"id": "081_N",
+"sp": "N",
+"t": "Strength doesn't fight germs.",
+"gap": 0.51
+},
+{
+"id": "082_N",
+"sp": "N",
+"t": "Your immune system does.",
+"gap": 0.45
+},
+{
+"id": "083_N",
+"sp": "N",
+"t": "And his is completely normal.",
+"gap": 0.61
+},
+{
+"id": "084_N",
+"sp": "N",
+"t": "He doesn't press the button.",
+"gap": 0.59
+},
+{
+"id": "085_N",
+"sp": "N",
+"t": "But he thinks about it.",
+"gap": 0.51
+},
+{
+"id": "086_N",
+"sp": "N",
+"t": "Round two, water, the hundred men.",
+"gap": 0.61
+},
+{
+"id": "087_N",
+"sp": "N",
+"t": "Day five, hunger.",
+"gap": 0.59
+},
+{
+"id": "088_N",
+"sp": "N",
+"t": "The lion needs about seven kilos of meat a day.",
+"gap": 0.49
+},
+{
+"id": "089_N",
+"sp": "N",
+"t": "On the savannah, he hunts zebras and antelopes.",
+"gap": 0.33
+},
+{
+"id": "090_N",
+"sp": "N",
+"t": "Even there, most of his hunts fail.",
+"gap": 0.41
+},
+{
+"id": "091_N",
+"sp": "N",
+"t": "Here, the prey is small, fast, and hidden.",
+"gap": 0.49
+},
+{
+"id": "092_N",
+"sp": "N",
+"t": "On day five, he finally catches a capybara,",
+"gap": 0.29
+},
+{
+"id": "093_N",
+"sp": "N",
+"t": "the world's biggest rodent.",
+"gap": 0.41
+},
+{
+"id": "094_N",
+"sp": "N",
+"t": "It's not a zebra, but it's dinner.",
+"gap": 0.55
+},
+{
+"id": "095_N",
+"sp": "N",
+"t": "The hundred men have the biggest problem of all.",
+"gap": 0.45
+},
+{
+"id": "096_N",
+"sp": "N",
+"t": "A normal man needs about 2,500 calories a day.",
+"gap": 0.29
+},
+{
+"id": "097_N",
+"sp": "N",
+"t": "Times a hundred, that's 250,000 calories every single day.",
+"gap": 0.33
+},
+{
+"id": "098_N",
+"sp": "N",
+"t": "That's about 500 cheeseburgers.",
+"gap": 0.02
+},
+{
+"id": "099_N",
+"sp": "N",
+"t": "In a jungle with no cheeseburgers.",
+"gap": 0.33
+},
+{
+"id": "100_N",
+"sp": "N",
+"t": "They fish.",
+"gap": 0.45
+},
+{
+"id": "101_N",
+"sp": "N",
+"t": "They catch almost nothing.",
+"gap": 0.51
+},
+{
+"id": "102_N",
+"sp": "N",
+"t": "They try hunting a monkey with sticks.",
+"gap": 0.59
+},
+{
+"id": "103_N",
+"sp": "N",
+"t": "The monkey throws fruit back at them.",
+"gap": 0.43
+},
+{
+"id": "104_N",
+"sp": "N",
+"t": "Then, Sam shows them grubs.",
+"gap": 0.53
+},
+{
+"id": "105_N",
+"sp": "N",
+"t": "Fat white larvae that live inside rotting palm trees.",
+"gap": 0.47
+},
+{
+"id": "106_N",
+"sp": "N",
+"t": "They're full of protein and fat.",
+"gap": 0.43
+},
+{
+"id": "107_N",
+"sp": "N",
+"t": "They taste like coconut, if coconut could wiggle.",
+"gap": 0.53
+},
+{
+"id": "108_N",
+"sp": "N",
+"t": "Half the men eat them.",
+"gap": 0.33
+},
+{
+"id": "109_N",
+"sp": "N",
+"t": "The other half go hungry.",
+"gap": 0.47
+},
+{
+"id": "110_N",
+"sp": "N",
+"t": "And Max, finally feeling better,",
+"gap": 0.02
+},
+{
+"id": "111_N",
+"sp": "N",
+"t": "finds a tree covered in round brown pods,",
+"gap": 0.15
+},
+{
+"id": "112_N",
+"sp": "N",
+"t": "as hard as cannonballs.",
+"gap": 0.41
+},
+{
+"id": "113_N",
+"sp": "N",
+"t": "Brazil nuts.",
+"gap": 0.45
+},
+{
+"id": "114_N",
+"sp": "N",
+"t": "The pods are so tough that almost no animal can crack them.",
+"gap": 0.31
+},
+{
+"id": "115_N",
+"sp": "N",
+"t": "Mostly just one small rodent with super sharp teeth.",
+"gap": 0.55
+},
+{
+"id": "116_N",
+"sp": "N",
+"t": "Max squeezes one in his hand.",
+"gap": 0.43
+},
+{
+"id": "117_N",
+"sp": "N",
+"t": "Crack!",
+"gap": 0.47
+},
+{
+"id": "118_N",
+"sp": "N",
+"t": "Inside, 20 nuts.",
+"gap": 0.43
+},
+{
+"id": "119_N",
+"sp": "N",
+"t": "He eats a hundred pods in a day.",
+"gap": 0.59
+},
+{
+"id": "120_N",
+"sp": "N",
+"t": "Round three, food, Max.",
+"gap": 0.71
+},
+{
+"id": "121_N",
+"sp": "N",
+"t": "Day eight, night.",
+"gap": 0.49
+},
+{
+"id": "122_N",
+"sp": "N",
+"t": "Jungle nights are the loudest thing you've ever heard.",
+"gap": 0.37
+},
+{
+"id": "123_N",
+"sp": "N",
+"t": "Frogs, insects, birds, howler monkeys screaming like someone is being robbed.",
+"gap": 0.41
+},
+{
+"id": "124_N",
+"sp": "N",
+"t": "And somewhere in the dark, something is watching the men's camp.",
+"gap": 0.45
+},
+{
+"id": "125_N",
+"sp": "N",
+"t": "A jaguar.",
+"gap": 0.47
+},
+{
+"id": "126_N",
+"sp": "N",
+"t": "The biggest cat in the Americas.",
+"gap": 0.61
+},
+{
+"id": "127_N",
+"sp": "N",
+"t": "Pound for pound, it has one of the strongest bites of any cat on earth.",
+"gap": 0.23
+},
+{
+"id": "128_N",
+"sp": "N",
+"t": "Strong enough to crack a turtle shell.",
+"gap": 0.43
+},
+{
+"id": "129_N",
+"sp": "N",
+"t": "Lions kill by choking their prey.",
+"gap": 0.29
+},
+{
+"id": "130_N",
+"sp": "N",
+"t": "Jaguars often go straight for the skull.",
+"gap": 0.02
+},
+{
+"id": "131_N",
+"sp": "N",
+"t": "The men don't see it.",
+"gap": 0.29
+},
+{
+"id": "132_N",
+"sp": "N",
+"t": "They only see its eyes in the firelight.",
+"gap": 0.31
+},
+{
+"id": "133_N",
+"sp": "N",
+"t": "Two yellow dots.",
+"gap": 0.25
+},
+{
+"id": "134_N",
+"sp": "N",
+"t": "Then four.",
+"gap": 0.47
+},
+{
+"id": "135_N",
+"sp": "N",
+"t": "Then gone.",
+"gap": 0.61
+},
+{
+"id": "136_N",
+"sp": "N",
+"t": "By morning, 12 men have pressed their buttons.",
+"gap": 0.53
+},
+{
+"id": "137_N",
+"sp": "N",
+"t": "Helicopters come and go all day.",
+"gap": 0.49
+},
+{
+"id": "138_N",
+"sp": "N",
+"t": "88 left.",
+"gap": 0.53
+},
+{
+"id": "139_N",
+"sp": "N",
+"t": "But the jaguar isn't the deadliest thing in the jungle.",
+"gap": 0.47
+},
+{
+"id": "140_N",
+"sp": "N",
+"t": "The deadliest animal on earth weighs about two milligrams.",
+"gap": 0.81
+},
+{
+"id": "141_N",
+"sp": "N",
+"t": "The mosquito.",
+"gap": 0.57
+},
+{
+"id": "142_N",
+"sp": "N",
+"t": "Diseases spread by mosquitoes kill more people every year than any other animal",
+"gap": 0.02
+},
+{
+"id": "143_N",
+"sp": "N",
+"t": "on the planet.",
+"gap": 0.41
+},
+{
+"id": "144_N",
+"sp": "N",
+"t": "And then there's the bullet ant.",
+"gap": 0.45
+},
+{
+"id": "145_N",
+"sp": "N",
+"t": "Its sting is often called the most painful insect sting in the world.",
+"gap": 0.45
+},
+{
+"id": "146_N",
+"sp": "N",
+"t": "People say it feels like being shot.",
+"gap": 0.47
+},
+{
+"id": "147_N",
+"sp": "N",
+"t": "On day 10, a math teacher sits on a nest.",
+"gap": 0.37
+},
+{
+"id": "148_N",
+"sp": "N",
+"t": "He presses his button before he finishes screaming.",
+"gap": 0.45
+},
+{
+"id": "149_N",
+"sp": "N",
+"t": "Max gets stung, too.",
+"gap": 0.41
+},
+{
+"id": "150_N",
+"sp": "N",
+"t": "40 times.",
+"gap": 0.51
+},
+{
+"id": "151_N",
+"sp": "N",
+"t": "He punches the air.",
+"gap": 0.31
+},
+{
+"id": "152_N",
+"sp": "N",
+"t": "It doesn't help.",
+"gap": 0.37
+},
+{
+"id": "153_N",
+"sp": "N",
+"t": "You can't win a fight against something you can't hit.",
+"gap": 0.41
+},
+{
+"id": "154_N",
+"sp": "N",
+"t": "71 men left.",
+"gap": 0.43
+},
+{
+"id": "155_N",
+"sp": "N",
+"t": "Day 12.",
+"gap": 0.02
+},
+{
+"id": "156_N",
+"sp": "N",
+"t": "The lion meets the jaguar.",
+"gap": 0.29
+},
+{
+"id": "157_N",
+"sp": "N",
+"t": "Two big cats, one riverbank.",
+"gap": 0.43
+},
+{
+"id": "158_N",
+"sp": "N",
+"t": "The jaguar weighs about 100 kilos.",
+"gap": 0.55
+},
+{
+"id": "159_N",
+"sp": "N",
+"t": "The lion weighs almost twice that.",
+"gap": 0.31
+},
+{
+"id": "160_N",
+"sp": "N",
+"t": "In a fair fight out in the open, the lion probably wins.",
+"gap": 0.35
+},
+{
+"id": "161_N",
+"sp": "N",
+"t": "But this isn't the open.",
+"gap": 0.41
+},
+{
+"id": "162_N",
+"sp": "N",
+"t": "The jaguar climbs a tree and stares down at him.",
+"gap": 0.31
+},
+{
+"id": "163_N",
+"sp": "N",
+"t": "Lions are bad climbers.",
+"gap": 0.31
+},
+{
+"id": "164_N",
+"sp": "N",
+"t": "Jaguars are excellent ones.",
+"gap": 0.45
+},
+{
+"id": "165_N",
+"sp": "N",
+"t": "They also swim.",
+"gap": 0.23
+},
+{
+"id": "166_N",
+"sp": "N",
+"t": "And they even hunt caimans, which are small crocodiles.",
+"gap": 0.43
+},
+{
+"id": "167_N",
+"sp": "N",
+"t": "The lion roars.",
+"gap": 0.02
+},
+{
+"id": "168_N",
+"sp": "N",
+"t": "The jaguar yawns.",
+"gap": 0.27
+},
+{
+"id": "169_N",
+"sp": "N",
+"t": "Then it disappears into the leaves like it was never there.",
+"gap": 0.37
+},
+{
+"id": "170_N",
+"sp": "N",
+"t": "For the first time in his life, the king isn't the scariest thing around.",
+"gap": 0.49
+},
+{
+"id": "171_N",
+"sp": "N",
+"t": "Day 14.",
+"gap": 0.53
+},
+{
+"id": "172_N",
+"sp": "N",
+"t": "The fight the internet has been waiting for.",
+"gap": 0.41
+},
+{
+"id": "173_N",
+"sp": "N",
+"t": "The lion is hungry.",
+"gap": 0.45
+},
+{
+"id": "174_N",
+"sp": "N",
+"t": "Really hungry.",
+"gap": 0.39
+},
+{
+"id": "175_N",
+"sp": "N",
+"t": "He's lost 20 kilos and he can smell 71 men all in one place.",
+"gap": 0.41
+},
+{
+"id": "176_N",
+"sp": "N",
+"t": "He comes at night without a sound.",
+"gap": 0.37
+},
+{
+"id": "177_N",
+"sp": "N",
+"t": "Danny sees him first.",
+"gap": 0.02
+},
+{
+"id": "178_N",
+"sp": "N",
+"t": "And for the first time, the loudest man in the jungle can't make a sound.",
+"gap": 0.37
+},
+{
+"id": "179_N",
+"sp": "N",
+"t": "But Sam stands up.",
+"gap": 0.37
+},
+{
+"id": "180_SAM",
+"sp": "SAM",
+"t": "Fire! Everyone! Now!",
+"gap": 0.17
+},
+{
+"id": "181_SAM",
+"sp": "SAM",
+"t": "Stand together!",
+"gap": 0.41
+},
+{
+"id": "182_N",
+"sp": "N",
+"t": "71 men grab burning branches.",
+"gap": 0.43
+},
+{
+"id": "183_N",
+"sp": "N",
+"t": "They don't run.",
+"gap": 0.25
+},
+{
+"id": "184_N",
+"sp": "N",
+"t": "They make a wall.",
+"gap": 0.31
+},
+{
+"id": "185_N",
+"sp": "N",
+"t": "Shoulder to shoulder, shouting as loud as they can, waving fire.",
+"gap": 0.43
+},
+{
+"id": "186_N",
+"sp": "N",
+"t": "Most big cats won't attack a big group that stands its ground.",
+"gap": 0.33
+},
+{
+"id": "187_N",
+"sp": "N",
+"t": "They're looking for something weak and alone.",
+"gap": 0.35
+},
+{
+"id": "188_N",
+"sp": "N",
+"t": "And a wall of 71 screaming men holding fire",
+"gap": 0.02
+},
+{
+"id": "189_N",
+"sp": "N",
+"t": "is not weak and not alone.",
+"gap": 0.49
+},
+{
+"id": "190_N",
+"sp": "N",
+"t": "The lion stops.",
+"gap": 0.53
+},
+{
+"id": "191_N",
+"sp": "N",
+"t": "Looks at the fire.",
+"gap": 0.33
+},
+{
+"id": "192_N",
+"sp": "N",
+"t": "Looks at the men.",
+"gap": 0.23
+},
+{
+"id": "193_N",
+"sp": "N",
+"t": "And slowly walks back into the dark.",
+"gap": 0.43
+},
+{
+"id": "194_N",
+"sp": "N",
+"t": "One lion versus one man?",
+"gap": 0.37
+},
+{
+"id": "195_N",
+"sp": "N",
+"t": "Lion. Every time.",
+"gap": 0.37
+},
+{
+"id": "196_N",
+"sp": "N",
+"t": "One lion versus 100 men who work together?",
+"gap": 0.29
+},
+{
+"id": "197_N",
+"sp": "N",
+"t": "That's a very different fight.",
+"gap": 0.43
+},
+{
+"id": "198_N",
+"sp": "N",
+"t": "Round 4.",
+"gap": 0.31
+},
+{
+"id": "199_N",
+"sp": "N",
+"t": "The lion versus the 100 men.",
+"gap": 0.37
+},
+{
+"id": "200_N",
+"sp": "N",
+"t": "The men.",
+"gap": 0.39
+},
+{
+"id": "201_N",
+"sp": "N",
+"t": "Day 18.",
+"gap": 0.51
+},
+{
+"id": "202_N",
+"sp": "N",
+"t": "Max meets the lion.",
+"gap": 0.29
+},
+{
+"id": "203_N",
+"sp": "N",
+"t": "On the same riverbank at the same time.",
+"gap": 0.02
+},
+{
+"id": "204_N",
+"sp": "N",
+"t": "The lion is starving.",
+"gap": 0.37
+},
+{
+"id": "205_N",
+"sp": "N",
+"t": "Max is alone.",
+"gap": 0.37
+},
+{
+"id": "206_N",
+"sp": "N",
+"t": "They stare at each other.",
+"gap": 0.63
+},
+{
+"id": "207_N",
+"sp": "N",
+"t": "The lion crouches.",
+"gap": 0.61
+},
+{
+"id": "208_N",
+"sp": "N",
+"t": "Max could end this in one second.",
+"gap": 0.47
+},
+{
+"id": "209_N",
+"sp": "N",
+"t": "One punch.",
+"gap": 0.73
+},
+{
+"id": "210_N",
+"sp": "N",
+"t": "He doesn't.",
+"gap": 0.47
+},
+{
+"id": "211_N",
+"sp": "N",
+"t": "He reaches into his pocket for a Brazil nut.",
+"gap": 0.53
+},
+{
+"id": "212_N",
+"sp": "N",
+"t": "Then he remembers.",
+"gap": 0.57
+},
+{
+"id": "213_N",
+"sp": "N",
+"t": "Lions don't eat nuts.",
+"gap": 0.71
+},
+{
+"id": "214_N",
+"sp": "N",
+"t": "So Max catches a fish with his bare hands.",
+"gap": 0.25
+},
+{
+"id": "215_N",
+"sp": "N",
+"t": "A big one!",
+"gap": 0.13
+},
+{
+"id": "216_N",
+"sp": "N",
+"t": "And throws it across the river.",
+"gap": 0.49
+},
+{
+"id": "217_N",
+"sp": "N",
+"t": "The lion sniffs it.",
+"gap": 0.43
+},
+{
+"id": "218_N",
+"sp": "N",
+"t": "Eats it.",
+"gap": 0.02
+},
+{
+"id": "219_N",
+"sp": "N",
+"t": "Looks at Max for a long time.",
+"gap": 0.43
+},
+{
+"id": "220_N",
+"sp": "N",
+"t": "And leaves.",
+"gap": 0.83
+},
+{
+"id": "221_N",
+"sp": "N",
+"t": "Round 5.",
+"gap": 0.45
+},
+{
+"id": "222_N",
+"sp": "N",
+"t": "The jungle.",
+"gap": 0.55
+},
+{
+"id": "223_N",
+"sp": "N",
+"t": "Nobody wins.",
+"gap": 0.51
+},
+{
+"id": "224_N",
+"sp": "N",
+"t": "Day 20.",
+"gap": 0.55
+},
+{
+"id": "225_N",
+"sp": "N",
+"t": "The jungle starts winning.",
+"gap": 0.79
+},
+{
+"id": "226_N",
+"sp": "N",
+"t": "Everyone gets weaker in different ways.",
+"gap": 0.61
+},
+{
+"id": "227_N",
+"sp": "N",
+"t": "The lion is now 30 kilos lighter.",
+"gap": 0.51
+},
+{
+"id": "228_N",
+"sp": "N",
+"t": "His paws are cut.",
+"gap": 0.15
+},
+{
+"id": "229_N",
+"sp": "N",
+"t": "And he hasn't slept properly in weeks.",
+"gap": 0.69
+},
+{
+"id": "230_N",
+"sp": "N",
+"t": "On the savannah, lions sleep up to 20 hours a day.",
+"gap": 0.47
+},
+{
+"id": "231_N",
+"sp": "N",
+"t": "Here, every sound wakes him.",
+"gap": 0.47
+},
+{
+"id": "232_N",
+"sp": "N",
+"t": "The men start breaking.",
+"gap": 0.57
+},
+{
+"id": "233_N",
+"sp": "N",
+"t": "Danny wants to march out of the jungle and find a road.",
+"gap": 0.39
+},
+{
+"id": "234_N",
+"sp": "N",
+"t": "Sam says it's a terrible idea.",
+"gap": 0.39
+},
+{
+"id": "235_N",
+"sp": "N",
+"t": "You can't see the sun under the trees,",
+"gap": 0.19
+},
+{
+"id": "236_N",
+"sp": "N",
+"t": "and it's easy to walk in circles.",
+"gap": 0.59
+},
+{
+"id": "237_N",
+"sp": "N",
+"t": "Danny calls Sam a farm boy.",
+"gap": 0.67
+},
+{
+"id": "238_N",
+"sp": "N",
+"t": "30 men follow Danny.",
+"gap": 0.43
+},
+{
+"id": "239_N",
+"sp": "N",
+"t": "Three days later, they press their buttons.",
+"gap": 0.27
+},
+{
+"id": "240_N",
+"sp": "N",
+"t": "One by one.",
+"gap": 0.53
+},
+{
+"id": "241_N",
+"sp": "N",
+"t": "Lost.",
+"gap": 0.59
+},
+{
+"id": "242_N",
+"sp": "N",
+"t": "41 men left.",
+"gap": 0.59
+},
+{
+"id": "243_N",
+"sp": "N",
+"t": "And Max?",
+"gap": 0.55
+},
+{
+"id": "244_N",
+"sp": "N",
+"t": "Max has a different problem.",
+"gap": 0.43
+},
+{
+"id": "245_N",
+"sp": "N",
+"t": "He's completely alone.",
+"gap": 0.53
+},
+{
+"id": "246_N",
+"sp": "N",
+"t": "He starts talking to a rock.",
+"gap": 0.02
+},
+{
+"id": "247_N",
+"sp": "N",
+"t": "He names it Theo.",
+"gap": 0.63
+},
+{
+"id": "248_N",
+"sp": "N",
+"t": "Scientists have found that long periods of loneliness",
+"gap": 0.02
+},
+{
+"id": "249_N",
+"sp": "N",
+"t": "can be as hard on the body as not sleeping or eating.",
+"gap": 0.55
+},
+{
+"id": "250_N",
+"sp": "N",
+"t": "Max can lift a car.",
+"gap": 0.71
+},
+{
+"id": "251_N",
+"sp": "N",
+"t": "He can't lift that.",
+"gap": 0.95
+},
+{
+"id": "252_N",
+"sp": "N",
+"t": "Round 5.",
+"gap": 0.51
+},
+{
+"id": "253_N",
+"sp": "N",
+"t": "The jungle.",
+"gap": 0.75
+},
+{
+"id": "254_N",
+"sp": "N",
+"t": "Nobody wins.",
+"gap": 1.03
+},
+{
+"id": "255_N",
+"sp": "N",
+"t": "Day 29.",
+"gap": 0.59
+},
+{
+"id": "256_N",
+"sp": "N",
+"t": "It starts raining at midnight.",
+"gap": 0.41
+},
+{
+"id": "257_N",
+"sp": "N",
+"t": "And it doesn't stop.",
+"gap": 0.55
+},
+{
+"id": "258_N",
+"sp": "N",
+"t": "The Amazon gets more rain than almost anywhere on earth.",
+"gap": 0.43
+},
+{
+"id": "259_N",
+"sp": "N",
+"t": "In the wet season,",
+"gap": 0.02
+},
+{
+"id": "260_N",
+"sp": "N",
+"t": "rivers can rise several meters,",
+"gap": 0.19
+},
+{
+"id": "261_N",
+"sp": "N",
+"t": "and huge parts of the forest go underwater.",
+"gap": 0.51
+},
+{
+"id": "262_N",
+"sp": "N",
+"t": "By morning, the river is a monster.",
+"gap": 0.59
+},
+{
+"id": "263_N",
+"sp": "N",
+"t": "The men's camp is gone.",
+"gap": 0.53
+},
+{
+"id": "264_N",
+"sp": "N",
+"t": "41 men are standing on a muddy island",
+"gap": 0.02
+},
+{
+"id": "265_N",
+"sp": "N",
+"t": "that's getting smaller every minute.",
+"gap": 0.43
+},
+{
+"id": "266_N",
+"sp": "N",
+"t": "Sam knows there's high ground on the other side,",
+"gap": 0.19
+},
+{
+"id": "267_N",
+"sp": "N",
+"t": "but the river is 50 meters wide and moving like a highway.",
+"gap": 0.51
+},
+{
+"id": "268_N",
+"sp": "N",
+"t": "On a fallen tree in the middle of the river,",
+"gap": 0.15
+},
+{
+"id": "269_N",
+"sp": "N",
+"t": "there's the lion.",
+"gap": 0.39
+},
+{
+"id": "270_N",
+"sp": "N",
+"t": "Soaking wet, exhausted,",
+"gap": 0.43
+},
+{
+"id": "271_N",
+"sp": "N",
+"t": "holding on with his claws.",
+"gap": 0.23
+},
+{
+"id": "272_N",
+"sp": "N",
+"t": "Lions can swim, but not in this.",
+"gap": 0.51
+},
+{
+"id": "273_N",
+"sp": "N",
+"t": "And on the far bank, safe on high ground, is Max.",
+"gap": 0.63
+},
+{
+"id": "274_N",
+"sp": "N",
+"t": "He could just stay there, wait one more day,",
+"gap": 0.27
+},
+{
+"id": "275_N",
+"sp": "N",
+"t": "win the whole game.",
+"gap": 0.69
+},
+{
+"id": "276_N",
+"sp": "N",
+"t": "He looks at his wristband, then at the men,",
+"gap": 0.43
+},
+{
+"id": "277_N",
+"sp": "N",
+"t": "then at the lion.",
+"gap": 0.61
+},
+{
+"id": "278_N",
+"sp": "N",
+"t": "He walks into the river.",
+"gap": 0.45
+},
+{
+"id": "279_N",
+"sp": "N",
+"t": "The water hits him like a truck.",
+"gap": 0.43
+},
+{
+"id": "280_N",
+"sp": "N",
+"t": "He grabs the biggest tree on the bank,",
+"gap": 0.15
+},
+{
+"id": "281_N",
+"sp": "N",
+"t": "the kind that takes 100 years to grow,",
+"gap": 0.13
+},
+{
+"id": "282_N",
+"sp": "N",
+"t": "and pushes it over, right across the river.",
+"gap": 0.02
+},
+{
+"id": "283_N",
+"sp": "N",
+"t": "The trunk crashes down onto the island.",
+"gap": 0.31
+},
+{
+"id": "284_N",
+"sp": "N",
+"t": "A bridge!",
+"gap": 0.61
+},
+{
+"id": "285_N",
+"sp": "N",
+"t": "Go! Sam shouts.",
+"gap": 0.37
+},
+{
+"id": "286_N",
+"sp": "N",
+"t": "And 41 men run across a tree trunk in a flood,",
+"gap": 0.15
+},
+{
+"id": "287_N",
+"sp": "N",
+"t": "holding each other's shirts one by one,",
+"gap": 0.02
+},
+{
+"id": "288_N",
+"sp": "N",
+"t": "while Max holds the tree steady with both arms.",
+"gap": 0.51
+},
+{
+"id": "289_N",
+"sp": "N",
+"t": "The last man crosses, and then Max looks back at the lion.",
+"gap": 0.39
+},
+{
+"id": "290_N",
+"sp": "N",
+"t": "The fallen tree the lion is holding",
+"gap": 0.02
+},
+{
+"id": "291_N",
+"sp": "N",
+"t": "is starting to break apart.",
+"gap": 0.43
+},
+{
+"id": "292_N",
+"sp": "N",
+"t": "Max wades in, chest deep, then neck deep.",
+"gap": 0.39
+},
+{
+"id": "293_N",
+"sp": "N",
+"t": "He grabs the lion by the scruff of the neck,",
+"gap": 0.02
+},
+{
+"id": "294_N",
+"sp": "N",
+"t": "the way a mother lion carries her cubs.",
+"gap": 0.35
+},
+{
+"id": "295_N",
+"sp": "N",
+"t": "200 kilos of wet, furious cat, and he swims.",
+"gap": 0.75
+},
+{
+"id": "296_N",
+"sp": "N",
+"t": "On the bank, 41 men watch a teenager drag a lion out of a flood.",
+"gap": 0.49
+},
+{
+"id": "297_N",
+"sp": "N",
+"t": "The lion coughs, shakes, looks at Max,",
+"gap": 0.25
+},
+{
+"id": "298_N",
+"sp": "N",
+"t": "then walks to the men's fire and lies down next to it.",
+"gap": 0.51
+},
+{
+"id": "299_N",
+"sp": "N",
+"t": "Nobody moves, nobody breathes, and the lion falls asleep.",
+"gap": 0.91
+},
+{
+"id": "300_N",
+"sp": "N",
+"t": "Day 30.",
+"gap": 0.51
+},
+{
+"id": "301_N",
+"sp": "N",
+"t": "The helicopters come.",
+"gap": 0.59
+},
+{
+"id": "302_N",
+"sp": "N",
+"t": "So who survived the jungle?",
+"gap": 0.57
+},
+{
+"id": "303_N",
+"sp": "N",
+"t": "The lion survived.",
+"gap": 0.61
+},
+{
+"id": "304_N",
+"sp": "N",
+"t": "30 kilos lighter, but alive.",
+"gap": 0.53
+},
+{
+"id": "305_N",
+"sp": "N",
+"t": "The jungle wasn't his home, and he still made it.",
+"gap": 0.31
+},
+{
+"id": "306_N",
+"sp": "N",
+"t": "41 of the 100 men survived.",
+"gap": 0.31
+},
+{
+"id": "307_N",
+"sp": "N",
+"t": "Not because they were strong, because they had fire,",
+"gap": 0.45
+},
+{
+"id": "308_N",
+"sp": "N",
+"t": "a quiet farm boy who knew things, and each other.",
+"gap": 0.47
+},
+{
+"id": "309_N",
+"sp": "N",
+"t": "And Max survived.",
+"gap": 0.45
+},
+{
+"id": "310_N",
+"sp": "N",
+"t": "But here's what he learned.",
+"gap": 0.37
+},
+{
+"id": "311_N",
+"sp": "N",
+"t": "Strength helped him build a house and crack nuts.",
+"gap": 0.41
+},
+{
+"id": "312_N",
+"sp": "N",
+"t": "It didn't help with the germs, or the insects,",
+"gap": 0.02
+},
+{
+"id": "313_N",
+"sp": "N",
+"t": "or the loneliness.",
+"gap": 0.59
+},
+{
+"id": "314_N",
+"sp": "N",
+"t": "The two times he really mattered, it wasn't because he was strong.",
+"gap": 0.37
+},
+{
+"id": "315_N",
+"sp": "N",
+"t": "It was because he chose to help.",
+"gap": 0.53
+},
+{
+"id": "316_N",
+"sp": "N",
+"t": "So who actually wins?",
+"gap": 0.43
+},
+{
+"id": "317_N",
+"sp": "N",
+"t": "Not the strongest, not the biggest.",
+"gap": 0.51
+},
+{
+"id": "318_N",
+"sp": "N",
+"t": "The jungle doesn't care how strong you are.",
+"gap": 0.27
+},
+{
+"id": "319_N",
+"sp": "N",
+"t": "It only cares whether you can work with others.",
+"gap": 0.75
+},
+{
+"id": "320_N",
+"sp": "N",
+"t": "The last helicopter lands.",
+"gap": 0.43
+},
+{
+"id": "321_N",
+"sp": "N",
+"t": "The pilot takes off his helmet.",
+"gap": 0.49
+},
+{
+"id": "322_N",
+"sp": "N",
+"t": "It's Theo.",
+"gap": 0.49
+},
+{
+"id": "323_THEO",
+"sp": "THEO",
+"t": "You named a rock after me?",
+"gap": 0.35
+},
+{
+"id": "324_MAX",
+"sp": "MAX",
+"t": "It was a good rock.",
+"gap": 0.41
+},
+{
+"id": "325_THEO",
+"sp": "THEO",
+"t": "Get in, mom's furious.",
+"gap": 0.02
+},
+{
+"id": "326_THEO",
+"sp": "THEO",
+"t": "And our sister did something.",
+"gap": 0.41
+},
+{
+"id": "327_THEO",
+"sp": "THEO",
+"t": "You need to see it.",
+"gap": 0.53
+},
+{
+"id": "328_N",
+"sp": "N",
+"t": "So who would you bet on?",
+"gap": 0.39
+},
+{
+"id": "329_N",
+"sp": "N",
+"t": "The lion, the 100 men, or Max?",
+"gap": 0.53
+},
+{
+"id": "330_N",
+"sp": "N",
+"t": "Tell us in the comments.",
+"gap": 0.41
+},
+{
+"id": "331_N",
+"sp": "N",
+"t": "And if you'd have jumped into that river too,",
+"gap": 0.31
+},
+{
+"id": "332_N",
+"sp": "N",
+"t": "hit like and subscribe for the next one.",
+"gap": 0.25
+}
+]
