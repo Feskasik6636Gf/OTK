@@ -1,0 +1,106 @@
+name: render-whatif
+on:
+  push:
+    branches: [ccr-35429cab-utw896]
+    paths:
+      - "whatif_render/src/**"
+      - "whatif_render/render-trigger.txt"
+      - ".github/workflows/render-whatif.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: render-whatif
+  cancel-in-progress: true
+env:
+  CHUNK: "480"
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      chunks: ${{ steps.p.outputs.chunks }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: p
+        run: |
+          T=$(node -e "console.log(require('./whatif_render/src/story/timeline.json').total)")
+          N=$(( (T + CHUNK - 1) / CHUNK ))
+          echo "total=$T chunks=$N"
+          echo "chunks=$(node -e "console.log(JSON.stringify([...Array($N).keys()]))")" >> $GITHUB_OUTPUT
+  render:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        i: ${{ fromJSON(needs.plan.outputs.chunks) }}
+    defaults:
+      run:
+        working-directory: whatif_render
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: whatif_render/package-lock.json
+      - run: npm ci --no-audit --no-fund
+      - name: Placeholder audio (render is muted, sound is mixed separately)
+        run: |
+          sudo apt-get install -y -qq ffmpeg >/dev/null 2>&1 || true
+          mkdir -p public/vo public/sfx
+          ffmpeg -v error -f lavfi -i anullsrc=r=44100:cl=mono -t 0.2 /tmp/s.wav
+          node -e "for (const l of require('./src/story/timeline.json').lines) require('fs').copyFileSync('/tmp/s.wav','public/'+l.file)"
+          cp /tmp/s.wav public/sfx/bed.wav
+      - name: Render chunk ${{ matrix.i }}
+        run: |
+          T=$(node -e "console.log(require('./src/story/timeline.json').total)")
+          S=$(( ${{ matrix.i }} * CHUNK )); E=$(( S + CHUNK - 1 )); [ $E -ge $T ] && E=$(( T - 1 ))
+          echo "frames $S-$E"
+          n=$(printf %03d ${{ matrix.i }})
+          for a in 1 2 3; do
+            npx remotion render Long out/c$n.mp4 --frames=$S-$E --muted --gl=angle --concurrency=4 --crf=18 --log=error --timeout=120000 && break
+            echo "retry $a"
+          done
+          ls -la out/c$n.mp4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chunk-${{ matrix.i }}
+          path: whatif_render/out/c*.mp4
+          retention-days: 5
+          compression-level: 0
+  merge:
+    needs: render
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: chunk-*
+          path: chunks
+          merge-multiple: true
+      - name: Join chunks
+        run: |
+          sudo apt-get install -y -qq ffmpeg >/dev/null 2>&1 || true
+          cd chunks && ls *.mp4 | sort | sed "s/.*/file '&'/" > list.txt && cat list.txt | wc -l
+          ffmpeg -v error -y -f concat -safe 0 -i list.txt -c copy ../video_silent.mp4
+          cd .. && ls -la video_silent.mp4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: video-silent
+          path: video_silent.mp4
+          retention-days: 7
+          compression-level: 0
+      - name: Push video in parts
+        run: |
+          mkdir -p whatif_render/result && rm -f whatif_render/result/*
+          split -b 90m -d -a 2 video_silent.mp4 whatif_render/result/video_silent.part
+          sha256sum video_silent.mp4 > whatif_render/result/sha256.txt
+          git config user.name "render-bot"
+          git config user.email "render-bot@users.noreply.github.com"
+          git add whatif_render/result
+          git commit -m "whatif: rendered video [skip ci]"
+          for i in 1 2 3 4 5; do git pull --rebase -q origin ${{ github.ref_name }} && git push -q origin HEAD:${{ github.ref_name }} && exit 0; sleep 10; done
+          exit 1
