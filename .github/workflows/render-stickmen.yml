@@ -1,0 +1,62 @@
+name: render-stickmen
+on:
+  push:
+    branches: [ccr-740db878-da1k08]
+    paths: ['stickmen/**', '.github/workflows/render-stickmen.yml']
+  workflow_dispatch:
+jobs:
+  chunks:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        n: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    defaults:
+      run:
+        working-directory: stickmen
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: 22}
+      - run: npm ci
+      - run: npx remotion browser ensure
+      - name: render chunk
+        run: |
+          TOTAL=$(node -e "console.log(require('./src/story/timeline.json').total)")
+          S=$(( ${{ matrix.n }} * 2500 ))
+          E=$(( S + 2499 )); [ $E -ge $TOTAL ] && E=$(( TOTAL - 1 ))
+          mkdir -p out
+          npx remotion render Long out/c.mp4 --frames=$S-$E --muted --gl=angle --concurrency=4 --crf=18 --log=error --timeout=240000
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chunk-${{ matrix.n }}
+          path: stickmen/out/c.mp4
+          retention-days: 3
+  join:
+    needs: chunks
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: stickmen
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: 22}
+      - run: npm ci
+      - run: npx remotion browser ensure
+      - uses: actions/download-artifact@v4
+        with:
+          path: chunks
+      - name: place chunks
+        run: |
+          mkdir -p out/chunks_Long
+          for n in 0 1 2 3 4 5 6 7 8; do cp ../chunks/chunk-$n/c.mp4 out/chunks_Long/c0$n.mp4 || cp chunks/chunk-$n/c.mp4 out/chunks_Long/c0$n.mp4; done
+          ls -la out/chunks_Long
+      - run: node tools/check-plans.mjs
+      - run: node tools/make-sound.mjs
+      - run: node tools/render.mjs Long
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Long-final
+          path: stickmen/out/Long.mp4
+          retention-days: 14
