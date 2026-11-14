@@ -96,7 +96,9 @@ FONTS = os.path.join(STUDIO, "fonts").replace("\\", "/").replace(":", "\\:")
 os.chdir(vdir)
 dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
                             os.path.join("audio", "mix.m4a")], capture_output=True, text=True).stdout)
-base = ["ffmpeg", "-v", "error", "-y", "-framerate", "30", "-i", os.path.join("frames", "%04d.png"),
+SRC_V = os.path.join("out", "story_frames.mp4")
+vin = ["-i", SRC_V] if os.path.exists(SRC_V) else ["-framerate", "30", "-i", os.path.join("frames", "%04d.png")]
+base = ["ffmpeg", "-v", "error", "-y"] + vin + [
         "-i", os.path.join("audio", "mix.m4a")]
 enc = ["-c:v", "libx264", "-preset", "slow", "-crf", "16", "-pix_fmt", "yuv420p", "-c:a", "copy", "-t", f"{dur:.3f}",
        "-movflags", "+faststart"]

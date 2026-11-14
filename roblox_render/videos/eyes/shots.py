@@ -351,8 +351,8 @@ def s19(t0, t1):
     k.pose(w(68), hipz=-0.3, torso=(0, 10, 0))
     tg = (-0.98, -1.6, 5.8)
     cam = Cam()
-    cam.key(t0, (4.6, -0.4, 6.4), tg, lens=30, focus=tg, fstop=2.4)
-    cam.key(t1, (3.4, -0.9, 6.1), tg, lens=34, focus=tg, fstop=2.0)
+    cam.key(t0, (4.4, 1.2, 6.5), tg, lens=28, focus=tg, fstop=2.4)
+    cam.key(t1, (3.6, 0.8, 6.3), tg, lens=32, focus=tg, fstop=2.0)
     cam.handheld(0.7)
     sfx(w(66), "blink", 0.6)
 
@@ -362,9 +362,13 @@ def s20(t0, t1):
     car_int(True, t0, t1)
     m, k = car_cast(t0, t1, "angry", "scared")
     m.face(t0, "smile")
+    for nm in ("ci_side1", "ci_win1", "ci_pil-4.61", "ci_pil0.51", "ci_pil5.61", "ci_seat_p", "ci_seatb_p", "ci_rest_p"):
+        ob = bpy.data.objects.get(nm)
+        if ob:
+            bpy.data.objects.remove(ob, do_unlink=True)
     tg = (0.9, -1.6, 5.4)
     cam = Cam()
-    cam.push(t0, t1, tg, 13, 11, yaw=180, yaw1=172, pitch=4, lens=26, fstop=5)
+    cam.push(t0, t1, tg, 12, 10, yaw=180, yaw1=170, pitch=6, lens=26, fstop=5)
     cam.handheld(0.6)
 
 
