@@ -4,3 +4,6 @@ roblox_render/videos/*/audio/trimmed.wav
 roblox_render/videos/*/frames/
 roblox_render/videos/*/preview/
 roblox_render/videos/*/blend/
+roblox_render/videos/*/render_log_*.txt
+roblox_render/videos/*/audio/mix.m4a
+roblox_render/videos/*/audio/music.wav
