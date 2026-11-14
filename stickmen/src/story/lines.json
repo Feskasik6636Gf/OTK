@@ -1,0 +1,2714 @@
+[
+ {
+  "id": "001_N",
+  "sp": "N",
+  "t": "You wake up and your knees hurt.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "002_N",
+  "sp": "N",
+  "t": "Not a little.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "003_N",
+  "sp": "N",
+  "t": "Like someone replaced them overnight with rusty hinges.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "004_N",
+  "sp": "N",
+  "t": "You sit up and your back makes a sound",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "005_N",
+  "sp": "N",
+  "t": "like a bag of popcorn.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "006_N",
+  "sp": "N",
+  "t": "You reach for your glasses.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "007_N",
+  "sp": "N",
+  "t": "You don't wear glasses, but they're on the nightstand,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "008_N",
+  "sp": "N",
+  "t": "and when you put them on,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "009_N",
+  "sp": "N",
+  "t": "the world finally comes into focus.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "010_N",
+  "sp": "N",
+  "t": "You walk to the bathroom mirror",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "011_N",
+  "sp": "N",
+  "t": "and an 83-year-old man looks back at you.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "012_N",
+  "sp": "N",
+  "t": "White hair, deep lines around the eyes,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "013_N",
+  "sp": "N",
+  "t": "hands covered in brown spots,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "014_N",
+  "sp": "N",
+  "t": "and in his eyes,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "015_N",
+  "sp": "N",
+  "t": "exactly the same scared look you had yesterday",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "016_N",
+  "sp": "N",
+  "t": "when you were 16.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "017_N",
+  "sp": "N",
+  "t": "Your mom knocks on the door.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "018_N",
+  "sp": "MOM",
+  "t": "Honey, you're going to be late for school.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "019_N",
+  "sp": "N",
+  "t": "You open it.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "020_N",
+  "sp": "N",
+  "t": "She looks at you for three seconds,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "021_N",
+  "sp": "N",
+  "t": "and she says very calmly,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "022_N",
+  "sp": "MOM",
+  "t": "okay, we'll figure this out,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "023_N",
+  "sp": "N",
+  "t": "because here's the part you don't know yet.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "024_N",
+  "sp": "N",
+  "t": "Tomorrow morning, you're going to wake up",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "025_N",
+  "sp": "N",
+  "t": "at a different age,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "026_N",
+  "sp": "N",
+  "t": "and the day after that, another one.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "027_N",
+  "sp": "N",
+  "t": "Every morning for the next 100 days,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "028_N",
+  "sp": "N",
+  "t": "a number will be picked,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "029_N",
+  "sp": "N",
+  "t": "and you won't know what it is",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "030_N",
+  "sp": "N",
+  "t": "until you look in the mirror.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "031_N",
+  "sp": "N",
+  "t": "By the end, you'll understand the rule behind it,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "032_N",
+  "sp": "N",
+  "t": "and the last morning will be an age nobody expects.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "033_N",
+  "sp": "N",
+  "t": "But first, you need a cane and a ride to school.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "034_N",
+  "sp": "N",
+  "t": "Day one, your best friend Eli sees you at the bus stop",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "035_N",
+  "sp": "N",
+  "t": "and drops his skateboard.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "036_N",
+  "sp": "ELI",
+  "t": "Dude, is that you?",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "037_N",
+  "sp": "N",
+  "t": "You nod.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "038_N",
+  "sp": "N",
+  "t": "He walks around you twice, slowly.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "039_N",
+  "sp": "ELI",
+  "t": "That's the coolest thing I've ever seen.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "040_N",
+  "sp": "N",
+  "t": "Then he asks if you can buy him an energy drink.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "041_N",
+  "sp": "N",
+  "t": "At 83, you can buy anything you want,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "042_N",
+  "sp": "N",
+  "t": "and nobody asks any questions.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "043_N",
+  "sp": "N",
+  "t": "You're a very convincing old man.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "044_N",
+  "sp": "N",
+  "t": "In the cafeteria, the lunch lady gives you",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "045_N",
+  "sp": "N",
+  "t": "the senior discount before you even ask.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "046_N",
+  "sp": "N",
+  "t": "In class, your history teacher",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "047_N",
+  "sp": "N",
+  "t": "asks what the world was like in 1950.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "048_N",
+  "sp": "N",
+  "t": "You make something up.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "049_N",
+  "sp": "N",
+  "t": "The whole class takes notes.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "050_N",
+  "sp": "N",
+  "t": "Here's what's strange.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "051_N",
+  "sp": "N",
+  "t": "You can still run through every math formula",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "052_N",
+  "sp": "N",
+  "t": "you learned last week.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "053_N",
+  "sp": "N",
+  "t": "Your brain is exactly the same.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "054_N",
+  "sp": "N",
+  "t": "Only your body is different.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "055_N",
+  "sp": "N",
+  "t": "And that body has some surprises.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "056_N",
+  "sp": "N",
+  "t": "By the time people reach their 80s,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "057_N",
+  "sp": "N",
+  "t": "nearly half of them have some hearing loss.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "058_N",
+  "sp": "N",
+  "t": "At lunch, you can't hear Eli talk over the noise.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "059_N",
+  "sp": "N",
+  "t": "You nod and say, mm-hmm, to everything.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "060_N",
+  "sp": "N",
+  "t": "He tells you his dog died.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "061_N",
+  "sp": "N",
+  "t": "You say, mm-hmm, he's stunned.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "062_N",
+  "sp": "N",
+  "t": "You spend the whole afternoon trying to fix it.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "063_N",
+  "sp": "N",
+  "t": "By evening, your legs are shaking.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "064_N",
+  "sp": "N",
+  "t": "You go to bed at 7.30.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "065_N",
+  "sp": "N",
+  "t": "Day two, you open your eyes,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "066_N",
+  "sp": "N",
+  "t": "and the ceiling looks enormous.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "067_N",
+  "sp": "N",
+  "t": "You try to sit up and almost fall out of bed.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "068_N",
+  "sp": "N",
+  "t": "Your legs are too short.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "069_N",
+  "sp": "N",
+  "t": "You walk to the bathroom,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "070_N",
+  "sp": "N",
+  "t": "and the sink is above your head.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "071_N",
+  "sp": "N",
+  "t": "You climb on the toilet to look in the mirror.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "072_N",
+  "sp": "N",
+  "t": "A six-year-old stares back.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "073_N",
+  "sp": "N",
+  "t": "Round cheeks, missing front tooth,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "074_N",
+  "sp": "N",
+  "t": "hair sticking straight up.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "075_N",
+  "sp": "HERO",
+  "t": "You try to say, this is a disaster.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "076_N",
+  "sp": "HERO",
+  "t": "What comes out is, fifth is a disaster.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "077_N",
+  "sp": "N",
+  "t": "Your mom comes in,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "078_N",
+  "sp": "N",
+  "t": "and she doesn't look surprised anymore.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "079_N",
+  "sp": "MOM",
+  "t": "She just kneels down and says, hey, buddy, pancakes?",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "080_N",
+  "sp": "N",
+  "t": "And here's the strangest part.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "081_N",
+  "sp": "N",
+  "t": "You still think like a 16-year-old,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "082_N",
+  "sp": "N",
+  "t": "but your body doesn't.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "083_N",
+  "sp": "N",
+  "t": "A six-year-old's brain is completely different.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "084_N",
+  "sp": "N",
+  "t": "By age five, a child's brain is already",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "085_N",
+  "sp": "N",
+  "t": "about 90% of its adult size.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "086_N",
+  "sp": "N",
+  "t": "But the parts that handle self-control,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "087_N",
+  "sp": "N",
+  "t": "the parts that say, don't scream, you're in public.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "088_N",
+  "sp": "N",
+  "t": "Those parts are barely finished.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "089_N",
+  "sp": "N",
+  "t": "They won't finish until your mid-20s.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "090_N",
+  "sp": "N",
+  "t": "So when mom puts your pancakes down",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "091_N",
+  "sp": "N",
+  "t": "and the syrup runs off the plate and onto the floor,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "092_N",
+  "sp": "N",
+  "t": "you burst into tears.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "093_N",
+  "sp": "N",
+  "t": "Real, loud, ugly tears.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "094_N",
+  "sp": "N",
+  "t": "You know it's stupid.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "095_N",
+  "sp": "N",
+  "t": "You know it's syrup.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "096_N",
+  "sp": "N",
+  "t": "Your brain says, calm down.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "097_N",
+  "sp": "N",
+  "t": "Your body says, the syrup is gone and the world is over.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "098_N",
+  "sp": "N",
+  "t": "Mom hugs you anyway.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "099_N",
+  "sp": "N",
+  "t": "She doesn't say it's okay.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "100_N",
+  "sp": "N",
+  "t": "She just says, I know.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "101_N",
+  "sp": "N",
+  "t": "At school, you can't write your name.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "102_N",
+  "sp": "N",
+  "t": "A tiny boy named Danny shares his Pokemon cards with you,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "103_N",
+  "sp": "N",
+  "t": "and you spend 20 minutes watching a snail on the playground.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "104_N",
+  "sp": "N",
+  "t": "It's the best 20 minutes you've had all month.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "105_N",
+  "sp": "N",
+  "t": "Day three, 41.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "106_N",
+  "sp": "N",
+  "t": "You wake up in a body that feels completely normal,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "107_N",
+  "sp": "N",
+  "t": "strong, steady, a little tired.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "108_N",
+  "sp": "N",
+  "t": "Your back has a small ache.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "109_N",
+  "sp": "N",
+  "t": "You have a mortgage-sized worry in your chest",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "110_N",
+  "sp": "N",
+  "t": "and you don't know where it came from.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "111_N",
+  "sp": "N",
+  "t": "You go downstairs.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "112_N",
+  "sp": "N",
+  "t": "Your mom is sitting at the kitchen table,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "113_N",
+  "sp": "N",
+  "t": "even though it's two in the morning.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "114_N",
+  "sp": "N",
+  "t": "Bill's spread out in front of her.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "115_N",
+  "sp": "N",
+  "t": "She jumps when she sees you.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "116_N",
+  "sp": "MOM",
+  "t": "Oh, you're, how old are you today?",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "117_N",
+  "sp": "HERO",
+  "t": "41.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "118_N",
+  "sp": "N",
+  "t": "She laughs, a tired laugh.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "119_N",
+  "sp": "MOM",
+  "t": "I'm 41.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "120_N",
+  "sp": "N",
+  "t": "You sit down across from her",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "121_N",
+  "sp": "N",
+  "t": "and something happens that has never happened before.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "122_N",
+  "sp": "N",
+  "t": "She doesn't treat you like her kid.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "123_N",
+  "sp": "N",
+  "t": "She treats you like a person.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "124_N",
+  "sp": "N",
+  "t": "She slides one of the bills across the table.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "125_N",
+  "sp": "MOM",
+  "t": "Honestly, I don't know how we're going to pay for this.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "126_N",
+  "sp": "N",
+  "t": "You've never heard her say that, not once.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "127_N",
+  "sp": "N",
+  "t": "In 16 years, she's always had an answer.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "128_N",
+  "sp": "N",
+  "t": "You sit with her until the sun comes up.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "129_N",
+  "sp": "N",
+  "t": "You go through every bill line by line.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "130_N",
+  "sp": "N",
+  "t": "She tells you about her day.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "131_N",
+  "sp": "N",
+  "t": "Her boss, how tired she is,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "132_N",
+  "sp": "N",
+  "t": "how much she misses her mom.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "133_N",
+  "sp": "N",
+  "t": "You listen for the first time you hear her.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "134_N",
+  "sp": "N",
+  "t": "At 6 a.m., she puts her head on your shoulder.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "135_N",
+  "sp": "MOM",
+  "t": "I'm glad it's you, she says.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "136_N",
+  "sp": "MOM",
+  "t": "Whatever this is, I'm glad it's you.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "137_N",
+  "sp": "N",
+  "t": "You don't know it yet,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "138_N",
+  "sp": "N",
+  "t": "but this is the first clue.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "139_N",
+  "sp": "N",
+  "t": "Over the next week, you learn how to use it",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "140_N",
+  "sp": "N",
+  "t": "and you start to get greedy.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "141_N",
+  "sp": "N",
+  "t": "At 19, you finish a race in the top 10.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "142_N",
+  "sp": "N",
+  "t": "At 23, you fix your mom's credit card problem",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "143_N",
+  "sp": "N",
+  "t": "in one phone call.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "144_N",
+  "sp": "N",
+  "t": "At 70, you go to the movies for half price.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "145_N",
+  "sp": "N",
+  "t": "At eight, you get into the zoo for free.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "146_N",
+  "sp": "N",
+  "t": "The human body is a strange machine.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "147_N",
+  "sp": "N",
+  "t": "Babies are born with about 300 bones.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "148_N",
+  "sp": "N",
+  "t": "By adulthood, many of them fuse",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "149_N",
+  "sp": "N",
+  "t": "and you're down to 206.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "150_N",
+  "sp": "N",
+  "t": "At two years old, you can touch your toes to your ears.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "151_N",
+  "sp": "N",
+  "t": "At 60, you can't touch your toes at all.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "152_N",
+  "sp": "N",
+  "t": "So, you start planning.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "153_N",
+  "sp": "N",
+  "t": "You write the ages in a notebook.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "154_N",
+  "sp": "N",
+  "t": "Which age is best for exams?",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "155_N",
+  "sp": "N",
+  "t": "Which age is best for sports?",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "156_N",
+  "sp": "N",
+  "t": "Which age gets you into places you shouldn't be?",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "157_N",
+  "sp": "N",
+  "t": "You're proud of yourself.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "158_N",
+  "sp": "N",
+  "t": "You feel like you've solved a puzzle.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "159_N",
+  "sp": "N",
+  "t": "Then, you fail a test.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "160_N",
+  "sp": "N",
+  "t": "You wake up at four years old",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "161_N",
+  "sp": "N",
+  "t": "on the morning of a math exam.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "162_N",
+  "sp": "N",
+  "t": "You can't hold a pen.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "163_N",
+  "sp": "N",
+  "t": "You can't read the questions.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "164_N",
+  "sp": "N",
+  "t": "Your teacher looks at you with real sympathy,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "165_N",
+  "sp": "N",
+  "t": "hands you crayons and writes a zero.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "166_N",
+  "sp": "N",
+  "t": "Your grades fall off a cliff.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "167_N",
+  "sp": "N",
+  "t": "You miss four basketball practices in a row.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "168_N",
+  "sp": "N",
+  "t": "The coach tells you, we can't count on you.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "169_N",
+  "sp": "N",
+  "t": "Which is fair.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "170_N",
+  "sp": "N",
+  "t": "And then, there's Ruth.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "171_N",
+  "sp": "N",
+  "t": "Ruth sits two rows ahead of you in English.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "172_N",
+  "sp": "N",
+  "t": "For two years, you've wanted to talk to her.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "173_N",
+  "sp": "N",
+  "t": "On day 20, you wake up at 16,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "174_N",
+  "sp": "N",
+  "t": "your real age, and you finally get the courage.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "175_N",
+  "sp": "N",
+  "t": "She laughs at your joke.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "176_N",
+  "sp": "N",
+  "t": "She asks if you wanna get ice cream after school.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "177_N",
+  "sp": "N",
+  "t": "The next morning, you wake up at 45.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "178_N",
+  "sp": "N",
+  "t": "She walks up to you at your locker",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "179_N",
+  "sp": "N",
+  "t": "and she looks at you.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "180_N",
+  "sp": "N",
+  "t": "A middle-aged man in a hoodie",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "181_N",
+  "sp": "N",
+  "t": "standing in the hallway of a high school.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "182_N",
+  "sp": "N",
+  "t": "She smiles awkwardly.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "183_N",
+  "sp": "N",
+  "t": "She backs away.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "184_N",
+  "sp": "N",
+  "t": "She tells her friends,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "185_N",
+  "sp": "N",
+  "t": "she's not sure what's going on with you anymore.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "186_N",
+  "sp": "N",
+  "t": "By the end of the week, nobody sits with you at lunch.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "187_N",
+  "sp": "N",
+  "t": "Eli does, but only because he's your best friend",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "188_N",
+  "sp": "N",
+  "t": "and even he looks tired.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "189_N",
+  "sp": "ELI",
+  "t": "I just never know who I'm talking to, he says.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "190_N",
+  "sp": "ELI",
+  "t": "I don't know if I'm supposed to talk to you",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "191_N",
+  "sp": "ELI",
+  "t": "like a kid or a grown-up or a grandpa.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "192_N",
+  "sp": "HERO",
+  "t": "I don't know either, you say.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "193_N",
+  "sp": "N",
+  "t": "By day 50, you're angry.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "194_N",
+  "sp": "N",
+  "t": "You never get to be one person.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "195_N",
+  "sp": "N",
+  "t": "You start talking back to the mirror.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "196_N",
+  "sp": "HERO",
+  "t": "Why can't it just stop?",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "197_N",
+  "sp": "N",
+  "t": "The mirror doesn't answer, but your neighbor does.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "198_N",
+  "sp": "N",
+  "t": "His name is Mr. Okafor.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "199_N",
+  "sp": "N",
+  "t": "He lives alone next door and he's 83.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "200_N",
+  "sp": "N",
+  "t": "You've never really talked to him.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "201_N",
+  "sp": "N",
+  "t": "Today, you wake up at 83 too.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "202_N",
+  "sp": "N",
+  "t": "You step out onto the porch,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "203_N",
+  "sp": "N",
+  "t": "ashamed and annoyed,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "204_N",
+  "sp": "N",
+  "t": "and he's on the next porch",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "205_N",
+  "sp": "N",
+  "t": "in a chair that's too big for him, looking at the street.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "206_N",
+  "sp": "OKAFOR",
+  "t": "Rough morning, he asks.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "207_N",
+  "sp": "N",
+  "t": "You say something rude.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "208_N",
+  "sp": "N",
+  "t": "You don't remember what.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "209_N",
+  "sp": "N",
+  "t": "He doesn't flinch.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "210_N",
+  "sp": "OKAFOR",
+  "t": "I've had that face for a while, he says.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "211_N",
+  "sp": "OKAFOR",
+  "t": "You get used to it.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "212_N",
+  "sp": "N",
+  "t": "And then he starts to talk",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "213_N",
+  "sp": "N",
+  "t": "about his wife who died six years ago,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "214_N",
+  "sp": "N",
+  "t": "about his kids who live in other cities,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "215_N",
+  "sp": "N",
+  "t": "about the fact that nobody asks him anything anymore.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "216_N",
+  "sp": "N",
+  "t": "People talk to him the way you talk to a lamp.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "217_N",
+  "sp": "N",
+  "t": "They say, how are you?",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "218_N",
+  "sp": "N",
+  "t": "But they don't wait for the answer.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "219_N",
+  "sp": "N",
+  "t": "Studies of older adults often find that day to day,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "220_N",
+  "sp": "N",
+  "t": "they report being at least as happy as the young.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "221_N",
+  "sp": "N",
+  "t": "But that doesn't mean they aren't lonely.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "222_N",
+  "sp": "N",
+  "t": "Many are.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "223_N",
+  "sp": "N",
+  "t": "And loneliness hurts the body too.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "224_N",
+  "sp": "N",
+  "t": "You stay on the porch until the sun goes down.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "225_N",
+  "sp": "OKAFOR",
+  "t": "When you leave, he says, thank you.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "226_N",
+  "sp": "OKAFOR",
+  "t": "Nobody's sat here in years.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "227_N",
+  "sp": "N",
+  "t": "The next morning, you wake up at six.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "228_N",
+  "sp": "N",
+  "t": "And that's when you notice the pattern.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "229_N",
+  "sp": "N",
+  "t": "Danny, the boy with the Pokemon cards, is six.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "230_N",
+  "sp": "N",
+  "t": "He's smaller than the other kids.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "231_N",
+  "sp": "N",
+  "t": "Yesterday, some older boys took his backpack.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "232_N",
+  "sp": "N",
+  "t": "And today, you're six in his class,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "233_N",
+  "sp": "N",
+  "t": "walking right next to him.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "234_N",
+  "sp": "N",
+  "t": "When the boys come back, you stand there,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "235_N",
+  "sp": "HERO",
+  "t": "small and shaking, and say, you can't.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "236_N",
+  "sp": "N",
+  "t": "And because you're a six-year-old, they laugh.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "237_N",
+  "sp": "N",
+  "t": "But they don't touch him",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "238_N",
+  "sp": "N",
+  "t": "because two six-year-olds are harder to bully than one.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "239_N",
+  "sp": "N",
+  "t": "Then you remember the porch.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "240_N",
+  "sp": "N",
+  "t": "Mr. Okafor was 83.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "241_N",
+  "sp": "N",
+  "t": "You woke up at 83.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "242_N",
+  "sp": "N",
+  "t": "You remember your mom at the kitchen table",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "243_N",
+  "sp": "N",
+  "t": "at two in the morning.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "244_N",
+  "sp": "N",
+  "t": "She was 41.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "245_N",
+  "sp": "N",
+  "t": "You woke up at 41.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "246_N",
+  "sp": "N",
+  "t": "You open your notebook.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "247_N",
+  "sp": "N",
+  "t": "For 53 mornings, you wrote down your age",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "248_N",
+  "sp": "N",
+  "t": "and what happened that day.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "249_N",
+  "sp": "N",
+  "t": "You flip through the pages.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "250_N",
+  "sp": "N",
+  "t": "Now you see it.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "251_N",
+  "sp": "N",
+  "t": "Every single age matches someone who needed you that day.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "252_N",
+  "sp": "N",
+  "t": "The age wasn't random.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "253_N",
+  "sp": "N",
+  "t": "It was the age of the person",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "254_N",
+  "sp": "N",
+  "t": "who most needed somebody exactly like that.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "255_N",
+  "sp": "N",
+  "t": "You weren't cursed.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "256_N",
+  "sp": "N",
+  "t": "You were being sent.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "257_N",
+  "sp": "N",
+  "t": "After that, you stop trying to plan.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "258_N",
+  "sp": "N",
+  "t": "You stop looking at the mirror with dread.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "259_N",
+  "sp": "N",
+  "t": "Every morning, you check your age, and then you go looking.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "260_N",
+  "sp": "N",
+  "t": "At 30, you help a woman at a bus stop",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "261_N",
+  "sp": "N",
+  "t": "with a broken suitcase and no money.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "262_N",
+  "sp": "N",
+  "t": "At 15, you sit with a new kid in the cafeteria.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "263_N",
+  "sp": "N",
+  "t": "At 57, you help a man who just lost his job fill out forms.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "264_N",
+  "sp": "N",
+  "t": "At 94, you hold a stranger's hand in a hospital waiting room.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "265_N",
+  "sp": "N",
+  "t": "They never learn your name.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "266_N",
+  "sp": "N",
+  "t": "Eli notices first.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "267_N",
+  "sp": "ELI",
+  "t": "You're different, he says.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "268_N",
+  "sp": "ELI",
+  "t": "Even when you're old, even when you're six,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "269_N",
+  "sp": "ELI",
+  "t": "you're like more here.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "270_N",
+  "sp": "N",
+  "t": "For the first time in weeks, you smile.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "271_N",
+  "sp": "N",
+  "t": "Then comes day 100.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "272_N",
+  "sp": "N",
+  "t": "You wake up.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "273_N",
+  "sp": "N",
+  "t": "You don't look in the mirror right away.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "274_N",
+  "sp": "N",
+  "t": "You stand in your room.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "275_N",
+  "sp": "N",
+  "t": "Your knees don't hurt.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "276_N",
+  "sp": "N",
+  "t": "Your back doesn't ache.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "277_N",
+  "sp": "N",
+  "t": "Your hands look like your hands.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "278_N",
+  "sp": "N",
+  "t": "You walk to the bathroom slowly, and you look.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "279_N",
+  "sp": "N",
+  "t": "16, your real age.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "280_N",
+  "sp": "N",
+  "t": "The same messy hair, the same tired eyes.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "281_N",
+  "sp": "N",
+  "t": "You wait.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "282_N",
+  "sp": "N",
+  "t": "You get dressed.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "283_N",
+  "sp": "N",
+  "t": "You check your notebook.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "284_N",
+  "sp": "N",
+  "t": "You check the street.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "285_N",
+  "sp": "N",
+  "t": "You walk next door and knock on Mr. Okafor's door.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "286_N",
+  "sp": "N",
+  "t": "He's fine.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "287_N",
+  "sp": "N",
+  "t": "He's making toast.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "288_N",
+  "sp": "N",
+  "t": "You go to Danny's.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "289_N",
+  "sp": "N",
+  "t": "Danny is fine.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "290_N",
+  "sp": "N",
+  "t": "His mom thanks you for yesterday.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "291_N",
+  "sp": "N",
+  "t": "For the first time in 100 days, nobody needs you.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "292_N",
+  "sp": "N",
+  "t": "You sit on the back steps, confused.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "293_N",
+  "sp": "N",
+  "t": "And then slowly, you understand.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "294_N",
+  "sp": "N",
+  "t": "For 100 days, you were every age.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "295_N",
+  "sp": "N",
+  "t": "For everyone.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "296_N",
+  "sp": "N",
+  "t": "Sick, scared, old, young, lonely, strong.",
+  "gap": 0.16,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "297_N",
+  "sp": "N",
+  "t": "And not once, not on a single morning,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "298_N",
+  "sp": "N",
+  "t": "were you just you.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "299_N",
+  "sp": "N",
+  "t": "Today, the age is 16.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "300_N",
+  "sp": "N",
+  "t": "The person who meets someone 16 is you.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "301_N",
+  "sp": "N",
+  "t": "You hear the door behind you.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "302_N",
+  "sp": "N",
+  "t": "Your mom sits next to you on the step in her work uniform.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "303_N",
+  "sp": "N",
+  "t": "She's holding two cups of hot chocolate.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "304_N",
+  "sp": "N",
+  "t": "She puts one in your hands.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "305_N",
+  "sp": "N",
+  "t": "I called in sick, she says.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "306_N",
+  "sp": "HERO",
+  "t": "You never call in sick.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "307_N",
+  "sp": "MOM",
+  "t": "I know.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "308_N",
+  "sp": "N",
+  "t": "She looks at the yard.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "309_N",
+  "sp": "MOM",
+  "t": "100 days of you taking care of everyone.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "310_N",
+  "sp": "MOM",
+  "t": "Nobody asked how you were doing.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "311_N",
+  "sp": "HERO",
+  "t": "You open your mouth to say, I'm fine.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "312_N",
+  "sp": "N",
+  "t": "You stop.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "313_N",
+  "sp": "N",
+  "t": "You've learned that much.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "314_N",
+  "sp": "HERO",
+  "t": "I'm tired, you say.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "315_N",
+  "sp": "HERO",
+  "t": "I'm really, really tired.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "316_N",
+  "sp": "N",
+  "t": "And your mom, who's 41,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "317_N",
+  "sp": "N",
+  "t": "and who has been holding the world together for 16 years,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "318_N",
+  "sp": "N",
+  "t": "pulls you close and says the only thing there is to say.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "319_N",
+  "sp": "MOM",
+  "t": "I know.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "320_N",
+  "sp": "MOM",
+  "t": "Tell me.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "321_N",
+  "sp": "N",
+  "t": "So you do.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "322_N",
+  "sp": "N",
+  "t": "All of it.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "323_N",
+  "sp": "N",
+  "t": "The mornings, the mirror, the fear.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "324_N",
+  "sp": "N",
+  "t": "You talk for four hours.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "325_N",
+  "sp": "N",
+  "t": "She doesn't say a word.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "326_N",
+  "sp": "N",
+  "t": "When you're done, the hot chocolate has gone cold",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "327_N",
+  "sp": "N",
+  "t": "and the sun is high.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "328_N",
+  "sp": "N",
+  "t": "You never wake up as someone else again.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "329_N",
+  "sp": "N",
+  "t": "But sometimes when you see a person alone at a bus stop",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "330_N",
+  "sp": "N",
+  "t": "or an old man on a porch",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "331_N",
+  "sp": "N",
+  "t": "or a kid with no one to sit with,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "332_N",
+  "sp": "N",
+  "t": "you feel a little strange.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "333_N",
+  "sp": "N",
+  "t": "Like you're 16 and 83 and six all at once.",
+  "gap": 0.32,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "334_N",
+  "sp": "N",
+  "t": "So if you had to wake up at a different age",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "335_N",
+  "sp": "N",
+  "t": "every morning, would you want to?",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "336_N",
+  "sp": "N",
+  "t": "What's the one age you'd love to be for a day?",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "337_N",
+  "sp": "N",
+  "t": "Tell us in the comments.",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "338_N",
+  "sp": "N",
+  "t": "And if you'd have spent that day with Mr. Okafor,",
+  "gap": 0.06,
+  "action": "",
+  "graphic": ""
+ },
+ {
+  "id": "339_N",
+  "sp": "N",
+  "t": "hit like and subscribe for more What Ifs.",
+  "gap": 0.4,
+  "action": "",
+  "graphic": ""
+ }
+]
