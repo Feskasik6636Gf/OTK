@@ -8,3 +8,6 @@ roblox_render/videos/*/render_log_*.txt
 roblox_render/videos/*/audio/mix.m4a
 roblox_render/videos/*/audio/music.wav
 roblox_render/videos/*/captions.ass
+roblox_render/videos/eyes/out/final.mp4
+roblox_render/videos/eyes/out/final_nocaptions.mp4
+roblox_render/videos/eyes/out/story_frames.mp4
