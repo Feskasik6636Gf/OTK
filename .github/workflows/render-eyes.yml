@@ -1,0 +1,72 @@
+name: render-eyes
+on:
+  push:
+    branches: [ccr-6174bc91-yk72f1]
+    paths:
+      - "roblox_render/videos/eyes/render_request.json"
+permissions:
+  contents: write
+env:
+  SLUG: eyes
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      parts: ${{ steps.p.outputs.parts }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: p
+        run: echo "parts=$(python3 -c "import json;print(json.dumps(json.load(open('roblox_render/videos/eyes/render_request.json'))['parts']))")" >> "$GITHUB_OUTPUT"
+  render:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      matrix:
+        part: ${{ fromJSON(needs.plan.outputs.parts) }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: System libs (software OpenGL for EEVEE)
+        run: |
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq libegl1 libegl-mesa0 libgl1-mesa-dri libgl1 \
+            libxkbcommon0 libxi6 libxrender1 libxxf86vm1 libxfixes3 libsm6 libice6 libvulkan1 mesa-vulkan-drivers ffmpeg
+      - name: Cache Blender
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: ~/blender
+          key: blender-5.2.4-linux-x64
+      - name: Download Blender
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          curl -sSfL -o /tmp/b.tar.xz https://download.blender.org/release/Blender5.2/blender-5.2.4-linux-x64.tar.xz
+          mkdir -p ~/blender && tar -xf /tmp/b.tar.xz -C ~/blender --strip-components=1
+      - name: Render shots ${{ matrix.part }}
+        env:
+          RENDER_PCT: "67"
+        run: |
+          ~/blender/blender -b --factory-startup -P roblox_render/tools/render.py -- $SLUG final ${{ matrix.part }} 16 2>&1 \
+            | grep -E "shot [0-9]+ |FAILED|Traceback|Error:|line [0-9]" | grep -v EGL || true
+          ls roblox_render/videos/$SLUG/frames | wc -l
+      - name: Encode part
+        run: |
+          cd roblox_render/videos/$SLUG/frames
+          first=$(ls *.png | sort | head -1 | cut -d. -f1)
+          n=$(ls *.png | wc -l)
+          mkdir -p "$GITHUB_WORKSPACE/roblox_render/out_eyes"
+          ffmpeg -v error -y -framerate 30 -start_number $((10#$first)) -i %04d.png -frames:v $n \
+            -c:v libx264 -preset slow -crf 10 -pix_fmt yuv420p "$GITHUB_WORKSPACE/roblox_render/out_eyes/${SLUG}_part_${first}_${n}.mp4"
+          ls -la "$GITHUB_WORKSPACE/roblox_render/out_eyes"
+      - name: Push part
+        run: |
+          git config user.name "render-bot"
+          git config user.email "render-bot@users.noreply.github.com"
+          git add roblox_render/out_eyes
+          git commit -m "render eyes: part ${{ matrix.part }} [skip ci]"
+          for i in 1 2 3 4 5 6 7 8 9 10 11 12; do
+            git pull --rebase -q origin ${{ github.ref_name }} && git push -q origin HEAD:${{ github.ref_name }} && exit 0
+            sleep $((RANDOM % 25 + 5))
+          done
+          exit 1

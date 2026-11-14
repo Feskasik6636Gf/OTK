@@ -75,7 +75,7 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Word,{FONT},150,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,0,0,0,0,100,100,1,0,1,9,3,5,20,20,20,1
+Style: Word,{FONT},108,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,2,0,1,7,3,5,20,20,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -87,11 +87,12 @@ for i, w in enumerate(words):
         continue
     s = 0.0 if i == 0 else w["start"] + LAG
     e = (words[i + 1]["start"] + LAG) if i + 1 < len(words) else w["end"] + 0.4
-    lines.append(f"Dialogue: 0,{ts(s)},{ts(e)},Word,,0,0,0,,{{\\pos(540,1607)}}{txt}")
+    lines.append(f"Dialogue: 0,{ts(s)},{ts(e)},Word,,0,0,0,,{{\\pos(540,1607)\\fscx78\\fscy78\\t(0,70,\\fscx108\\fscy108)\\t(70,130,\\fscx100\\fscy100)}}{txt}")
 head = head.replace("{FONT}", kit.caption_font(CFG))
 open(os.path.join(vdir, "captions.ass"), "w", encoding="utf-8").write(head + "\n".join(lines) + "\n")
 
 # 3. mux
+FONTS = os.path.join(STUDIO, "fonts").replace("\\", "/").replace(":", "\\:")
 os.chdir(vdir)
 dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
                             os.path.join("audio", "mix.m4a")], capture_output=True, text=True).stdout)
@@ -99,9 +100,10 @@ base = ["ffmpeg", "-v", "error", "-y", "-framerate", "30", "-i", os.path.join("f
         "-i", os.path.join("audio", "mix.m4a")]
 enc = ["-c:v", "libx264", "-preset", "slow", "-crf", "16", "-pix_fmt", "yuv420p", "-c:a", "copy", "-t", f"{dur:.3f}",
        "-movflags", "+faststart"]
-subprocess.run(base + ["-vf", "scale=1080:1920:flags=lanczos"] + enc + [os.path.join("out", "final_nocaptions.mp4")], check=True)
+UP = "scale=1080:1920:flags=lanczos,unsharp=5:5:0.6"
+subprocess.run(base + ["-vf", UP] + enc + [os.path.join("out", "final_nocaptions.mp4")], check=True)
 if not o.no_captions:
-    subprocess.run(base + ["-vf", "scale=1080:1920:flags=lanczos,ass=captions.ass"] + enc + [os.path.join("out", "final.mp4")], check=True)
+    subprocess.run(base + ["-vf", UP + ",ass=captions.ass:fontsdir=" + FONTS] + enc + [os.path.join("out", "final.mp4")], check=True)
 # 4. phone copy (under ~25 MB so it can be sent to a phone)
 src_v = os.path.join("out", "final.mp4" if not o.no_captions else "final_nocaptions.mp4")
 vbr = max(800, int(25 * 8 * 1024 / dur) - 160)
