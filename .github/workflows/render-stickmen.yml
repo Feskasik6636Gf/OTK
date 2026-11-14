@@ -57,7 +57,8 @@ jobs:
           ls -la out/chunks_Long
       - run: node tools/check-plans.mjs
       - run: node tools/make-sound.mjs
-      - run: node tools/render.mjs Long
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: USE_SYSTEM_FFMPEG=1 node tools/render.mjs Long
       - uses: actions/upload-artifact@v4
         with:
           name: Long-final

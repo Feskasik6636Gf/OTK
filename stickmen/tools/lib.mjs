@@ -9,6 +9,7 @@ export const FPS = 30;
 
 /* ffmpeg/ffprobe ship inside Remotion's compositor package — no separate install */
 export const ffbin = (name = 'ffmpeg') => {
+	if (process.env.USE_SYSTEM_FFMPEG) return name === 'ffprobe' ? 'ffprobe' : 'ffmpeg';
 	const base = path.join(ROOT, 'node_modules', '@remotion');
 	if (!fs.existsSync(base)) throw new Error('Remotion is not installed here. Run setup first.');
 	for (const d of fs.readdirSync(base)) {
