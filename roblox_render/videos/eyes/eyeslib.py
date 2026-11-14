@@ -786,9 +786,9 @@ def foam(name, x0, x1, y, t0, t1, coll=None, seed=0, z=0.25):
     x = x0
     i = 0
     while x < x1:
-        sphere(f"{name}{i}", rnd.uniform(0.7, 1.3), (x, rnd.uniform(-0.4, 0.4), z), Mf, (2.6, 1.0, 0.35), parent=root,
+        sphere(f"{name}{i}", rnd.uniform(0.45, 0.75), (x, rnd.uniform(-0.3, 0.3), z * 0.5), Mf, (3.0, 0.9, 0.18), parent=root,
                coll=coll, seg=10)
-        x += rnd.uniform(3.0, 4.5); i += 1
+        x += rnd.uniform(2.6, 3.6); i += 1
     root.keyframe_insert("location", frame=F(t0))
     root.location = (0, y - 6, 0)
     root.keyframe_insert("location", frame=F((t0 + t1) / 2))
@@ -797,8 +797,8 @@ def foam(name, x0, x1, y, t0, t1, coll=None, seed=0, z=0.25):
     return root
 
 
-def beach(t0=0.0, t1=10.0, crowd_n=140, people=True, umbrellas=True, stand=True, tower=True, seed=2):
-    W.sky(1.15, top=(0.05, 0.3, 0.95), bottom=(0.45, 0.75, 1.0))
+def beach(t0=0.0, t1=10.0, crowd_n=140, people=True, umbrellas=True, stand=True, tower=True, seed=2, dense=None, dense_u=None):
+    W.sky(1.0)
     W.sun(5.0, rot=(45, 0, 160))
     c = collection("BEACH")
     box("bc_sand", (900, 400, 1.0), (0, SHORE - 200, -0.5), M("#f2d898", 0.95), 0, coll=c)
@@ -817,6 +817,11 @@ def beach(t0=0.0, t1=10.0, crowd_n=140, people=True, umbrellas=True, stand=True,
             if abs(x - KID_B[0]) < 5 and abs(y - KID_B[1]) < 6:
                 continue
             umbrella(f"bc_u{i}", (x, y, 0), cols[i % len(cols)], c, tilt=rnd.uniform(-8, 8))
+        if dense_u:
+            cx, cy, r, n = dense_u
+            for i in range(n):
+                umbrella(f"bc_du{i}", (cx + rnd.uniform(-r, r), cy + rnd.uniform(-r, r), 0), cols[(i * 3) % len(cols)], c,
+                         tilt=rnd.uniform(-10, 10))
             towel(f"bc_t{i}", (x + 2.5, y + 1, 0.03), cols[(i + 3) % len(cols)], c, rot=rnd.uniform(-20, 20))
     if stand:
         Ms = M("#f4f4f4", 0.5)
@@ -855,12 +860,17 @@ def beach(t0=0.0, t1=10.0, crowd_n=140, people=True, umbrellas=True, stand=True,
                 continue
             ob = instance(f"bcp{i}", srcs[i % 4], (x, y, 0), rot=(0, 0, rnd.uniform(-180, 180)))
             noise(ob, "location", 2, 0.05, 6 + i % 5)
+        if dense:
+            cx, cy, r, n = dense
+            for i in range(n):
+                ob = instance(f"bcd{i}", srcs[i % 4], (cx + rnd.uniform(-r, r), cy + rnd.uniform(-r, r), 0),
+                              rot=(0, 0, rnd.uniform(-180, 180)))
     return c
 
 
 def sea_only(t0=0.0, t1=10.0):
     """Open sea, no beach props (for far-out shots)."""
-    W.sky(1.15, top=(0.05, 0.3, 0.95), bottom=(0.45, 0.75, 1.0))
+    W.sky(1.0)
     W.sun(5.0, rot=(45, 0, 160))
     c = collection("SEA")
     plane("sea_far", 3000, 3000, (0, 0, 0.12), ocean_mat(), coll=c)

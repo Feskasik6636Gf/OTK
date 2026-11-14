@@ -10,6 +10,14 @@ story.bind(V)
 S = SB
 
 
+def no_back_wall():
+    """Living room: drop the back wall so the camera can sit behind the couch."""
+    for ob in list(bpy.data.objects):
+        if ob.name.startswith(("lr_back", "lr_trim", "lr_win", "lr_out", "lr_car")):
+            bpy.data.objects.remove(ob, do_unlink=True)
+    light("lr_rear", "AREA", (0, 14, 9), 2500, (1.0, 0.96, 0.9), 8, target=(0, 6, 4))
+
+
 def bkb(p, s=1.0):
     """Back-eyes point of a character facing -Y (rot 0): back of head on +Y."""
     return (p[0], p[1] + 0.6 * s, p[2] + (FH + 0.1) * s)
@@ -239,6 +247,7 @@ def s13(t0, t1):
 @S(14, 44, 48, "They cry at movies: mom on the couch, the back eyes weep at the camera behind")
 def s14(t0, t1):
     L = W.tv_room()
+    no_back_wall()
     m = mom_c(t0, t1, "cry", "cry", blink=False)
     seat = (0, 6.2, 2.2)
     sit_on(m, t0, seat, rot=0)
@@ -1040,27 +1049,27 @@ def s60(t0, t1):
     lips(k, t0, t1, "shout")
     tg = hd(KID_B)
     cam = Cam()
-    cam.whip(t0, t0 + 0.2, orbit_pos(tg, 5, 120, 2), tg, orbit_pos(tg, 5, 200, 2), tg, lens=28)
-    cam.key(t1, orbit_pos(tg, 4.2, 230, 0), tg, lens=28, focus=tg, fstop=2)
+    cam.whip(t0, t0 + 0.2, orbit_pos(tg, 7.5, 120, 2), tg, orbit_pos(tg, 7.5, 200, 2), tg, lens=28)
+    cam.key(t1, orbit_pos(tg, 6.5, 230, 0), tg, lens=28, focus=tg, fstop=2)
     cam.handheld(1.4)
 
 
 @S(61, 218, 221, "Thousands of heads: top-down over the crowd")
 def s61(t0, t1):
-    beach(t0, t1, crowd_n=300, umbrellas=False)
+    beach(t0, t1, crowd_n=120, umbrellas=False, dense=(-30, -30, 16, 110))
     cam = Cam()
-    cam.key(t0, (-30, -20, 40), (-30, -19.9, 0), lens=30, focus=40, fstop=11, roll=0.0)
-    cam.key(t1, (-18, -16, 34), (-18, -15.9, 0), lens=30, focus=34, fstop=11, roll=0.3)
+    cam.key(t0, (-34, -34, 30), (-34, -33.9, 0), lens=30, focus=30, fstop=11, roll=0.0)
+    cam.key(t1, (-26, -28, 26), (-26, -27.9, 0), lens=30, focus=26, fstop=11, roll=0.3)
     cam.handheld(0.3)
     sfx(t0, "crowd", 0.4)
 
 
 @S(62, 221, 224, "Thousands of umbrellas: top-down sea of umbrellas")
 def s62(t0, t1):
-    beach(t0, t1, crowd_n=60, umbrellas=True, seed=9)
+    beach(t0, t1, crowd_n=40, umbrellas=True, seed=9, dense_u=(30, -40, 20, 70))
     cam = Cam()
-    cam.key(t0, (20, -30, 55), (20, -29.9, 0), lens=26, focus=55, fstop=11, roll=0.6)
-    cam.key(t1, (10, -30, 48), (10, -29.9, 0), lens=26, focus=48, fstop=11, roll=0.2)
+    cam.key(t0, (34, -44, 40), (34, -43.9, 0), lens=26, focus=40, fstop=11, roll=0.6)
+    cam.key(t1, (26, -38, 34), (26, -37.9, 0), lens=26, focus=34, fstop=11, roll=0.2)
     cam.handheld(0.3)
     sfx(t0, "whoosh", 0.4)
 
@@ -1101,8 +1110,8 @@ def s65(t0, t1):
     k.look(tn, -50, 0)
     tg = hd(KID_B)
     cam = Cam()
-    cam.push(t0, t1, tg, 4.0, 3.2, yaw=185, pitch=0, lens=30, fstop=1.8)
-    cam.crash(tn, 30, 44, 0.08)
+    cam.push(t0, t1, tg, 4.8, 4.0, yaw=185, pitch=0, lens=30, fstop=1.8)
+    cam.crash(tn, 30, 38, 0.08)
     cam.handheld(0.4)
     sfx(tn - 0.2, "rise", 0.6)
 
@@ -1131,7 +1140,8 @@ def s67(t0, t1):
     k.nod(w(241), 1, 12)
     tg = up(hd(KID_B), -0.4)
     cam = Cam()
-    cam.orbit(t0, t1, tg, 4.6, 60, 130, pitch=-12, lens=26, fstop=2.2)
+    yk = facing(KID_B, MOM_B)
+    cam.orbit(t0, t1, tg, 5.0, yk - 45, yk + 25, pitch=-12, lens=26, fstop=2.2)
     cam.handheld(0.4)
     sfx(t0 + 0.3, "rise", 0.4)
 
@@ -1150,7 +1160,9 @@ def s68(t0, t1):
     k.pose(w(244) + 0.3, armL=(170, 10), armR=(170, 10))
     tg = (MOM_B[0] + 0.6, MOM_B[1] + 1.2, 5.0)
     cam = Cam()
-    cam.push(t0, t1, tg, 7.5, 6.5, yaw=120, yaw1=135, pitch=-14, lens=24, fstop=3)
+    yk = facing(RIP, MOM_B)
+    tg = (RIP[0] - 0.4, RIP[1] - 0.6, 4.4)
+    cam.push(t0, t1, tg, 8.0, 7.0, yaw=yk + 40, yaw1=yk + 28, pitch=-12, lens=24, fstop=3)
     cam.handheld(0.8)
     sfx(w(244), "boing", 0.4)
 
@@ -1167,7 +1179,7 @@ def s69(t0, t1):
     k.face(tr + 0.1, "grin")
     tg = (MOM_B[0], MOM_B[1], FH + 0.4)
     cam = Cam()
-    cam.push(t0, t1, tg, 5.5, 6.0, yaw=150, yaw1=170, pitch=10, lens=26, fstop=2.4)
+    cam.push(t0, t1, tg, 6.5, 7.0, yaw=230, yaw1=212, pitch=10, lens=26, fstop=2.4)
     cam.crash(tr, 26, 32, 0.08)
     cam.handheld(1.0)
     sfx(tr - 0.05, "whoosh", 0.8)
@@ -1200,7 +1212,7 @@ def s71(t0, t1):
     light("god", "SPOT", (MOM_B[0], MOM_B[1] + 8, 14), 6000, (1.0, 0.95, 0.75), 1.0, target=bkb(MOM_B), spot=25)
     tg = bkb(MOM_B)
     cam = Cam()
-    cam.push(t0, t1, tg, 5.0, 3.0, yaw=160, yaw1=175, pitch=-10, lens=30, fstop=2)
+    cam.push(t0, t1, tg, 5.6, 4.0, yaw=165, yaw1=180, pitch=4, lens=30, fstop=2)
     cam.handheld(0.3)
 
 
@@ -1324,7 +1336,7 @@ def s80(t0, t1):
     m.pose(t0, armR=(70, 0))
     tg = hd(MOM_B)
     cam = Cam()
-    cam.push(t0, t1, tg, 4.0, 3.0, yaw=-25, yaw1=-10, pitch=4, lens=30, fstop=1.8)
+    cam.push(t0, t1, tg, 5.0, 4.2, yaw=-78, yaw1=-62, pitch=4, lens=30, fstop=1.8)
     cam.handheld(0.4)
 
 
@@ -1418,10 +1430,10 @@ def s84(t0, t1):
 def s85(t0, t1):
     sea_only(t0, t1)
     dk, si = duck_sis(t0, t1, DOT, (DOT[0], DOT[1], 0), expr="gasp")
-    W2.poof("spl85", (DOT[0], DOT[1] - 2, 0.6), t0 + 0.04, s=3.0, seed=85)
+    W2.poof("spl85", (DOT[0], DOT[1] - 2.5, 0.6), t0 + 0.04, s=1.5, seed=85)
     tg = (DOT[0], DOT[1] - 1, 1.8)
     cam = Cam()
-    cam.push(t0, t1, tg, 9, 7, yaw=-20, pitch=8, lens=26, fstop=3)
+    cam.push(t0, t1, tg, 14, 12, yaw=-25, pitch=10, lens=26, fstop=4)
     cam.crash(t0 + 0.04, 26, 34, 0.07)
     cam.shake(0.03, 2)
     sfx(t0 + 0.04, "splash", 1.0)
@@ -1459,7 +1471,7 @@ def s87(t0, t1):
     si.pose(t0, loc=(p[0], p[1] - 1.2, 1.6), rot=180, armL=(90, -30), armR=(90, -30))
     k = kid_c(t0, t1, "relief")
     k.pose(t0, loc=(p[0] + 1.8, p[1] - 1.6, 0), rot=150, armL=(90, -30), armR=(90, -30))
-    sparkle_on("sp87", up(p, 5), t0 + 0.05, 2.0, 16, seed=87)
+    sparkle_on("sp87", up(p, 6.5), t0 + 0.05, 1.0, 12, seed=87)
     tg = (p[0] + 0.6, p[1] - 0.8, 4.4)
     cam = Cam()
     cam.push(t0, t1, tg, 7.0, 6.0, yaw=-15, yaw1=-5, pitch=6, lens=28, fstop=2.4)
@@ -1497,7 +1509,7 @@ def s88(t0, t1):
     bn.keyframe_insert("location", frame=F(tt + 0.15)); bn.keyframe_insert("rotation_euler", frame=F(tt + 0.15))
     tg = (4.4, -2.8, 3.6)
     cam = Cam()
-    cam.push(t0, t1, tg, 10, 8, yaw=-35, yaw1=-20, pitch=10, lens=26, fstop=3)
+    cam.push(t0, t1, tg, 12, 10, yaw=-35, yaw1=-20, pitch=14, lens=26, fstop=3)
     cam.handheld(0.5)
     sfx(tt - 0.4, "whoosh", 0.6)
     sfx(tt + 0.4, "thud", 0.7)
@@ -1576,7 +1588,7 @@ def s93(t0, t1):
     k.pose(t1, armR=(130, 0))
     tg = (JAR[0], JAR[1] - 1.0, CTOP + 1.8)
     cam = Cam()
-    cam.push(t0, t1, tg, 5.5, 4.2, yaw=40, yaw1=25, pitch=10, lens=30, fstop=2)
+    cam.push(t0, t1, tg, 6.0, 4.8, yaw=78, yaw1=62, pitch=10, lens=30, fstop=2)
     cam.handheld(0.4)
 
 
@@ -1643,6 +1655,7 @@ def s97(t0, t1):
 @S(98, 352, 356, "Dads have one eye: dad on the couch, from behind, one big eye on the back of his head")
 def s98(t0, t1):
     L = W.tv_room()
+    no_back_wall()
     d = dad_c(t0, t1)
     sit_on(d, t0, DAD_SEAT, rot=0)
     d.pose(t0, armL=(40, -20), armR=(40, -20))
@@ -1657,6 +1670,7 @@ def s98(t0, t1):
 @S(99, 356, 363, "On the back of their head too: ECU on the single eye, it twitches")
 def s99(t0, t1):
     L = W.tv_room()
+    no_back_wall()
     d = dad_c(t0, t1)
     sit_on(d, t0, DAD_SEAT, rot=0)
     tg = bkb((0, 6.2, 0.24))
@@ -1671,6 +1685,7 @@ def s99(t0, t1):
 @S(100, 363, None, "It's just always asleep: snore, Z's float up, pull out")
 def s100(t0, t1):
     L = W.tv_room()
+    no_back_wall()
     d = dad_c(t0, t1)
     sit_on(d, t0, DAD_SEAT, rot=0)
     tg = bkb((0, 6.2, 0.24))
