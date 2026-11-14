@@ -1,0 +1,805 @@
+[
+ {
+  "text": "I spent a whole year trying to blind my mom.",
+  "start": 0.0,
+  "end": 2.32,
+  "startFrame": 0,
+  "endFrame": 70,
+  "words": [
+   0,
+   9
+  ]
+ },
+ {
+  "text": "Then, her secret eyes saved my little sister's life.",
+  "start": 2.72,
+  "end": 5.34,
+  "startFrame": 82,
+  "endFrame": 160,
+  "words": [
+   10,
+   18
+  ]
+ },
+ {
+  "text": "You see, in this world, every mom has a second pair of eyes on the back of her head.",
+  "start": 5.78,
+  "end": 9.38,
+  "startFrame": 173,
+  "endFrame": 281,
+  "words": [
+   19,
+   37
+  ]
+ },
+ {
+  "text": "Real ones.",
+  "start": 9.8,
+  "end": 10.18,
+  "startFrame": 294,
+  "endFrame": 305,
+  "words": [
+   38,
+   39
+  ]
+ },
+ {
+  "text": "They blink.",
+  "start": 10.52,
+  "end": 10.82,
+  "startFrame": 316,
+  "endFrame": 325,
+  "words": [
+   40,
+   41
+  ]
+ },
+ {
+  "text": "They roll.",
+  "start": 11.18,
+  "end": 11.58,
+  "startFrame": 335,
+  "endFrame": 347,
+  "words": [
+   42,
+   43
+  ]
+ },
+ {
+  "text": "They cry at movies.",
+  "start": 11.86,
+  "end": 12.62,
+  "startFrame": 356,
+  "endFrame": 379,
+  "words": [
+   44,
+   47
+  ]
+ },
+ {
+  "text": "So moms see everything.",
+  "start": 13.02,
+  "end": 14.26,
+  "startFrame": 391,
+  "endFrame": 428,
+  "words": [
+   48,
+   51
+  ]
+ },
+ {
+  "text": "Teachers face the board and still catch you passing notes.",
+  "start": 14.66,
+  "end": 16.9,
+  "startFrame": 440,
+  "endFrame": 507,
+  "words": [
+   52,
+   61
+  ]
+ },
+ {
+  "text": "Moms drive forward and stare at the back seat at the same time.",
+  "start": 17.35,
+  "end": 20.01,
+  "startFrame": 520,
+  "endFrame": 600,
+  "words": [
+   62,
+   74
+  ]
+ },
+ {
+  "text": "Barbers have to cut around them very, very carefully.",
+  "start": 20.35,
+  "end": 22.65,
+  "startFrame": 610,
+  "endFrame": 680,
+  "words": [
+   75,
+   83
+  ]
+ },
+ {
+  "text": "And no kid in history has ever stolen a cookie.",
+  "start": 22.99,
+  "end": 25.29,
+  "startFrame": 690,
+  "endFrame": 759,
+  "words": [
+   84,
+   93
+  ]
+ },
+ {
+  "text": "Ever.",
+  "start": 25.67,
+  "end": 25.85,
+  "startFrame": 770,
+  "endFrame": 776,
+  "words": [
+   94,
+   94
+  ]
+ },
+ {
+  "text": "Except me.",
+  "start": 26.21,
+  "end": 26.69,
+  "startFrame": 786,
+  "endFrame": 801,
+  "words": [
+   95,
+   96
+  ]
+ },
+ {
+  "text": "I tried every single day.",
+  "start": 26.91,
+  "end": 28.41,
+  "startFrame": 807,
+  "endFrame": 852,
+  "words": [
+   97,
+   101
+  ]
+ },
+ {
+  "text": "I tiptoed.",
+  "start": 28.69,
+  "end": 29.33,
+  "startFrame": 861,
+  "endFrame": 880,
+  "words": [
+   102,
+   103
+  ]
+ },
+ {
+  "text": "Blink.",
+  "start": 29.44,
+  "end": 29.71,
+  "startFrame": 883,
+  "endFrame": 891,
+  "words": [
+   104,
+   104
+  ]
+ },
+ {
+  "text": "\"Put it back.\"",
+  "start": 30.07,
+  "end": 30.57,
+  "startFrame": 902,
+  "endFrame": 917,
+  "words": [
+   105,
+   107
+  ]
+ },
+ {
+  "text": "I crawled.",
+  "start": 30.91,
+  "end": 31.35,
+  "startFrame": 927,
+  "endFrame": 940,
+  "words": [
+   108,
+   109
+  ]
+ },
+ {
+  "text": "Blink.",
+  "start": 31.8,
+  "end": 31.86,
+  "startFrame": 954,
+  "endFrame": 956,
+  "words": [
+   110,
+   110
+  ]
+ },
+ {
+  "text": "\"Put it back.\"",
+  "start": 32.24,
+  "end": 32.84,
+  "startFrame": 967,
+  "endFrame": 985,
+  "words": [
+   111,
+   113
+  ]
+ },
+ {
+  "text": "I dressed up as the dog.",
+  "start": 33.16,
+  "end": 34.22,
+  "startFrame": 995,
+  "endFrame": 1027,
+  "words": [
+   114,
+   119
+  ]
+ },
+ {
+  "text": "Blink.",
+  "start": 34.58,
+  "end": 34.72,
+  "startFrame": 1037,
+  "endFrame": 1042,
+  "words": [
+   120,
+   120
+  ]
+ },
+ {
+  "text": "\"Put it back, Max.\"",
+  "start": 35.08,
+  "end": 35.76,
+  "startFrame": 1052,
+  "endFrame": 1073,
+  "words": [
+   121,
+   124
+  ]
+ },
+ {
+  "text": "So on my birthday, I made my wish.",
+  "start": 36.2,
+  "end": 37.88,
+  "startFrame": 1086,
+  "endFrame": 1136,
+  "words": [
+   125,
+   132
+  ]
+ },
+ {
+  "text": "\"Mom, I want privacy.",
+  "start": 38.33,
+  "end": 39.45,
+  "startFrame": 1150,
+  "endFrame": 1184,
+  "words": [
+   133,
+   136
+  ]
+ },
+ {
+  "text": "Please cover your back eyes.",
+  "start": 39.9,
+  "end": 40.92,
+  "startFrame": 1197,
+  "endFrame": 1228,
+  "words": [
+   137,
+   141
+  ]
+ },
+ {
+  "text": "Forever.\"",
+  "start": 41.32,
+  "end": 41.56,
+  "startFrame": 1240,
+  "endFrame": 1247,
+  "words": [
+   142,
+   142
+  ]
+ },
+ {
+  "text": "She looked sad with all four eyes.",
+  "start": 41.94,
+  "end": 43.4,
+  "startFrame": 1258,
+  "endFrame": 1302,
+  "words": [
+   143,
+   149
+  ]
+ },
+ {
+  "text": "But she put on a big wool beanie.",
+  "start": 43.68,
+  "end": 45.22,
+  "startFrame": 1310,
+  "endFrame": 1357,
+  "words": [
+   150,
+   157
+  ]
+ },
+ {
+  "text": "And for a whole year, she never took it off.",
+  "start": 45.4,
+  "end": 47.48,
+  "startFrame": 1362,
+  "endFrame": 1424,
+  "words": [
+   158,
+   167
+  ]
+ },
+ {
+  "text": "Best year ever.",
+  "start": 47.82,
+  "end": 48.66,
+  "startFrame": 1435,
+  "endFrame": 1460,
+  "words": [
+   168,
+   170
+  ]
+ },
+ {
+  "text": "Cookies for breakfast.",
+  "start": 49.08,
+  "end": 49.84,
+  "startFrame": 1472,
+  "endFrame": 1495,
+  "words": [
+   171,
+   173
+  ]
+ },
+ {
+  "text": "Video games at 3AM.",
+  "start": 50.12,
+  "end": 51.14,
+  "startFrame": 1504,
+  "endFrame": 1534,
+  "words": [
+   174,
+   177
+  ]
+ },
+ {
+  "text": "Freedom!",
+  "start": 51.59,
+  "end": 51.79,
+  "startFrame": 1548,
+  "endFrame": 1554,
+  "words": [
+   178,
+   178
+  ]
+ },
+ {
+  "text": "But then we went to the beach.",
+  "start": 52.21,
+  "end": 53.35,
+  "startFrame": 1566,
+  "endFrame": 1600,
+  "words": [
+   179,
+   185
+  ]
+ },
+ {
+  "text": "Thousands of people.",
+  "start": 53.8,
+  "end": 54.56,
+  "startFrame": 1614,
+  "endFrame": 1637,
+  "words": [
+   186,
+   188
+  ]
+ },
+ {
+  "text": "Mom was buying ice cream, facing the stand.",
+  "start": 54.92,
+  "end": 56.6,
+  "startFrame": 1648,
+  "endFrame": 1698,
+  "words": [
+   189,
+   196
+  ]
+ },
+ {
+  "text": "And my little sister floated away on her inflatable duck.",
+  "start": 56.6,
+  "end": 59.3,
+  "startFrame": 1698,
+  "endFrame": 1779,
+  "words": [
+   197,
+   206
+  ]
+ },
+ {
+  "text": "Further.",
+  "start": 59.75,
+  "end": 59.83,
+  "startFrame": 1792,
+  "endFrame": 1795,
+  "words": [
+   207,
+   207
+  ]
+ },
+ {
+  "text": "And further.",
+  "start": 60.25,
+  "end": 60.69,
+  "startFrame": 1808,
+  "endFrame": 1821,
+  "words": [
+   208,
+   209
+  ]
+ },
+ {
+  "text": "Out to sea.",
+  "start": 61.14,
+  "end": 61.76,
+  "startFrame": 1834,
+  "endFrame": 1853,
+  "words": [
+   210,
+   212
+  ]
+ },
+ {
+  "text": "I screamed, \"Where is she?\"",
+  "start": 62.08,
+  "end": 63.38,
+  "startFrame": 1862,
+  "endFrame": 1901,
+  "words": [
+   213,
+   217
+  ]
+ },
+ {
+  "text": "Thousands of heads.",
+  "start": 63.76,
+  "end": 64.48,
+  "startFrame": 1913,
+  "endFrame": 1934,
+  "words": [
+   218,
+   220
+  ]
+ },
+ {
+  "text": "Thousands of umbrellas.",
+  "start": 64.84,
+  "end": 65.7,
+  "startFrame": 1945,
+  "endFrame": 1971,
+  "words": [
+   221,
+   223
+  ]
+ },
+ {
+  "text": "Waves everywhere.",
+  "start": 65.98,
+  "end": 66.7,
+  "startFrame": 1979,
+  "endFrame": 2001,
+  "words": [
+   224,
+   225
+  ]
+ },
+ {
+  "text": "I couldn't find her.",
+  "start": 67.14,
+  "end": 68.04,
+  "startFrame": 2014,
+  "endFrame": 2041,
+  "words": [
+   226,
+   229
+  ]
+ },
+ {
+  "text": "Then I noticed something.",
+  "start": 68.3,
+  "end": 69.38,
+  "startFrame": 2049,
+  "endFrame": 2081,
+  "words": [
+   230,
+   233
+  ]
+ },
+ {
+  "text": "Mom's beanie.",
+  "start": 69.68,
+  "end": 70.34,
+  "startFrame": 2090,
+  "endFrame": 2110,
+  "words": [
+   234,
+   235
+  ]
+ },
+ {
+  "text": "Those eyes were made for exactly this.",
+  "start": 70.48,
+  "end": 72.4,
+  "startFrame": 2114,
+  "endFrame": 2172,
+  "words": [
+   236,
+   242
+  ]
+ },
+ {
+  "text": "I jumped up and ripped it off.",
+  "start": 72.74,
+  "end": 74.2,
+  "startFrame": 2182,
+  "endFrame": 2226,
+  "words": [
+   243,
+   249
+  ]
+ },
+ {
+  "text": "The back eyes opened for the first time in a year.",
+  "start": 74.54,
+  "end": 77.2,
+  "startFrame": 2236,
+  "endFrame": 2316,
+  "words": [
+   250,
+   260
+  ]
+ },
+ {
+  "text": "They squinted in the sun.",
+  "start": 77.48,
+  "end": 78.42,
+  "startFrame": 2324,
+  "endFrame": 2353,
+  "words": [
+   261,
+   265
+  ]
+ },
+ {
+  "text": "Blinked.",
+  "start": 78.84,
+  "end": 79.04,
+  "startFrame": 2365,
+  "endFrame": 2371,
+  "words": [
+   266,
+   266
+  ]
+ },
+ {
+  "text": "Looked left.",
+  "start": 79.31,
+  "end": 79.66,
+  "startFrame": 2379,
+  "endFrame": 2390,
+  "words": [
+   267,
+   268
+  ]
+ },
+ {
+  "text": "Right.",
+  "start": 80.02,
+  "end": 80.2,
+  "startFrame": 2401,
+  "endFrame": 2406,
+  "words": [
+   269,
+   269
+  ]
+ },
+ {
+  "text": "Then they locked onto one tiny yellow dot, far out on the waves.",
+  "start": 80.58,
+  "end": 83.78,
+  "startFrame": 2417,
+  "endFrame": 2513,
+  "words": [
+   270,
+   282
+  ]
+ },
+ {
+  "text": "\"There!\"",
+  "start": 84.16,
+  "end": 84.38,
+  "startFrame": 2525,
+  "endFrame": 2531,
+  "words": [
+   283,
+   283
+  ]
+ },
+ {
+  "text": "Mom didn't even turn around.",
+  "start": 84.76,
+  "end": 85.94,
+  "startFrame": 2543,
+  "endFrame": 2578,
+  "words": [
+   284,
+   288
+  ]
+ },
+ {
+  "text": "She ran backwards into the ocean, faster than any lifeguard, and swam straight to the duck.",
+  "start": 86.16,
+  "end": 90.2,
+  "startFrame": 2585,
+  "endFrame": 2706,
+  "words": [
+   289,
+   304
+  ]
+ },
+ {
+  "text": "Splash!",
+  "start": 90.65,
+  "end": 90.75,
+  "startFrame": 2720,
+  "endFrame": 2722,
+  "words": [
+   305,
+   305
+  ]
+ },
+ {
+  "text": "She brought my sister back.",
+  "start": 91.2,
+  "end": 92.36,
+  "startFrame": 2736,
+  "endFrame": 2771,
+  "words": [
+   306,
+   310
+  ]
+ },
+ {
+  "text": "Safe.",
+  "start": 92.81,
+  "end": 92.93,
+  "startFrame": 2784,
+  "endFrame": 2788,
+  "words": [
+   311,
+   311
+  ]
+ },
+ {
+  "text": "That night, I threw the beanie in the trash.",
+  "start": 93.38,
+  "end": 95.06,
+  "startFrame": 2801,
+  "endFrame": 2852,
+  "words": [
+   312,
+   320
+  ]
+ },
+ {
+  "text": "\"Keep them open, Mom.",
+  "start": 95.4,
+  "end": 96.08,
+  "startFrame": 2862,
+  "endFrame": 2882,
+  "words": [
+   321,
+   324
+  ]
+ },
+ {
+  "text": "Forever.\"",
+  "start": 96.48,
+  "end": 96.66,
+  "startFrame": 2894,
+  "endFrame": 2900,
+  "words": [
+   325,
+   325
+  ]
+ },
+ {
+  "text": "All four of her eyes cried.",
+  "start": 97.11,
+  "end": 98.31,
+  "startFrame": 2913,
+  "endFrame": 2949,
+  "words": [
+   326,
+   331
+  ]
+ },
+ {
+  "text": "The next morning, I reached for a cookie.",
+  "start": 98.63,
+  "end": 100.09,
+  "startFrame": 2959,
+  "endFrame": 3003,
+  "words": [
+   332,
+   339
+  ]
+ },
+ {
+  "text": "Blink.",
+  "start": 100.51,
+  "end": 100.55,
+  "startFrame": 3015,
+  "endFrame": 3016,
+  "words": [
+   340,
+   340
+  ]
+ },
+ {
+  "text": "\"Put it back.\"",
+  "start": 100.93,
+  "end": 101.39,
+  "startFrame": 3028,
+  "endFrame": 3042,
+  "words": [
+   341,
+   343
+  ]
+ },
+ {
+  "text": "Totally worth it.",
+  "start": 101.84,
+  "end": 102.62,
+  "startFrame": 3055,
+  "endFrame": 3079,
+  "words": [
+   344,
+   346
+  ]
+ },
+ {
+  "text": "But then I found out dads have one eye on the back of their head too.",
+  "start": 102.8,
+  "end": 105.44,
+  "startFrame": 3084,
+  "endFrame": 3163,
+  "words": [
+   347,
+   362
+  ]
+ },
+ {
+  "text": "It's just always asleep.",
+  "start": 105.76,
+  "end": 106.82,
+  "startFrame": 3173,
+  "endFrame": 3205,
+  "words": [
+   363,
+   366
+  ]
+ }
+]

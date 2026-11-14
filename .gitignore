@@ -1,0 +1,6 @@
+__pycache__/
+roblox_render/videos/*/audio/raw_fast.wav
+roblox_render/videos/*/audio/trimmed.wav
+roblox_render/videos/*/frames/
+roblox_render/videos/*/preview/
+roblox_render/videos/*/blend/
