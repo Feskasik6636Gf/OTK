@@ -50,6 +50,14 @@ jobs:
           ~/blender/blender -b --factory-startup -P roblox_render/tools/render.py -- $SLUG final ${{ matrix.part }} 16 2>&1 \
             | grep -E "shot [0-9]+ |FAILED|Traceback|Error:|line [0-9]" | grep -v EGL || true
           ls roblox_render/videos/$SLUG/frames | wc -l
+      - name: Backup raw frames
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: eyes-frames-${{ matrix.part }}
+          path: roblox_render/videos/eyes/frames
+          retention-days: 3
+          compression-level: 0
       - name: Encode part
         run: |
           cd roblox_render/videos/$SLUG/frames
@@ -57,7 +65,7 @@ jobs:
           n=$(ls *.png | wc -l)
           mkdir -p "$GITHUB_WORKSPACE/roblox_render/out_eyes"
           ffmpeg -v error -y -framerate 30 -start_number $((10#$first)) -i %04d.png -frames:v $n \
-            -c:v libx264 -preset slow -crf 10 -pix_fmt yuv420p "$GITHUB_WORKSPACE/roblox_render/out_eyes/${SLUG}_part_${first}_${n}.mp4"
+            -vf scale=720:1280:flags=lanczos -c:v libx264 -preset slow -crf 10 -pix_fmt yuv420p "$GITHUB_WORKSPACE/roblox_render/out_eyes/${SLUG}_part_${first}_${n}.mp4"
           ls -la "$GITHUB_WORKSPACE/roblox_render/out_eyes"
       - name: Push part
         run: |
