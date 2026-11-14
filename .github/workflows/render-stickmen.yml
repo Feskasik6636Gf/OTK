@@ -26,7 +26,10 @@ jobs:
           S=$(( ${{ matrix.n }} * 2500 ))
           E=$(( S + 2499 )); [ $E -ge $TOTAL ] && E=$(( TOTAL - 1 ))
           mkdir -p out
-          npx remotion render Long out/c.mp4 --frames=$S-$E --muted --gl=angle --concurrency=4 --crf=18 --log=error --timeout=240000
+          for try in 1 2 3; do
+            npx remotion render Long out/c.mp4 --frames=$S-$E --muted --gl=angle --concurrency=3 --crf=18 --log=error --timeout=300000 && break
+            echo "attempt $try failed"; rm -f out/c.mp4; [ $try -eq 3 ] && exit 1
+          done
       - uses: actions/upload-artifact@v4
         with:
           name: chunk-${{ matrix.n }}
