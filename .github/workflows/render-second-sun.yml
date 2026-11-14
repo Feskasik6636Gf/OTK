@@ -1,0 +1,96 @@
+name: render-second-sun
+
+on:
+  push:
+    branches: [ccr-b1e8fdf2-h729jt]
+    paths: ['second-sun/**', '.github/workflows/render-second-sun.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  RENDER_SCALE: '1'
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      reuse: ${{ steps.r.outputs.reuse }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: r
+        run: echo "reuse=$(cat second-sun/.reuse-run 2>/dev/null | tr -d '[:space:]')" >> "$GITHUB_OUTPUT"
+
+  render:
+    needs: plan
+    if: ${{ needs.plan.outputs.reuse == '' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+    defaults:
+      run:
+        working-directory: second-sun
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: second-sun/package-lock.json
+      - name: System libraries for headless Chrome
+        run: sudo apt-get update && sudo apt-get install -y libnss3 libdbus-1-3 libatk1.0-0 libatk-bridge2.0-0 libasound2t64 libxrandr2 libxkbcommon0 libxfixes3 libxcomposite1 libxdamage1 libgbm1 libcups2 libpango-1.0-0 libcairo2
+      - run: npm ci
+      - name: Render this shard
+        run: node tools/render2.mjs ${{ matrix.shard }} 20
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chunks-${{ matrix.shard }}
+          path: second-sun/out/chunks_Long/*.mp4
+          if-no-files-found: error
+
+  assemble:
+    needs: [plan, render]
+    if: ${{ !cancelled() && (needs.render.result == 'success' || needs.render.result == 'skipped') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    defaults:
+      run:
+        working-directory: second-sun
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: second-sun/package-lock.json
+      - run: npm ci
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: chunks-*
+          merge-multiple: true
+          path: second-sun/out/chunks_Long
+          run-id: ${{ needs.plan.outputs.reuse || github.run_id }}
+          github-token: ${{ github.token }}
+      - name: Make bundled ffmpeg executable
+        run: chmod +x node_modules/@remotion/compositor-*/*
+      - name: Sound bed
+        run: node tools/make-sound.mjs
+      - name: Join chunks and mix sound
+        run: node tools/render.mjs Long --chunk 300
+      - name: Check video
+        run: node tools/check-video.mjs out/Long.mp4 || true
+      - uses: actions/upload-artifact@v4
+        with:
+          name: final-video
+          path: second-sun/out/Long.mp4
+          retention-days: 7
+      - name: Publish as a release asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete second-sun -y --cleanup-tag || true
+          gh release create second-sun out/Long.mp4 --title "What If Earth Got a Second Sun" --notes "Rendered by GitHub Actions" --prerelease

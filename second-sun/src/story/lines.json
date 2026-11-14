@@ -1,0 +1,1337 @@
+[
+ {
+  "id": "001_N",
+  "sp": "N",
+  "t": "It's two o'clock in the morning, and you're putting on sunscreen."
+ },
+ {
+  "id": "002_N",
+  "sp": "N",
+  "t": "Outside your window, the sky is bright blue."
+ },
+ {
+  "id": "003_N",
+  "sp": "N",
+  "t": "Your little brother is shooting hoops in the driveway."
+ },
+ {
+  "id": "004_N",
+  "sp": "N",
+  "t": "Your neighbor is mowing his lawn."
+ },
+ {
+  "id": "005_N",
+  "sp": "N",
+  "t": "Somewhere down the street, a rooster has been screaming for six weeks straight"
+ },
+ {
+  "id": "006_N",
+  "sp": "N",
+  "t": "and has finally lost his voice."
+ },
+ {
+  "id": "007_N",
+  "sp": "N",
+  "t": "Nobody on your side of the planet has seen a dark sky in 41 days."
+ },
+ {
+  "id": "008_N",
+  "sp": "N",
+  "t": "Nobody knows if they ever will again."
+ },
+ {
+  "id": "009_N",
+  "sp": "N",
+  "t": "Because 41 days ago, Earth got a second sun."
+ },
+ {
+  "id": "010_N",
+  "sp": "N",
+  "t": "And in five months, that second sun is going to decide something nobody on Earth can control."
+ },
+ {
+  "id": "011_N",
+  "sp": "N",
+  "t": "Where our planet goes next."
+ },
+ {
+  "id": "012_N",
+  "sp": "N",
+  "t": "Let's go back to the first morning, day one."
+ },
+ {
+  "id": "013_N",
+  "sp": "N",
+  "t": "Your alarm is set for seven."
+ },
+ {
+  "id": "014_N",
+  "sp": "N",
+  "t": "You wake up at four because your room is glowing orange."
+ },
+ {
+  "id": "015_N",
+  "sp": "N",
+  "t": "You pull the curtain."
+ },
+ {
+  "id": "016_N",
+  "sp": "N",
+  "t": "The normal sun isn't up yet, but there's something else in the sky."
+ },
+ {
+  "id": "017_N",
+  "sp": "N",
+  "t": "Smaller, orange, bright enough to hurt your eyes, and it's rising in the wrong place."
+ },
+ {
+  "id": "018_N",
+  "sp": "N",
+  "t": "You run outside in your socks."
+ },
+ {
+  "id": "019_N",
+  "sp": "N",
+  "t": "Every neighbor is already there, in pajamas, holding phones up at the sky."
+ },
+ {
+  "id": "020_N",
+  "sp": "N",
+  "t": "Nobody's saying anything."
+ },
+ {
+  "id": "021_N",
+  "sp": "N",
+  "t": "Then your sun comes up too."
+ },
+ {
+  "id": "022_N",
+  "sp": "N",
+  "t": "Two suns, one white, one orange."
+ },
+ {
+  "id": "023_N",
+  "sp": "N",
+  "t": "And when you look down, you have two shadows."
+ },
+ {
+  "id": "024_N",
+  "sp": "N",
+  "t": "One long and pale, one short and orange."
+ },
+ {
+  "id": "025_N",
+  "sp": "N",
+  "t": "They move in different directions when you walk."
+ },
+ {
+  "id": "026_N",
+  "sp": "N",
+  "t": "Your little brother Sam jumps up and down."
+ },
+ {
+  "id": "027_SAM",
+  "sp": "SAM",
+  "t": "It's like that desert planet from the movies."
+ },
+ {
+  "id": "028_N",
+  "sp": "N",
+  "t": "Your grandpa, who's been looking at the sky through a telescope for 50 years,"
+ },
+ {
+  "id": "029_N",
+  "sp": "N",
+  "t": "just stands there with his coffee and whispers,"
+ },
+ {
+  "id": "030_GRANDPA",
+  "sp": "GRANDPA",
+  "t": "That's not possible."
+ },
+ {
+  "id": "031_N",
+  "sp": "N",
+  "t": "But here's the thing."
+ },
+ {
+  "id": "032_N",
+  "sp": "N",
+  "t": "It's possible."
+ },
+ {
+  "id": "033_N",
+  "sp": "N",
+  "t": "It's actually normal."
+ },
+ {
+  "id": "034_N",
+  "sp": "N",
+  "t": "About half of all stars like our sun have a partner star."
+ },
+ {
+  "id": "035_N",
+  "sp": "N",
+  "t": "Our solar system, with its one lonely sun, is a bit unusual."
+ },
+ {
+  "id": "036_N",
+  "sp": "N",
+  "t": "And in 2011, a space telescope found a real planet orbiting two suns at once."
+ },
+ {
+  "id": "037_N",
+  "sp": "N",
+  "t": "Scientists nicknamed it after that same desert planet from the movies."
+ },
+ {
+  "id": "038_N",
+  "sp": "N",
+  "t": "Somewhere out there, right now, there are probably worlds where two sunsets is just a normal Tuesday."
+ },
+ {
+  "id": "039_N",
+  "sp": "N",
+  "t": "By lunchtime, scientists explain what happened."
+ },
+ {
+  "id": "040_N",
+  "sp": "N",
+  "t": "The new star isn't new."
+ },
+ {
+  "id": "041_N",
+  "sp": "N",
+  "t": "It's a small orange star that's been drifting through space for millions of years."
+ },
+ {
+  "id": "042_N",
+  "sp": "N",
+  "t": "Stars do that."
+ },
+ {
+  "id": "043_N",
+  "sp": "N",
+  "t": "About 70,000 years ago, a small star called Schultz's star"
+ },
+ {
+  "id": "044_N",
+  "sp": "N",
+  "t": "passed through the far outer edge of our solar system."
+ },
+ {
+  "id": "045_N",
+  "sp": "N",
+  "t": "Our ancestors might have seen it as a faint red dot."
+ },
+ {
+  "id": "046_N",
+  "sp": "N",
+  "t": "This one came much, much closer."
+ },
+ {
+  "id": "047_N",
+  "sp": "N",
+  "t": "At first, the whole world loves it."
+ },
+ {
+  "id": "048_N",
+  "sp": "N",
+  "t": "Day three."
+ },
+ {
+  "id": "049_N",
+  "sp": "N",
+  "t": "The sunsets are the most beautiful thing anyone's ever seen."
+ },
+ {
+  "id": "050_N",
+  "sp": "N",
+  "t": "First, the white sun goes down, painting everything pink."
+ },
+ {
+  "id": "051_N",
+  "sp": "N",
+  "t": "Then, an hour later, the orange one sets, and the sky turns gold, then purple,"
+ },
+ {
+  "id": "052_N",
+  "sp": "N",
+  "t": "then a color nobody has a name for."
+ },
+ {
+  "id": "053_N",
+  "sp": "N",
+  "t": "People stop their cars on highways to watch."
+ },
+ {
+  "id": "054_N",
+  "sp": "N",
+  "t": "Couples get engaged at every sunset."
+ },
+ {
+  "id": "055_N",
+  "sp": "N",
+  "t": "Your town holds a two-sunset festival."
+ },
+ {
+  "id": "056_N",
+  "sp": "N",
+  "t": "There's a band, there's a food truck selling double-yoke eggs called the Two Suns Special."
+ },
+ {
+  "id": "057_N",
+  "sp": "N",
+  "t": "Solar panels go crazy."
+ },
+ {
+  "id": "058_N",
+  "sp": "N",
+  "t": "Your neighbor's roof makes so much electricity that he gets a check from the power company."
+ },
+ {
+  "id": "059_N",
+  "sp": "N",
+  "t": "Plants grow faster."
+ },
+ {
+  "id": "060_N",
+  "sp": "N",
+  "t": "Tomatoes in your mom's garden double in size in a week."
+ },
+ {
+  "id": "061_N",
+  "sp": "N",
+  "t": "In school, teachers can't decide when the day starts."
+ },
+ {
+  "id": "062_N",
+  "sp": "N",
+  "t": "So for a while, it kind of doesn't."
+ },
+ {
+  "id": "063_N",
+  "sp": "N",
+  "t": "But by the end of the first week, people start noticing something."
+ },
+ {
+  "id": "064_N",
+  "sp": "N",
+  "t": "When the two suns are on opposite sides of the earth, one sets and the other is already rising."
+ },
+ {
+  "id": "065_N",
+  "sp": "N",
+  "t": "For most of the year, there's no real night anymore."
+ },
+ {
+  "id": "066_N",
+  "sp": "N",
+  "t": "Just a few hours of strange orange evening."
+ },
+ {
+  "id": "067_N",
+  "sp": "N",
+  "t": "Then, light again."
+ },
+ {
+  "id": "068_N",
+  "sp": "N",
+  "t": "And your body hates it."
+ },
+ {
+  "id": "069_N",
+  "sp": "N",
+  "t": "Inside your brain, there's a tiny clock that works mostly by watching light."
+ },
+ {
+  "id": "070_N",
+  "sp": "N",
+  "t": "When it gets dark, your brain releases a hormone called melatonin,"
+ },
+ {
+  "id": "071_N",
+  "sp": "N",
+  "t": "which tells your body it's time to sleep."
+ },
+ {
+  "id": "072_N",
+  "sp": "N",
+  "t": "Light at night blocks it."
+ },
+ {
+  "id": "073_N",
+  "sp": "N",
+  "t": "That's why scientists tell you not to scroll your phone in bed."
+ },
+ {
+  "id": "074_N",
+  "sp": "N",
+  "t": "Now imagine your whole sky as a phone screen."
+ },
+ {
+  "id": "075_N",
+  "sp": "N",
+  "t": "All night."
+ },
+ {
+  "id": "076_N",
+  "sp": "N",
+  "t": "Every night."
+ },
+ {
+  "id": "077_N",
+  "sp": "N",
+  "t": "Day 9"
+ },
+ {
+  "id": "078_N",
+  "sp": "N",
+  "t": "Blackout curtains sell out in every store on earth."
+ },
+ {
+  "id": "079_N",
+  "sp": "N",
+  "t": "People tape aluminum foil over their windows."
+ },
+ {
+  "id": "080_N",
+  "sp": "N",
+  "t": "Your dad sleeps in the bathtub with a towel over his head."
+ },
+ {
+  "id": "081_N",
+  "sp": "N",
+  "t": "Sam stays awake for 22 hours, then falls asleep in his cereal."
+ },
+ {
+  "id": "082_N",
+  "sp": "N",
+  "t": "Your mom is a nurse."
+ },
+ {
+  "id": "083_N",
+  "sp": "N",
+  "t": "Her hospital is full of people who haven't slept in days."
+ },
+ {
+  "id": "084_N",
+  "sp": "N",
+  "t": "Car crashes go up."
+ },
+ {
+  "id": "085_N",
+  "sp": "N",
+  "t": "Tempers go up."
+ },
+ {
+  "id": "086_N",
+  "sp": "N",
+  "t": "Everyone is tired."
+ },
+ {
+  "id": "087_N",
+  "sp": "N",
+  "t": "All the time."
+ },
+ {
+  "id": "088_N",
+  "sp": "N",
+  "t": "Then, the animals start to get confused."
+ },
+ {
+  "id": "089_N",
+  "sp": "N",
+  "t": "Birds sing at 3 in the morning."
+ },
+ {
+  "id": "090_N",
+  "sp": "N",
+  "t": "Bats don't come out because there's no dark to hunt in."
+ },
+ {
+  "id": "091_N",
+  "sp": "N",
+  "t": "Owls sit in trees, blinking, waiting for a night that never comes."
+ },
+ {
+  "id": "092_N",
+  "sp": "N",
+  "t": "On beaches, baby sea turtles hatch and do what they've done for millions of years."
+ },
+ {
+  "id": "093_N",
+  "sp": "N",
+  "t": "They crawl toward the brightest horizon because that's usually the ocean."
+ },
+ {
+  "id": "094_N",
+  "sp": "N",
+  "t": "But now, half the time, the brightest horizon is the orange sun."
+ },
+ {
+  "id": "095_N",
+  "sp": "N",
+  "t": "Thousands of baby turtles crawl the wrong way."
+ },
+ {
+  "id": "096_N",
+  "sp": "N",
+  "t": "Volunteers spend all night carrying them to the water by hand."
+ },
+ {
+  "id": "097_N",
+  "sp": "N",
+  "t": "You and your best friend, Nia, go every weekend."
+ },
+ {
+  "id": "098_N",
+  "sp": "N",
+  "t": "You carry 400 turtles in one night."
+ },
+ {
+  "id": "099_N",
+  "sp": "N",
+  "t": "And the plants."
+ },
+ {
+  "id": "100_N",
+  "sp": "N",
+  "t": "Many plants decide when to flower by measuring how long the night is."
+ },
+ {
+  "id": "101_N",
+  "sp": "N",
+  "t": "Short nights mean summer."
+ },
+ {
+  "id": "102_N",
+  "sp": "N",
+  "t": "Long nights mean winter."
+ },
+ {
+  "id": "103_N",
+  "sp": "N",
+  "t": "Now, there are no nights at all."
+ },
+ {
+  "id": "104_N",
+  "sp": "N",
+  "t": "Wheat fields flower at the wrong time."
+ },
+ {
+  "id": "105_N",
+  "sp": "N",
+  "t": "Apple trees bloom in what should be autumn."
+ },
+ {
+  "id": "106_N",
+  "sp": "N",
+  "t": "Farmers stand in their fields, staring at crops that think it's always summer."
+ },
+ {
+  "id": "107_N",
+  "sp": "N",
+  "t": "Then comes the heat."
+ },
+ {
+  "id": "108_N",
+  "sp": "N",
+  "t": "Day 20."
+ },
+ {
+  "id": "109_N",
+  "sp": "N",
+  "t": "The second sun is smaller than ours."
+ },
+ {
+  "id": "110_N",
+  "sp": "N",
+  "t": "But Earth is getting more sunlight than it has in its whole history."
+ },
+ {
+  "id": "111_N",
+  "sp": "N",
+  "t": "And that's dangerous because Earth's temperature is balanced on a knife's edge."
+ },
+ {
+  "id": "112_N",
+  "sp": "N",
+  "t": "Here's a fact that sounds made up, but isn't."
+ },
+ {
+  "id": "113_N",
+  "sp": "N",
+  "t": "Our sun is slowly getting brighter."
+ },
+ {
+  "id": "114_N",
+  "sp": "N",
+  "t": "In about a billion years, it'll be roughly 10% brighter than it is today."
+ },
+ {
+  "id": "115_N",
+  "sp": "N",
+  "t": "And scientists think that might be enough to start boiling away Earth's oceans."
+ },
+ {
+  "id": "116_N",
+  "sp": "N",
+  "t": "10%."
+ },
+ {
+  "id": "117_N",
+  "sp": "N",
+  "t": "That's all it takes."
+ },
+ {
+  "id": "118_N",
+  "sp": "N",
+  "t": "And now, Earth is getting a lot more than 10% extra."
+ },
+ {
+  "id": "119_N",
+  "sp": "N",
+  "t": "Not all at once."
+ },
+ {
+  "id": "120_N",
+  "sp": "N",
+  "t": "Oceans are huge, and they heat slowly."
+ },
+ {
+  "id": "121_N",
+  "sp": "N",
+  "t": "But the land heats fast."
+ },
+ {
+  "id": "122_N",
+  "sp": "N",
+  "t": "Summer in your town used to mean 30 degrees."
+ },
+ {
+  "id": "123_N",
+  "sp": "N",
+  "t": "Now, it's 42."
+ },
+ {
+  "id": "124_N",
+  "sp": "N",
+  "t": "Asphalt gets so hot, it melts under bike tires."
+ },
+ {
+  "id": "125_N",
+  "sp": "N",
+  "t": "Glaciers in the mountains start pouring water into rivers."
+ },
+ {
+  "id": "126_N",
+  "sp": "N",
+  "t": "Schools move all classes to the darkest hours, which are now from midnight to 5 a.m."
+ },
+ {
+  "id": "127_N",
+  "sp": "N",
+  "t": "Your mom works double shifts because the hospital fills up with people who are sick from the heat."
+ },
+ {
+  "id": "128_N",
+  "sp": "N",
+  "t": "And that brings us back to day 41."
+ },
+ {
+  "id": "129_N",
+  "sp": "N",
+  "t": "Two in the morning."
+ },
+ {
+  "id": "130_N",
+  "sp": "N",
+  "t": "Sunscreen."
+ },
+ {
+  "id": "131_N",
+  "sp": "N",
+  "t": "Sam shooting hoops under a blue sky."
+ },
+ {
+  "id": "132_N",
+  "sp": "N",
+  "t": "And your grandpa sitting on the porch with his telescope,"
+ },
+ {
+  "id": "133_N",
+  "sp": "N",
+  "t": "which he hasn't been able to use in six weeks."
+ },
+ {
+  "id": "134_GRANDPA",
+  "sp": "GRANDPA",
+  "t": "You know what I miss?"
+ },
+ {
+  "id": "135_N",
+  "sp": "N",
+  "t": "He says,"
+ },
+ {
+  "id": "136_GRANDPA",
+  "sp": "GRANDPA",
+  "t": "The stars."
+ },
+ {
+  "id": "137_GRANDPA",
+  "sp": "GRANDPA",
+  "t": "I've looked at them every clear night since I was your age."
+ },
+ {
+  "id": "138_GRANDPA",
+  "sp": "GRANDPA",
+  "t": "And now I can't see a single one."
+ },
+ {
+  "id": "139_N",
+  "sp": "N",
+  "t": "You don't know what to say."
+ },
+ {
+  "id": "140_N",
+  "sp": "N",
+  "t": "So you sit with him."
+ },
+ {
+  "id": "141_N",
+  "sp": "N",
+  "t": "Then the real problem shows up."
+ },
+ {
+  "id": "142_N",
+  "sp": "N",
+  "t": "And it isn't the heat."
+ },
+ {
+  "id": "143_N",
+  "sp": "N",
+  "t": "Day 60."
+ },
+ {
+  "id": "144_N",
+  "sp": "N",
+  "t": "Astronomers announced they've finished their calculations."
+ },
+ {
+  "id": "145_N",
+  "sp": "N",
+  "t": "The second sun isn't staying."
+ },
+ {
+  "id": "146_N",
+  "sp": "N",
+  "t": "It's passing through."
+ },
+ {
+  "id": "147_N",
+  "sp": "N",
+  "t": "It came from deep space."
+ },
+ {
+  "id": "148_N",
+  "sp": "N",
+  "t": "And in about four months, it'll head back out."
+ },
+ {
+  "id": "149_N",
+  "sp": "N",
+  "t": "That's good news."
+ },
+ {
+  "id": "150_N",
+  "sp": "N",
+  "t": "Except for one thing."
+ },
+ {
+  "id": "151_N",
+  "sp": "N",
+  "t": "Gravity."
+ },
+ {
+  "id": "152_N",
+  "sp": "N",
+  "t": "Every star pulls on everything around it, including us."
+ },
+ {
+  "id": "153_N",
+  "sp": "N",
+  "t": "With one sun, Earth's orbit is simple."
+ },
+ {
+  "id": "154_N",
+  "sp": "N",
+  "t": "The same path around the sun year after year for billions of years."
+ },
+ {
+  "id": "155_N",
+  "sp": "N",
+  "t": "But with two suns pulling on one planet,"
+ },
+ {
+  "id": "156_N",
+  "sp": "N",
+  "t": "scientists have a word for what you get."
+ },
+ {
+  "id": "157_N",
+  "sp": "N",
+  "t": "The three-body problem."
+ },
+ {
+  "id": "158_N",
+  "sp": "N",
+  "t": "Three objects pulling on each other."
+ },
+ {
+  "id": "159_N",
+  "sp": "N",
+  "t": "And there's no simple formula that tells you what happens next."
+ },
+ {
+  "id": "160_N",
+  "sp": "N",
+  "t": "Tiny changes now can mean huge changes later."
+ },
+ {
+  "id": "161_N",
+  "sp": "N",
+  "t": "It's chaos in the mathematical sense."
+ },
+ {
+  "id": "162_N",
+  "sp": "N",
+  "t": "The second sun is pulling on Earth."
+ },
+ {
+  "id": "163_N",
+  "sp": "N",
+  "t": "Just a little."
+ },
+ {
+  "id": "164_N",
+  "sp": "N",
+  "t": "Our orbit is already changing."
+ },
+ {
+  "id": "165_N",
+  "sp": "N",
+  "t": "A few kilometers a day, measured by instruments so precise,"
+ },
+ {
+  "id": "166_N",
+  "sp": "N",
+  "t": "they can track a spacecraft on the other side of the solar system."
+ },
+ {
+  "id": "167_N",
+  "sp": "N",
+  "t": "And when that star leaves, it might drag Earth just a tiny bit with it."
+ },
+ {
+  "id": "168_N",
+  "sp": "N",
+  "t": "Scientists run thousands of simulations."
+ },
+ {
+  "id": "169_N",
+  "sp": "N",
+  "t": "In most of them, Earth ends up almost exactly where it started."
+ },
+ {
+  "id": "170_N",
+  "sp": "N",
+  "t": "In some of them, our orbit gets a little wider and Earth gets colder."
+ },
+ {
+  "id": "171_N",
+  "sp": "N",
+  "t": "In a few of them, Earth gets pulled closer to the sun."
+ },
+ {
+  "id": "172_N",
+  "sp": "N",
+  "t": "And in a very small number,"
+ },
+ {
+  "id": "173_N",
+  "sp": "N",
+  "t": "Earth gets thrown out of the solar system completely into the dark."
+ },
+ {
+  "id": "174_N",
+  "sp": "N",
+  "t": "Nobody can tell which one is real, not until the star passes."
+ },
+ {
+  "id": "175_N",
+  "sp": "N",
+  "t": "For four months, the whole world waits."
+ },
+ {
+  "id": "176_N",
+  "sp": "N",
+  "t": "A countdown clock appears on every news channel."
+ },
+ {
+  "id": "177_N",
+  "sp": "N",
+  "t": "Days, hours, minutes until closest approach."
+ },
+ {
+  "id": "178_N",
+  "sp": "N",
+  "t": "Sam asks you what happens if Earth gets thrown out into space."
+ },
+ {
+  "id": "179_N",
+  "sp": "N",
+  "t": "You tell him the truth because he deserves it."
+ },
+ {
+  "id": "180_N",
+  "sp": "N",
+  "t": "It would get dark, then cold, then colder than anything has ever been."
+ },
+ {
+  "id": "181_N",
+  "sp": "N",
+  "t": "He thinks about it for a long time."
+ },
+ {
+  "id": "182_N",
+  "sp": "N",
+  "t": "Then he asks if he can still bring his basketball."
+ },
+ {
+  "id": "183_N",
+  "sp": "N",
+  "t": "You say yes."
+ },
+ {
+  "id": "184_N",
+  "sp": "N",
+  "t": "He seems fine with that."
+ },
+ {
+  "id": "185_N",
+  "sp": "N",
+  "t": "You are not."
+ },
+ {
+  "id": "186_N",
+  "sp": "N",
+  "t": "Some people panic."
+ },
+ {
+  "id": "187_N",
+  "sp": "N",
+  "t": "Some people build bunkers."
+ },
+ {
+  "id": "188_N",
+  "sp": "N",
+  "t": "Some people quit their jobs and go see the ocean one last time."
+ },
+ {
+  "id": "189_N",
+  "sp": "N",
+  "t": "Nia's family moves to the mountains."
+ },
+ {
+  "id": "190_N",
+  "sp": "N",
+  "t": "Before she leaves, you carry one last baby turtle to the water together."
+ },
+ {
+  "id": "191_N",
+  "sp": "N",
+  "t": "She says, if the world ends,"
+ },
+ {
+  "id": "192_NIA",
+  "sp": "NIA",
+  "t": "I'm glad this was the last normal thing we did."
+ },
+ {
+  "id": "193_N",
+  "sp": "N",
+  "t": "You say turtles aren't normal."
+ },
+ {
+  "id": "194_N",
+  "sp": "N",
+  "t": "She laughs."
+ },
+ {
+  "id": "195_N",
+  "sp": "N",
+  "t": "You don't tell her you're scared."
+ },
+ {
+  "id": "196_N",
+  "sp": "N",
+  "t": "At home, everyone gets strangely gentle."
+ },
+ {
+  "id": "197_N",
+  "sp": "N",
+  "t": "Your dad starts cooking dinner every night,"
+ },
+ {
+  "id": "198_N",
+  "sp": "N",
+  "t": "even though nobody knows when dinner time is anymore."
+ },
+ {
+  "id": "199_N",
+  "sp": "N",
+  "t": "Your mom comes home from double shifts and sleeps on the couch with Sam on her lap."
+ },
+ {
+  "id": "200_N",
+  "sp": "N",
+  "t": "Grandpa teaches you the names of stars from a book"
+ },
+ {
+  "id": "201_N",
+  "sp": "N",
+  "t": "because he can't show you the real ones."
+ },
+ {
+  "id": "202_N",
+  "sp": "N",
+  "t": "Vega, Sirius, Betelgeuse."
+ },
+ {
+  "id": "203_GRANDPA",
+  "sp": "GRANDPA",
+  "t": "When they come back, he says, you'll know their names."
+ },
+ {
+  "id": "204_N",
+  "sp": "N",
+  "t": "You notice he says when, not if."
+ },
+ {
+  "id": "205_N",
+  "sp": "N",
+  "t": "Day 180, the closest approach."
+ },
+ {
+  "id": "206_N",
+  "sp": "N",
+  "t": "The orange sun is the biggest it will ever be."
+ },
+ {
+  "id": "207_N",
+  "sp": "N",
+  "t": "Every phone on Earth vibrates with the same alert."
+ },
+ {
+  "id": "208_N",
+  "sp": "N",
+  "t": "Every scientist on the planet is watching the numbers."
+ },
+ {
+  "id": "209_N",
+  "sp": "N",
+  "t": "You stand in your yard with your whole family,"
+ },
+ {
+  "id": "210_N",
+  "sp": "N",
+  "t": "holding hands, staring at the sky"
+ },
+ {
+  "id": "211_N",
+  "sp": "N",
+  "t": "while the most important moment in human history happens"
+ },
+ {
+  "id": "212_N",
+  "sp": "N",
+  "t": "and nothing visible changes at all."
+ },
+ {
+  "id": "213_N",
+  "sp": "N",
+  "t": "Then a scientist on TV takes off her glasses,"
+ },
+ {
+  "id": "214_N",
+  "sp": "N",
+  "t": "puts her hands over her face and starts crying."
+ },
+ {
+  "id": "215_N",
+  "sp": "N",
+  "t": "Earth is staying."
+ },
+ {
+  "id": "216_N",
+  "sp": "N",
+  "t": "Our orbit has changed, a tiny bit."
+ },
+ {
+  "id": "217_N",
+  "sp": "N",
+  "t": "A year is now three days longer than it used to be."
+ },
+ {
+  "id": "218_N",
+  "sp": "N",
+  "t": "Every calendar on Earth will need fixing."
+ },
+ {
+  "id": "219_N",
+  "sp": "N",
+  "t": "Nobody cares."
+ },
+ {
+  "id": "220_N",
+  "sp": "N",
+  "t": "The whole planet is cheering."
+ },
+ {
+  "id": "221_N",
+  "sp": "N",
+  "t": "Day 214, the orange sun is shrinking."
+ },
+ {
+  "id": "222_N",
+  "sp": "N",
+  "t": "Each evening, it's a little smaller, a little weaker."
+ },
+ {
+  "id": "223_N",
+  "sp": "N",
+  "t": "And one evening when your son goes down,"
+ },
+ {
+  "id": "224_N",
+  "sp": "N",
+  "t": "the orange one is so far away that it's not a sun anymore."
+ },
+ {
+  "id": "225_N",
+  "sp": "N",
+  "t": "It's just a very bright star."
+ },
+ {
+  "id": "226_N",
+  "sp": "N",
+  "t": "And for the first time in 214 days, it gets dark."
+ },
+ {
+  "id": "227_N",
+  "sp": "N",
+  "t": "Real dark."
+ },
+ {
+  "id": "228_N",
+  "sp": "N",
+  "t": "The power company turns off the street lights"
+ },
+ {
+  "id": "229_N",
+  "sp": "N",
+  "t": "so people can see."
+ },
+ {
+  "id": "230_N",
+  "sp": "N",
+  "t": "Eight billion people walk outside."
+ },
+ {
+  "id": "231_N",
+  "sp": "N",
+  "t": "In your town, nobody talks."
+ },
+ {
+  "id": "232_N",
+  "sp": "N",
+  "t": "Everyone just looks up."
+ },
+ {
+  "id": "233_N",
+  "sp": "N",
+  "t": "And there they are, thousands of them."
+ },
+ {
+  "id": "234_N",
+  "sp": "N",
+  "t": "Then millions, the Milky Way,"
+ },
+ {
+  "id": "235_N",
+  "sp": "N",
+  "t": "stretched across the sky like spilled sugar."
+ },
+ {
+  "id": "236_N",
+  "sp": "N",
+  "t": "Your grandpa is standing next to you, holding the telescope"
+ },
+ {
+  "id": "237_N",
+  "sp": "N",
+  "t": "he hasn't used in seven months."
+ },
+ {
+  "id": "238_N",
+  "sp": "N",
+  "t": "His hands are shaking."
+ },
+ {
+  "id": "239_N",
+  "sp": "N",
+  "t": "Vega, you say, pointing."
+ },
+ {
+  "id": "240_HERO",
+  "sp": "HERO",
+  "t": "Serious."
+ },
+ {
+  "id": "241_HERO",
+  "sp": "HERO",
+  "t": "And that red one is Betelgeuse."
+ },
+ {
+  "id": "242_N",
+  "sp": "N",
+  "t": "He looks at you for a long time."
+ },
+ {
+  "id": "243_N",
+  "sp": "N",
+  "t": "Then he hugs you so hard you can't breathe."
+ },
+ {
+  "id": "244_N",
+  "sp": "N",
+  "t": "That night, the whole world sleeps for 14 hours."
+ },
+ {
+  "id": "245_N",
+  "sp": "N",
+  "t": "Here's the thing nobody thinks about."
+ },
+ {
+  "id": "246_N",
+  "sp": "N",
+  "t": "Every single thing you love depends on one star"
+ },
+ {
+  "id": "247_N",
+  "sp": "N",
+  "t": "sitting exactly where it is."
+ },
+ {
+  "id": "248_N",
+  "sp": "N",
+  "t": "Not too close, not too far, not too bright,"
+ },
+ {
+  "id": "249_N",
+  "sp": "N",
+  "t": "alone in the sky."
+ },
+ {
+  "id": "250_N",
+  "sp": "N",
+  "t": "Our sun is completely ordinary."
+ },
+ {
+  "id": "251_N",
+  "sp": "N",
+  "t": "And that's the most extraordinary thing about it."
+ },
+ {
+  "id": "252_N",
+  "sp": "N",
+  "t": "A week later, grandpa is out on the porch at midnight."
+ },
+ {
+  "id": "253_N",
+  "sp": "N",
+  "t": "His eye pressed to the telescope,"
+ },
+ {
+  "id": "254_N",
+  "sp": "N",
+  "t": "following the orange star as it drifts away."
+ },
+ {
+  "id": "255_N",
+  "sp": "N",
+  "t": "Then he stops."
+ },
+ {
+  "id": "256_N",
+  "sp": "N",
+  "t": "He frowns."
+ },
+ {
+  "id": "257_N",
+  "sp": "N",
+  "t": "He adjusts a dial."
+ },
+ {
+  "id": "258_GRANDPA",
+  "sp": "GRANDPA",
+  "t": "Huh, he says."
+ },
+ {
+  "id": "259_GRANDPA",
+  "sp": "GRANDPA",
+  "t": "That's strange."
+ },
+ {
+  "id": "260_HERO",
+  "sp": "HERO",
+  "t": "What?"
+ },
+ {
+  "id": "261_N",
+  "sp": "N",
+  "t": "He doesn't look up."
+ },
+ {
+  "id": "262_GRANDPA",
+  "sp": "GRANDPA",
+  "t": "It's not leaving alone."
+ },
+ {
+  "id": "263_N",
+  "sp": "N",
+  "t": "So, would you want to live on a planet with two sons?"
+ },
+ {
+  "id": "264_N",
+  "sp": "N",
+  "t": "Or would you miss the night too much?"
+ },
+ {
+  "id": "265_N",
+  "sp": "N",
+  "t": "Tell us in the comments."
+ },
+ {
+  "id": "266_N",
+  "sp": "N",
+  "t": "And if you'd have carried baby turtles all night too,"
+ },
+ {
+  "id": "267_N",
+  "sp": "N",
+  "t": "hit like and subscribe for more What Ifs."
+ }
+]
