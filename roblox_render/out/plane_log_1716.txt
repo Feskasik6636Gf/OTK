@@ -1,0 +1,4 @@
+shot 48 ok 533.2s
+shot 49 ok 917.3s
+shot 50 ok 676.3s
+shot 51 ok 732.0s
