@@ -1,0 +1,68 @@
+{
+ "boom": {
+  "gain": 0
+ },
+ "rumble": {
+  "gain": -4
+ },
+ "wind": {
+  "gain": -8
+ },
+ "jet": {
+  "gain": -8
+ },
+ "waves": {
+  "gain": -8
+ },
+ "water": {
+  "gain": -6
+ },
+ "cabin": {
+  "gain": -12
+ },
+ "laughs": {
+  "gain": -8
+ },
+ "alarm": {
+  "gain": -8
+ },
+ "bubbles": {
+  "gain": -4
+ },
+ "riser": {
+  "gain": -3
+ },
+ "heartbeat": {
+  "gain": -1
+ },
+ "pop": {
+  "gain": -4
+ },
+ "tick": {
+  "gain": -4
+ },
+ "paper": {
+  "gain": -3
+ },
+ "notif": {
+  "gain": -4
+ },
+ "pay": {
+  "gain": -4
+ },
+ "correct": {
+  "gain": -3
+ },
+ "click": {
+  "gain": -3
+ },
+ "swoosh": {
+  "gain": -4
+ },
+ "sparkle": {
+  "gain": -5
+ },
+ "slap": {
+  "gain": -2
+ }
+}
