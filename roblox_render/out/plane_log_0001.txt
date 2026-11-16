@@ -1,0 +1,3 @@
+shot 01 ok 865.5s
+shot 02 ok 707.4s
+shot 03 ok 679.8s
