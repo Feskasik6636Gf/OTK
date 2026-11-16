@@ -1,0 +1,8 @@
+{
+  "voice_id": "skghcThhrhzKre1Ny7M7",
+  "tts_model": "eleven_v4",
+  "music_mode": "tempo",
+  "music_speed": 1.5,
+  "blender": "/root/blender/blender-5.2.4-linux-x64/blender",
+  "caption_font": "Titan One"
+}
