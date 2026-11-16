@@ -1,0 +1,4 @@
+shot 28 ok 600.9s
+shot 29 ok 1772.2s
+shot 30 ok 2022.4s
+shot 31 ok 2009.0s
