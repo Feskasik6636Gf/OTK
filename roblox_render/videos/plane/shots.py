@@ -351,7 +351,7 @@ def tank_set(water=True):
     box("tk_floor", (60, 40, 0.4), (0, 10, -0.2), M("#3a4048", 0.5), 0, coll=c)
     box("tk_wall", (60, 0.6, 24), (0, 24, 12), M("#2c3340", 0.7), 0, coll=c)
     # glass tank
-    box("tk_water", (22, 12, 11), (0, 10, 6.0), mat("tk_wat", (0.15, 0.5, 0.95), 0.05, emit=(0.1, 0.4, 0.9), estr=0.5, alpha=0.4), 0.2, coll=c)
+    box("tk_water", (22, 12, 11), (0, 10, 6.0), mat("tk_wat", (0.15, 0.5, 0.95), 0.05, emit=(0.1, 0.4, 0.9), estr=0.12, alpha=0.16), 0.2, coll=c)
     for sx in (-1, 1):
         box(f"tk_post{sx}", (0.6, 0.6, 12.2), (sx * 11.2, 4, 6.1), M("#8a929e", 0.3, metal=0.9), 0.05, coll=c)
         box(f"tk_postb{sx}", (0.6, 0.6, 12.2), (sx * 11.2, 16, 6.1), M("#8a929e", 0.3, metal=0.9), 0.05, coll=c)
@@ -394,14 +394,15 @@ def window_set(round_win, dark_sky=False, size=(15, 10), inner=3.0, thick=0.7, l
     """Macro fuselage wall with ONE window, camera looks at it from -Y. Returns dict of key points."""
     c = collection("WIN")
     world((0.06, 0.07, 0.1), 0.3)
-    metal = mat("fus_metal", hexc("#b9c2cc"), 0.28, metal=0.85)
+    metal = mat("fus_metal", hexc("#8d99a8"), 0.38, metal=0.6)
     box("wn_back", (60, 0.4, 40), (0, 4.0, 5), M("#0b0d12", 0.9), 0, coll=c)
-    card("wn_sky", 30, 20, (0, 2.5, 5), mat("wn_skym", (0.35, 0.6, 1.0) if not dark_sky else (0.1, 0.12, 0.2),
-         emit=(0.35, 0.6, 1.0) if not dark_sky else (0.1, 0.12, 0.2), estr=2.2), "-Y", coll=c)
-    card("wn_cloud", 6, 2.4, (3.0, 2.4, 3.5), mat("wn_cl", (1, 1, 1), emit=(1, 1, 1), estr=1.4), "-Y", coll=c)
+    card("wn_sky", 30, 20, (0, 2.5, 5), mat("wn_skym", (0.1, 0.4, 0.95), emit=(0.1, 0.4, 0.95), estr=1.15), "-Y", coll=c)
+    Mcl = mat("wn_cl", (1, 1, 1), emit=(1, 1, 1), estr=1.0)
+    for k, (cx, cz, sx_) in enumerate(((-2.2, 4.3, 1.6), (1.8, 6.4, 1.3), (2.6, 3.6, 1.1), (-1.0, 7.2, 0.9))):
+        sphere(f"wn_c{k}", 1.0, (cx, 2.2, cz), Mcl, (sx_, 0.25, 0.5 * sx_), coll=c, seg=16)
     plate = ring_plate("wn_plate", size, "round" if round_win else "square", inner, thick, metal, loc=(0, 0, 5), coll=c)
     # frame bevel ring so the hole reads: dark inner edge
-    light("wn_key", "AREA", (-6, -10, 12), 3800, light_col, 6, coll=c, target=(0, 0, 5))
+    light("wn_key", "AREA", (-7, -10, 12), 3000, light_col, 6, coll=c, target=(0, 0, 5))
     light("wn_rim", "AREA", (9, -6, 2), 1600, (0.5, 0.7, 1.0), 5, coll=c, target=(0, 0, 5))
     return dict(coll=c, plate=plate, ctr=(0, 0, 5), inner=inner, thick=thick, size=size)
 
@@ -483,10 +484,10 @@ def s05(t0, t1):
     b.pose(t0, loc=(0, 3.5, 0), rot=0)
     b.act(t0 + 0.05, "point", expr="smug")
     lips(b, t0, t1)
-    sg = card("sqbad", 5.6, 2.0, (4.4, 3.0, 5.0), TX("plane_sq_bad.png", 0.5, 0.6), "-Y")
+    sg = card("sqbad", 5.6, 2.0, (4.6, 3.0, 6.0), TX("plane_sq_bad.png", 0.5, 0.6), "-Y")
     pop(sg, t0 + 0.55, 1.0)
     sg.rotation_euler[1] = math.radians(8)
-    cam = cpush(t0, t1, (1.6, 3.5, 4.6), 8.5, 6.4, yaw=-14, pitch=4, lens=30, yaw1=8, shake=1.1)
+    cam = cpush(t0, t1, (1.8, 3.5, 4.8), 11.0, 8.5, yaw=-10, pitch=3, lens=30, yaw1=6, shake=1.1)
     sfx(t0 + 0.55, "pop", 0.8)
     sfx(t0 + 0.6, "sparkle", 0.4)
 
@@ -541,9 +542,9 @@ def s09(t0, t1):
     lips(e, t0, t1)
     e.look(t0 + 0.3, 0, 0)
     cam = Cam()
-    cam.key(t0, (0.1, -0.4, 4.9), (0, 4, 4.9), lens=70, focus=4.4, fstop=2.0)
-    cam.key(t1, (0.0, 0.8, 4.95), (0, 4, 4.95), lens=95, focus=3.2, fstop=2.0, ease="EASE_IN")
-    cam.crash(t0 + 0.4, 70, 120, 0.1)
+    cam.key(t0, (0.1, -0.2, 4.9), (0, 4, 4.9), lens=48, focus=4.2, fstop=2.0)
+    cam.key(t1, (0.0, 0.6, 4.95), (0, 4, 4.95), lens=62, focus=3.4, fstop=2.0, ease="EASE_IN")
+    cam.crash(t0 + 0.4, 48, 90, 0.1)
     cam.handheld(1.2)
     boom_fx(cam, t0 + 0.4, 0.6)
     sfx(t0 + 0.38, "boom", 1.0)
@@ -574,8 +575,9 @@ def s11(t0, t1):
     pl.rotation_euler[0] = math.radians(-14); pl.keyframe_insert("rotation_euler", index=0, frame=F(t0 + (t1 - t0) * 0.7))
     pl.location = (0, -120, 30); pl.keyframe_insert("location", frame=F(t1))
     cam = Cam()
-    cam.key(t0, (24, 22, 4.0), (0, 28, 5), lens=26, focus=30.0, fstop=5)
-    cam.key(t1, (30, -70, 10), (0, -100, 22), lens=22, focus=40.0, fstop=5, ease="EASE_IN_OUT")
+    d_ = t1 - t0
+    for k, (cp_, ap_) in enumerate((((22, 26, 4.5), (0, 30, 5)), ((26, -34, 5.5), (0, -40, 5)), ((26, -62, 7), (0, -70, 5)), ((28, -104, 18), (0, -120, 28)))):
+        cam.key(t0 + d_ * (0, 0.35, 0.5, 1.0)[k], cp_, ap_, lens=26, focus=30.0, fstop=5, ease="EASE_IN_OUT" if k else None)
     cam.handheld(1.0)
     sfx(t0 + 0.1, "jet", 0.9, dur=t1 - t0)
     sfx(t0 + 0.6, "whoosh", 0.8)
@@ -586,8 +588,8 @@ def s12(t0, t1):
     sky_set()
     pl = W2.airliner("jet", (0, 0, 20), rot=0, scale=1.6)
     cam = Cam()
-    cam.key(t0, (-6, 18, 21.5), (-1, 14, 21), lens=34, focus=7.0, fstop=2.8)
-    cam.key(t1, (-6, -22, 21.5), (-1, -26, 21), lens=34, focus=7.0, fstop=2.8, ease="EASE_IN_OUT")
+    cam.key(t0, (-14, 18, 21.5), (-1, 14, 21), lens=34, focus=14.0, fstop=2.8)
+    cam.key(t1, (-14, -22, 21.5), (-1, -26, 21), lens=34, focus=14.0, fstop=2.8, ease="EASE_IN_OUT")
     cam.handheld(1.0)
     sfx(t0, "whoosh", 0.8)
 
@@ -644,7 +646,7 @@ def s15(t0, t1):
             k.act(t0 + 0.3, "phone", expr="happy")
         sfx(t0 + 0.15 + i * 0.14, "pay", 0.5)
     light("kl", "AREA", (0, -6, 14), 4000, (1, 0.97, 0.92), 9, target=(0, 6, 3))
-    cam = cfree([(t0, (6, -16, 4.0), (0, 5, 3.5), 22), (t1, (-3, -9, 7.0), (0, 8, 3.5), 28)], shake=1.2)
+    cam = cfree([(t0, (9, -22, 5.0), (0, 4, 3.5), 24), (t1, (-5, -15, 9.0), (0, 6, 3.5), 28)], shake=1.2)
 
 
 @S(16, 40, 42, "за несколько дней: SOLD OUT board slams down")
@@ -656,7 +658,7 @@ def s16(t0, t1):
     sb.location = (0, 8, 5.4); sb.keyframe_insert("location", frame=F(t0 + 0.25))
     set_interp(sb, "location", F(t0 + 0.25), "BEZIER", "EASE_IN")
     light("kl", "AREA", (0, -6, 14), 4000, (1, 0.97, 0.92), 9, target=(0, 8, 5))
-    cam = cpush(t0, t1, (0, 8, 5.4), 16, 10, lens=30, shake=1.2)
+    cam = cpush(t0, t1, (0, 8, 5.4), 24, 16, lens=30, shake=1.2)
     impact(cam, t0 + 0.25, 0.8)
     sfx(t0 + 0.24, "thud", 1.0)
     sfx(t0 + 0.26, "ding", 0.6)
@@ -676,7 +678,7 @@ def s17(t0, t1):
         bub = card(f"hb{i}", 2.6, 1.45, (x, y - 0.5, 8.6 + (i % 2) * 0.8), TX("plane_laugh.png", 0.6, 0.5, True), "-Y")
         pop(bub, t0 + 0.3 + i * 0.12, 1.0)
         sfx(t0 + 0.3 + i * 0.12, "pop", 0.4)
-    cam = corbit(t0, t1, (0, 3, 4.5), 15, -25, 25, pitch=5, lens=26, shake=1.0)
+    cam = corbit(t0, t1, (0, 2, 4.5), 22, -20, 20, pitch=6, lens=26, shake=1.0)
     sfx(t0, "laughs", 0.6, dur=t1 - t0)
 
 
@@ -684,10 +686,10 @@ def s17(t0, t1):
 def s18(t0, t1):
     W.sky(1.0, (0.2, 0.45, 0.85), (0.7, 0.85, 1.0)); W.sun(4.0)
     ocean()
-    sh = ship("ship", (0, 20, 0), rot=0, scale=1.0)
+    sh = ship("ship", (0, 20, 0), rot=90, scale=1.0)
     slide(sh, t0, t1, (14, 20, 0), (-14, 20, 0), "LINEAR")
     cam = Cam()
-    cam.key(t0, (8, -14, 3.5), (10, 20, 5.6), lens=28, focus=34.0, fstop=4)
+    cam.key(t0, (8, -16, 3.5), (10, 20, 5.6), lens=28, focus=36.0, fstop=4)
     cam.key(t1, (-6, -14, 3.8), (-10, 20, 5.6), lens=28, focus=34.0, fstop=4, ease="EASE_IN_OUT")
     cam.handheld(0.9)
     sfx(t0 + 0.1, "horn", 0.8)
@@ -869,7 +871,7 @@ def s28(t0, t1):
     pv.rotation_euler[1] = math.radians(-110); pv.keyframe_insert("rotation_euler", index=1, frame=F(t0))
     pv.rotation_euler[1] = math.radians(60); pv.keyframe_insert("rotation_euler", index=1, frame=F(t0 + 0.5))
     pv.rotation_euler[1] = math.radians(-100); pv.keyframe_insert("rotation_euler", index=1, frame=F(t1))
-    cam = cpush(t0, t1, (-15, -1.2, 4.6), 5.0, 3.4, yaw=10, pitch=2, lens=34, shake=1.2, fstop=2.4)
+    cam = cpush(t0, t1, (-15, -1.2, 4.6), 9.0, 6.0, yaw=14, pitch=2, lens=30, shake=1.2, fstop=3.2)
     sfx(t0, "tick", 0.6)
     sfx(t0 + 0.4, "tick", 0.6)
 
@@ -1026,11 +1028,11 @@ def s38(t0, t1):
     Wn = window_set(False)
     cp = corner_pts(Wn["inner"], Wn["ctr"])
     cor = cp[1]
-    g = sphere("cg", 0.9, (cor[0], cor[1] - 0.4, cor[2]), EM("#ff4a1a", 14), seg=16)
-    g.scale = (0.6,) * 3; g.keyframe_insert("scale", frame=F(t0))
-    g.scale = (1.4,) * 3; g.keyframe_insert("scale", frame=F(t0 + 0.4))
+    g = sphere("cg", 0.3, (cor[0], cor[1] - 0.5, cor[2]), EM("#ff4a1a", 6), seg=16)
+    g.scale = (0.7,) * 3; g.keyframe_insert("scale", frame=F(t0))
+    g.scale = (1.5,) * 3; g.keyframe_insert("scale", frame=F(t0 + 0.4))
     g.scale = (0.7,) * 3; g.keyframe_insert("scale", frame=F(t0 + 0.8))
-    g.scale = (1.6,) * 3; g.keyframe_insert("scale", frame=F(t1))
+    g.scale = (1.9,) * 3; g.keyframe_insert("scale", frame=F(t1))
     for i in range(6):
         glow_line(f"sl{i}", (cor[0] + (i - 3) * 1.4, cor[1] - 0.4, cor[2] - 4.0 + i * 0.3), (cor[0], cor[1] - 0.4, cor[2]), 0.05, "#ff7a30", 6.0)
     cam = Cam()
@@ -1048,7 +1050,7 @@ def s39(t0, t1):
     cp = corner_pts(Wn["inner"], Wn["ctr"])
     cor = cp[3]
     for k in range(5):
-        sp = sphere(f"gl{k}", 0.4 + k * 0.1, (cor[0] + 0.3 * k, cor[1] - 0.4, cor[2] + 0.1 * k), EM("#ff4a1a", 8 + k * 3), seg=12)
+        sp = sphere(f"gl{k}", 0.1 + k * 0.04, (cor[0] + 0.3 * k, cor[1] - 0.5, cor[2] + 0.1 * k), EM("#ff4a1a", 5 + k * 1.5), seg=12)
         show_at(sp, t0 + k * 0.18)
     crack("hair", (cor[0], cor[1] - 0.35, cor[2]), (1, 0, 0.5), 2.4, t0 + 0.2, t1, n=8, seed=9)
     cam = Cam()
@@ -1084,7 +1086,7 @@ def s41(t0, t1):
     Wn = window_set(True, light_col=(0.9, 0.97, 1.0))
     rivets("rv", Wn["ctr"], Wn["size"], Wn["inner"], coll=Wn["coll"])
     cam = Cam()
-    cam.key(t0, (0, -3.0, 5), (0, 0, 5), lens=70, focus=5.5, fstop=3)
+    cam.key(t0, (0, -5.0, 5), (0, 0, 5), lens=50, focus=5.5, fstop=3)
     cam.key(t1, (0, -11, 5), (0, 0, 5), lens=36, focus=13.0, fstop=3, ease="EASE_OUT")
     cam.handheld(0.6)
     sfx(t0 + 0.02, "ding", 0.9)
@@ -1192,8 +1194,8 @@ def s45(t0, t1):
     pl = W2.airliner("jet", (0, 0, 22), rot=0, scale=1.6)
     swap_windows("jet")
     cam = Cam()
-    cam.key(t0, (-8, -24, 23.2), (-1, -18, 22), lens=34, focus=7.0, fstop=2.8)
-    cam.key(t1, (-8, 20, 23.2), (-1, 14, 22), lens=34, focus=7.0, fstop=2.8, ease="EASE_IN_OUT")
+    cam.key(t0, (-16, -24, 23.6), (-1, -18, 22), lens=36, focus=16.0, fstop=2.8)
+    cam.key(t1, (-16, 20, 23.6), (-1, 14, 22), lens=36, focus=16.0, fstop=2.8, ease="EASE_IN_OUT")
     cam.handheld(1.0)
     sfx(t0, "whoosh", 0.8)
     for k in range(5):
@@ -1204,12 +1206,12 @@ def s45(t0, t1):
 def s46(t0, t1):
     sky_set(sun_s=4.5, seed=9)
     for i, (x, y, z) in enumerate(((-30, 0, 38), (6, 14, 46), (36, -10, 34))):
-        W2.airliner(f"jet{i}", (x, y, z), rot=90 - i * 6, scale=1.0)
+        W2.airliner(f"jet{i}", (x, y, z), rot=90 - i * 6, scale=1.5)
         swap_windows(f"jet{i}")
         slide(D.objects[f"jet{i}"], t0, t1, (x, y, z), (x + 14, y, z), "LINEAR")
     cam = Cam()
-    cam.key(t0, (0, -60, 20), (0, 10, 38), lens=24, focus=70.0, fstop=4)
-    cam.key(t1, (6, -50, 34), (4, 10, 44), lens=24, focus=60.0, fstop=4, ease="EASE_IN_OUT")
+    cam.key(t0, (0, -42, 24), (0, 10, 38), lens=26, focus=50.0, fstop=4)
+    cam.key(t1, (6, -36, 36), (4, 10, 42), lens=26, focus=50.0, fstop=4, ease="EASE_IN_OUT")
     cam.handheld(1.0)
     sfx(t0, "jet", 0.5, dur=t1 - t0)
     sfx(t0 + 0.2, "whoosh", 0.6)
