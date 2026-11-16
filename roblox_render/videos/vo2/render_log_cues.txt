@@ -1,0 +1,7 @@
+shot 01 ok 0.2s
+shot 02 ok 0.1s
+shot 03 ok 0.2s
+shot 04 ok 0.1s
+shot 05 ok 0.0s
+shot 06 ok 0.1s
+cues: 6 -> audio/cues.json

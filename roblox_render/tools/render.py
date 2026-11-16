@@ -46,7 +46,7 @@ for i in ids:
     t0 = time.time()
     try:
         if mode == "preview":
-            S = V.build(i, samples=samples or 8, pct=25)
+            S = V.build(i, samples=samples or 8, pct=int(os.environ.get("PREVIEW_PCT", "25")))
             sc = bpy.context.scene; sc.render.use_motion_blur = False
             sc.frame_set((F(S["t0"]) + F(S["t1"]) - 1) // 2)
             sc.render.filepath = os.path.join(vdir, "preview", f"shot_{i:02d}.png")

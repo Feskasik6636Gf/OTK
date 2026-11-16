@@ -1,0 +1,206 @@
+shot 01 ok 0.1s
+shot 02 ok 0.0s
+shot 03 ok 0.1s
+shot 04 ok 0.1s
+shot 05 ok 0.1s
+shot 06 ok 0.1s
+shot 07 ok 0.1s
+shot 08 ok 0.1s
+shot 09 ok 0.0s
+shot 10 ok 0.2s
+shot 11 ok 0.3s
+shot 12 ok 0.4s
+shot 13 ok 0.0s
+shot 14 ok 0.0s
+shot 15 ok 0.2s
+shot 16 ok 0.0s
+shot 17 ok 0.3s
+shot 18 FAILED
+Traceback (most recent call last):
+  File "/home/user/OTK/roblox_render/tools/render.py", line 68, in <module>
+    S = V.build(i, samples=1, pct=10)
+  File "/home/user/OTK/roblox_render/tools/shotkit.py", line 94, in build
+    S["fn"]()
+    ~~~~~~~^^
+  File "/home/user/OTK/roblox_render/rbx/story.py", line 45, in <lambda>
+    V.shot(i, t0, t1, desc)(lambda: (random.seed(i), fn(t0, t1)))
+                                                     ~~^^^^^^^^
+  File "/home/user/OTK/roblox_render/videos/plane/shots.py", line 684, in s18
+    slide(sh, t0, t1, (14, 20, 0), (-14, 20, 0), "LINEAR")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/OTK/roblox_render/videos/plane/shots.py", line 56, in slide
+    set_interp(ob, "location", F(t1), "BEZIER", ease)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/OTK/roblox_render/rbx/core.py", line 458, in set_interp
+    kp.easing = ease
+    ^^^^^^^^^
+TypeError: bpy_struct: item.attr = val: enum "LINEAR" not found in ('AUTO', 'EASE_IN', 'EASE_OUT', 'EASE_IN_OUT')
+
+shot 19 FAILED
+Traceback (most recent call last):
+  File "/home/user/OTK/roblox_render/tools/render.py", line 68, in <module>
+    S = V.build(i, samples=1, pct=10)
+  File "/home/user/OTK/roblox_render/tools/shotkit.py", line 94, in build
+    S["fn"]()
+    ~~~~~~~^^
+  File "/home/user/OTK/roblox_render/rbx/story.py", line 45, in <lambda>
+    V.shot(i, t0, t1, desc)(lambda: (random.seed(i), fn(t0, t1)))
+                                                     ~~^^^^^^^^
+  File "/home/user/OTK/roblox_render/videos/plane/shots.py", line 699, in s19
+    slide(pl, t0, t1, (-30, 20, 24), (30, 20, 24), "LINEAR")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/OTK/roblox_render/videos/plane/shots.py", line 56, in slide
+    set_interp(ob, "location", F(t1), "BEZIER", ease)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/OTK/roblox_render/rbx/core.py", line 458, in set_interp
+    kp.easing = ease
+    ^^^^^^^^^
+TypeError: bpy_struct: item.attr = val: enum "LINEAR" not found in ('AUTO', 'EASE_IN', 'EASE_OUT', 'EASE_IN_OUT')
+
+shot 20 ok 0.2s
+shot 21 ok 0.1s
+shot 22 ok 0.1s
+shot 23 ok 0.0s
+shot 24 ok 0.3s
+shot 25 ok 0.1s
+shot 26 ok 0.1s
+shot 27 ok 0.1s
+shot 28 ok 0.0s
+shot 29 ok 0.1s
+shot 30 ok 0.1s
+shot 31 FAILED
+Traceback (most recent call last):
+  File "/home/user/OTK/roblox_render/tools/render.py", line 68, in <module>
+    S = V.build(i, samples=1, pct=10)
+  File "/home/user/OTK/roblox_render/tools/shotkit.py", line 94, in build
+    S["fn"]()
+    ~~~~~~~^^
+  File "/home/user/OTK/roblox_render/rbx/story.py", line 45, in <lambda>
+    V.shot(i, t0, t1, desc)(lambda: (random.seed(i), fn(t0, t1)))
+                                                     ~~^^^^^^^^
+  File "/home/user/OTK/roblox_render/videos/plane/shots.py", line 910, in s31
+    iv = invest(0, t0, t1, "squint")
+  File "/home/user/OTK/roblox_render/videos/plane/shots.py", line 219, in invest
+    return story._live(I, t0, t1, expr, 0.6)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/OTK/roblox_render/rbx/story.py", line 56, in _live
+    ch.face(t0, expr)
+    ~~~~~~~^^^^^^^^^^
+  File "/home/user/OTK/roblox_render/rbx/acting.py", line 100, in face
+    e, m_ = EXPR[expr]
+            ~~~~^^^^^^
+KeyError: 'squint'
+
+shot 32 ok 0.0s
+shot 33 ok 0.0s
+shot 34 FAILED
+Traceback (most recent call last):
+  File "/home/user/OTK/roblox_render/tools/render.py", line 68, in <module>
+    S = V.build(i, samples=1, pct=10)
+  File "/home/user/OTK/roblox_render/tools/shotkit.py", line 94, in build
+    S["fn"]()
+    ~~~~~~~^^
+  File "/home/user/OTK/roblox_render/rbx/story.py", line 45, in <lambda>
+    V.shot(i, t0, t1, desc)(lambda: (random.seed(i), fn(t0, t1)))
+                                                     ~~^^^^^^^^
+  File "/home/user/OTK/roblox_render/videos/plane/shots.py", line 960, in s34
+    slide(pl, t0, t1, (0, 20, 40), (0, -20, 40), "LINEAR")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/OTK/roblox_render/videos/plane/shots.py", line 56, in slide
+    set_interp(ob, "location", F(t1), "BEZIER", ease)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/OTK/roblox_render/rbx/core.py", line 458, in set_interp
+    kp.easing = ease
+    ^^^^^^^^^
+TypeError: bpy_struct: item.attr = val: enum "LINEAR" not found in ('AUTO', 'EASE_IN', 'EASE_OUT', 'EASE_IN_OUT')
+
+shot 35 ok 0.3s
+shot 36 ok 0.1s
+shot 37 ok 0.0s
+shot 38 ok 0.0s
+shot 39 ok 0.0s
+shot 40 ok 0.0s
+shot 41 ok 0.0s
+shot 42 ok 0.0s
+shot 43 ok 0.1s
+shot 44 ok 0.0s
+shot 45 ok 0.3s
+shot 46 FAILED
+Traceback (most recent call last):
+  File "/home/user/OTK/roblox_render/tools/render.py", line 68, in <module>
+    S = V.build(i, samples=1, pct=10)
+  File "/home/user/OTK/roblox_render/tools/shotkit.py", line 94, in build
+    S["fn"]()
+    ~~~~~~~^^
+  File "/home/user/OTK/roblox_render/rbx/story.py", line 45, in <lambda>
+    V.shot(i, t0, t1, desc)(lambda: (random.seed(i), fn(t0, t1)))
+                                                     ~~^^^^^^^^
+  File "/home/user/OTK/roblox_render/videos/plane/shots.py", line 1205, in s46
+    slide(D.objects[f"jet{i}"], t0, t1, (x, y, z), (x + 14, y, z), "LINEAR")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/OTK/roblox_render/videos/plane/shots.py", line 56, in slide
+    set_interp(ob, "location", F(t1), "BEZIER", ease)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/OTK/roblox_render/rbx/core.py", line 458, in set_interp
+    kp.easing = ease
+    ^^^^^^^^^
+TypeError: bpy_struct: item.attr = val: enum "LINEAR" not found in ('AUTO', 'EASE_IN', 'EASE_OUT', 'EASE_IN_OUT')
+
+shot 47 ok 0.1s
+shot 48 ok 0.0s
+shot 49 ok 0.0s
+shot 50 ok 0.0s
+shot 51 ok 0.0s
+cues: 112 -> audio/cues.json
+shot 01 ok 0.1s
+shot 02 ok 0.0s
+shot 03 ok 0.1s
+shot 04 ok 0.1s
+shot 05 ok 0.1s
+shot 06 ok 0.0s
+shot 07 ok 0.0s
+shot 08 ok 0.0s
+shot 09 ok 0.0s
+shot 10 ok 0.3s
+shot 11 ok 0.3s
+shot 12 ok 0.3s
+shot 13 ok 0.0s
+shot 14 ok 0.0s
+shot 15 ok 0.2s
+shot 16 ok 0.0s
+shot 17 ok 0.3s
+shot 18 ok 0.1s
+shot 19 ok 0.2s
+shot 20 ok 0.2s
+shot 21 ok 0.1s
+shot 22 ok 0.1s
+shot 23 ok 0.1s
+shot 24 ok 0.3s
+shot 25 ok 0.1s
+shot 26 ok 0.1s
+shot 27 ok 0.1s
+shot 28 ok 0.0s
+shot 29 ok 0.1s
+shot 30 ok 0.1s
+shot 31 ok 0.0s
+shot 32 ok 0.0s
+shot 33 ok 0.0s
+shot 34 ok 0.2s
+shot 35 ok 0.3s
+shot 36 ok 0.1s
+shot 37 ok 0.0s
+shot 38 ok 0.0s
+shot 39 ok 0.0s
+shot 40 ok 0.0s
+shot 41 ok 0.0s
+shot 42 ok 0.0s
+shot 43 ok 0.1s
+shot 44 ok 0.0s
+shot 45 ok 0.3s
+shot 46 ok 0.4s
+shot 47 ok 0.1s
+shot 48 ok 0.0s
+shot 49 ok 0.0s
+shot 50 ok 0.0s
+shot 51 ok 0.0s
+cues: 122 -> audio/cues.json

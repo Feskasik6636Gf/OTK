@@ -1,0 +1,38 @@
+[
+ {
+  "t": -0.02,
+  "name": "whoosh",
+  "vol": 0.8,
+  "shot": 1
+ },
+ {
+  "t": 0.45,
+  "name": "boing",
+  "vol": 0.5,
+  "shot": 1
+ },
+ {
+  "t": 1.717,
+  "name": "rise",
+  "vol": 0.5,
+  "shot": 2
+ },
+ {
+  "t": 1.917,
+  "name": "sparkle",
+  "vol": 0.8,
+  "shot": 2
+ },
+ {
+  "t": 3.295,
+  "name": "footsteps",
+  "vol": 0.6,
+  "shot": 3
+ },
+ {
+  "t": 5.889,
+  "name": "shrink",
+  "vol": 0.9,
+  "shot": 6
+ }
+]
