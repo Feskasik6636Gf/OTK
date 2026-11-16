@@ -1,0 +1,4 @@
+shot 32 ok 554.0s
+shot 33 ok 473.2s
+shot 34 ok 339.3s
+shot 35 ok 250.8s
