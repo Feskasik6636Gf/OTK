@@ -1,0 +1,5 @@
+shot 18 ok 478.1s
+shot 19 ok 276.8s
+shot 20 ok 292.6s
+shot 21 ok 352.2s
+shot 22 ok 334.9s
