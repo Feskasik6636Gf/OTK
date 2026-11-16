@@ -528,7 +528,7 @@ class Cam:
         cd.sensor_fit = "VERTICAL"
         cd.sensor_height = 24
         cd.clip_start = 0.05
-        cd.clip_end = 600
+        cd.clip_end = 3000
         self.ob = D.objects.new(name, cd)
         _link(self.ob, coll)
         bpy.context.scene.camera = self.ob

@@ -1,0 +1,75 @@
+name: render-vo3
+on:
+  push:
+    branches: [ccr-df548a36-a0zbdc]
+    paths:
+      - "gary_render/videos/vo3/shots.py"
+      - ".github/workflows/render-vo3.yml"
+  workflow_dispatch:
+    inputs:
+      parts:
+        description: 'JSON list of shot ranges'
+        required: false
+        default: ''
+permissions:
+  contents: write
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    strategy:
+      fail-fast: false
+      matrix:
+        part: ${{ fromJSON(inputs.parts != '' && inputs.parts || '["1-3", "4-6", "7-9", "10-12", "13-16", "17-19", "20-22", "23-25", "26-29", "30-32", "33-35", "36-39", "40-43", "44-46", "47-50", "51-54", "55-58"]') }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: System libs (software OpenGL for EEVEE)
+        run: |
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq libegl1 libegl-mesa0 libgl1-mesa-dri libgl1 \
+            libxkbcommon0 libxi6 libxrender1 libxxf86vm1 libxfixes3 libsm6 libice6 libvulkan1 mesa-vulkan-drivers ffmpeg
+      - name: Cache Blender
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: ~/blender
+          key: blender-5.2.4-linux-x64
+      - name: Download Blender
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          curl -sSfL -o /tmp/b.tar.xz https://download.blender.org/release/Blender5.2/blender-5.2.4-linux-x64.tar.xz
+          mkdir -p ~/blender && tar -xf /tmp/b.tar.xz -C ~/blender --strip-components=1
+      - name: Titan One font
+        run: |
+          mkdir -p ~/.fonts
+          curl -sSfL -o ~/.fonts/TitanOne-Regular.ttf https://raw.githubusercontent.com/google/fonts/main/ofl/titanone/TitanOne-Regular.ttf
+      - name: Render shots ${{ matrix.part }} (30 fps, every frame)
+        env:
+          RBX_PCT: "67"
+          RBX_SAMPLES: "12"
+          RBX_FAST: "1"
+          TITAN_FONT: /home/runner/.fonts/TitanOne-Regular.ttf
+        run: |
+          ~/blender/blender -b --factory-startup -P gary_render/tools/render.py -- vo3 final ${{ matrix.part }} 2>&1 \
+            | grep -E "shot [0-9]+ |FAILED|Traceback|Error:|line [0-9]" | grep -v EGL || true
+          ls gary_render/videos/vo3/frames | wc -l
+      - name: Encode part (lossless-ish)
+        run: |
+          cd gary_render/videos/vo3/frames
+          first=$(ls *.png | sort | head -1 | cut -d. -f1)
+          n=$(ls *.png | wc -l)
+          mkdir -p "$GITHUB_WORKSPACE/gary_render/out3"
+          ffmpeg -v error -y -framerate 30 -start_number $((10#$first)) -i %04d.png -frames:v $n \
+            -vf scale=720:1280:flags=lanczos -c:v libx264 -preset slow -crf 10 -pix_fmt yuv420p "$GITHUB_WORKSPACE/gary_render/out3/vo3_part_${first}_${n}.mp4"
+          ls -la "$GITHUB_WORKSPACE/gary_render/out3"
+      - name: Push part
+        run: |
+          git config user.name "render-bot"
+          git config user.email "render-bot@users.noreply.github.com"
+          git add gary_render/out3
+          git commit -m "render: vo3 part ${{ matrix.part }}"
+          for i in 1 2 3 4 5 6 7 8 9 10; do
+            git pull --rebase -q origin ${{ github.ref_name }} && git push -q origin HEAD:${{ github.ref_name }} && exit 0
+            sleep $((RANDOM % 20 + 5))
+          done
+          exit 1

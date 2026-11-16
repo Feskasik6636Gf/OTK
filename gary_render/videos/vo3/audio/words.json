@@ -1,0 +1,1182 @@
+[
+{
+"word": "I",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "asked,",
+"start": 0.16,
+"end": 0.48
+},
+{
+"word": "are",
+"start": 0.72,
+"end": 0.82
+},
+{
+"word": "we",
+"start": 0.82,
+"end": 0.98
+},
+{
+"word": "there",
+"start": 0.98,
+"end": 1.2
+},
+{
+"word": "yet",
+"start": 1.2,
+"end": 1.46
+},
+{
+"word": "4,000",
+"start": 1.55,
+"end": 2.44
+},
+{
+"word": "times?",
+"start": 2.44,
+"end": 2.86
+},
+{
+"word": "That's",
+"start": 3.22,
+"end": 3.38
+},
+{
+"word": "why",
+"start": 3.38,
+"end": 3.48
+},
+{
+"word": "the",
+"start": 3.48,
+"end": 3.58
+},
+{
+"word": "trip",
+"start": 3.58,
+"end": 3.7
+},
+{
+"word": "to",
+"start": 3.7,
+"end": 3.88
+},
+{
+"word": "Grandma's",
+"start": 3.88,
+"end": 4.28
+},
+{
+"word": "took",
+"start": 4.28,
+"end": 4.4
+},
+{
+"word": "three",
+"start": 4.42,
+"end": 4.74
+},
+{
+"word": "years.",
+"start": 4.74,
+"end": 5.18
+},
+{
+"word": "You",
+"start": 5.52,
+"end": 5.52
+},
+{
+"word": "see,",
+"start": 5.52,
+"end": 5.72
+},
+{
+"word": "in",
+"start": 5.92,
+"end": 5.96
+},
+{
+"word": "this",
+"start": 5.96,
+"end": 6.14
+},
+{
+"word": "world,",
+"start": 6.14,
+"end": 6.42
+},
+{
+"word": "every",
+"start": 6.64,
+"end": 6.82
+},
+{
+"word": "time",
+"start": 6.82,
+"end": 7.0
+},
+{
+"word": "someone",
+"start": 7.0,
+"end": 7.28
+},
+{
+"word": "asks,",
+"start": 7.28,
+"end": 7.62
+},
+{
+"word": "are",
+"start": 7.82,
+"end": 7.88
+},
+{
+"word": "we",
+"start": 7.88,
+"end": 8.02
+},
+{
+"word": "there",
+"start": 8.02,
+"end": 8.2
+},
+{
+"word": "yet,",
+"start": 8.2,
+"end": 8.4
+},
+{
+"word": "the",
+"start": 8.54,
+"end": 8.6
+},
+{
+"word": "road",
+"start": 8.6,
+"end": 8.86
+},
+{
+"word": "gets",
+"start": 8.86,
+"end": 9.08
+},
+{
+"word": "one",
+"start": 9.08,
+"end": 9.4
+},
+{
+"word": "mile",
+"start": 9.4,
+"end": 9.64
+},
+{
+"word": "longer.",
+"start": 9.64,
+"end": 10.12
+},
+{
+"word": "Stretch!",
+"start": 10.53,
+"end": 11.86
+},
+{
+"word": "So",
+"start": 11.86,
+"end": 11.98
+},
+{
+"word": "families",
+"start": 12.04,
+"end": 12.44
+},
+{
+"word": "are",
+"start": 12.44,
+"end": 12.68
+},
+{
+"word": "careful.",
+"start": 12.68,
+"end": 13.08
+},
+{
+"word": "Dads",
+"start": 13.42,
+"end": 13.64
+},
+{
+"word": "drive",
+"start": 13.64,
+"end": 13.86
+},
+{
+"word": "in",
+"start": 13.86,
+"end": 14.08
+},
+{
+"word": "silence.",
+"start": 14.32,
+"end": 14.48
+},
+{
+"word": "Moms",
+"start": 14.9,
+"end": 15.1
+},
+{
+"word": "hand",
+"start": 15.1,
+"end": 15.3
+},
+{
+"word": "out",
+"start": 15.3,
+"end": 15.46
+},
+{
+"word": "snacks",
+"start": 15.46,
+"end": 15.76
+},
+{
+"word": "like",
+"start": 15.76,
+"end": 15.98
+},
+{
+"word": "medicine.",
+"start": 15.98,
+"end": 16.4
+},
+{
+"word": "Some",
+"start": 16.74,
+"end": 16.9
+},
+{
+"word": "kids",
+"start": 16.9,
+"end": 17.1
+},
+{
+"word": "even",
+"start": 17.1,
+"end": 17.32
+},
+{
+"word": "tape",
+"start": 17.32,
+"end": 17.48
+},
+{
+"word": "their",
+"start": 17.48,
+"end": 17.68
+},
+{
+"word": "mouths",
+"start": 17.68,
+"end": 17.86
+},
+{
+"word": "shut.",
+"start": 17.86,
+"end": 18.18
+},
+{
+"word": "But",
+"start": 18.32,
+"end": 18.58
+},
+{
+"word": "I",
+"start": 18.58,
+"end": 18.9
+},
+{
+"word": "can't",
+"start": 18.9,
+"end": 19.16
+},
+{
+"word": "help",
+"start": 19.16,
+"end": 19.3
+},
+{
+"word": "it.",
+"start": 19.3,
+"end": 19.54
+},
+{
+"word": "Are",
+"start": 19.74,
+"end": 19.82
+},
+{
+"word": "we",
+"start": 19.82,
+"end": 19.94
+},
+{
+"word": "there",
+"start": 19.94,
+"end": 20.1
+},
+{
+"word": "yet?",
+"start": 20.1,
+"end": 20.44
+},
+{
+"word": "Stretch!",
+"start": 20.76,
+"end": 21.12
+},
+{
+"word": "Are",
+"start": 21.57,
+"end": 21.65
+},
+{
+"word": "we",
+"start": 21.65,
+"end": 21.81
+},
+{
+"word": "there",
+"start": 21.81,
+"end": 21.97
+},
+{
+"word": "yet?",
+"start": 21.97,
+"end": 22.29
+},
+{
+"word": "Stretch!",
+"start": 22.71,
+"end": 23.09
+},
+{
+"word": "Dad's",
+"start": 23.54,
+"end": 23.86
+},
+{
+"word": "beard",
+"start": 23.86,
+"end": 24.06
+},
+{
+"word": "reached",
+"start": 24.06,
+"end": 24.44
+},
+{
+"word": "his",
+"start": 24.44,
+"end": 24.64
+},
+{
+"word": "knees.",
+"start": 24.64,
+"end": 24.98
+},
+{
+"word": "Mom",
+"start": 25.38,
+"end": 25.52
+},
+{
+"word": "learned",
+"start": 25.52,
+"end": 25.76
+},
+{
+"word": "French",
+"start": 25.78,
+"end": 26.04
+},
+{
+"word": "from",
+"start": 26.04,
+"end": 26.22
+},
+{
+"word": "the",
+"start": 26.22,
+"end": 26.36
+},
+{
+"word": "radio.",
+"start": 26.36,
+"end": 26.66
+},
+{
+"word": "Then",
+"start": 26.96,
+"end": 27.14
+},
+{
+"word": "one",
+"start": 27.22,
+"end": 27.5
+},
+{
+"word": "morning,",
+"start": 27.5,
+"end": 27.82
+},
+{
+"word": "Grandma",
+"start": 27.98,
+"end": 28.2
+},
+{
+"word": "called.",
+"start": 28.2,
+"end": 28.54
+},
+{
+"word": "Don't",
+"start": 28.84,
+"end": 29.14
+},
+{
+"word": "come!",
+"start": 29.14,
+"end": 29.4
+},
+{
+"word": "The",
+"start": 29.4,
+"end": 29.64
+},
+{
+"word": "volcano",
+"start": 29.64,
+"end": 30.04
+},
+{
+"word": "just",
+"start": 30.04,
+"end": 30.3
+},
+{
+"word": "woke",
+"start": 30.3,
+"end": 30.48
+},
+{
+"word": "up!",
+"start": 30.48,
+"end": 30.98
+},
+{
+"word": "Lava",
+"start": 31.24,
+"end": 31.36
+},
+{
+"word": "was",
+"start": 31.36,
+"end": 31.56
+},
+{
+"word": "pouring",
+"start": 31.57,
+"end": 32.0
+},
+{
+"word": "down",
+"start": 32.0,
+"end": 32.24
+},
+{
+"word": "her",
+"start": 32.24,
+"end": 32.42
+},
+{
+"word": "street.",
+"start": 32.42,
+"end": 32.74
+},
+{
+"word": "We",
+"start": 33.02,
+"end": 33.1
+},
+{
+"word": "were",
+"start": 33.1,
+"end": 33.26
+},
+{
+"word": "five",
+"start": 33.28,
+"end": 33.56
+},
+{
+"word": "miles",
+"start": 33.56,
+"end": 33.86
+},
+{
+"word": "away.",
+"start": 33.86,
+"end": 34.2
+},
+{
+"word": "Dad",
+"start": 34.58,
+"end": 34.68
+},
+{
+"word": "stomped",
+"start": 34.68,
+"end": 35.16
+},
+{
+"word": "on",
+"start": 35.16,
+"end": 35.26
+},
+{
+"word": "the",
+"start": 35.26,
+"end": 35.38
+},
+{
+"word": "gas.",
+"start": 35.38,
+"end": 35.66
+},
+{
+"word": "But",
+"start": 35.86,
+"end": 35.98
+},
+{
+"word": "the",
+"start": 35.98,
+"end": 36.16
+},
+{
+"word": "lava",
+"start": 36.16,
+"end": 36.34
+},
+{
+"word": "was",
+"start": 36.34,
+"end": 36.52
+},
+{
+"word": "racing",
+"start": 36.52,
+"end": 36.88
+},
+{
+"word": "toward",
+"start": 36.88,
+"end": 37.12
+},
+{
+"word": "the",
+"start": 37.12,
+"end": 37.32
+},
+{
+"word": "road.",
+"start": 37.32,
+"end": 37.58
+},
+{
+"word": "Five",
+"start": 37.9,
+"end": 38.06
+},
+{
+"word": "miles.",
+"start": 38.06,
+"end": 38.4
+},
+{
+"word": "Four.",
+"start": 38.68,
+"end": 38.96
+},
+{
+"word": "Three.",
+"start": 39.38,
+"end": 39.62
+},
+{
+"word": "We",
+"start": 39.94,
+"end": 40.04
+},
+{
+"word": "were",
+"start": 40.04,
+"end": 40.16
+},
+{
+"word": "driving",
+"start": 40.16,
+"end": 40.42
+},
+{
+"word": "straight",
+"start": 40.42,
+"end": 40.88
+},
+{
+"word": "into",
+"start": 40.88,
+"end": 41.18
+},
+{
+"word": "the",
+"start": 41.18,
+"end": 41.36
+},
+{
+"word": "fire.",
+"start": 41.36,
+"end": 41.64
+},
+{
+"word": "Then",
+"start": 41.92,
+"end": 42.1
+},
+{
+"word": "I",
+"start": 42.16,
+"end": 42.36
+},
+{
+"word": "noticed",
+"start": 42.36,
+"end": 42.6
+},
+{
+"word": "something.",
+"start": 42.77,
+"end": 42.98
+},
+{
+"word": "If",
+"start": 43.16,
+"end": 43.32
+},
+{
+"word": "we",
+"start": 43.32,
+"end": 43.46
+},
+{
+"word": "never",
+"start": 43.46,
+"end": 43.68
+},
+{
+"word": "arrived,",
+"start": 43.68,
+"end": 44.2
+},
+{
+"word": "we'd",
+"start": 44.36,
+"end": 44.58
+},
+{
+"word": "never",
+"start": 44.58,
+"end": 44.76
+},
+{
+"word": "reach",
+"start": 44.76,
+"end": 44.96
+},
+{
+"word": "the",
+"start": 44.96,
+"end": 45.16
+},
+{
+"word": "lava.",
+"start": 45.16,
+"end": 45.38
+},
+{
+"word": "I",
+"start": 45.68,
+"end": 45.78
+},
+{
+"word": "took",
+"start": 45.78,
+"end": 45.9
+},
+{
+"word": "a",
+"start": 45.9,
+"end": 46.06
+},
+{
+"word": "deep",
+"start": 46.06,
+"end": 46.24
+},
+{
+"word": "breath.",
+"start": 46.24,
+"end": 46.56
+},
+{
+"word": "Are",
+"start": 46.92,
+"end": 47.02
+},
+{
+"word": "we",
+"start": 47.02,
+"end": 47.22
+},
+{
+"word": "there",
+"start": 47.22,
+"end": 47.48
+},
+{
+"word": "yet?",
+"start": 47.48,
+"end": 47.86
+},
+{
+"word": "Mom",
+"start": 48.31,
+"end": 48.49
+},
+{
+"word": "joined.",
+"start": 48.49,
+"end": 48.79
+},
+{
+"word": "Dad",
+"start": 49.07,
+"end": 49.23
+},
+{
+"word": "joined.",
+"start": 49.23,
+"end": 49.53
+},
+{
+"word": "Even",
+"start": 49.69,
+"end": 49.93
+},
+{
+"word": "the",
+"start": 49.93,
+"end": 50.11
+},
+{
+"word": "dog",
+"start": 50.11,
+"end": 50.35
+},
+{
+"word": "barked",
+"start": 50.49,
+"end": 50.67
+},
+{
+"word": "it.",
+"start": 50.67,
+"end": 50.77
+},
+{
+"word": "Are",
+"start": 50.97,
+"end": 51.09
+},
+{
+"word": "we",
+"start": 51.09,
+"end": 51.27
+},
+{
+"word": "there",
+"start": 51.27,
+"end": 51.47
+},
+{
+"word": "yet?",
+"start": 51.47,
+"end": 51.79
+},
+{
+"word": "Stretch!",
+"start": 52.17,
+"end": 52.65
+},
+{
+"word": "Stretch!",
+"start": 53.1,
+"end": 53.38
+},
+{
+"word": "Stretch!",
+"start": 53.83,
+"end": 54.33
+},
+{
+"word": "The",
+"start": 54.78,
+"end": 54.98
+},
+{
+"word": "road",
+"start": 54.98,
+"end": 55.2
+},
+{
+"word": "stretched",
+"start": 55.2,
+"end": 55.66
+},
+{
+"word": "like",
+"start": 55.66,
+"end": 55.88
+},
+{
+"word": "gum,",
+"start": 55.88,
+"end": 56.24
+},
+{
+"word": "mile",
+"start": 56.5,
+"end": 56.8
+},
+{
+"word": "after",
+"start": 56.8,
+"end": 57.12
+},
+{
+"word": "mile.",
+"start": 57.12,
+"end": 57.52
+},
+{
+"word": "We",
+"start": 57.64,
+"end": 57.84
+},
+{
+"word": "drove",
+"start": 57.84,
+"end": 58.1
+},
+{
+"word": "for",
+"start": 58.12,
+"end": 58.32
+},
+{
+"word": "four",
+"start": 58.36,
+"end": 58.62
+},
+{
+"word": "days",
+"start": 58.62,
+"end": 59.08
+},
+{
+"word": "while",
+"start": 59.08,
+"end": 59.3
+},
+{
+"word": "the",
+"start": 59.3,
+"end": 59.44
+},
+{
+"word": "lava",
+"start": 59.44,
+"end": 59.64
+},
+{
+"word": "slowly",
+"start": 59.64,
+"end": 60.1
+},
+{
+"word": "cooled",
+"start": 60.19,
+"end": 60.48
+},
+{
+"word": "into",
+"start": 60.48,
+"end": 60.7
+},
+{
+"word": "black",
+"start": 60.7,
+"end": 60.96
+},
+{
+"word": "rock.",
+"start": 60.96,
+"end": 61.32
+},
+{
+"word": "Three",
+"start": 61.6,
+"end": 61.7
+},
+{
+"word": "months",
+"start": 61.7,
+"end": 61.9
+},
+{
+"word": "later,",
+"start": 61.9,
+"end": 62.2
+},
+{
+"word": "we",
+"start": 62.36,
+"end": 62.48
+},
+{
+"word": "finally",
+"start": 62.54,
+"end": 62.9
+},
+{
+"word": "pulled",
+"start": 62.9,
+"end": 63.16
+},
+{
+"word": "up.",
+"start": 63.16,
+"end": 63.44
+},
+{
+"word": "Grandma",
+"start": 63.72,
+"end": 63.96
+},
+{
+"word": "was",
+"start": 63.96,
+"end": 64.08
+},
+{
+"word": "on",
+"start": 64.08,
+"end": 64.18
+},
+{
+"word": "the",
+"start": 64.18,
+"end": 64.28
+},
+{
+"word": "porch",
+"start": 64.28,
+"end": 64.48
+},
+{
+"word": "with",
+"start": 64.48,
+"end": 64.62
+},
+{
+"word": "a",
+"start": 64.62,
+"end": 64.74
+},
+{
+"word": "pie.",
+"start": 64.74,
+"end": 64.96
+},
+{
+"word": "You're",
+"start": 65.26,
+"end": 65.48
+},
+{
+"word": "late.",
+"start": 65.48,
+"end": 65.72
+},
+{
+"word": "Dad",
+"start": 66.12,
+"end": 66.24
+},
+{
+"word": "hugged",
+"start": 66.24,
+"end": 66.5
+},
+{
+"word": "me.",
+"start": 66.5,
+"end": 66.74
+},
+{
+"word": "Best",
+"start": 66.98,
+"end": 67.14
+},
+{
+"word": "question",
+"start": 67.14,
+"end": 67.5
+},
+{
+"word": "you",
+"start": 67.5,
+"end": 67.66
+},
+{
+"word": "ever",
+"start": 67.66,
+"end": 67.86
+},
+{
+"word": "asked,",
+"start": 67.86,
+"end": 68.16
+},
+{
+"word": "kiddo.",
+"start": 68.28,
+"end": 68.48
+},
+{
+"word": "I",
+"start": 68.78,
+"end": 68.82
+},
+{
+"word": "smiled.",
+"start": 68.82,
+"end": 69.2
+},
+{
+"word": "Then",
+"start": 69.52,
+"end": 69.68
+},
+{
+"word": "my",
+"start": 69.68,
+"end": 69.86
+},
+{
+"word": "little",
+"start": 69.86,
+"end": 70.02
+},
+{
+"word": "sister",
+"start": 70.02,
+"end": 70.32
+},
+{
+"word": "woke",
+"start": 70.32,
+"end": 70.5
+},
+{
+"word": "up",
+"start": 70.5,
+"end": 70.68
+},
+{
+"word": "in",
+"start": 70.68,
+"end": 70.76
+},
+{
+"word": "the",
+"start": 70.76,
+"end": 70.86
+},
+{
+"word": "back",
+"start": 70.86,
+"end": 71.02
+},
+{
+"word": "seat.",
+"start": 71.02,
+"end": 71.28
+},
+{
+"word": "Are",
+"start": 71.56,
+"end": 71.66
+},
+{
+"word": "we",
+"start": 71.66,
+"end": 71.82
+},
+{
+"word": "there",
+"start": 71.82,
+"end": 71.98
+},
+{
+"word": "yet?",
+"start": 71.98,
+"end": 72.3
+},
+{
+"word": "Stretch!",
+"start": 72.75,
+"end": 73.01
+},
+{
+"word": "We're",
+"start": 73.46,
+"end": 73.76
+},
+{
+"word": "still",
+"start": 73.76,
+"end": 73.96
+},
+{
+"word": "driving.",
+"start": 73.96,
+"end": 74.38
+}
+]
