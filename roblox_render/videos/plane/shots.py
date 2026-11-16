@@ -576,7 +576,7 @@ def s11(t0, t1):
     pl.location = (0, -120, 30); pl.keyframe_insert("location", frame=F(t1))
     cam = Cam()
     d_ = t1 - t0
-    for k, (cp_, ap_) in enumerate((((22, 26, 4.5), (0, 30, 5)), ((26, -34, 5.5), (0, -40, 5)), ((26, -62, 7), (0, -70, 5)), ((28, -104, 18), (0, -120, 28)))):
+    for k, (cp_, ap_) in enumerate((((34, 26, 6), (0, 30, 5)), ((38, -34, 7), (0, -40, 5)), ((40, -62, 9), (0, -70, 5)), ((44, -104, 22), (0, -120, 28)))):
         cam.key(t0 + d_ * (0, 0.35, 0.5, 1.0)[k], cp_, ap_, lens=26, focus=30.0, fstop=5, ease="EASE_IN_OUT" if k else None)
     cam.handheld(1.0)
     sfx(t0 + 0.1, "jet", 0.9, dur=t1 - t0)
@@ -588,8 +588,8 @@ def s12(t0, t1):
     sky_set()
     pl = W2.airliner("jet", (0, 0, 20), rot=0, scale=1.6)
     cam = Cam()
-    cam.key(t0, (-14, 18, 21.5), (-1, 14, 21), lens=34, focus=14.0, fstop=2.8)
-    cam.key(t1, (-14, -22, 21.5), (-1, -26, 21), lens=34, focus=14.0, fstop=2.8, ease="EASE_IN_OUT")
+    cam.key(t0, (-26, 18, 21.5), (-1, 14, 21), lens=30, focus=26.0, fstop=3.5)
+    cam.key(t1, (-26, -22, 21.5), (-1, -26, 21), lens=30, focus=26.0, fstop=3.5, ease="EASE_IN_OUT")
     cam.handheld(1.0)
     sfx(t0, "whoosh", 0.8)
 
@@ -689,8 +689,8 @@ def s18(t0, t1):
     sh = ship("ship", (0, 20, 0), rot=90, scale=1.0)
     slide(sh, t0, t1, (14, 20, 0), (-14, 20, 0), "LINEAR")
     cam = Cam()
-    cam.key(t0, (8, -16, 3.5), (10, 20, 5.6), lens=28, focus=36.0, fstop=4)
-    cam.key(t1, (-6, -14, 3.8), (-10, 20, 5.6), lens=28, focus=34.0, fstop=4, ease="EASE_IN_OUT")
+    cam.key(t0, (8, -18, 3.5), (10, 20, 5.6), lens=22, focus=38.0, fstop=4)
+    cam.key(t1, (-6, -18, 3.8), (-10, 20, 5.6), lens=22, focus=38.0, fstop=4, ease="EASE_IN_OUT")
     cam.handheld(0.9)
     sfx(t0 + 0.1, "horn", 0.8)
     sfx(t0 + 0.05, "whoosh", 0.4)
@@ -1097,9 +1097,6 @@ def s41(t0, t1):
 def s42(t0, t1):
     Wn = window_set(True, light_col=(0.9, 0.97, 1.0))
     rivets("rv", Wn["ctr"], Wn["size"], Wn["inner"], coll=Wn["coll"])
-    ring = cyl("ringglow", Wn["inner"] + 0.15, 0.05, (0, -0.4, 5), EM("#6ad0ff", 4), 64, rot=(90, 0, 0))
-    ring2 = cyl("ringglow2", Wn["inner"] - 0.1, 0.06, (0, -0.42, 5), mat("wn_skym2", (0.35, 0.6, 1.0), emit=(0.35, 0.6, 1.0), estr=2.2), 64, rot=(90, 0, 0))
-    show_at(ring, t0 + 0.25); show_at(ring2, t0 + 0.25)
     cam = Cam()
     cam.orbit(t0, t1, (0, 0, 5), 11, -35, 35, pitch=4, lens=30, steps=3, fstop=3)
     cam.handheld(0.7)
@@ -1194,17 +1191,17 @@ def s45(t0, t1):
     pl = W2.airliner("jet", (0, 0, 22), rot=0, scale=1.6)
     swap_windows("jet")
     cam = Cam()
-    cam.key(t0, (-16, -24, 23.6), (-1, -18, 22), lens=36, focus=16.0, fstop=2.8)
-    cam.key(t1, (-16, 20, 23.6), (-1, 14, 22), lens=36, focus=16.0, fstop=2.8, ease="EASE_IN_OUT")
+    cam.key(t0, (-28, -24, 23.6), (-1, -18, 22), lens=30, focus=28.0, fstop=3.5)
+    cam.key(t1, (-28, 20, 23.6), (-1, 14, 22), lens=30, focus=28.0, fstop=3.5, ease="EASE_IN_OUT")
     cam.handheld(1.0)
     sfx(t0, "whoosh", 0.8)
     for k in range(5):
         sfx(t0 + 0.2 + k * 0.2, "pop", 0.3)
 
 
-@S(46, 131, 134, "самолёте круглые: formation of planes, tilt up")
+@S(46, 131, 134, "самолёте круглые: formation of planes")
 def s46(t0, t1):
-    sky_set(sun_s=4.5, seed=9)
+    W.sky(1.0, (0.03, 0.14, 0.72), (0.18, 0.42, 0.95)); W.sun(4.5)
     for i, (x, y, z) in enumerate(((-30, 0, 38), (6, 14, 46), (36, -10, 34))):
         W2.airliner(f"jet{i}", (x, y, z), rot=90 - i * 6, scale=1.5)
         swap_windows(f"jet{i}")
