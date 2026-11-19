@@ -1,0 +1,10 @@
+__pycache__/
+roblox_render/videos/*/frames/
+roblox_render/videos/*/blend/
+roblox_render/videos/*/preview/
+roblox_render/videos/*/render_log_*.txt
+roblox_render/videos/dinner/audio/raw*.wav
+roblox_render/videos/dinner/audio/trimmed.wav
+roblox_render/videos/dinner/audio/whisper.json
+roblox_render/videos/dinner/*.jpg
+roblox_render/music/

@@ -1,0 +1,508 @@
+[
+ {
+  "text": "I asked, \"What's for dinner?\"",
+  "start": 0.0,
+  "end": 1.18,
+  "startFrame": 0,
+  "endFrame": 35,
+  "words": [
+   0,
+   4
+  ]
+ },
+ {
+  "text": "so many times that my family hasn't eaten since Tuesday.",
+  "start": 1.18,
+  "end": 4.0,
+  "startFrame": 35,
+  "endFrame": 120,
+  "words": [
+   5,
+   14
+  ]
+ },
+ {
+  "text": "And it saved the whole town.",
+  "start": 4.42,
+  "end": 5.98,
+  "startFrame": 133,
+  "endFrame": 179,
+  "words": [
+   15,
+   20
+  ]
+ },
+ {
+  "text": "You see, in this world, every time someone asks, \"What's for dinner?\", dinner gets pushed back one hour.",
+  "start": 6.26,
+  "end": 10.98,
+  "startFrame": 188,
+  "endFrame": 329,
+  "words": [
+   21,
+   38
+  ]
+ },
+ {
+  "text": "Ding!",
+  "start": 11.15,
+  "end": 11.86,
+  "startFrame": 334,
+  "endFrame": 356,
+  "words": [
+   39,
+   39
+  ]
+ },
+ {
+  "text": "So everyone is careful.",
+  "start": 11.86,
+  "end": 13.02,
+  "startFrame": 356,
+  "endFrame": 391,
+  "words": [
+   40,
+   43
+  ]
+ },
+ {
+  "text": "Moms say, \"Surprise!\"",
+  "start": 13.38,
+  "end": 14.32,
+  "startFrame": 401,
+  "endFrame": 430,
+  "words": [
+   44,
+   46
+  ]
+ },
+ {
+  "text": "Dads say, \"Food.\"",
+  "start": 14.77,
+  "end": 15.61,
+  "startFrame": 443,
+  "endFrame": 468,
+  "words": [
+   47,
+   49
+  ]
+ },
+ {
+  "text": "Grandmas just hand you a pickle and walk away.",
+  "start": 16.06,
+  "end": 17.82,
+  "startFrame": 482,
+  "endFrame": 535,
+  "words": [
+   50,
+   58
+  ]
+ },
+ {
+  "text": "But I always ask, \"What's for dinner?\"",
+  "start": 18.1,
+  "end": 20.0,
+  "startFrame": 543,
+  "endFrame": 600,
+  "words": [
+   59,
+   65
+  ]
+ },
+ {
+  "text": "\"What's for dinner?\"",
+  "start": 20.45,
+  "end": 20.87,
+  "startFrame": 614,
+  "endFrame": 626,
+  "words": [
+   66,
+   68
+  ]
+ },
+ {
+  "text": "Ding!",
+  "start": 21.19,
+  "end": 21.41,
+  "startFrame": 636,
+  "endFrame": 642,
+  "words": [
+   69,
+   69
+  ]
+ },
+ {
+  "text": "My brother chewed the remote.",
+  "start": 21.83,
+  "end": 23.01,
+  "startFrame": 655,
+  "endFrame": 690,
+  "words": [
+   70,
+   74
+  ]
+ },
+ {
+  "text": "Dad ate a candle.",
+  "start": 23.41,
+  "end": 24.23,
+  "startFrame": 702,
+  "endFrame": 727,
+  "words": [
+   75,
+   78
+  ]
+ },
+ {
+  "text": "Mom's soup went cold, then frozen, then historic.",
+  "start": 24.68,
+  "end": 27.18,
+  "startFrame": 740,
+  "endFrame": 815,
+  "words": [
+   79,
+   86
+  ]
+ },
+ {
+  "text": "Then the town festival started.",
+  "start": 27.53,
+  "end": 29.22,
+  "startFrame": 826,
+  "endFrame": 877,
+  "words": [
+   87,
+   91
+  ]
+ },
+ {
+  "text": "500 tables in the square.",
+  "start": 29.67,
+  "end": 30.67,
+  "startFrame": 890,
+  "endFrame": 920,
+  "words": [
+   92,
+   96
+  ]
+ },
+ {
+  "text": "The mayor was ready to ring the dinner bell.",
+  "start": 31.01,
+  "end": 32.73,
+  "startFrame": 930,
+  "endFrame": 982,
+  "words": [
+   97,
+   105
+  ]
+ },
+ {
+  "text": "But under the square lived the Table Eater, a giant monster with a napkin around his neck.",
+  "start": 33.01,
+  "end": 37.19,
+  "startFrame": 990,
+  "endFrame": 1116,
+  "words": [
+   106,
+   122
+  ]
+ },
+ {
+  "text": "When a table gets served, he wakes up and eats everything.",
+  "start": 37.47,
+  "end": 40.11,
+  "startFrame": 1124,
+  "endFrame": 1203,
+  "words": [
+   123,
+   133
+  ]
+ },
+ {
+  "text": "Plates, chairs, people.",
+  "start": 40.53,
+  "end": 41.91,
+  "startFrame": 1216,
+  "endFrame": 1257,
+  "words": [
+   134,
+   136
+  ]
+ },
+ {
+  "text": "The bell rang.",
+  "start": 42.29,
+  "end": 42.85,
+  "startFrame": 1269,
+  "endFrame": 1286,
+  "words": [
+   137,
+   139
+  ]
+ },
+ {
+  "text": "The ground shook.",
+  "start": 43.13,
+  "end": 43.89,
+  "startFrame": 1294,
+  "endFrame": 1317,
+  "words": [
+   140,
+   142
+  ]
+ },
+ {
+  "text": "He was coming.",
+  "start": 44.23,
+  "end": 44.87,
+  "startFrame": 1327,
+  "endFrame": 1346,
+  "words": [
+   143,
+   145
+  ]
+ },
+ {
+  "text": "Then I noticed something.",
+  "start": 45.25,
+  "end": 46.39,
+  "startFrame": 1358,
+  "endFrame": 1392,
+  "words": [
+   146,
+   149
+  ]
+ },
+ {
+  "text": "He can only eat a table that's been served.",
+  "start": 46.65,
+  "end": 48.51,
+  "startFrame": 1400,
+  "endFrame": 1455,
+  "words": [
+   150,
+   158
+  ]
+ },
+ {
+  "text": "I grabbed the microphone.",
+  "start": 48.79,
+  "end": 49.59,
+  "startFrame": 1464,
+  "endFrame": 1488,
+  "words": [
+   159,
+   162
+  ]
+ },
+ {
+  "text": "\"What's for dinner?\"",
+  "start": 50.01,
+  "end": 50.63,
+  "startFrame": 1500,
+  "endFrame": 1519,
+  "words": [
+   163,
+   165
+  ]
+ },
+ {
+  "text": "Ding!",
+  "start": 51.08,
+  "end": 51.26,
+  "startFrame": 1532,
+  "endFrame": 1538,
+  "words": [
+   166,
+   166
+  ]
+ },
+ {
+  "text": "500 people joined in.",
+  "start": 51.71,
+  "end": 53.09,
+  "startFrame": 1551,
+  "endFrame": 1593,
+  "words": [
+   167,
+   170
+  ]
+ },
+ {
+  "text": "\"What's for dinner?\"",
+  "start": 53.43,
+  "end": 54.05,
+  "startFrame": 1603,
+  "endFrame": 1622,
+  "words": [
+   171,
+   173
+  ]
+ },
+ {
+  "text": "Ding!",
+  "start": 54.47,
+  "end": 54.73,
+  "startFrame": 1634,
+  "endFrame": 1642,
+  "words": [
+   174,
+   174
+  ]
+ },
+ {
+  "text": "Ding!",
+  "start": 55.01,
+  "end": 55.09,
+  "startFrame": 1650,
+  "endFrame": 1653,
+  "words": [
+   175,
+   175
+  ]
+ },
+ {
+  "text": "Ding!",
+  "start": 55.09,
+  "end": 55.83,
+  "startFrame": 1653,
+  "endFrame": 1675,
+  "words": [
+   176,
+   176
+  ]
+ },
+ {
+  "text": "Dinner got pushed back 500 hours.",
+  "start": 56.07,
+  "end": 58.15,
+  "startFrame": 1682,
+  "endFrame": 1744,
+  "words": [
+   177,
+   182
+  ]
+ },
+ {
+  "text": "The monster stood there, staring at the empty tables.",
+  "start": 58.55,
+  "end": 60.93,
+  "startFrame": 1756,
+  "endFrame": 1828,
+  "words": [
+   183,
+   191
+  ]
+ },
+ {
+  "text": "He got so hungry, he cried.",
+  "start": 61.23,
+  "end": 62.77,
+  "startFrame": 1837,
+  "endFrame": 1883,
+  "words": [
+   192,
+   197
+  ]
+ },
+ {
+  "text": "Then he fell asleep on the town hall.",
+  "start": 63.22,
+  "end": 64.76,
+  "startFrame": 1897,
+  "endFrame": 1943,
+  "words": [
+   198,
+   205
+  ]
+ },
+ {
+  "text": "Three weeks later, the clocks hit zero.",
+  "start": 65.12,
+  "end": 66.94,
+  "startFrame": 1954,
+  "endFrame": 2008,
+  "words": [
+   206,
+   212
+  ]
+ },
+ {
+  "text": "We served spaghetti for 3,000 people.",
+  "start": 67.26,
+  "end": 69.38,
+  "startFrame": 2018,
+  "endFrame": 2081,
+  "words": [
+   213,
+   218
+  ]
+ },
+ {
+  "text": "Very, very quietly.",
+  "start": 69.68,
+  "end": 70.84,
+  "startFrame": 2090,
+  "endFrame": 2125,
+  "words": [
+   219,
+   221
+  ]
+ },
+ {
+  "text": "It was the best meal of my life.",
+  "start": 71.29,
+  "end": 72.69,
+  "startFrame": 2139,
+  "endFrame": 2181,
+  "words": [
+   222,
+   229
+  ]
+ },
+ {
+  "text": "Mom looked at the empty pot.",
+  "start": 73.11,
+  "end": 74.09,
+  "startFrame": 2193,
+  "endFrame": 2223,
+  "words": [
+   230,
+   235
+  ]
+ },
+ {
+  "text": "\"Honey, what's for dinner tomorrow?\"",
+  "start": 74.41,
+  "end": 75.65,
+  "startFrame": 2232,
+  "endFrame": 2270,
+  "words": [
+   236,
+   240
+  ]
+ },
+ {
+  "text": "Ding!",
+  "start": 75.87,
+  "end": 76.69,
+  "startFrame": 2276,
+  "endFrame": 2301,
+  "words": [
+   241,
+   241
+  ]
+ },
+ {
+  "text": "\"One more hour.\"",
+  "start": 76.69,
+  "end": 77.27,
+  "startFrame": 2301,
+  "endFrame": 2318,
+  "words": [
+   242,
+   244
+  ]
+ }
+]

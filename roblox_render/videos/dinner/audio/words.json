@@ -1,0 +1,1227 @@
+[
+{
+"word": "I",
+"start": 0.0,
+"end": 0.18
+},
+{
+"word": "asked,",
+"start": 0.18,
+"end": 0.44
+},
+{
+"word": "\"What's",
+"start": 0.68,
+"end": 0.84
+},
+{
+"word": "for",
+"start": 0.84,
+"end": 0.98
+},
+{
+"word": "dinner?\"",
+"start": 0.98,
+"end": 1.18
+},
+{
+"word": "so",
+"start": 1.18,
+"end": 1.56
+},
+{
+"word": "many",
+"start": 1.56,
+"end": 1.74
+},
+{
+"word": "times",
+"start": 1.74,
+"end": 2.08
+},
+{
+"word": "that",
+"start": 2.08,
+"end": 2.32
+},
+{
+"word": "my",
+"start": 2.32,
+"end": 2.44
+},
+{
+"word": "family",
+"start": 2.44,
+"end": 2.7
+},
+{
+"word": "hasn't",
+"start": 2.7,
+"end": 3.02
+},
+{
+"word": "eaten",
+"start": 3.02,
+"end": 3.22
+},
+{
+"word": "since",
+"start": 3.22,
+"end": 3.58
+},
+{
+"word": "Tuesday.",
+"start": 3.58,
+"end": 4.0
+},
+{
+"word": "And",
+"start": 4.42,
+"end": 4.66
+},
+{
+"word": "it",
+"start": 4.66,
+"end": 4.88
+},
+{
+"word": "saved",
+"start": 4.88,
+"end": 5.18
+},
+{
+"word": "the",
+"start": 5.18,
+"end": 5.42
+},
+{
+"word": "whole",
+"start": 5.42,
+"end": 5.64
+},
+{
+"word": "town.",
+"start": 5.64,
+"end": 5.98
+},
+{
+"word": "You",
+"start": 6.26,
+"end": 6.34
+},
+{
+"word": "see,",
+"start": 6.34,
+"end": 6.5
+},
+{
+"word": "in",
+"start": 6.66,
+"end": 6.76
+},
+{
+"word": "this",
+"start": 6.76,
+"end": 6.96
+},
+{
+"word": "world,",
+"start": 6.96,
+"end": 7.22
+},
+{
+"word": "every",
+"start": 7.42,
+"end": 7.6
+},
+{
+"word": "time",
+"start": 7.6,
+"end": 7.82
+},
+{
+"word": "someone",
+"start": 7.82,
+"end": 8.08
+},
+{
+"word": "asks,",
+"start": 8.08,
+"end": 8.38
+},
+{
+"word": "\"What's",
+"start": 8.68,
+"end": 8.8
+},
+{
+"word": "for",
+"start": 8.8,
+"end": 8.94
+},
+{
+"word": "dinner?\",",
+"start": 8.94,
+"end": 9.14
+},
+{
+"word": "dinner",
+"start": 9.5,
+"end": 9.6
+},
+{
+"word": "gets",
+"start": 9.6,
+"end": 9.88
+},
+{
+"word": "pushed",
+"start": 9.88,
+"end": 10.08
+},
+{
+"word": "back",
+"start": 10.08,
+"end": 10.36
+},
+{
+"word": "one",
+"start": 10.36,
+"end": 10.64
+},
+{
+"word": "hour.",
+"start": 10.64,
+"end": 10.98
+},
+{
+"word": "Ding!",
+"start": 11.15,
+"end": 11.86
+},
+{
+"word": "So",
+"start": 11.86,
+"end": 12.12
+},
+{
+"word": "everyone",
+"start": 12.12,
+"end": 12.48
+},
+{
+"word": "is",
+"start": 12.48,
+"end": 12.72
+},
+{
+"word": "careful.",
+"start": 12.72,
+"end": 13.02
+},
+{
+"word": "Moms",
+"start": 13.38,
+"end": 13.6
+},
+{
+"word": "say,",
+"start": 13.6,
+"end": 13.86
+},
+{
+"word": "\"Surprise!\"",
+"start": 14.02,
+"end": 14.32
+},
+{
+"word": "Dads",
+"start": 14.77,
+"end": 14.87
+},
+{
+"word": "say,",
+"start": 14.87,
+"end": 15.19
+},
+{
+"word": "\"Food.\"",
+"start": 15.35,
+"end": 15.61
+},
+{
+"word": "Grandmas",
+"start": 16.06,
+"end": 16.24
+},
+{
+"word": "just",
+"start": 16.24,
+"end": 16.48
+},
+{
+"word": "hand",
+"start": 16.48,
+"end": 16.78
+},
+{
+"word": "you",
+"start": 16.78,
+"end": 16.92
+},
+{
+"word": "a",
+"start": 16.92,
+"end": 17.02
+},
+{
+"word": "pickle",
+"start": 17.02,
+"end": 17.26
+},
+{
+"word": "and",
+"start": 17.26,
+"end": 17.4
+},
+{
+"word": "walk",
+"start": 17.4,
+"end": 17.54
+},
+{
+"word": "away.",
+"start": 17.54,
+"end": 17.82
+},
+{
+"word": "But",
+"start": 18.1,
+"end": 18.22
+},
+{
+"word": "I",
+"start": 18.22,
+"end": 18.52
+},
+{
+"word": "always",
+"start": 18.6,
+"end": 18.98
+},
+{
+"word": "ask,",
+"start": 18.98,
+"end": 19.34
+},
+{
+"word": "\"What's",
+"start": 19.54,
+"end": 19.7
+},
+{
+"word": "for",
+"start": 19.7,
+"end": 19.8
+},
+{
+"word": "dinner?\"",
+"start": 19.8,
+"end": 20.0
+},
+{
+"word": "\"What's",
+"start": 20.45,
+"end": 20.63
+},
+{
+"word": "for",
+"start": 20.63,
+"end": 20.73
+},
+{
+"word": "dinner?\"",
+"start": 20.73,
+"end": 20.87
+},
+{
+"word": "Ding!",
+"start": 21.19,
+"end": 21.41
+},
+{
+"word": "My",
+"start": 21.83,
+"end": 21.95
+},
+{
+"word": "brother",
+"start": 21.95,
+"end": 22.21
+},
+{
+"word": "chewed",
+"start": 22.21,
+"end": 22.57
+},
+{
+"word": "the",
+"start": 22.57,
+"end": 22.69
+},
+{
+"word": "remote.",
+"start": 22.69,
+"end": 23.01
+},
+{
+"word": "Dad",
+"start": 23.41,
+"end": 23.61
+},
+{
+"word": "ate",
+"start": 23.61,
+"end": 23.81
+},
+{
+"word": "a",
+"start": 23.81,
+"end": 24.01
+},
+{
+"word": "candle.",
+"start": 24.01,
+"end": 24.23
+},
+{
+"word": "Mom's",
+"start": 24.68,
+"end": 24.86
+},
+{
+"word": "soup",
+"start": 24.86,
+"end": 25.0
+},
+{
+"word": "went",
+"start": 25.0,
+"end": 25.2
+},
+{
+"word": "cold,",
+"start": 25.2,
+"end": 25.56
+},
+{
+"word": "then",
+"start": 25.82,
+"end": 25.88
+},
+{
+"word": "frozen,",
+"start": 25.88,
+"end": 26.26
+},
+{
+"word": "then",
+"start": 26.62,
+"end": 26.72
+},
+{
+"word": "historic.",
+"start": 26.72,
+"end": 27.18
+},
+{
+"word": "Then",
+"start": 27.53,
+"end": 27.82
+},
+{
+"word": "the",
+"start": 27.82,
+"end": 28.1
+},
+{
+"word": "town",
+"start": 28.1,
+"end": 28.4
+},
+{
+"word": "festival",
+"start": 28.44,
+"end": 28.78
+},
+{
+"word": "started.",
+"start": 28.78,
+"end": 29.22
+},
+{
+"word": "500",
+"start": 29.67,
+"end": 29.67
+},
+{
+"word": "tables",
+"start": 29.67,
+"end": 30.09
+},
+{
+"word": "in",
+"start": 30.09,
+"end": 30.27
+},
+{
+"word": "the",
+"start": 30.27,
+"end": 30.41
+},
+{
+"word": "square.",
+"start": 30.41,
+"end": 30.67
+},
+{
+"word": "The",
+"start": 31.01,
+"end": 31.05
+},
+{
+"word": "mayor",
+"start": 31.05,
+"end": 31.25
+},
+{
+"word": "was",
+"start": 31.25,
+"end": 31.47
+},
+{
+"word": "ready",
+"start": 31.47,
+"end": 31.69
+},
+{
+"word": "to",
+"start": 31.69,
+"end": 31.89
+},
+{
+"word": "ring",
+"start": 31.89,
+"end": 32.09
+},
+{
+"word": "the",
+"start": 32.09,
+"end": 32.27
+},
+{
+"word": "dinner",
+"start": 32.27,
+"end": 32.47
+},
+{
+"word": "bell.",
+"start": 32.47,
+"end": 32.73
+},
+{
+"word": "But",
+"start": 33.01,
+"end": 33.11
+},
+{
+"word": "under",
+"start": 33.11,
+"end": 33.37
+},
+{
+"word": "the",
+"start": 33.37,
+"end": 33.53
+},
+{
+"word": "square",
+"start": 33.53,
+"end": 33.79
+},
+{
+"word": "lived",
+"start": 33.79,
+"end": 34.11
+},
+{
+"word": "the",
+"start": 34.11,
+"end": 34.33
+},
+{
+"word": "Table",
+"start": 34.33,
+"end": 34.61
+},
+{
+"word": "Eater,",
+"start": 34.61,
+"end": 34.85
+},
+{
+"word": "a",
+"start": 35.11,
+"end": 35.19
+},
+{
+"word": "giant",
+"start": 35.19,
+"end": 35.55
+},
+{
+"word": "monster",
+"start": 35.55,
+"end": 35.97
+},
+{
+"word": "with",
+"start": 35.97,
+"end": 36.13
+},
+{
+"word": "a",
+"start": 36.13,
+"end": 36.27
+},
+{
+"word": "napkin",
+"start": 36.27,
+"end": 36.61
+},
+{
+"word": "around",
+"start": 36.61,
+"end": 36.79
+},
+{
+"word": "his",
+"start": 36.79,
+"end": 36.97
+},
+{
+"word": "neck.",
+"start": 36.97,
+"end": 37.19
+},
+{
+"word": "When",
+"start": 37.47,
+"end": 37.57
+},
+{
+"word": "a",
+"start": 37.57,
+"end": 37.69
+},
+{
+"word": "table",
+"start": 37.69,
+"end": 37.87
+},
+{
+"word": "gets",
+"start": 37.87,
+"end": 38.03
+},
+{
+"word": "served,",
+"start": 38.03,
+"end": 38.41
+},
+{
+"word": "he",
+"start": 38.59,
+"end": 38.69
+},
+{
+"word": "wakes",
+"start": 38.69,
+"end": 38.89
+},
+{
+"word": "up",
+"start": 38.89,
+"end": 39.11
+},
+{
+"word": "and",
+"start": 39.11,
+"end": 39.29
+},
+{
+"word": "eats",
+"start": 39.29,
+"end": 39.55
+},
+{
+"word": "everything.",
+"start": 39.59,
+"end": 40.11
+},
+{
+"word": "Plates,",
+"start": 40.53,
+"end": 40.75
+},
+{
+"word": "chairs,",
+"start": 40.97,
+"end": 41.31
+},
+{
+"word": "people.",
+"start": 41.61,
+"end": 41.91
+},
+{
+"word": "The",
+"start": 42.29,
+"end": 42.39
+},
+{
+"word": "bell",
+"start": 42.39,
+"end": 42.59
+},
+{
+"word": "rang.",
+"start": 42.59,
+"end": 42.85
+},
+{
+"word": "The",
+"start": 43.13,
+"end": 43.23
+},
+{
+"word": "ground",
+"start": 43.23,
+"end": 43.53
+},
+{
+"word": "shook.",
+"start": 43.53,
+"end": 43.89
+},
+{
+"word": "He",
+"start": 44.23,
+"end": 44.39
+},
+{
+"word": "was",
+"start": 44.39,
+"end": 44.55
+},
+{
+"word": "coming.",
+"start": 44.55,
+"end": 44.87
+},
+{
+"word": "Then",
+"start": 45.25,
+"end": 45.41
+},
+{
+"word": "I",
+"start": 45.56,
+"end": 45.75
+},
+{
+"word": "noticed",
+"start": 45.75,
+"end": 46.01
+},
+{
+"word": "something.",
+"start": 46.01,
+"end": 46.39
+},
+{
+"word": "He",
+"start": 46.65,
+"end": 46.77
+},
+{
+"word": "can",
+"start": 46.77,
+"end": 46.91
+},
+{
+"word": "only",
+"start": 46.91,
+"end": 47.17
+},
+{
+"word": "eat",
+"start": 47.17,
+"end": 47.37
+},
+{
+"word": "a",
+"start": 47.37,
+"end": 47.51
+},
+{
+"word": "table",
+"start": 47.51,
+"end": 47.75
+},
+{
+"word": "that's",
+"start": 47.75,
+"end": 47.97
+},
+{
+"word": "been",
+"start": 47.97,
+"end": 48.13
+},
+{
+"word": "served.",
+"start": 48.13,
+"end": 48.51
+},
+{
+"word": "I",
+"start": 48.79,
+"end": 48.91
+},
+{
+"word": "grabbed",
+"start": 48.91,
+"end": 49.09
+},
+{
+"word": "the",
+"start": 49.09,
+"end": 49.23
+},
+{
+"word": "microphone.",
+"start": 49.23,
+"end": 49.59
+},
+{
+"word": "\"What's",
+"start": 50.01,
+"end": 50.23
+},
+{
+"word": "for",
+"start": 50.23,
+"end": 50.37
+},
+{
+"word": "dinner?\"",
+"start": 50.37,
+"end": 50.63
+},
+{
+"word": "Ding!",
+"start": 51.08,
+"end": 51.26
+},
+{
+"word": "500",
+"start": 51.71,
+"end": 52.07
+},
+{
+"word": "people",
+"start": 52.07,
+"end": 52.51
+},
+{
+"word": "joined",
+"start": 52.51,
+"end": 52.79
+},
+{
+"word": "in.",
+"start": 52.79,
+"end": 53.09
+},
+{
+"word": "\"What's",
+"start": 53.43,
+"end": 53.63
+},
+{
+"word": "for",
+"start": 53.63,
+"end": 53.79
+},
+{
+"word": "dinner?\"",
+"start": 53.79,
+"end": 54.05
+},
+{
+"word": "Ding!",
+"start": 54.47,
+"end": 54.73
+},
+{
+"word": "Ding!",
+"start": 55.01,
+"end": 55.09
+},
+{
+"word": "Ding!",
+"start": 55.09,
+"end": 55.83
+},
+{
+"word": "Dinner",
+"start": 56.07,
+"end": 56.31
+},
+{
+"word": "got",
+"start": 56.31,
+"end": 56.59
+},
+{
+"word": "pushed",
+"start": 56.59,
+"end": 56.81
+},
+{
+"word": "back",
+"start": 56.81,
+"end": 57.11
+},
+{
+"word": "500",
+"start": 57.21,
+"end": 57.67
+},
+{
+"word": "hours.",
+"start": 57.67,
+"end": 58.15
+},
+{
+"word": "The",
+"start": 58.55,
+"end": 58.63
+},
+{
+"word": "monster",
+"start": 58.63,
+"end": 58.91
+},
+{
+"word": "stood",
+"start": 58.91,
+"end": 59.23
+},
+{
+"word": "there,",
+"start": 59.23,
+"end": 59.53
+},
+{
+"word": "staring",
+"start": 59.63,
+"end": 59.99
+},
+{
+"word": "at",
+"start": 59.99,
+"end": 60.23
+},
+{
+"word": "the",
+"start": 60.23,
+"end": 60.33
+},
+{
+"word": "empty",
+"start": 60.33,
+"end": 60.53
+},
+{
+"word": "tables.",
+"start": 60.53,
+"end": 60.93
+},
+{
+"word": "He",
+"start": 61.23,
+"end": 61.33
+},
+{
+"word": "got",
+"start": 61.33,
+"end": 61.47
+},
+{
+"word": "so",
+"start": 61.47,
+"end": 61.81
+},
+{
+"word": "hungry,",
+"start": 61.85,
+"end": 62.17
+},
+{
+"word": "he",
+"start": 62.29,
+"end": 62.41
+},
+{
+"word": "cried.",
+"start": 62.41,
+"end": 62.77
+},
+{
+"word": "Then",
+"start": 63.22,
+"end": 63.28
+},
+{
+"word": "he",
+"start": 63.37,
+"end": 63.58
+},
+{
+"word": "fell",
+"start": 63.58,
+"end": 63.76
+},
+{
+"word": "asleep",
+"start": 63.76,
+"end": 64.04
+},
+{
+"word": "on",
+"start": 64.04,
+"end": 64.2
+},
+{
+"word": "the",
+"start": 64.2,
+"end": 64.32
+},
+{
+"word": "town",
+"start": 64.32,
+"end": 64.52
+},
+{
+"word": "hall.",
+"start": 64.52,
+"end": 64.76
+},
+{
+"word": "Three",
+"start": 65.12,
+"end": 65.26
+},
+{
+"word": "weeks",
+"start": 65.26,
+"end": 65.42
+},
+{
+"word": "later,",
+"start": 65.42,
+"end": 65.76
+},
+{
+"word": "the",
+"start": 65.98,
+"end": 66.04
+},
+{
+"word": "clocks",
+"start": 66.04,
+"end": 66.32
+},
+{
+"word": "hit",
+"start": 66.32,
+"end": 66.58
+},
+{
+"word": "zero.",
+"start": 66.58,
+"end": 66.94
+},
+{
+"word": "We",
+"start": 67.26,
+"end": 67.38
+},
+{
+"word": "served",
+"start": 67.38,
+"end": 67.62
+},
+{
+"word": "spaghetti",
+"start": 67.62,
+"end": 67.98
+},
+{
+"word": "for",
+"start": 67.98,
+"end": 68.22
+},
+{
+"word": "3,000",
+"start": 68.27,
+"end": 68.86
+},
+{
+"word": "people.",
+"start": 68.86,
+"end": 69.38
+},
+{
+"word": "Very,",
+"start": 69.68,
+"end": 70.0
+},
+{
+"word": "very",
+"start": 70.13,
+"end": 70.4
+},
+{
+"word": "quietly.",
+"start": 70.4,
+"end": 70.84
+},
+{
+"word": "It",
+"start": 71.29,
+"end": 71.35
+},
+{
+"word": "was",
+"start": 71.35,
+"end": 71.47
+},
+{
+"word": "the",
+"start": 71.47,
+"end": 71.63
+},
+{
+"word": "best",
+"start": 71.63,
+"end": 71.89
+},
+{
+"word": "meal",
+"start": 71.89,
+"end": 72.11
+},
+{
+"word": "of",
+"start": 72.11,
+"end": 72.25
+},
+{
+"word": "my",
+"start": 72.25,
+"end": 72.39
+},
+{
+"word": "life.",
+"start": 72.39,
+"end": 72.69
+},
+{
+"word": "Mom",
+"start": 73.11,
+"end": 73.21
+},
+{
+"word": "looked",
+"start": 73.21,
+"end": 73.41
+},
+{
+"word": "at",
+"start": 73.41,
+"end": 73.55
+},
+{
+"word": "the",
+"start": 73.55,
+"end": 73.65
+},
+{
+"word": "empty",
+"start": 73.65,
+"end": 73.83
+},
+{
+"word": "pot.",
+"start": 73.83,
+"end": 74.09
+},
+{
+"word": "\"Honey,",
+"start": 74.41,
+"end": 74.53
+},
+{
+"word": "what's",
+"start": 74.87,
+"end": 75.05
+},
+{
+"word": "for",
+"start": 75.05,
+"end": 75.15
+},
+{
+"word": "dinner",
+"start": 75.15,
+"end": 75.31
+},
+{
+"word": "tomorrow?\"",
+"start": 75.31,
+"end": 75.65
+},
+{
+"word": "Ding!",
+"start": 75.87,
+"end": 76.69
+},
+{
+"word": "\"One",
+"start": 76.69,
+"end": 76.83
+},
+{
+"word": "more",
+"start": 76.83,
+"end": 77.03
+},
+{
+"word": "hour.\"",
+"start": 77.03,
+"end": 77.27
+}
+]
