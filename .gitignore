@@ -8,3 +8,6 @@ roblox_render/videos/dinner/audio/trimmed.wav
 roblox_render/videos/dinner/audio/whisper.json
 roblox_render/videos/dinner/*.jpg
 roblox_render/music/
+roblox_render/videos/dinner/silent.mp4
+roblox_render/videos/dinner/parts.txt
+roblox_render/videos/dinner/out/final.mp4
