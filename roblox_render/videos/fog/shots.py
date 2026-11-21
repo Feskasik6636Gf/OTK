@@ -1258,3 +1258,4 @@ def f51(t0, t1):
     sfx(t0 + 0.4, "aww", 0.7)
     sfx(t0 + 1.8, "wind", 0.7)
     sfx(t0 + 3.0, "sparkle", 0.4)
+# render

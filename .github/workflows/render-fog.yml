@@ -1,5 +1,9 @@
 name: render-fog
 on:
+  push:
+    branches: [ccr-a609d4ff-gjj6sp]
+    paths:
+      - "roblox_render/videos/fog/shots.py"
   workflow_dispatch:
     inputs:
       parts:
@@ -62,9 +66,9 @@ jobs:
           mkdir -p ~/blender && tar -xf /tmp/b.tar.xz -C ~/blender --strip-components=1
       - name: Render shots ${{ matrix.part }}
         env:
-          RENDER_PCT: ${{ inputs.pct || '80' }}
+          RENDER_PCT: ${{ inputs.pct || '67' }}
         run: |
-          ~/blender/blender -b --factory-startup -P roblox_render/tools/render.py -- $SLUG final ${{ matrix.part }} ${{ inputs.samples || '14' }} 2>&1 \
+          ~/blender/blender -b --factory-startup -P roblox_render/tools/render.py -- $SLUG final ${{ matrix.part }} ${{ inputs.samples || '10' }} 2>&1 \
             | grep -E "shot [0-9]+ |FAILED|Traceback|Error:|line [0-9]" | grep -v EGL || true
           ls roblox_render/videos/${{ env.SLUG }}/frames | wc -l
       - name: Backup raw frames
