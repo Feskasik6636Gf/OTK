@@ -5,13 +5,20 @@ on:
     paths:
       - "roblox_render/videos/town/shots.py"
       - "roblox_render/rbx/**"
-      - ".github/workflows/render-town.yml"
   workflow_dispatch:
     inputs:
       parts:
         description: 'JSON list of shot ranges to render, e.g. ["31-31","32-32"] (empty = all)'
         required: false
         default: ''
+      pct:
+        description: 'render resolution percent (default 80)'
+        required: false
+        default: '80'
+      samples:
+        description: 'EEVEE samples (default 14)'
+        required: false
+        default: '14'
       assemble_only:
         description: 'true = skip rendering, only assemble parts already in out/'
         required: false
@@ -60,9 +67,9 @@ jobs:
           mkdir -p ~/blender && tar -xf /tmp/b.tar.xz -C ~/blender --strip-components=1
       - name: Render shots ${{ matrix.part }}
         env:
-          RENDER_PCT: "80"
+          RENDER_PCT: ${{ inputs.pct || '80' }}
         run: |
-          ~/blender/blender -b --factory-startup -P roblox_render/tools/render.py -- $SLUG final ${{ matrix.part }} 14 2>&1 \
+          ~/blender/blender -b --factory-startup -P roblox_render/tools/render.py -- $SLUG final ${{ matrix.part }} ${{ inputs.samples || '14' }} 2>&1 \
             | grep -E "shot [0-9]+ |FAILED|Traceback|Error:|line [0-9]" | grep -v EGL || true
           ls roblox_render/videos/${{ env.SLUG }}/frames | wc -l
       - name: Backup raw frames
