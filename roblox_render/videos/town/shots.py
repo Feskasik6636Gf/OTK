@@ -475,7 +475,7 @@ def s07(t0, t1):
     sfx(t0 + 2.0, "crickets")
 
 
-@beat(27, 33, n=2, focus=(0, 5, 4.5), d=12, lens=26, desc="Comedies play with no sound: family stares at a muted TV")
+@S(8, 27, 33, "Comedies play with no sound: family stares at a muted TV")
 def s08(t0, t1):
     tv_set()
     fam = []
@@ -538,7 +538,7 @@ def s10(t0, t1):
     sfx(t0 + 2.2, "chaching")
 
 
-@beat(46, 52, n=2, focus=(6, 8, 4.6), d=12, lens=26, desc="Teacher checks the class, scanning kids")
+@S(11, 46, 52, "Teacher checks the class, scanning kids")
 def s11(t0, t1):
     R, ks = class_scene(t0, t1, kids=7, board="chalk_joke.png")
     T = teacher(t0, t1, "angry")
@@ -1128,7 +1128,7 @@ def s44(t0, t1):
     sfx(t0 + 2.4, "sparkle")
 
 
-@beat(204, 209, n=2, focus=(0, -30, 2.5), d=9, lens=26, desc="Water reached our knees: low camera at waterline, Eddie wading")
+@beat(204, 209, n=2, focus=(0, -30, 3.5), d=15, lens=24, desc="Water reached our knees: low camera at waterline, Eddie wading")
 def s45(t0, t1):
     town_scene()
     water(1.5, 2.2, t0, t1, ease="LINEAR")
@@ -1137,8 +1137,8 @@ def s45(t0, t1):
     T = tootie(t0, t1, "worried")
     T.pose(t0, loc=(2.4, -30, 0.7), rot=15)
     cam = Cam()
-    cam.key(t0, (0, -36, 2.6), (0, -30, 2.2), lens=26, focus=(0, -30, 2.0), fstop=3)
-    cam.key(t1, (0, -35, 1.9), (0, -30, 2.4), lens=24, focus=(0, -30, 2.0), fstop=3, ease="EASE_IN_OUT")
+    cam.key(t0, (-3, -43, 4.4), (0, -30, 3.0), lens=24, focus=(0, -30, 3.0), fstop=3)
+    cam.key(t1, (3, -40, 3.8), (0, -30, 3.2), lens=24, focus=(0, -30, 3.2), fstop=3, ease="EASE_IN_OUT")
     cam.handheld(1.6)
     sfx(t0 + 0.2, "splat", 0.5)
     sfx(t0 + 1.4, "splat", 0.4)
@@ -1296,7 +1296,7 @@ def s54(t0, t1):
     sfx(t0 + 1.2, "slap", 0.6)
 
 
-@beat(246, 251, n=2, focus=(0, -30, 3), d=26, lens=22, desc="Whole square laughs: big crowd wide, rising")
+@beat(246, 251, n=2, focus=(0, -30, 3), d=36, lens=22, desc="Whole square laughs: big crowd wide, rising")
 def s55(t0, t1):
     town_scene()
     water(0.8, -0.4, t0, t1, ease="EASE_IN_OUT")
