@@ -29,6 +29,65 @@ def pt(x, y, z):
     return (x, y, z)
 
 
+
+# ---- auto shot ids + multi-angle beats ---------------------------------------------------------
+_ID = [0]
+BEAT = [None]
+
+
+def _reg(a, b, desc, fn, k=0, alt=None, t0=None, t1=None):
+    _ID[0] += 1
+    i = _ID[0]
+    t0 = w(a) if t0 is None else t0
+    t1 = (V.end if b is None else w(b)) if t1 is None else t1
+
+    def run():
+        random.seed(i)
+        fn(t0, t1)
+        if alt is not None:
+            alt(t0, t1)
+        CUES[:] = [c for c in CUES if t0 - 0.05 <= c["t"] <= t1 - 0.05]
+    V.shot(i, t0, t1, desc)(run)
+
+
+def S(i, a, b, desc=""):
+    def deco(fn):
+        _reg(a, b, desc, fn)
+        return fn
+    return deco
+
+
+def beat(a, b, n=2, focus=(0, -30, 4.5), d=10.0, lens=28, desc="", pitch=4):
+    """Same scene, n sub-shots with different camera angles (cut on word starts)."""
+    def deco(fn):
+        T0 = w(a)
+        T1 = V.end if b is None else w(b)
+        words = [x["start"] for x in V.words if T0 < x["start"] < T1]
+        cuts = [T0]
+        for k in range(1, n):
+            tt = T0 + (T1 - T0) * k / n
+            cuts.append(min(words, key=lambda x: abs(x - tt)) if words else tt)
+        cuts.append(T1)
+        for k in range(n):
+            t0, t1 = cuts[k], cuts[k + 1]
+
+            def run(t0, t1, k=k):
+                BEAT[0] = (T0, T1)
+                fn(t0, t1)
+                BEAT[0] = None
+            alt = None
+            if k > 0:
+                def alt(t0, t1, k=k):
+                    yaw = (-38, 34, -20, 24)[(k - 1) % 4]
+                    dd = d * (0.7 if k % 2 else 1.15)
+                    cam = Cam()
+                    cam.push(t0, t1, focus, dd, dd * 0.82, yaw=yaw, pitch=pitch + 2, lens=lens, yaw1=yaw * 0.4, lens1=lens)
+                    cam.handheld(1.2)
+            _reg(a, b, desc, run, k, alt, t0, t1)
+        return fn
+    return deco
+
+
 # ================================================================== cast
 def tootie(t0, t1, expr="smug"):
     T = chars.Char("Tootie", skin="#d9b48f", shirt="#6a3fb0", pants="#2d2f45", hair="messy", hair_color="#1d1714",
@@ -74,6 +133,11 @@ def fartan(t0, t1, expr="happy"):
 
 # ================================================================== props / sets
 def water(z0, z1, t0, t1, ease="EASE_IN_OUT", size=900, c=(0.10, 0.42, 0.62), alpha=0.8, y=-20, name="water"):
+    if BEAT[0]:
+        B0, B1 = BEAT[0]
+        zz = lambda t: z0 + (z1 - z0) * (t - B0) / max(B1 - B0, 1e-3)
+        if ease == "LINEAR":
+            z0, z1 = zz(t0), zz(t1)
     ob = plane(name, size, size, (0, y, z0), mat("wat" + str(c), c, 0.06, alpha=alpha, spec=1.0))
     ob.keyframe_insert("location", index=2, frame=F(t0))
     ob.location[2] = z1
@@ -411,7 +475,7 @@ def s07(t0, t1):
     sfx(t0 + 2.0, "crickets")
 
 
-@S(8, 27, 33, "Comedies play with no sound: family stares at a muted TV")
+@beat(27, 33, n=2, focus=(0, 5, 4.5), d=12, lens=26, desc="Comedies play with no sound: family stares at a muted TV")
 def s08(t0, t1):
     tv_set()
     fam = []
@@ -423,9 +487,8 @@ def s08(t0, t1):
         f.pose(t0, loc=(x, -1.5, 2.6), rot=180)
         fam.append(f)
     cam = Cam()
-    cam.push(t0, t1, (0, 9.2, 5.0), 17.5, 11.5, yaw=180, pitch=-2, lens=26)
-    cam.key(t0, (0.5, -13, 5.5), (0, 8, 4.6), lens=24, focus=(0, 8, 4.6), fstop=4)
-    cam.key(t1, (-0.5, -6.5, 4.6), (0, 9, 4.6), lens=28, focus=(0, 9, 4.6), fstop=4, ease="EASE_IN_OUT")
+    cam.key(t0, (3.0, -17, 7.5), (0, 8, 4.6), lens=24, focus=(0, 8, 4.6), fstop=4)
+    cam.key(t1, (-2.0, -12, 6.0), (0, 9, 4.6), lens=26, focus=(0, 9, 4.6), fstop=4, ease="EASE_IN_OUT")
     cam.handheld(0.7)
     sfx(t0 + 1.5, "crickets")
     sfx(t0 + 3.0, "faaah", 0.7)
@@ -450,7 +513,7 @@ def s09(t0, t1):
     sfx(t0 + 1.0, "snort")
 
 
-@S(10, 38, 46, "He's still paying off the loan: Dad under a huge loan paper")
+@beat(38, 46, n=2, focus=(0, 3.4, 5), d=10, lens=28, desc="He's still paying off the loan: Dad under a huge loan paper")
 def s10(t0, t1):
     office_set()
     D = dadc(t0, t1, "worried")
@@ -475,7 +538,7 @@ def s10(t0, t1):
     sfx(t0 + 2.2, "chaching")
 
 
-@S(11, 46, 52, "Teacher checks the class, scanning kids")
+@beat(46, 52, n=2, focus=(6, 8, 4.6), d=12, lens=26, desc="Teacher checks the class, scanning kids")
 def s11(t0, t1):
     R, ks = class_scene(t0, t1, kids=7, board="chalk_joke.png")
     T = teacher(t0, t1, "angry")
@@ -496,13 +559,13 @@ def s12(t0, t1):
     L = leo(t0, t1, "worried")
     W.sit(L, t0, L_DESK)
     T = teacher(t0, t1, "angry")
-    T.pose(t0, loc=(L_SEAT[0] - 2.2, L_SEAT[1] - 1.4, 0), rot=-40)
+    T.pose(t0, loc=(L_SEAT[0] - 1.0, L_SEAT[1] - 2.0, 0), rot=180)
     T.act(t0 + 0.2, "reach")
     for i in range(6):
         L.pose(t0 + 0.3 + i * 0.22, head=(0, 5, 6 * (-1) ** i), torso=(0, 0, 3 * (-1) ** i))
     L.face(t0 + 0.3, eyes="closed", mouth="grimace_wide")
     cam = Cam()
-    cam.push(t0, t1, (L_SEAT[0], L_SEAT[1], L_SEAT[2] + 3.6), 8, 5.6, yaw=-16, pitch=3, lens=28, yaw1=14, lens1=34)
+    cam.push(t0, t1, (L_SEAT[0], L_SEAT[1], L_SEAT[2] + 4.4), 8, 5.8, yaw=164, pitch=3, lens=28, yaw1=196, lens1=34)
     cam.crash(t0 + 0.3, 28, 36, 0.1)
     cam.handheld(1.6)
     sfx(t0 + 0.3, "squeak")
@@ -515,11 +578,12 @@ def s13(t0, t1):
     nursery_set()
     for i, x in enumerate((-7, 0, 7)):
         b = baby(i, t0, t1, "cry")
+        b.root.scale = (0.8,) * 3
         b.pose(t0, loc=(x, 7, 2.2), rot=0)
         b.talk(t0, t1, open_m="scream", wide_m="ah", rest="ah", syll=0.2)
         b.panic(t0, t1, 6)
     cam = Cam()
-    cam.push(t0, t1, (0, 7, 3.8), 17, 12, yaw=-10, pitch=2, lens=26, yaw1=8, lens1=26)
+    cam.push(t0, t1, (0, 7, 4.2), 14, 10, yaw=-10, pitch=2, lens=26, yaw1=8, lens1=26)
     cam.handheld(1.2)
     sfx(t0, "alarm", 0.5)
     sfx(t0 + 0.4, "aww", 0.6)
@@ -573,7 +637,7 @@ def s16(t0, t1):
     sfx(t0 + 1.9, "rizz", 0.6)
 
 
-@S(17, 69, 76, "Great-grandpa, the last clown: old clown portrait")
+@beat(69, 76, n=2, focus=(0, 10.2, 5.5), d=11, lens=28, desc="Great-grandpa, the last clown: old clown portrait")
 def s17(t0, t1):
     room("#d7c2a0", "#6a4a32", key=5200)
     box("frame", (9, 0.5, 11), (0, 11.4, 7.5), M("#c9a14a", 0.35, metal=0.6), 0.2)
@@ -583,7 +647,7 @@ def s17(t0, t1):
     C.act(t0 + 0.2, "idle", expr="happy")
     box("grandpa_beard", (1.2, 0.3, 0.8), (0, -0.55, -0.35), M("#f4f4f4", 0.9), 0.15) if False else None
     cam = Cam()
-    cam.push(t0, t1, (0, 10.4, 7.2), 16, 9, yaw=0, pitch=2, lens=28, yaw1=0, lens1=32)
+    cam.push(t0, t1, (0, 10.2, 5.8), 14, 9, yaw=0, pitch=2, lens=28, yaw1=0, lens1=32)
     cam.handheld(0.8)
     sfx(t0 + 0.3, "quack")
     sfx(t0 + 1.4, "aww", 0.7)
@@ -758,21 +822,21 @@ def s26(t0, t1):
     sfx(t0 + 0.1, "sting")
 
 
-@S(27, 113, 117, "Every year the town sinks: wide of the town, water creeping")
+@beat(113, 117, n=2, focus=(2, -30, 3), d=30, lens=22, desc="Every year the town sinks: wide of the town, water creeping")
 def s27(t0, t1):
     town_scene()
     water(-0.6, 1.0, t0, t1 + 8, ease="LINEAR")
     E = eddie(t0, t1, "worried")
     E.pose(t0, loc=(0, -34, 0), rot=180)
     cam = Cam()
-    cam.key(t0, (-16, -50, 22), (4, -30, 3), lens=22, focus=(4, -30, 3), fstop=8)
-    cam.key(t1, (-8, -48, 12), (2, -30, 2), lens=22, focus=(2, -30, 2), fstop=8, ease="EASE_OUT")
+    cam.key(t0, (-14, -46, 11), (2, -30, 3), lens=22, focus=(2, -30, 3), fstop=8)
+    cam.key(t1, (-6, -44, 6), (2, -30, 2), lens=22, focus=(2, -30, 2), fstop=8, ease="EASE_OUT")
     cam.handheld(1.0)
     sfx(t0, "wind", 0.5)
     sfx(t0 + 1.0, "rise", 0.5)
 
 
-@S(28, 117, 124, "Houses lower into the ground: ruler marks, water lap")
+@beat(117, 124, n=2, focus=(0, -14, 4.5), d=22, lens=24, desc="Houses lower into the ground: ruler marks, water lap")
 def s28(t0, t1):
     town_scene()
     house_front((0, -14, 0))
@@ -813,7 +877,7 @@ def s30(t0, t1):
     sfx(t0 + 1.8, "rise", 0.5)
 
 
-@S(31, 132, 138, "Mayor Pop: 'totally normal', thumbs up, water at the podium")
+@beat(132, 138, n=2, focus=(0, -29.5, 6), d=10, lens=28, desc="Mayor Pop: 'totally normal', thumbs up, water at the podium")
 def s31(t0, t1):
     town_scene()
     water(0.5, 1.5, t0, t1, ease="LINEAR")
@@ -862,7 +926,7 @@ def s32(t0, t1):
     sfx(t0 + 0.9, "alarm", 0.6)
 
 
-@S(33, 143, 152, "They put him in the middle of the square: crowd, cops, Tootie in the center")
+@beat(143, 152, n=3, focus=(0, -30, 3.5), d=18, lens=24, desc="They put him in the middle of the square: crowd, cops, Tootie in the center")
 def s33(t0, t1):
     town_scene()
     T = tootie(t0, t1, "worried")
@@ -943,8 +1007,8 @@ def s37(t0, t1):
     wt.keyframe_insert("location", index=2, frame=F(t1))
     set_interp(wt, "location", F(t0 + 0.2), "BEZIER", "EASE_OUT")
     cam = Cam()
-    cam.key(t0, (5, -5, 6), (6, 12, 4.5), lens=22, focus=(6, 12, 4.5), fstop=5)
-    cam.key(t1, (6, -1, 3.0), (6, 12, 3.8), lens=20, focus=(6, 12, 3.8), fstop=5, ease="EASE_OUT")
+    cam.key(t0, (4, 0, 7.5), (5, 12, 4.5), lens=20, focus=(5, 12, 4.5), fstop=5)
+    cam.key(t1, (5, 2, 4.5), (5, 12, 3.8), lens=20, focus=(5, 12, 3.8), fstop=5, ease="EASE_OUT")
     cam.handheld(2.4)
     sfx(t0 + 0.2, "splat")
     sfx(t0 + 0.3, "window")
@@ -1015,7 +1079,7 @@ def s41(t0, t1):
 
 
 # ================================================================== PART 6 : the secret (187 - 222)
-@S(42, 187, 194, "A hundred years ago, swamp: murky water, reeds, tiny village")
+@beat(187, 194, n=2, focus=(0, 30, 5), d=24, lens=22, desc="A hundred years ago, swamp: murky water, reeds, tiny village")
 def s42(t0, t1):
     swamp_set()
     for i in range(5):
@@ -1041,7 +1105,7 @@ def s43(t0, t1):
     sfx(t0 + 2.0, "splat", 0.5)
 
 
-@S(44, 199, 204, "Only laughter kept it afloat: laughing crowd lifts houses, HA letters")
+@beat(199, 204, n=2, focus=(0, 16, 5), d=16, lens=22, desc="Only laughter kept it afloat: laughing crowd lifts houses, HA letters")
 def s44(t0, t1):
     swamp_set()
     house_front((0, 26, 0.2), w=9, h=7, name="a")
@@ -1064,7 +1128,7 @@ def s44(t0, t1):
     sfx(t0 + 2.4, "sparkle")
 
 
-@S(45, 204, 209, "Water reached our knees: low camera at waterline, Eddie wading")
+@beat(204, 209, n=2, focus=(0, -30, 2.5), d=9, lens=26, desc="Water reached our knees: low camera at waterline, Eddie wading")
 def s45(t0, t1):
     town_scene()
     water(1.5, 2.2, t0, t1, ease="LINEAR")
@@ -1080,7 +1144,7 @@ def s45(t0, t1):
     sfx(t0 + 1.4, "splat", 0.4)
 
 
-@S(46, 209, 216, "Tootie climbs a barrel, hero low angle")
+@beat(209, 216, n=2, focus=(0, -30, 5), d=10, lens=26, desc="Tootie climbs a barrel, hero low angle")
 def s46(t0, t1):
     town_scene()
     water(2.0, 2.6, t0, t1, ease="LINEAR")
@@ -1168,7 +1232,7 @@ def s50(t0, t1):
     sfx(t0 + 0.12, "confetti")
 
 
-@S(51, 231, 238, "The ground shook and rose a little: camera shake, water level drops")
+@beat(231, 238, n=2, focus=(0, -30, 4), d=12, lens=24, desc="The ground shook and rose a little: camera shake, water level drops")
 def s51(t0, t1):
     town_scene()
     water(2.6, 0.6, t0, t1, ease="EASE_IN_OUT")
@@ -1232,7 +1296,7 @@ def s54(t0, t1):
     sfx(t0 + 1.2, "slap", 0.6)
 
 
-@S(55, 246, 251, "Whole square laughs: big crowd wide, rising")
+@beat(246, 251, n=2, focus=(0, -30, 3), d=26, lens=22, desc="Whole square laughs: big crowd wide, rising")
 def s55(t0, t1):
     town_scene()
     water(0.8, -0.4, t0, t1, ease="EASE_IN_OUT")
@@ -1271,7 +1335,7 @@ def s56(t0, t1):
     sfx(t0 + 1.2, "kids_laugh")
 
 
-@S(57, 255, 261, "The town rose higher and higher: crane up, sun burst")
+@beat(255, 261, n=2, focus=(0, -30, 5), d=24, lens=22, desc="The town rose higher and higher: crane up, sun burst")
 def s57(t0, t1):
     town_scene()
     water(0.6, -2.0, t0, t1, ease="EASE_IN_OUT")
@@ -1329,7 +1393,7 @@ def s59(t0, t1):
     sfx(t0 + 1.4, "confetti")
 
 
-@S(60, 270, 276, "Now every pole has a sign: pole row, dolly")
+@beat(270, 276, n=2, focus=(0, -40, 6), d=22, lens=24, desc="Now every pole has a sign: pole row, dolly")
 def s60(t0, t1):
     town_scene()
     for i in range(4):
@@ -1372,7 +1436,7 @@ def s62(t0, t1):
     sfx(t0 + 0.3, "sting")
 
 
-@S(63, 284, 292, "His house is the only one still underwater: mayor on the roof, water to the windows")
+@beat(284, 292, n=2, focus=(0, -24, 10), d=30, lens=26, desc="His house is the only one still underwater: mayor on the roof, water to the windows")
 def s63(t0, t1):
     town_scene()
     house_front((0, -24, 0), w=16, h=12, wall="#d9d0c0", roof="#2a2a30", name="mh")
@@ -1388,7 +1452,7 @@ def s63(t0, t1):
     sfx(t0 + 1.5, "splat", 0.4)
 
 
-@S(64, 292, 298, "Tootie smirks, still hasn't told: close")
+@beat(292, 298, n=2, focus=(0, -32, 4.7), d=8, lens=28, desc="Tootie smirks, still hasn't told: close")
 def s64(t0, t1):
     town_scene()
     T = tootie(t0, t1, "smug")
@@ -1402,7 +1466,7 @@ def s64(t0, t1):
     sfx(t0 + 2.0, "ding", 0.7)
 
 
-@S(65, 298, None, "Eddie waits for the punchline, button")
+@beat(298, None, n=2, focus=(0, -32, 4.7), d=9, lens=28, desc="Eddie waits for the punchline, button")
 def s65(t0, t1):
     town_scene()
     E = eddie(t0, t1, "sus")

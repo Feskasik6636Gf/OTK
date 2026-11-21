@@ -8,3 +8,4 @@ roblox_render/videos/*/audio/trimmed.wav
 roblox_render/videos/*/audio/voice.m4a
 roblox_render/videos/*/audio/whisper.json
 roblox_render/videos/*/joined.mp4
+__pycache__/
