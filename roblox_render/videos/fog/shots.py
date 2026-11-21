@@ -1092,7 +1092,7 @@ def f40(t0, t1):
         E.pose(t0 + i * 0.1, legL=(6 * s, 4), legR=(-6 * s, 4), hipz=-0.1 * s)
     cam = Cam()
     cam.key(t0, (1.5, -15, 0.8), (0, -10, 1.6), lens=30, focus=(0, -10, 1.6), fstop=3)
-    cam.key(t1, (0.8, -12.5, 1.2), (0, -10, 2.0), lens=34, focus=(0, -10, 2.0), fstop=3, ease="EASE_IN")
+    cam.key(t1, (0.8, -14.5, 1.4), (0, -10, 2.0), lens=30, focus=(0, -10, 2.0), fstop=3, ease="EASE_IN")
     cam.handheld(2.4)
     sfx(t0, "rise", 0.6)
 
