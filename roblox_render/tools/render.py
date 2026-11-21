@@ -73,5 +73,7 @@ for i in ids:
 if mode == "cues":
     all_cues.sort(key=lambda c: c["t"])
     json.dump(all_cues, open(os.path.join(vdir, "audio", "cues.json"), "w"), indent=1)
+    json.dump([dict(id=i, t0=V.shots[i]["t0"], t1=V.shots[i]["t1"]) for i in sorted(V.shots)],
+              open(os.path.join(vdir, "audio", "shots.json"), "w"), indent=1)
     say(f"cues: {len(all_cues)} -> audio/cues.json")
 log.close()
