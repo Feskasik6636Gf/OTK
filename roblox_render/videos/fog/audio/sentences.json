@@ -1,0 +1,552 @@
+[
+ {
+  "text": "In this town, you must never turn around when someone calls your last name.",
+  "start": 0.0,
+  "end": 3.46,
+  "startFrame": 0,
+  "endFrame": 104,
+  "words": [
+   0,
+   13
+  ]
+ },
+ {
+  "text": "Your first name is fine.",
+  "start": 3.7,
+  "end": 4.56,
+  "startFrame": 111,
+  "endFrame": 137,
+  "words": [
+   14,
+   18
+  ]
+ },
+ {
+  "text": "Your last name?",
+  "start": 4.84,
+  "end": 5.46,
+  "startFrame": 145,
+  "endFrame": 164,
+  "words": [
+   19,
+   21
+  ]
+ },
+ {
+  "text": "Never.",
+  "start": 5.78,
+  "end": 6.0,
+  "startFrame": 173,
+  "endFrame": 180,
+  "words": [
+   22,
+   22
+  ]
+ },
+ {
+  "text": "If you turn, the callers take you.",
+  "start": 6.38,
+  "end": 8.04,
+  "startFrame": 191,
+  "endFrame": 241,
+  "words": [
+   23,
+   29
+  ]
+ },
+ {
+  "text": "No one has ever come back.",
+  "start": 8.4,
+  "end": 9.7,
+  "startFrame": 252,
+  "endFrame": 291,
+  "words": [
+   30,
+   35
+  ]
+ },
+ {
+  "text": "That's why teachers call us by first names only, and doctors just say, \"Hey, you.\"",
+  "start": 9.96,
+  "end": 13.64,
+  "startFrame": 299,
+  "endFrame": 409,
+  "words": [
+   36,
+   50
+  ]
+ },
+ {
+  "text": "At school, we write our last names in pencil and erase them after class.",
+  "start": 13.94,
+  "end": 17.02,
+  "startFrame": 418,
+  "endFrame": 511,
+  "words": [
+   51,
+   64
+  ]
+ },
+ {
+  "text": "My dad got married without saying his last name once.",
+  "start": 17.38,
+  "end": 19.58,
+  "startFrame": 521,
+  "endFrame": 587,
+  "words": [
+   65,
+   74
+  ]
+ },
+ {
+  "text": "The priest just pointed at him.",
+  "start": 20.0,
+  "end": 21.1,
+  "startFrame": 600,
+  "endFrame": 633,
+  "words": [
+   75,
+   80
+  ]
+ },
+ {
+  "text": "The callers live in the fog behind the old bridge.",
+  "start": 21.32,
+  "end": 23.14,
+  "startFrame": 640,
+  "endFrame": 694,
+  "words": [
+   81,
+   90
+  ]
+ },
+ {
+  "text": "They can copy any voice.",
+  "start": 23.52,
+  "end": 24.72,
+  "startFrame": 706,
+  "endFrame": 742,
+  "words": [
+   91,
+   95
+  ]
+ },
+ {
+  "text": "Your dog.",
+  "start": 25.1,
+  "end": 25.5,
+  "startFrame": 753,
+  "endFrame": 765,
+  "words": [
+   96,
+   97
+  ]
+ },
+ {
+  "text": "Your teacher.",
+  "start": 25.74,
+  "end": 26.22,
+  "startFrame": 772,
+  "endFrame": 787,
+  "words": [
+   98,
+   99
+  ]
+ },
+ {
+  "text": "Your best friend.",
+  "start": 26.52,
+  "end": 27.1,
+  "startFrame": 796,
+  "endFrame": 813,
+  "words": [
+   100,
+   102
+  ]
+ },
+ {
+  "text": "My best friend Tootie turned around once, when he was six.",
+  "start": 27.35,
+  "end": 29.8,
+  "startFrame": 820,
+  "endFrame": 894,
+  "words": [
+   103,
+   113
+  ]
+ },
+ {
+  "text": "His grandpa grabbed him just in time.",
+  "start": 30.18,
+  "end": 31.72,
+  "startFrame": 905,
+  "endFrame": 952,
+  "words": [
+   114,
+   120
+  ]
+ },
+ {
+  "text": "\"Rock and roll!",
+  "start": 32.04,
+  "end": 32.52,
+  "startFrame": 961,
+  "endFrame": 976,
+  "words": [
+   121,
+   123
+  ]
+ },
+ {
+  "text": "We're losing control!\"",
+  "start": 32.72,
+  "end": 33.58,
+  "startFrame": 982,
+  "endFrame": 1007,
+  "words": [
+   124,
+   126
+  ]
+ },
+ {
+  "text": "Now Tootie wears his hoodie backwards, just in case.",
+  "start": 34.03,
+  "end": 36.19,
+  "startFrame": 1021,
+  "endFrame": 1086,
+  "words": [
+   127,
+   135
+  ]
+ },
+ {
+  "text": "My mom always taught me one rule.",
+  "start": 36.64,
+  "end": 38.18,
+  "startFrame": 1099,
+  "endFrame": 1145,
+  "words": [
+   136,
+   142
+  ]
+ },
+ {
+  "text": "\"If you ever hear me call your last name, run.",
+  "start": 38.48,
+  "end": 40.5,
+  "startFrame": 1154,
+  "endFrame": 1215,
+  "words": [
+   143,
+   152
+  ]
+ },
+ {
+  "text": "I will never do that.\"",
+  "start": 40.8,
+  "end": 41.98,
+  "startFrame": 1224,
+  "endFrame": 1259,
+  "words": [
+   153,
+   157
+  ]
+ },
+ {
+  "text": "Last winter, Mom went to the bridge to find our lost cat.",
+  "start": 42.24,
+  "end": 44.66,
+  "startFrame": 1267,
+  "endFrame": 1340,
+  "words": [
+   158,
+   169
+  ]
+ },
+ {
+  "text": "She never came back.",
+  "start": 44.96,
+  "end": 45.84,
+  "startFrame": 1349,
+  "endFrame": 1375,
+  "words": [
+   170,
+   173
+  ]
+ },
+ {
+  "text": "For a whole year, I didn't hear her voice, until tonight.",
+  "start": 46.1,
+  "end": 48.86,
+  "startFrame": 1383,
+  "endFrame": 1466,
+  "words": [
+   174,
+   184
+  ]
+ },
+ {
+  "text": "\"Miller!",
+  "start": 49.24,
+  "end": 49.38,
+  "startFrame": 1477,
+  "endFrame": 1481,
+  "words": [
+   185,
+   185
+  ]
+ },
+ {
+  "text": "Sweetie!",
+  "start": 49.83,
+  "end": 50.27,
+  "startFrame": 1495,
+  "endFrame": 1508,
+  "words": [
+   186,
+   186
+  ]
+ },
+ {
+  "text": "It's me!",
+  "start": 50.41,
+  "end": 50.83,
+  "startFrame": 1512,
+  "endFrame": 1525,
+  "words": [
+   187,
+   188
+  ]
+ },
+ {
+  "text": "I'm so cold!",
+  "start": 51.21,
+  "end": 51.99,
+  "startFrame": 1536,
+  "endFrame": 1560,
+  "words": [
+   189,
+   191
+  ]
+ },
+ {
+  "text": "Please, turn around!\"",
+  "start": 52.35,
+  "end": 53.39,
+  "startFrame": 1570,
+  "endFrame": 1602,
+  "words": [
+   192,
+   194
+  ]
+ },
+ {
+  "text": "It sounded exactly like her.",
+  "start": 53.71,
+  "end": 55.37,
+  "startFrame": 1611,
+  "endFrame": 1661,
+  "words": [
+   195,
+   199
+  ]
+ },
+ {
+  "text": "Even her little cough.",
+  "start": 55.63,
+  "end": 56.41,
+  "startFrame": 1669,
+  "endFrame": 1692,
+  "words": [
+   200,
+   203
+  ]
+ },
+ {
+  "text": "Tootie grabbed my arm.",
+  "start": 56.72,
+  "end": 57.63,
+  "startFrame": 1702,
+  "endFrame": 1729,
+  "words": [
+   204,
+   207
+  ]
+ },
+ {
+  "text": "\"Don't!\"",
+  "start": 57.95,
+  "end": 58.29,
+  "startFrame": 1738,
+  "endFrame": 1749,
+  "words": [
+   208,
+   208
+  ]
+ },
+ {
+  "text": "\"Miller, I found the cat.",
+  "start": 58.49,
+  "end": 59.77,
+  "startFrame": 1755,
+  "endFrame": 1793,
+  "words": [
+   209,
+   213
+  ]
+ },
+ {
+  "text": "I just want to see your face.\"",
+  "start": 60.11,
+  "end": 61.15,
+  "startFrame": 1803,
+  "endFrame": 1834,
+  "words": [
+   214,
+   220
+  ]
+ },
+ {
+  "text": "My legs were shaking.",
+  "start": 61.6,
+  "end": 62.54,
+  "startFrame": 1848,
+  "endFrame": 1876,
+  "words": [
+   221,
+   224
+  ]
+ },
+ {
+  "text": "Then I remembered her rule.",
+  "start": 62.99,
+  "end": 63.91,
+  "startFrame": 1890,
+  "endFrame": 1917,
+  "words": [
+   225,
+   229
+  ]
+ },
+ {
+  "text": "Mom would never say my last name.",
+  "start": 64.27,
+  "end": 65.83,
+  "startFrame": 1928,
+  "endFrame": 1975,
+  "words": [
+   230,
+   236
+  ]
+ },
+ {
+  "text": "I didn't turn.",
+  "start": 66.07,
+  "end": 66.61,
+  "startFrame": 1982,
+  "endFrame": 1998,
+  "words": [
+   237,
+   239
+  ]
+ },
+ {
+  "text": "I walked home, crying.",
+  "start": 66.95,
+  "end": 68.07,
+  "startFrame": 2008,
+  "endFrame": 2042,
+  "words": [
+   240,
+   243
+  ]
+ },
+ {
+  "text": "Behind me, the voice went quiet.",
+  "start": 68.47,
+  "end": 69.83,
+  "startFrame": 2054,
+  "endFrame": 2095,
+  "words": [
+   244,
+   249
+  ]
+ },
+ {
+  "text": "Then it whispered, softer than ever.",
+  "start": 70.19,
+  "end": 71.67,
+  "startFrame": 2106,
+  "endFrame": 2150,
+  "words": [
+   250,
+   255
+  ]
+ },
+ {
+  "text": "\"Good boy.",
+  "start": 71.95,
+  "end": 72.33,
+  "startFrame": 2158,
+  "endFrame": 2170,
+  "words": [
+   256,
+   257
+  ]
+ },
+ {
+  "text": "That's my rule.\"",
+  "start": 72.69,
+  "end": 73.27,
+  "startFrame": 2181,
+  "endFrame": 2198,
+  "words": [
+   258,
+   260
+  ]
+ },
+ {
+  "text": "Tootie and I froze.",
+  "start": 73.69,
+  "end": 74.37,
+  "startFrame": 2211,
+  "endFrame": 2231,
+  "words": [
+   261,
+   264
+  ]
+ },
+ {
+  "text": "It wasn't a caller.",
+  "start": 74.82,
+  "end": 75.54,
+  "startFrame": 2245,
+  "endFrame": 2266,
+  "words": [
+   265,
+   268
+  ]
+ },
+ {
+  "text": "It was Mom.",
+  "start": 75.92,
+  "end": 76.46,
+  "startFrame": 2278,
+  "endFrame": 2294,
+  "words": [
+   269,
+   271
+  ]
+ },
+ {
+  "text": "And she was making sure I'd never come looking for her.",
+  "start": 76.78,
+  "end": 79.18,
+  "startFrame": 2303,
+  "endFrame": 2375,
+  "words": [
+   272,
+   282
+  ]
+ }
+]
