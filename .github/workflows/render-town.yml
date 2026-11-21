@@ -89,7 +89,7 @@ jobs:
           git add roblox_render/out
           git commit -m "render: town part ${{ matrix.part }}"
           for i in 1 2 3 4 5 6 7 8 9 10; do
-            git pull --rebase -q origin ${{ github.ref_name }} && git push -q origin HEAD:${{ github.ref_name }} && exit 0
+            git pull --rebase --autostash -q origin ${{ github.ref_name }} && git push -q origin HEAD:${{ github.ref_name }} && exit 0
             sleep $((RANDOM % 20 + 5))
           done
           exit 1
@@ -129,7 +129,7 @@ jobs:
           git add -f roblox_render/final
           git commit -m "town: final video (assembled in CI)" || exit 0
           for i in 1 2 3 4 5 6 7 8 9 10; do
-            git pull --rebase -q origin ${{ github.ref_name }} && git push -q origin HEAD:${{ github.ref_name }} && exit 0
+            git pull --rebase --autostash -q origin ${{ github.ref_name }} && git push -q origin HEAD:${{ github.ref_name }} && exit 0
             sleep $((RANDOM % 20 + 5))
           done
           exit 1
