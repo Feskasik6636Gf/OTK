@@ -361,7 +361,7 @@ def fire_pile(loc, t0, n=5):
 def dusk_sky(night=False):
     if night:
         W.sky(0.18, top=(0.01, 0.02, 0.07), bottom=(0.06, 0.08, 0.17))
-        W.sun(0.35, rot=(62, 0, 200))
+        W.sun(0.9, rot=(62, 0, 200))
     else:
         W.sky(0.75, top=(0.30, 0.33, 0.46), bottom=(0.62, 0.64, 0.72))
         W.sun(1.6, rot=(72, 0, 25))
@@ -396,7 +396,10 @@ def bridge(y0=30.0, length=34.0):
 
 def night_street(night=True, fog=True, lamps=True, houses=True):
     dusk_sky(night)
-    world((0.1, 0.12, 0.2) if night else (0.5, 0.52, 0.6), 0.18 if night else 0.5)
+    world((0.2, 0.25, 0.4) if night else (0.5, 0.52, 0.6), 0.5 if night else 0.5)
+    if night:
+        light("nfill", "AREA", (0, -22, 9), 5200, (0.7, 0.8, 1.0), 14, target=(0, -8, 4))
+        light("nfill2", "AREA", (8, -16, 6), 2600, (1.0, 0.85, 0.7), 8, target=(0, -8, 4))
     box("g", (240, 240, 0.4), (0, 20, -0.2), M("#2b3d2a" if night else "#4a6a3a", 0.95), 0)
     box("road", (12, 240, 0.1), (0, 20, 0.03), M("#2a2b33" if night else "#55565e", 0.85), 0)
     if houses:
@@ -581,7 +584,7 @@ def f05(t0, t1):
 @S(6, 22, 23, "NEVER (big red text)")
 def f06(t0, t1):
     night_street(night=False, houses=False, fog=False)
-    text("never", "NEVER", (0, -6, 5), 2.6, mat("red_txt", (1, 0.1, 0.1), 0.4, emit=(1, 0.1, 0.1), estr=4.0), rot=(90, 0, 0), extrude=0.3)
+    text("never", "NEVER", (0, -6, 5), 1.7, mat("red_txt", (1, 0.1, 0.1), 0.4, emit=(1, 0.1, 0.1), estr=4.0), rot=(90, 0, 0), extrude=0.3)
     cam = Cam()
     cam.key(t0, (0, -13, 5.2), (0, -6, 5), lens=26, focus=(0, -6, 5), fstop=4)
     cam.key(t1, (0, -9.2, 5.1), (0, -6, 5), lens=26, focus=(0, -6, 5), fstop=4, ease="EASE_IN")
@@ -628,7 +631,7 @@ def f09(t0, t1):
     T.pose(t0, loc=(5, 12.5, 0), rot=0)
     T.talk(t0, t1, V.span(t0, t1), open_m="talk", wide_m="talk_wide", rest="smile")
     T.act(t0 + 0.4, "point", expr="happy")
-    bubble(t0 + 1.0, t0 + 2.4, (5, 11, 11), "LEO!", (1, 1, 0.8), 1.4, rot=(90, 0, 180))
+    bubble(t0 + 1.0, t0 + 2.4, (5, 11, 11), "LEO!", (1, 1, 0.8), 1.4)
     for k in ks:
         k.face(t0, "worried")
     cam = push_cam(t0, t1, (6, 8, 4.6), 15, 11, yaw=0, yaw1=-8, lens=24)
@@ -754,7 +757,7 @@ def f17(t0, t1):
     C = caller(1, t0, t1, (0, 30, 0), rot=180, scale=1.8, reach=False)
     C.talk(t0, t1, V.span(t0, t1), open_m="talk", wide_m="talk_wide", rest="flat")
     for i, b in enumerate(("HEY!", "MILLER!", "DINNER!", "HELLO?")):
-        bubble(t0 + 0.4 + i * 0.4, t1, (-4 + i * 2.8, 27, 10 - (i % 2) * 2), b, (0.8, 0.9, 1), 1.3, rot=(90, 0, 180))
+        bubble(t0 + 0.4 + i * 0.4, t1, (-4 + i * 2.8, 27, 10 - (i % 2) * 2), b, (0.8, 0.9, 1), 1.3)
     cam = push_cam(t0, t1, (0, 30, 5), 16, 10, yaw=0, yaw1=-14, lens=26)
     sfx(t0 + 0.4, "pop")
     sfx(t0 + 0.8, "pop")
@@ -965,7 +968,7 @@ def f31(t0, t1):
     Mm = mom(t0, t1, "worried")
     Mm.pose(t0, loc=(0, 40, 0), rot=0)
     light("mom_glow", "POINT", (0, 38, 5), 1500, (1.0, 0.7, 0.4), 1.0)
-    bubble(t0 + 0.2, t1, (0, 16, 11), "MILLER!", (1, 0.75, 0.55), 2.0, rot=(90, 0, 180))
+    bubble(t0 + 0.2, t1, (0, 16, 11), "MILLER!", (1, 0.75, 0.55), 2.0)
     cam = Cam()
     cam.key(t0, (6, -24, 3.2), (0, 10, 5.5), lens=24, focus=(0, 12, 5), fstop=8)
     cam.key(t1, (2.5, -19, 5.4), (0, 14, 5.8), lens=24, focus=(0, 14, 5.5), fstop=8, ease="EASE_OUT")
@@ -992,7 +995,7 @@ def f33(t0, t1):
     E.pose(t0, loc=(0, -10, 0), rot=0)
     for i in range(8):
         E.pose(t0 + i * 0.14, head=(3 * (-1) ** i, 4, 3 * (-1) ** i))
-    bubble(t0, t1, (0, 14, 10), "TURN AROUND!", (1, 0.75, 0.55), 1.6, rot=(90, 0, 180))
+    bubble(t0, t1, (0, 14, 10), "TURN AROUND!", (1, 0.75, 0.55), 1.6)
     cam = push_cam(t0, t1, (0, -10, 4.8), 9, 4.6, yaw=-8, yaw1=6, lens=30, lens1=42, hh=2.6)
     cam.crash(t0 + 1.8, 30, 40, 0.12)
     sfx(t0, "rise", 0.9)
@@ -1016,7 +1019,7 @@ def f35(t0, t1):
     Mm = mom(t0, t1, "worried")
     Mm.pose(t0, loc=(0, 40, 0), rot=0)
     light("mom_glow", "POINT", (0, 38, 5), 1500, (1.0, 0.7, 0.4), 1.0)
-    bubble(t0 + 0.6, t1, (0, 20, 9), "*cough*", (1, 0.9, 0.8), 1.6, rot=(90, 0, 180))
+    bubble(t0 + 0.6, t1, (0, 20, 9), "*cough*", (1, 0.9, 0.8), 1.6)
     cam = Cam()
     cam.key(t0, (3, -4, 4.0), (0, 38, 5), lens=26, focus=(0, 38, 5), fstop=8)
     cam.key(t1, (0.5, 6, 4.6), (0, 38, 5), lens=30, focus=(0, 38, 5), fstop=8, ease="EASE_IN")
@@ -1171,7 +1174,7 @@ def f46(t0, t1):
     Mm = mom(t0, t1, "smile")
     Mm.pose(t0, loc=(0, 30, 0), rot=0)
     light("mom_glow", "POINT", (0, 28, 5), 2200, (1.0, 0.72, 0.45), 1.2)
-    bubble(t0 + 0.4, t1, (0, 12, 7), "good boy...", (1, 0.85, 0.65), 1.2, rot=(90, 0, 180))
+    bubble(t0 + 0.4, t1, (0, 12, 7), "good boy...", (1, 0.85, 0.65), 1.2)
     cam = Cam()
     cam.key(t0, (0, -4, 4.2), (0, 30, 5), lens=30, focus=(0, 30, 5), fstop=6)
     cam.key(t1, (0.6, 8, 4.8), (0, 30, 5.2), lens=36, focus=(0, 30, 5.2), fstop=6, ease="EASE_IN")
