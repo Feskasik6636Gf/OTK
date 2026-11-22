@@ -508,17 +508,5 @@
   "name": "confetti",
   "vol": 1.0,
   "shot": 48
- },
- {
-  "t": 81.31,
-  "name": "cheer",
-  "vol": 1.0,
-  "shot": 49
- },
- {
-  "t": 81.51,
-  "name": "confetti",
-  "vol": 1.0,
-  "shot": 49
  }
 ]

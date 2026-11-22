@@ -1364,7 +1364,7 @@ def p40(t0, t1):
     sfx(t0 + 2.0, "aww", 0.8)
 
 
-@beat(281, None, n=2, focus=(0, 8, 4.6), d=13, lens=26, desc="Nobody laughs at us anymore: class cheers for Max and Pip")
+@S(41, 281, None, "Nobody laughs at us anymore: class cheers for Max and Pip")
 def p41(t0, t1):
     R, ks = class_scene(t0, t1, kids=8, board="chalk_joke.png")
     for k in ks:
@@ -1374,7 +1374,7 @@ def p41(t0, t1):
     K.act(t0 + 0.4, "cheer", expr="joy")
     P = pip((5, 10.8, 5.0), 0.7, "PipEnd")
     confetti("cf", (5, 8, 8), (6, 3, 4), t0 + 0.4, 1.8, 60, 2, 10)
-    cam = push_cam(t0, t1, (5, 11, 4.6), 14, 9, yaw=180, yaw1=170, lens=26, hh=1.0)
+    cam = push_cam(t0, t1, (5, 11, 4.6), 13, 9, yaw=8, yaw1=-8, lens=24, hh=1.0)
     sfx(t0, "cheer")
     sfx(t0 + 0.2, "confetti")
     sfx(t0 + 1.6, "aww", 0.8)
