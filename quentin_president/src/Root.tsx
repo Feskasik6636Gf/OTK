@@ -1,5 +1,6 @@
 import React from 'react';
-import {Composition, continueRender, delayRender, staticFile} from 'remotion';
+import {Composition} from 'remotion';
+import {FONTS_CSS} from './fontsCss';
 import {Long, LONG_FRAMES} from './Long';
 import {Short, SHORT_FRAMES} from './Short';
 import {Sheet, SheetProps, sheetSize} from './Sheet';
@@ -7,27 +8,10 @@ import {PauseTime} from './reference/PauseTime';
 import {WorldTour, WORLD_TOUR_FRAMES} from './reference/WorldTour';
 import {FxReel, FX_REEL_FRAMES} from './reference/FxReel';
 
-/* open-licence fonts from public/fonts, loaded before the first frame renders */
-// generous timeout: with several render tabs at once a cold font load can take a while;
-// if it still fails the frame renders with the fallback font instead of crashing
-const fontsReady = delayRender('fonts', {timeoutInMilliseconds: 120000});
-Promise.all(
-	[
-		['Rubik', 'fonts/Rubik.ttf', '300 900'],
-		['Caveat', 'fonts/Caveat.ttf', '400 700'],
-	].map(([family, file, weight]) => {
-		const f = new FontFace(family, `url(${staticFile(file)})`, {weight});
-		document.fonts.add(f);
-		return f.load();
-	}),
-).then(() => release(), () => release());
-let released = false;
-function release() {
-	if (released) return;
-	released = true;
-	continueRender(fontsReady);
-}
-setTimeout(release, 60000); // never let a slow font kill a render
+/* open-licence fonts embedded as data URIs: no network, no delayRender (it hung on CI) */
+const fontStyle = document.createElement('style');
+fontStyle.textContent = FONTS_CSS;
+document.head.appendChild(fontStyle);
 
 // headings are heavy unless a text asks for another weight (the style's chunky lettering)
 const css = document.createElement('style');
