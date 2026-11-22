@@ -21,7 +21,7 @@ jobs:
           parts=$(cat quentin_president/parts.json | tr -d '\n ')
           echo "parts=$parts" >> $GITHUB_OUTPUT
           n=$(echo "$parts" | tr -cd ',' | wc -c)
-          if [ "$n" -ge 19 ]; then echo "full=true" >> $GITHUB_OUTPUT; else echo "full=false" >> $GITHUB_OUTPUT; fi
+          if [ "$n" -ge 98 ]; then echo "full=true" >> $GITHUB_OUTPUT; else echo "full=false" >> $GITHUB_OUTPUT; fi
   render:
     needs: plan
     runs-on: ubuntu-latest
@@ -49,11 +49,11 @@ jobs:
         run: |
           mkdir -p out
           P=${{ matrix.part }}
-          S=$((P*1200))
+          S=$((P*240))
           TOTAL=$(node -e "console.log(JSON.parse(require('fs').readFileSync('src/story/timeline.json')).total)")
-          E=$((S+1199)); if [ $E -ge $TOTAL ]; then E=$((TOTAL-1)); fi
+          E=$((S+239)); if [ $E -ge $TOTAL ]; then E=$((TOTAL-1)); fi
           N=$(printf '%02d' $P)
-          for C in 3 2 1; do
+          for C in 2 2 1; do
             npx remotion render Long out/c$N.mp4 --frames=$S-$E --muted --gl=angle --concurrency=$C --crf=18 --log=error --timeout=180000 && break
             echo "retry with fewer tabs"; rm -f out/c$N.mp4
           done
@@ -87,7 +87,7 @@ jobs:
         run: |
           ls out/chunks_Long
           node tools/make-sound.mjs
-          node tools/render.mjs Long --chunk 1200
+          node tools/render.mjs Long --chunk 240
           ls -la out
       - name: Release
         uses: softprops/action-gh-release@v2
