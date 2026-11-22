@@ -1,0 +1,574 @@
+[
+ {
+  "text": "In this town, you never open the door after midnight.",
+  "start": 0.0,
+  "end": 2.52,
+  "startFrame": 0,
+  "endFrame": 76,
+  "words": [
+   0,
+   9
+  ]
+ },
+ {
+  "text": "Not for friends, not for family, not even for Mom.",
+  "start": 2.86,
+  "end": 5.34,
+  "startFrame": 86,
+  "endFrame": 160,
+  "words": [
+   10,
+   19
+  ]
+ },
+ {
+  "text": "Every house has three locks, a bell, and a sign.",
+  "start": 5.66,
+  "end": 8.18,
+  "startFrame": 170,
+  "endFrame": 245,
+  "words": [
+   20,
+   29
+  ]
+ },
+ {
+  "text": "If they knock, it's not them.",
+  "start": 8.4,
+  "end": 9.7,
+  "startFrame": 252,
+  "endFrame": 291,
+  "words": [
+   30,
+   35
+  ]
+ },
+ {
+  "text": "The knockers come from the woods.",
+  "start": 9.92,
+  "end": 11.16,
+  "startFrame": 298,
+  "endFrame": 335,
+  "words": [
+   36,
+   41
+  ]
+ },
+ {
+  "text": "They sound exactly like the people you love.",
+  "start": 11.58,
+  "end": 13.36,
+  "startFrame": 347,
+  "endFrame": 401,
+  "words": [
+   42,
+   49
+  ]
+ },
+ {
+  "text": "Mrs.",
+  "start": 13.68,
+  "end": 13.82,
+  "startFrame": 410,
+  "endFrame": 415,
+  "words": [
+   50,
+   50
+  ]
+ },
+ {
+  "text": "Dean opened the door for her husband once.",
+  "start": 14.0,
+  "end": 15.42,
+  "startFrame": 420,
+  "endFrame": 463,
+  "words": [
+   51,
+   58
+  ]
+ },
+ {
+  "text": "In the morning, she was gone.",
+  "start": 15.72,
+  "end": 16.9,
+  "startFrame": 472,
+  "endFrame": 507,
+  "words": [
+   59,
+   64
+  ]
+ },
+ {
+  "text": "Her husband had been asleep upstairs the whole time.",
+  "start": 17.18,
+  "end": 19.42,
+  "startFrame": 515,
+  "endFrame": 583,
+  "words": [
+   65,
+   73
+  ]
+ },
+ {
+  "text": "So, we sleep with earplugs.",
+  "start": 19.74,
+  "end": 20.86,
+  "startFrame": 592,
+  "endFrame": 626,
+  "words": [
+   74,
+   78
+  ]
+ },
+ {
+  "text": "Even babies wear tiny headphones.",
+  "start": 21.18,
+  "end": 22.56,
+  "startFrame": 635,
+  "endFrame": 677,
+  "words": [
+   79,
+   83
+  ]
+ },
+ {
+  "text": "My best friend Tootie says the knockers can't come in unless you open the door.",
+  "start": 23.0,
+  "end": 26.1,
+  "startFrame": 690,
+  "endFrame": 783,
+  "words": [
+   84,
+   98
+  ]
+ },
+ {
+  "text": "\"Rock and roll!",
+  "start": 26.46,
+  "end": 27.0,
+  "startFrame": 794,
+  "endFrame": 810,
+  "words": [
+   99,
+   101
+  ]
+ },
+ {
+  "text": "We're losing control!\"",
+  "start": 27.18,
+  "end": 28.08,
+  "startFrame": 815,
+  "endFrame": 842,
+  "words": [
+   102,
+   104
+  ]
+ },
+ {
+  "text": "Last night, at 3 a.m., someone knocked.",
+  "start": 28.44,
+  "end": 30.64,
+  "startFrame": 853,
+  "endFrame": 919,
+  "words": [
+   105,
+   111
+  ]
+ },
+ {
+  "text": "Three slow knocks.",
+  "start": 31.09,
+  "end": 32.49,
+  "startFrame": 933,
+  "endFrame": 975,
+  "words": [
+   112,
+   114
+  ]
+ },
+ {
+  "text": "\"Buddy, it's Dad!",
+  "start": 32.89,
+  "end": 33.81,
+  "startFrame": 987,
+  "endFrame": 1014,
+  "words": [
+   115,
+   117
+  ]
+ },
+ {
+  "text": "I went out to check the car and the door locked behind me.",
+  "start": 34.15,
+  "end": 36.15,
+  "startFrame": 1024,
+  "endFrame": 1084,
+  "words": [
+   118,
+   130
+  ]
+ },
+ {
+  "text": "Let me in!\"",
+  "start": 36.35,
+  "end": 36.83,
+  "startFrame": 1090,
+  "endFrame": 1105,
+  "words": [
+   131,
+   133
+  ]
+ },
+ {
+  "text": "I looked down the hallway.",
+  "start": 37.07,
+  "end": 37.85,
+  "startFrame": 1112,
+  "endFrame": 1136,
+  "words": [
+   134,
+   138
+  ]
+ },
+ {
+  "text": "Dad's bedroom door was open.",
+  "start": 38.21,
+  "end": 39.39,
+  "startFrame": 1146,
+  "endFrame": 1182,
+  "words": [
+   139,
+   143
+  ]
+ },
+ {
+  "text": "I could hear him snoring.",
+  "start": 39.65,
+  "end": 40.45,
+  "startFrame": 1190,
+  "endFrame": 1214,
+  "words": [
+   144,
+   148
+  ]
+ },
+ {
+  "text": "So, it was a knocker.",
+  "start": 40.71,
+  "end": 42.13,
+  "startFrame": 1221,
+  "endFrame": 1264,
+  "words": [
+   149,
+   153
+  ]
+ },
+ {
+  "text": "I didn't move.",
+  "start": 42.35,
+  "end": 42.91,
+  "startFrame": 1270,
+  "endFrame": 1287,
+  "words": [
+   154,
+   156
+  ]
+ },
+ {
+  "text": "The knocking stopped.",
+  "start": 43.23,
+  "end": 43.89,
+  "startFrame": 1297,
+  "endFrame": 1317,
+  "words": [
+   157,
+   159
+  ]
+ },
+ {
+  "text": "Then, it started again.",
+  "start": 44.27,
+  "end": 45.33,
+  "startFrame": 1328,
+  "endFrame": 1360,
+  "words": [
+   160,
+   163
+  ]
+ },
+ {
+  "text": "Faster.",
+  "start": 45.71,
+  "end": 45.91,
+  "startFrame": 1371,
+  "endFrame": 1377,
+  "words": [
+   164,
+   164
+  ]
+ },
+ {
+  "text": "Different.",
+  "start": 46.33,
+  "end": 46.63,
+  "startFrame": 1390,
+  "endFrame": 1399,
+  "words": [
+   165,
+   165
+  ]
+ },
+ {
+  "text": "\"Son, listen to me.",
+  "start": 46.99,
+  "end": 48.03,
+  "startFrame": 1410,
+  "endFrame": 1441,
+  "words": [
+   166,
+   169
+  ]
+ },
+ {
+  "text": "Don't open the door.",
+  "start": 48.23,
+  "end": 49.11,
+  "startFrame": 1447,
+  "endFrame": 1473,
+  "words": [
+   170,
+   173
+  ]
+ },
+ {
+  "text": "And don't wake the one sleeping in my bed.\"",
+  "start": 49.31,
+  "end": 50.83,
+  "startFrame": 1479,
+  "endFrame": 1525,
+  "words": [
+   174,
+   182
+  ]
+ },
+ {
+  "text": "My whole body went cold.",
+  "start": 51.13,
+  "end": 52.35,
+  "startFrame": 1534,
+  "endFrame": 1570,
+  "words": [
+   183,
+   187
+  ]
+ },
+ {
+  "text": "The snoring in Dad's room stopped.",
+  "start": 52.69,
+  "end": 53.97,
+  "startFrame": 1581,
+  "endFrame": 1619,
+  "words": [
+   188,
+   193
+  ]
+ },
+ {
+  "text": "Footsteps.",
+  "start": 54.41,
+  "end": 54.69,
+  "startFrame": 1632,
+  "endFrame": 1641,
+  "words": [
+   194,
+   194
+  ]
+ },
+ {
+  "text": "Slow.",
+  "start": 55.07,
+  "end": 55.47,
+  "startFrame": 1652,
+  "endFrame": 1664,
+  "words": [
+   195,
+   195
+  ]
+ },
+ {
+  "text": "Coming down the hallway.",
+  "start": 55.77,
+  "end": 56.55,
+  "startFrame": 1673,
+  "endFrame": 1696,
+  "words": [
+   196,
+   199
+  ]
+ },
+ {
+  "text": "\"Buddy?\"",
+  "start": 56.83,
+  "end": 57.05,
+  "startFrame": 1705,
+  "endFrame": 1712,
+  "words": [
+   200,
+   200
+  ]
+ },
+ {
+  "text": "Said a voice behind me.",
+  "start": 57.31,
+  "end": 58.29,
+  "startFrame": 1719,
+  "endFrame": 1749,
+  "words": [
+   201,
+   205
+  ]
+ },
+ {
+  "text": "Dad's voice.",
+  "start": 58.51,
+  "end": 58.95,
+  "startFrame": 1755,
+  "endFrame": 1768,
+  "words": [
+   206,
+   207
+  ]
+ },
+ {
+  "text": "Sleepy.",
+  "start": 59.4,
+  "end": 59.74,
+  "startFrame": 1782,
+  "endFrame": 1792,
+  "words": [
+   208,
+   208
+  ]
+ },
+ {
+  "text": "Kind.",
+  "start": 59.94,
+  "end": 60.1,
+  "startFrame": 1798,
+  "endFrame": 1803,
+  "words": [
+   209,
+   209
+  ]
+ },
+ {
+  "text": "\"Who's at the door?\"",
+  "start": 60.48,
+  "end": 61.08,
+  "startFrame": 1814,
+  "endFrame": 1832,
+  "words": [
+   210,
+   213
+  ]
+ },
+ {
+  "text": "I didn't turn around.",
+  "start": 61.42,
+  "end": 62.2,
+  "startFrame": 1843,
+  "endFrame": 1866,
+  "words": [
+   214,
+   217
+  ]
+ },
+ {
+  "text": "Outside, the real Dad whispered.",
+  "start": 62.56,
+  "end": 63.92,
+  "startFrame": 1877,
+  "endFrame": 1918,
+  "words": [
+   218,
+   222
+  ]
+ },
+ {
+  "text": "\"It slipped inside when I opened the door.",
+  "start": 64.32,
+  "end": 65.9,
+  "startFrame": 1930,
+  "endFrame": 1977,
+  "words": [
+   223,
+   230
+  ]
+ },
+ {
+  "text": "Run to the window!\"",
+  "start": 66.24,
+  "end": 66.72,
+  "startFrame": 1987,
+  "endFrame": 2002,
+  "words": [
+   231,
+   234
+  ]
+ },
+ {
+  "text": "I ran.",
+  "start": 67.08,
+  "end": 67.44,
+  "startFrame": 2012,
+  "endFrame": 2023,
+  "words": [
+   235,
+   236
+  ]
+ },
+ {
+  "text": "I jumped out and fell into the snow.",
+  "start": 67.82,
+  "end": 69.24,
+  "startFrame": 2035,
+  "endFrame": 2077,
+  "words": [
+   237,
+   244
+  ]
+ },
+ {
+  "text": "Dad grabbed me, and we ran all the way to Tootie's house.",
+  "start": 69.6,
+  "end": 71.68,
+  "startFrame": 2088,
+  "endFrame": 2150,
+  "words": [
+   245,
+   256
+  ]
+ },
+ {
+  "text": "Behind us, our front door slowly opened.",
+  "start": 72.08,
+  "end": 74.02,
+  "startFrame": 2162,
+  "endFrame": 2221,
+  "words": [
+   257,
+   263
+  ]
+ },
+ {
+  "text": "And something with Dad's face waved goodbye.",
+  "start": 74.36,
+  "end": 76.26,
+  "startFrame": 2231,
+  "endFrame": 2288,
+  "words": [
+   264,
+   270
+  ]
+ }
+]

@@ -1,0 +1,1 @@
+tighten: 2 gaps over 0.45s, removed 0.18s
