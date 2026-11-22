@@ -519,7 +519,7 @@ def hall_set(night=True, lamp=True):
     """Dark hallway: front door at the back (y=11.6) with 3 locks, a bell and a sign; bedroom door on the left,
     window on the right. Camera usually at y -9..-2 looking +Y."""
     world((0.12, 0.14, 0.24), 0.28)
-    room("#6f6a7a", "#4a3a2e", night=True, key=2200)
+    room("#8a85a0", "#5a4a3e", night=True, key=3800)
     Mw = M("#2a1c14", 0.6)
     box("fdoor", (4.4, 0.35, 8.4), (0, 11.5, 4.2), wood("wood_fd", "#4a2c18", "#6e4229", 2.0), 0.08)
     box("fdoor_frame", (5.2, 0.5, 9.0), (0, 11.8, 4.5), M("#2a1a10", 0.6), 0.05)
@@ -600,7 +600,7 @@ def bed_set():
 
 
 def sleeper(ch, t0, t1, bob=0.15):
-    ch.pose(t0, loc=(-4, 6.0, 2.05), rot=0, torso=(0, 85, 0), head=(0, 25, 0), armL=(0, 8), armR=(0, 8), legL=(88, 3), legR=(88, -3))
+    ch.pose(t0, loc=(-4, 6.8, 2.05), rot=0, torso=(0, 8, 0), head=(0, 22, 0), armL=(0, 8), armR=(0, 8), legL=(88, 3), legR=(88, -3))
     ch.face(t0, eyes="closed", mouth="flat")
     for i in range(int((t1 - t0) / 0.9) + 1):
         ch.pose(t0 + i * 0.9, hipz=0.0)
@@ -812,13 +812,13 @@ def k14(t0, t1):
     sfx(t0 + 1.8, "crickets", 0.7)
 
 
-@beat(65, 74, n=2, focus=(-4, 6, 3.4), d=12, lens=26, desc="Her husband had been asleep upstairs the whole time")
+@beat(65, 74, n=2, focus=(-4, 6.8, 5.4), d=12, lens=26, desc="Her husband had been asleep upstairs the whole time")
 def k15(t0, t1):
     bed_set()
     H = dadc(t0, t1, "sleepy")
     sleeper(H, t0, t1)
     zzz(t0 + 0.2, t1, (-2, 6, 4.5))
-    cam = push_cam(t0, t1, (-4, 6, 3.2), 14, 9, yaw=-18, yaw1=14, lens=26)
+    cam = push_cam(t0, t1, (-4, 6.8, 5.4), 14, 9, yaw=-18, yaw1=14, lens=26)
     sfx(t0 + 0.4, "snort", 0.5)
     sfx(t0 + 1.6, "crickets", 0.6)
     sfx(t0 + 4.8, "snort", 0.5)
@@ -830,7 +830,7 @@ def k16(t0, t1):
     E = eddie(t0, t1, "happy")
     sleeper(E, t0, t1)
     E.face(t0 + 0.2, "relief")
-    cam = push_cam(t0, t1, (-4, 7, 3.6), 11, 6.5, yaw=-20, yaw1=10, lens=28, lens1=34)
+    cam = push_cam(t0, t1, (-4, 6.8, 5.6), 11, 7.0, yaw=-20, yaw1=10, lens=28, lens1=34)
     sfx(t0 + 0.8, "pop")
     sfx(t0 + 1.4, "pop")
     sfx(t0 + 2.6, "aww", 0.5)
@@ -944,11 +944,10 @@ def k24(t0, t1):
 def k25(t0, t1):
     hall_set()
     E = eddie(t0, t1, "worried")
-    E.pose(t0, loc=(0, 2, 0), rot=180)
-    look(E, t0 + 0.6, -60, 0)
+    E.pose(t0, loc=(-4, 1, 0), rot=90)
     cam = Cam()
-    cam.key(t0, (6, -8, 4.0), (-14, 4, 4.0), lens=22, focus=(-14, 4, 4), fstop=5)
-    cam.key(t1, (3, -6, 4.6), (-14, 4, 4.0), lens=26, focus=(-14, 4, 4), fstop=5, ease="EASE_IN_OUT")
+    cam.key(t0, (6, -6, 4.4), (-8, 3, 4.4), lens=22, focus=(-4, 1, 4.4), fstop=5)
+    cam.key(t1, (3, -5, 4.8), (-10, 3, 4.4), lens=26, focus=(-6, 2, 4.4), fstop=5, ease="EASE_IN_OUT")
     cam.handheld(1.2)
     sfx(t0 + 0.5, "footsteps", 0.5)
 
@@ -1036,7 +1035,7 @@ def k33(t0, t1):
     E = eddie(t0, t1, "worried")
     E.pose(t0, loc=(0, 2, 0), rot=180)
     bubble(t0 + 0.1, t1, (0, 9.6, 8.0), "DON'T OPEN THE DOOR", (0.8, 0.9, 1.0), 0.9)
-    cam = push_cam(t0, t1, (0, 2, 4.6), 10, 6, yaw=160, yaw1=190, lens=28, hh=1.0)
+    cam = push_cam(t0, t1, (0, 6, 4.6), 12, 8, yaw=-22, yaw1=14, lens=28, hh=1.0)
     sfx(t0 + 0.1, "sting", 0.7)
     sfx(t0 + 2.2, "whoosh", 0.5)
 
@@ -1138,10 +1137,10 @@ def k41(t0, t1):
     D_.pose(t0, loc=(18, 3, 0), rot=90)
     D_.act(t0 + 0.4, "reach", expr="scared")
     D_.talk(t0, t1, V.span(t0, t1), open_m="talk", wide_m="talk", rest="frown")
-    light("outw", "POINT", (17, 2, 6), 800, (0.7, 0.8, 1.0), 1.0)
+    light("outw", "POINT", (20, 1, 6), 2600, (0.8, 0.9, 1.0), 1.0)
     cam = Cam()
-    cam.key(t0, (6, -4, 4.8), (14.7, 3, 5.0), lens=28, focus=(14.7, 3, 5.0), fstop=4)
-    cam.key(t1, (11, 1, 5.0), (14.7, 3, 5.0), lens=34, focus=(14.7, 3, 5.0), fstop=4, ease="EASE_IN")
+    cam.key(t0, (24, -4, 5.0), (16.6, 3, 4.8), lens=28, focus=(16.6, 3, 4.8), fstop=4)
+    cam.key(t1, (21, 0.6, 5.0), (16.6, 3, 4.8), lens=34, focus=(16.6, 3, 4.8), fstop=4, ease="EASE_IN")
     cam.handheld(1.2)
     sfx(t0, "wind", 0.7)
 
@@ -1153,10 +1152,10 @@ def k42(t0, t1):
     D_.pose(t0, loc=(18, 3, 0), rot=90)
     D_.talk(t0, t1, V.span(t0, t1), open_m="talk", wide_m="talk_wide", rest="frown")
     bubble(t0 + 0.2, t1, (13.6, 2.4, 9), "IT'S INSIDE!", (1, 0.8, 0.6), 1.2, rot=(90, 0, 90))
-    light("outw", "POINT", (17, 2, 6), 800, (0.7, 0.8, 1.0), 1.0)
+    light("outw", "POINT", (20, 1, 6), 2600, (0.8, 0.9, 1.0), 1.0)
     cam = Cam()
-    cam.key(t0, (8, -2, 5.0), (14.7, 3, 5.0), lens=30, focus=(14.7, 3, 5.0), fstop=3)
-    cam.key(t1, (12, 2.4, 5.2), (14.7, 3, 5.0), lens=38, focus=(14.7, 3, 5.0), fstop=3, ease="EASE_IN")
+    cam.key(t0, (24, -3, 5.0), (16.6, 3, 4.8), lens=30, focus=(16.6, 3, 4.8), fstop=3)
+    cam.key(t1, (20.5, 1.4, 5.0), (16.6, 3, 4.8), lens=38, focus=(16.6, 3, 4.8), fstop=3, ease="EASE_IN")
     cam.handheld(1.4)
     sfx(t0 + 0.2, "sting")
     sfx(t0 + 3.5, "rise", 0.7)
@@ -1169,8 +1168,8 @@ def k43(t0, t1):
     D_.pose(t0, loc=(18, 3, 0), rot=90)
     D_.panic(t0, t1, rate=6)
     cam = Cam()
-    cam.key(t0, (6, -4, 4.8), (14.7, 3, 5.0), lens=26, focus=(14.7, 3, 5.0), fstop=4)
-    cam.key(t1, (11, 1, 5.0), (14.7, 3, 5.0), lens=28, focus=(14.7, 3, 5.0), fstop=4, ease="EASE_IN")
+    cam.key(t0, (25, -4, 5.0), (16.6, 3, 4.8), lens=26, focus=(16.6, 3, 4.8), fstop=4)
+    cam.key(t1, (21, 1, 5.0), (16.6, 3, 4.8), lens=30, focus=(16.6, 3, 4.8), fstop=4, ease="EASE_IN")
     cam.crash(t0 + 0.2, 26, 40, 0.1)
     cam.handheld(2.4)
     sfx(t0 + 0.2, "boom", 0.7)
@@ -1255,7 +1254,7 @@ def k47(t0, t1):
     sfx(t0 + 5.2, "sting")
 
 
-@beat(264, None, n=3, focus=(0, -17, 4.6), d=16, lens=30, desc="Something with Dad's face waved goodbye", pitch=3)
+@beat(264, None, n=3, focus=(0, -16.4, 4.6), d=11, lens=34, desc="Something with Dad's face waved goodbye", pitch=3)
 def k48(t0, t1):
     knock_street(night=True, fog=False)
     house_front((0, -14, 0))
@@ -1270,7 +1269,7 @@ def k48(t0, t1):
     wiggle = acting.wiggle
     wiggle(D2, t0 + 0.7, t1, "armR", (10, 15), 4.0, (160, 25))
     snow(t0, t1, 30, seed=11)
-    cam = push_cam(t0, t1, (0, -17, 4.6), 18, 9, yaw=0, yaw1=-6, lens=28, lens1=34, hh=0.8)
+    cam = push_cam(t0, t1, (0, -16.4, 4.6), 13, 8, yaw=0, yaw1=-6, lens=32, lens1=38, hh=0.8)
     sfx(t0 + 0.4, "sting")
     sfx(t0 + 1.0, "zombie", 0.5)
     sfx(t0 + 2.8, "wind", 0.7)
