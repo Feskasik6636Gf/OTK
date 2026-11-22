@@ -1,0 +1,93 @@
+name: render-quentin
+on:
+  push:
+    branches: [ccr-7c54164b-t719p6, main]
+    paths:
+      - "quentin_president/**"
+      - ".github/workflows/render-quentin.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      parts: ${{ steps.p.outputs.parts }}
+      full: ${{ steps.p.outputs.full }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: p
+        run: |
+          parts=$(cat quentin_president/parts.json | tr -d '\n ')
+          echo "parts=$parts" >> $GITHUB_OUTPUT
+          n=$(echo "$parts" | tr -cd ',' | wc -c)
+          if [ "$n" -ge 19 ]; then echo "full=true" >> $GITHUB_OUTPUT; else echo "full=false" >> $GITHUB_OUTPUT; fi
+  render:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        part: ${{ fromJSON(needs.plan.outputs.parts) }}
+    defaults:
+      run:
+        working-directory: quentin_president
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: quentin_president/package-lock.json
+      - name: Browser libs
+        run: |
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq libnss3 libatk1.0-0t64 libatk-bridge2.0-0t64 libcups2t64 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libasound2t64 libpango-1.0-0 libcairo2 libegl1 libgl1-mesa-dri
+      - run: npm ci
+      - name: Render chunk ${{ matrix.part }}
+        run: |
+          mkdir -p out
+          P=${{ matrix.part }}
+          S=$((P*1200))
+          TOTAL=$(node -e "console.log(JSON.parse(require('fs').readFileSync('src/story/timeline.json')).total)")
+          E=$((S+1199)); if [ $E -ge $TOTAL ]; then E=$((TOTAL-1)); fi
+          N=$(printf '%02d' $P)
+          npx remotion render Long out/c$N.mp4 --frames=$S-$E --muted --gl=angle --concurrency=4 --crf=18 --log=error --timeout=180000
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chunk-${{ matrix.part }}
+          path: quentin_president/out/c*.mp4
+          retention-days: 3
+  assemble:
+    needs: [plan, render]
+    if: needs.plan.outputs.full == 'true'
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: quentin_president
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: quentin_president/package-lock.json
+      - run: npm ci
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: chunk-*
+          merge-multiple: true
+          path: quentin_president/out/chunks_Long
+      - name: Sound, concat, mux
+        run: |
+          ls out/chunks_Long
+          node tools/make-sound.mjs
+          node tools/render.mjs Long --chunk 1200
+          ls -la out
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: quentin-president-${{ github.run_number }}
+          name: Quentin President (video)
+          files: quentin_president/out/Long.mp4
