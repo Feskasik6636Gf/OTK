@@ -1,0 +1,486 @@
+[
+ {
+  "text": "In this town, every night at 9, all the lights go out.",
+  "start": 0.0,
+  "end": 3.18,
+  "startFrame": 0,
+  "endFrame": 95,
+  "words": [
+   0,
+   11
+  ]
+ },
+ {
+  "text": "No lamps, no TVs, no phones, not even candles.",
+  "start": 3.42,
+  "end": 6.84,
+  "startFrame": 103,
+  "endFrame": 205,
+  "words": [
+   12,
+   20
+  ]
+ },
+ {
+  "text": "Because deep under the town, a giant is sleeping.",
+  "start": 7.14,
+  "end": 9.72,
+  "startFrame": 214,
+  "endFrame": 292,
+  "words": [
+   21,
+   29
+  ]
+ },
+ {
+  "text": "If he wakes up, the town wakes up inside his stomach.",
+  "start": 10.04,
+  "end": 12.48,
+  "startFrame": 301,
+  "endFrame": 374,
+  "words": [
+   30,
+   40
+  ]
+ },
+ {
+  "text": "Everyone whispers.",
+  "start": 12.9,
+  "end": 13.64,
+  "startFrame": 387,
+  "endFrame": 409,
+  "words": [
+   41,
+   42
+  ]
+ },
+ {
+  "text": "We walk on tiptoes.",
+  "start": 14.06,
+  "end": 15.06,
+  "startFrame": 422,
+  "endFrame": 452,
+  "words": [
+   43,
+   46
+  ]
+ },
+ {
+  "text": "Dogs wear tiny socks.",
+  "start": 15.42,
+  "end": 16.7,
+  "startFrame": 463,
+  "endFrame": 501,
+  "words": [
+   47,
+   50
+  ]
+ },
+ {
+  "text": "Our teacher speaks only in sign language after sunset.",
+  "start": 17.02,
+  "end": 19.58,
+  "startFrame": 511,
+  "endFrame": 587,
+  "words": [
+   51,
+   59
+  ]
+ },
+ {
+  "text": "My dad sneezed once at night, and the whole street hid under tables for an hour.",
+  "start": 19.86,
+  "end": 23.58,
+  "startFrame": 596,
+  "endFrame": 707,
+  "words": [
+   60,
+   75
+  ]
+ },
+ {
+  "text": "My best friend Tooty is the loudest kid in town.",
+  "start": 23.88,
+  "end": 26.08,
+  "startFrame": 716,
+  "endFrame": 782,
+  "words": [
+   76,
+   85
+  ]
+ },
+ {
+  "text": "He's grounded every night with a pillow in his mouth.",
+  "start": 26.28,
+  "end": 28.64,
+  "startFrame": 788,
+  "endFrame": 859,
+  "words": [
+   86,
+   95
+  ]
+ },
+ {
+  "text": "\"Rock and roll!",
+  "start": 28.9,
+  "end": 29.56,
+  "startFrame": 867,
+  "endFrame": 887,
+  "words": [
+   96,
+   98
+  ]
+ },
+ {
+  "text": "We're losing control!\"",
+  "start": 29.56,
+  "end": 30.64,
+  "startFrame": 887,
+  "endFrame": 919,
+  "words": [
+   99,
+   101
+  ]
+ },
+ {
+  "text": "Mayor Popp says the giant has slept for a thousand years, and we must never ask why.",
+  "start": 31.18,
+  "end": 35.5,
+  "startFrame": 935,
+  "endFrame": 1065,
+  "words": [
+   102,
+   118
+  ]
+ },
+ {
+  "text": "But I hear something.",
+  "start": 35.8,
+  "end": 36.62,
+  "startFrame": 1074,
+  "endFrame": 1099,
+  "words": [
+   119,
+   122
+  ]
+ },
+ {
+  "text": "Every night, right under my bed, a soft sound.",
+  "start": 36.92,
+  "end": 39.46,
+  "startFrame": 1108,
+  "endFrame": 1184,
+  "words": [
+   123,
+   131
+  ]
+ },
+ {
+  "text": "Not snoring.",
+  "start": 39.74,
+  "end": 40.34,
+  "startFrame": 1192,
+  "endFrame": 1210,
+  "words": [
+   132,
+   133
+  ]
+ },
+ {
+  "text": "Crying.",
+  "start": 40.68,
+  "end": 41.0,
+  "startFrame": 1220,
+  "endFrame": 1230,
+  "words": [
+   134,
+   134
+  ]
+ },
+ {
+  "text": "Last week, I couldn't take it anymore.",
+  "start": 41.38,
+  "end": 43.02,
+  "startFrame": 1241,
+  "endFrame": 1291,
+  "words": [
+   135,
+   141
+  ]
+ },
+ {
+  "text": "I took my flashlight and sneaked down to the old cellar.",
+  "start": 43.32,
+  "end": 45.66,
+  "startFrame": 1300,
+  "endFrame": 1370,
+  "words": [
+   142,
+   152
+  ]
+ },
+ {
+  "text": "Behind a rusty door, a tunnel went deeper and deeper.",
+  "start": 45.98,
+  "end": 48.86,
+  "startFrame": 1379,
+  "endFrame": 1466,
+  "words": [
+   153,
+   162
+  ]
+ },
+ {
+  "text": "Tooty followed me, holding his breath so hard his face turned purple.",
+  "start": 49.18,
+  "end": 52.4,
+  "startFrame": 1475,
+  "endFrame": 1572,
+  "words": [
+   163,
+   174
+  ]
+ },
+ {
+  "text": "At the end of the tunnel, there was an eye.",
+  "start": 52.68,
+  "end": 54.4,
+  "startFrame": 1580,
+  "endFrame": 1632,
+  "words": [
+   175,
+   184
+  ]
+ },
+ {
+  "text": "Bigger than a house.",
+  "start": 54.66,
+  "end": 55.52,
+  "startFrame": 1640,
+  "endFrame": 1666,
+  "words": [
+   185,
+   188
+  ]
+ },
+ {
+  "text": "Wet.",
+  "start": 56.02,
+  "end": 56.2,
+  "startFrame": 1681,
+  "endFrame": 1686,
+  "words": [
+   189,
+   189
+  ]
+ },
+ {
+  "text": "Red.",
+  "start": 56.72,
+  "end": 56.9,
+  "startFrame": 1702,
+  "endFrame": 1707,
+  "words": [
+   190,
+   190
+  ]
+ },
+ {
+  "text": "We froze.",
+  "start": 57.2,
+  "end": 57.72,
+  "startFrame": 1716,
+  "endFrame": 1732,
+  "words": [
+   191,
+   192
+  ]
+ },
+ {
+  "text": "The giant whispered, and the whole cave trembled.",
+  "start": 57.98,
+  "end": 60.36,
+  "startFrame": 1739,
+  "endFrame": 1811,
+  "words": [
+   193,
+   200
+  ]
+ },
+ {
+  "text": "\"Why is it always so dark up there?\"",
+  "start": 60.6,
+  "end": 62.34,
+  "startFrame": 1818,
+  "endFrame": 1870,
+  "words": [
+   201,
+   208
+  ]
+ },
+ {
+  "text": "I swallowed.",
+  "start": 62.6,
+  "end": 63.1,
+  "startFrame": 1878,
+  "endFrame": 1893,
+  "words": [
+   209,
+   210
+  ]
+ },
+ {
+  "text": "\"Because we're scared of waking you.\"",
+  "start": 63.48,
+  "end": 64.82,
+  "startFrame": 1904,
+  "endFrame": 1945,
+  "words": [
+   211,
+   216
+  ]
+ },
+ {
+  "text": "\"I woke up long ago,\" he said quietly.",
+  "start": 65.1,
+  "end": 67.0,
+  "startFrame": 1953,
+  "endFrame": 2010,
+  "words": [
+   217,
+   224
+  ]
+ },
+ {
+  "text": "\"I just wanted to see your lights.\"",
+  "start": 67.28,
+  "end": 68.58,
+  "startFrame": 2018,
+  "endFrame": 2057,
+  "words": [
+   225,
+   231
+  ]
+ },
+ {
+  "text": "He wasn't afraid of the dark.",
+  "start": 68.92,
+  "end": 70.08,
+  "startFrame": 2068,
+  "endFrame": 2102,
+  "words": [
+   232,
+   237
+  ]
+ },
+ {
+  "text": "He was lonely in it.",
+  "start": 70.3,
+  "end": 71.32,
+  "startFrame": 2109,
+  "endFrame": 2140,
+  "words": [
+   238,
+   242
+  ]
+ },
+ {
+  "text": "I turned on my flashlight and pointed it at his face.",
+  "start": 71.48,
+  "end": 73.62,
+  "startFrame": 2144,
+  "endFrame": 2209,
+  "words": [
+   243,
+   253
+  ]
+ },
+ {
+  "text": "He smiled.",
+  "start": 73.94,
+  "end": 74.54,
+  "startFrame": 2218,
+  "endFrame": 2236,
+  "words": [
+   254,
+   255
+  ]
+ },
+ {
+  "text": "A smile as wide as a valley.",
+  "start": 74.82,
+  "end": 76.52,
+  "startFrame": 2245,
+  "endFrame": 2296,
+  "words": [
+   256,
+   262
+  ]
+ },
+ {
+  "text": "That night, I convinced the whole town to turn on their lights.",
+  "start": 76.84,
+  "end": 79.52,
+  "startFrame": 2305,
+  "endFrame": 2386,
+  "words": [
+   263,
+   274
+  ]
+ },
+ {
+  "text": "The windows glowed.",
+  "start": 79.82,
+  "end": 80.8,
+  "startFrame": 2395,
+  "endFrame": 2424,
+  "words": [
+   275,
+   277
+  ]
+ },
+ {
+  "text": "Candles flickered.",
+  "start": 81.18,
+  "end": 81.92,
+  "startFrame": 2435,
+  "endFrame": 2458,
+  "words": [
+   278,
+   279
+  ]
+ },
+ {
+  "text": "Tooty screamed with joy.",
+  "start": 82.26,
+  "end": 83.56,
+  "startFrame": 2468,
+  "endFrame": 2507,
+  "words": [
+   280,
+   283
+  ]
+ },
+ {
+  "text": "And far below, the giant finally fell asleep.",
+  "start": 83.8,
+  "end": 86.26,
+  "startFrame": 2514,
+  "endFrame": 2588,
+  "words": [
+   284,
+   291
+  ]
+ },
+ {
+  "text": "Now the town is never dark, and every night, the ground hums a lullaby back.",
+  "start": 86.45,
+  "end": 90.5,
+  "startFrame": 2594,
+  "endFrame": 2715,
+  "words": [
+   292,
+   306
+  ]
+ }
+]
