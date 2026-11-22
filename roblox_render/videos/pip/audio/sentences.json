@@ -1,0 +1,464 @@
+[
+ {
+  "text": "In this world, every kid gets a monster bodyguard on their tenth birthday.",
+  "start": 0.0,
+  "end": 3.4,
+  "startFrame": 0,
+  "endFrame": 102,
+  "words": [
+   0,
+   12
+  ]
+ },
+ {
+  "text": "It follows you everywhere and protects you from anything.",
+  "start": 3.72,
+  "end": 6.0,
+  "startFrame": 112,
+  "endFrame": 180,
+  "words": [
+   13,
+   21
+  ]
+ },
+ {
+  "text": "Tootie got a giant bear with three eyes.",
+  "start": 6.45,
+  "end": 8.29,
+  "startFrame": 194,
+  "endFrame": 249,
+  "words": [
+   22,
+   29
+  ]
+ },
+ {
+  "text": "It carries his backpack.",
+  "start": 8.63,
+  "end": 9.47,
+  "startFrame": 259,
+  "endFrame": 284,
+  "words": [
+   30,
+   33
+  ]
+ },
+ {
+  "text": "Eddie got a fire lizard.",
+  "start": 9.87,
+  "end": 10.93,
+  "startFrame": 296,
+  "endFrame": 328,
+  "words": [
+   34,
+   38
+  ]
+ },
+ {
+  "text": "Nobody bullies Eddie anymore.",
+  "start": 11.38,
+  "end": 12.58,
+  "startFrame": 341,
+  "endFrame": 377,
+  "words": [
+   39,
+   42
+  ]
+ },
+ {
+  "text": "Principal Fartan got a skunk monster.",
+  "start": 12.98,
+  "end": 14.62,
+  "startFrame": 389,
+  "endFrame": 439,
+  "words": [
+   43,
+   48
+  ]
+ },
+ {
+  "text": "And honestly, that explains a lot.",
+  "start": 14.92,
+  "end": 16.7,
+  "startFrame": 448,
+  "endFrame": 501,
+  "words": [
+   49,
+   54
+  ]
+ },
+ {
+  "text": "I got Pip.",
+  "start": 16.98,
+  "end": 17.68,
+  "startFrame": 509,
+  "endFrame": 530,
+  "words": [
+   55,
+   57
+  ]
+ },
+ {
+  "text": "Pip is the size of a potato.",
+  "start": 18.08,
+  "end": 19.3,
+  "startFrame": 542,
+  "endFrame": 579,
+  "words": [
+   58,
+   64
+  ]
+ },
+ {
+  "text": "He has one tooth and hides in my hood when a bird flies by.",
+  "start": 19.68,
+  "end": 22.26,
+  "startFrame": 590,
+  "endFrame": 668,
+  "words": [
+   65,
+   78
+  ]
+ },
+ {
+  "text": "The whole class laughed at us for a week.",
+  "start": 22.48,
+  "end": 24.32,
+  "startFrame": 674,
+  "endFrame": 730,
+  "words": [
+   79,
+   87
+  ]
+ },
+ {
+  "text": "\"Rock and roll!",
+  "start": 24.76,
+  "end": 25.34,
+  "startFrame": 743,
+  "endFrame": 760,
+  "words": [
+   88,
+   90
+  ]
+ },
+ {
+  "text": "We're losing control!\"",
+  "start": 25.5,
+  "end": 26.42,
+  "startFrame": 765,
+  "endFrame": 793,
+  "words": [
+   91,
+   93
+  ]
+ },
+ {
+  "text": "Monsters grow when their kid believes in them.",
+  "start": 26.87,
+  "end": 28.65,
+  "startFrame": 806,
+  "endFrame": 860,
+  "words": [
+   94,
+   101
+  ]
+ },
+ {
+  "text": "Tootie's bear grew so big it sleeps on the roof.",
+  "start": 28.78,
+  "end": 31.23,
+  "startFrame": 863,
+  "endFrame": 937,
+  "words": [
+   102,
+   111
+  ]
+ },
+ {
+  "text": "But Pip stayed tiny.",
+  "start": 31.65,
+  "end": 32.77,
+  "startFrame": 950,
+  "endFrame": 983,
+  "words": [
+   112,
+   115
+  ]
+ },
+ {
+  "text": "Because I didn't believe in him.",
+  "start": 32.96,
+  "end": 34.21,
+  "startFrame": 989,
+  "endFrame": 1026,
+  "words": [
+   116,
+   121
+  ]
+ },
+ {
+  "text": "Not even a little.",
+  "start": 34.43,
+  "end": 35.03,
+  "startFrame": 1033,
+  "endFrame": 1051,
+  "words": [
+   122,
+   125
+  ]
+ },
+ {
+  "text": "Then one night, the sirens went off.",
+  "start": 35.41,
+  "end": 37.17,
+  "startFrame": 1062,
+  "endFrame": 1115,
+  "words": [
+   126,
+   132
+  ]
+ },
+ {
+  "text": "The Devourer came out of the forest, taller than the school, made of black smoke and teeth.",
+  "start": 37.39,
+  "end": 41.91,
+  "startFrame": 1122,
+  "endFrame": 1257,
+  "words": [
+   133,
+   149
+  ]
+ },
+ {
+  "text": "It swallowed the fire lizard in one bite.",
+  "start": 42.23,
+  "end": 44.17,
+  "startFrame": 1267,
+  "endFrame": 1325,
+  "words": [
+   150,
+   157
+  ]
+ },
+ {
+  "text": "Tootie's bear ran away screaming.",
+  "start": 44.62,
+  "end": 45.92,
+  "startFrame": 1339,
+  "endFrame": 1378,
+  "words": [
+   158,
+   162
+  ]
+ },
+ {
+  "text": "Every monster in town ran.",
+  "start": 46.37,
+  "end": 47.67,
+  "startFrame": 1391,
+  "endFrame": 1430,
+  "words": [
+   163,
+   167
+  ]
+ },
+ {
+  "text": "Every single one.",
+  "start": 48.03,
+  "end": 49.15,
+  "startFrame": 1441,
+  "endFrame": 1474,
+  "words": [
+   168,
+   170
+  ]
+ },
+ {
+  "text": "Except Pip.",
+  "start": 49.45,
+  "end": 50.01,
+  "startFrame": 1484,
+  "endFrame": 1500,
+  "words": [
+   171,
+   172
+  ]
+ },
+ {
+  "text": "He climbed out of my hood, jumped to the ground, and stood in front of me.",
+  "start": 50.37,
+  "end": 53.43,
+  "startFrame": 1511,
+  "endFrame": 1603,
+  "words": [
+   173,
+   188
+  ]
+ },
+ {
+  "text": "Shaking, tiny, alone.",
+  "start": 53.71,
+  "end": 55.09,
+  "startFrame": 1611,
+  "endFrame": 1653,
+  "words": [
+   189,
+   191
+  ]
+ },
+ {
+  "text": "The Devourer looked down at him and laughed.",
+  "start": 55.37,
+  "end": 57.17,
+  "startFrame": 1661,
+  "endFrame": 1715,
+  "words": [
+   192,
+   199
+  ]
+ },
+ {
+  "text": "And Pip squeaked the bravest squeak I've ever heard.",
+  "start": 57.48,
+  "end": 60.19,
+  "startFrame": 1724,
+  "endFrame": 1806,
+  "words": [
+   200,
+   208
+  ]
+ },
+ {
+  "text": "That's when I understood.",
+  "start": 60.45,
+  "end": 61.27,
+  "startFrame": 1814,
+  "endFrame": 1838,
+  "words": [
+   209,
+   212
+  ]
+ },
+ {
+  "text": "He was never scared for himself.",
+  "start": 61.63,
+  "end": 62.95,
+  "startFrame": 1849,
+  "endFrame": 1888,
+  "words": [
+   213,
+   218
+  ]
+ },
+ {
+  "text": "He was scared for me.",
+  "start": 63.39,
+  "end": 64.29,
+  "startFrame": 1902,
+  "endFrame": 1929,
+  "words": [
+   219,
+   223
+  ]
+ },
+ {
+  "text": "So I believed in him.",
+  "start": 64.67,
+  "end": 65.69,
+  "startFrame": 1940,
+  "endFrame": 1971,
+  "words": [
+   224,
+   228
+  ]
+ },
+ {
+  "text": "With everything I had, Pip started to grow.",
+  "start": 65.91,
+  "end": 68.09,
+  "startFrame": 1977,
+  "endFrame": 2043,
+  "words": [
+   229,
+   236
+  ]
+ },
+ {
+  "text": "Bigger than a car.",
+  "start": 68.43,
+  "end": 69.13,
+  "startFrame": 2053,
+  "endFrame": 2074,
+  "words": [
+   237,
+   240
+  ]
+ },
+ {
+  "text": "Bigger than a house.",
+  "start": 69.49,
+  "end": 70.23,
+  "startFrame": 2085,
+  "endFrame": 2107,
+  "words": [
+   241,
+   244
+  ]
+ },
+ {
+  "text": "Bigger than the Devourer.",
+  "start": 70.61,
+  "end": 71.69,
+  "startFrame": 2118,
+  "endFrame": 2151,
+  "words": [
+   245,
+   248
+  ]
+ },
+ {
+  "text": "He opened his mouth with one giant tooth and roared.",
+  "start": 72.01,
+  "end": 74.69,
+  "startFrame": 2160,
+  "endFrame": 2241,
+  "words": [
+   249,
+   258
+  ]
+ },
+ {
+  "text": "The Devourer ran back to the forest and never came back.",
+  "start": 75.07,
+  "end": 77.55,
+  "startFrame": 2252,
+  "endFrame": 2326,
+  "words": [
+   259,
+   269
+  ]
+ },
+ {
+  "text": "The next morning, Pip was tiny again, asleep in my hood.",
+  "start": 77.83,
+  "end": 80.25,
+  "startFrame": 2335,
+  "endFrame": 2408,
+  "words": [
+   270,
+   280
+  ]
+ },
+ {
+  "text": "Nobody laughs at us anymore.",
+  "start": 80.65,
+  "end": 81.67,
+  "startFrame": 2420,
+  "endFrame": 2450,
+  "words": [
+   281,
+   285
+  ]
+ }
+]

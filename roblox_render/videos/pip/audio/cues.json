@@ -1,0 +1,524 @@
+[
+ {
+  "t": 0.0,
+  "name": "whoosh",
+  "vol": 1.0,
+  "shot": 1
+ },
+ {
+  "t": 1.02,
+  "name": "confetti",
+  "vol": 1.0,
+  "shot": 2
+ },
+ {
+  "t": 1.22,
+  "name": "cheer",
+  "vol": 0.6,
+  "shot": 2
+ },
+ {
+  "t": 1.86,
+  "name": "confetti",
+  "vol": 1.0,
+  "shot": 3
+ },
+ {
+  "t": 2.06,
+  "name": "cheer",
+  "vol": 0.6,
+  "shot": 3
+ },
+ {
+  "t": 2.98,
+  "name": "confetti",
+  "vol": 1.0,
+  "shot": 4
+ },
+ {
+  "t": 3.18,
+  "name": "cheer",
+  "vol": 0.6,
+  "shot": 4
+ },
+ {
+  "t": 4.32,
+  "name": "footsteps",
+  "vol": 0.6,
+  "shot": 5
+ },
+ {
+  "t": 5.78,
+  "name": "footsteps",
+  "vol": 0.6,
+  "shot": 6
+ },
+ {
+  "t": 6.45,
+  "name": "stomp",
+  "vol": 0.9,
+  "shot": 7
+ },
+ {
+  "t": 7.65,
+  "name": "boom",
+  "vol": 1.0,
+  "shot": 7
+ },
+ {
+  "t": 7.75,
+  "name": "sting",
+  "vol": 1.0,
+  "shot": 7
+ },
+ {
+  "t": 8.83,
+  "name": "stomp",
+  "vol": 0.7,
+  "shot": 8
+ },
+ {
+  "t": 11.27,
+  "name": "boom",
+  "vol": 0.6,
+  "shot": 9
+ },
+ {
+  "t": 11.58,
+  "name": "jet",
+  "vol": 0.7,
+  "shot": 10
+ },
+ {
+  "t": 12.08,
+  "name": "gasp",
+  "vol": 1.0,
+  "shot": 10
+ },
+ {
+  "t": 12.58,
+  "name": "whoosh",
+  "vol": 1.0,
+  "shot": 10
+ },
+ {
+  "t": 13.28,
+  "name": "ding",
+  "vol": 0.6,
+  "shot": 11
+ },
+ {
+  "t": 14.18,
+  "name": "squeak",
+  "vol": 0.6,
+  "shot": 11
+ },
+ {
+  "t": 16.02,
+  "name": "fart",
+  "vol": 1.0,
+  "shot": 12
+ },
+ {
+  "t": 16.32,
+  "name": "gasp",
+  "vol": 1.0,
+  "shot": 12
+ },
+ {
+  "t": 17.08,
+  "name": "pop",
+  "vol": 1.0,
+  "shot": 13
+ },
+ {
+  "t": 17.38,
+  "name": "aww",
+  "vol": 0.7,
+  "shot": 13
+ },
+ {
+  "t": 18.28,
+  "name": "aww",
+  "vol": 1.0,
+  "shot": 14
+ },
+ {
+  "t": 22.48,
+  "name": "kids_laugh",
+  "vol": 1.0,
+  "shot": 17
+ },
+ {
+  "t": 23.88,
+  "name": "cheer",
+  "vol": 0.4,
+  "shot": 17
+ },
+ {
+  "t": 24.76,
+  "name": "whoosh",
+  "vol": 1.0,
+  "shot": 18
+ },
+ {
+  "t": 25.66,
+  "name": "rimshot",
+  "vol": 0.6,
+  "shot": 18
+ },
+ {
+  "t": 27.87,
+  "name": "rise",
+  "vol": 1.0,
+  "shot": 19
+ },
+ {
+  "t": 28.07,
+  "name": "sparkle",
+  "vol": 1.0,
+  "shot": 19
+ },
+ {
+  "t": 28.78,
+  "name": "ding",
+  "vol": 0.5,
+  "shot": 20
+ },
+ {
+  "t": 29.38,
+  "name": "snort",
+  "vol": 0.7,
+  "shot": 20
+ },
+ {
+  "t": 30.78,
+  "name": "snort",
+  "vol": 0.7,
+  "shot": 20
+ },
+ {
+  "t": 31.85,
+  "name": "squeak",
+  "vol": 0.6,
+  "shot": 21
+ },
+ {
+  "t": 33.26,
+  "name": "sting",
+  "vol": 0.6,
+  "shot": 22
+ },
+ {
+  "t": 34.43,
+  "name": "aww",
+  "vol": 0.8,
+  "shot": 23
+ },
+ {
+  "t": 35.23,
+  "name": "crickets",
+  "vol": 0.6,
+  "shot": 23
+ },
+ {
+  "t": 35.41,
+  "name": "alarm",
+  "vol": 1.0,
+  "shot": 24
+ },
+ {
+  "t": 35.81,
+  "name": "gasp",
+  "vol": 0.7,
+  "shot": 24
+ },
+ {
+  "t": 37.39,
+  "name": "zombie",
+  "vol": 0.7,
+  "shot": 25
+ },
+ {
+  "t": 37.79,
+  "name": "alarm",
+  "vol": 0.7,
+  "shot": 25
+ },
+ {
+  "t": 39.15,
+  "name": "zombie",
+  "vol": 0.7,
+  "shot": 26
+ },
+ {
+  "t": 39.55,
+  "name": "alarm",
+  "vol": 0.7,
+  "shot": 26
+ },
+ {
+  "t": 40.65,
+  "name": "zombie",
+  "vol": 0.7,
+  "shot": 27
+ },
+ {
+  "t": 41.05,
+  "name": "alarm",
+  "vol": 0.7,
+  "shot": 27
+ },
+ {
+  "t": 42.63,
+  "name": "jet",
+  "vol": 0.7,
+  "shot": 28
+ },
+ {
+  "t": 44.62,
+  "name": "stomp",
+  "vol": 0.9,
+  "shot": 29
+ },
+ {
+  "t": 45.12,
+  "name": "whoosh",
+  "vol": 1.0,
+  "shot": 29
+ },
+ {
+  "t": 45.42,
+  "name": "gasp",
+  "vol": 1.0,
+  "shot": 29
+ },
+ {
+  "t": 45.62,
+  "name": "stomp",
+  "vol": 0.9,
+  "shot": 29
+ },
+ {
+  "t": 46.22,
+  "name": "stomp",
+  "vol": 0.9,
+  "shot": 29
+ },
+ {
+  "t": 46.37,
+  "name": "stomp",
+  "vol": 0.9,
+  "shot": 30
+ },
+ {
+  "t": 46.57,
+  "name": "crowd",
+  "vol": 1.0,
+  "shot": 30
+ },
+ {
+  "t": 47.57,
+  "name": "whoosh",
+  "vol": 1.0,
+  "shot": 30
+ },
+ {
+  "t": 49.45,
+  "name": "sting",
+  "vol": 1.0,
+  "shot": 31
+ },
+ {
+  "t": 49.55,
+  "name": "crickets",
+  "vol": 0.6,
+  "shot": 31
+ },
+ {
+  "t": 51.37,
+  "name": "pop",
+  "vol": 0.8,
+  "shot": 32
+ },
+ {
+  "t": 53.03,
+  "name": "pop",
+  "vol": 0.8,
+  "shot": 33
+ },
+ {
+  "t": 53.71,
+  "name": "rise",
+  "vol": 0.7,
+  "shot": 34
+ },
+ {
+  "t": 55.77,
+  "name": "zombie",
+  "vol": 0.8,
+  "shot": 35
+ },
+ {
+  "t": 56.57,
+  "name": "boom",
+  "vol": 0.6,
+  "shot": 35
+ },
+ {
+  "t": 58.38,
+  "name": "squeak",
+  "vol": 1.0,
+  "shot": 36
+ },
+ {
+  "t": 58.43,
+  "name": "sting",
+  "vol": 1.0,
+  "shot": 36
+ },
+ {
+  "t": 58.48,
+  "name": "boom",
+  "vol": 0.6,
+  "shot": 36
+ },
+ {
+  "t": 60.08,
+  "name": "aww",
+  "vol": 0.6,
+  "shot": 36
+ },
+ {
+  "t": 61.05,
+  "name": "ding",
+  "vol": 1.0,
+  "shot": 37
+ },
+ {
+  "t": 61.63,
+  "name": "aww",
+  "vol": 0.6,
+  "shot": 38
+ },
+ {
+  "t": 63.59,
+  "name": "aww",
+  "vol": 0.8,
+  "shot": 39
+ },
+ {
+  "t": 64.87,
+  "name": "rise",
+  "vol": 0.9,
+  "shot": 40
+ },
+ {
+  "t": 67.51,
+  "name": "sparkle",
+  "vol": 1.0,
+  "shot": 41
+ },
+ {
+  "t": 67.61,
+  "name": "rise",
+  "vol": 1.0,
+  "shot": 41
+ },
+ {
+  "t": 68.43,
+  "name": "boom",
+  "vol": 0.6,
+  "shot": 42
+ },
+ {
+  "t": 68.53,
+  "name": "stomp",
+  "vol": 0.9,
+  "shot": 42
+ },
+ {
+  "t": 69.49,
+  "name": "boom",
+  "vol": 0.7,
+  "shot": 43
+ },
+ {
+  "t": 69.59,
+  "name": "stomp",
+  "vol": 0.9,
+  "shot": 43
+ },
+ {
+  "t": 70.61,
+  "name": "boom",
+  "vol": 1.0,
+  "shot": 44
+ },
+ {
+  "t": 70.81,
+  "name": "stomp",
+  "vol": 1.0,
+  "shot": 44
+ },
+ {
+  "t": 75.07,
+  "name": "whoosh",
+  "vol": 1.0,
+  "shot": 46
+ },
+ {
+  "t": 75.87,
+  "name": "stomp",
+  "vol": 0.9,
+  "shot": 46
+ },
+ {
+  "t": 77.47,
+  "name": "stomp",
+  "vol": 0.9,
+  "shot": 46
+ },
+ {
+  "t": 77.83,
+  "name": "wind",
+  "vol": 0.5,
+  "shot": 47
+ },
+ {
+  "t": 78.63,
+  "name": "footsteps",
+  "vol": 0.6,
+  "shot": 47
+ },
+ {
+  "t": 79.83,
+  "name": "aww",
+  "vol": 0.8,
+  "shot": 47
+ },
+ {
+  "t": 80.65,
+  "name": "cheer",
+  "vol": 1.0,
+  "shot": 48
+ },
+ {
+  "t": 80.85,
+  "name": "confetti",
+  "vol": 1.0,
+  "shot": 48
+ },
+ {
+  "t": 81.31,
+  "name": "cheer",
+  "vol": 1.0,
+  "shot": 49
+ },
+ {
+  "t": 81.51,
+  "name": "confetti",
+  "vol": 1.0,
+  "shot": 49
+ }
+]

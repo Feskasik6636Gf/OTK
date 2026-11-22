@@ -1,0 +1,1432 @@
+[
+{
+"word": "In",
+"start": 0.0,
+"end": 0.16
+},
+{
+"word": "this",
+"start": 0.16,
+"end": 0.32
+},
+{
+"word": "world,",
+"start": 0.32,
+"end": 0.62
+},
+{
+"word": "every",
+"start": 0.82,
+"end": 1.08
+},
+{
+"word": "kid",
+"start": 1.08,
+"end": 1.28
+},
+{
+"word": "gets",
+"start": 1.28,
+"end": 1.46
+},
+{
+"word": "a",
+"start": 1.46,
+"end": 1.66
+},
+{
+"word": "monster",
+"start": 1.66,
+"end": 2.0
+},
+{
+"word": "bodyguard",
+"start": 2.0,
+"end": 2.48
+},
+{
+"word": "on",
+"start": 2.48,
+"end": 2.66
+},
+{
+"word": "their",
+"start": 2.66,
+"end": 2.78
+},
+{
+"word": "tenth",
+"start": 2.78,
+"end": 3.08
+},
+{
+"word": "birthday.",
+"start": 3.18,
+"end": 3.4
+},
+{
+"word": "It",
+"start": 3.72,
+"end": 3.78
+},
+{
+"word": "follows",
+"start": 3.78,
+"end": 4.02
+},
+{
+"word": "you",
+"start": 4.02,
+"end": 4.22
+},
+{
+"word": "everywhere",
+"start": 4.22,
+"end": 4.64
+},
+{
+"word": "and",
+"start": 4.64,
+"end": 4.88
+},
+{
+"word": "protects",
+"start": 4.88,
+"end": 5.18
+},
+{
+"word": "you",
+"start": 5.18,
+"end": 5.36
+},
+{
+"word": "from",
+"start": 5.36,
+"end": 5.54
+},
+{
+"word": "anything.",
+"start": 5.54,
+"end": 6.0
+},
+{
+"word": "Tootie",
+"start": 6.45,
+"end": 6.61
+},
+{
+"word": "got",
+"start": 6.61,
+"end": 6.77
+},
+{
+"word": "a",
+"start": 6.77,
+"end": 6.95
+},
+{
+"word": "giant",
+"start": 6.95,
+"end": 7.23
+},
+{
+"word": "bear",
+"start": 7.23,
+"end": 7.47
+},
+{
+"word": "with",
+"start": 7.47,
+"end": 7.69
+},
+{
+"word": "three",
+"start": 7.69,
+"end": 7.97
+},
+{
+"word": "eyes.",
+"start": 7.97,
+"end": 8.29
+},
+{
+"word": "It",
+"start": 8.63,
+"end": 8.73
+},
+{
+"word": "carries",
+"start": 8.73,
+"end": 8.97
+},
+{
+"word": "his",
+"start": 8.97,
+"end": 9.13
+},
+{
+"word": "backpack.",
+"start": 9.13,
+"end": 9.47
+},
+{
+"word": "Eddie",
+"start": 9.87,
+"end": 10.01
+},
+{
+"word": "got",
+"start": 10.01,
+"end": 10.29
+},
+{
+"word": "a",
+"start": 10.29,
+"end": 10.41
+},
+{
+"word": "fire",
+"start": 10.41,
+"end": 10.71
+},
+{
+"word": "lizard.",
+"start": 10.71,
+"end": 10.93
+},
+{
+"word": "Nobody",
+"start": 11.38,
+"end": 11.66
+},
+{
+"word": "bullies",
+"start": 11.66,
+"end": 12.0
+},
+{
+"word": "Eddie",
+"start": 12.0,
+"end": 12.24
+},
+{
+"word": "anymore.",
+"start": 12.24,
+"end": 12.58
+},
+{
+"word": "Principal",
+"start": 12.98,
+"end": 13.2
+},
+{
+"word": "Fartan",
+"start": 13.26,
+"end": 13.6
+},
+{
+"word": "got",
+"start": 13.6,
+"end": 13.78
+},
+{
+"word": "a",
+"start": 13.78,
+"end": 13.92
+},
+{
+"word": "skunk",
+"start": 13.92,
+"end": 14.22
+},
+{
+"word": "monster.",
+"start": 14.22,
+"end": 14.62
+},
+{
+"word": "And",
+"start": 14.92,
+"end": 15.1
+},
+{
+"word": "honestly,",
+"start": 15.15,
+"end": 15.54
+},
+{
+"word": "that",
+"start": 15.8,
+"end": 15.96
+},
+{
+"word": "explains",
+"start": 15.96,
+"end": 16.26
+},
+{
+"word": "a",
+"start": 16.26,
+"end": 16.42
+},
+{
+"word": "lot.",
+"start": 16.42,
+"end": 16.7
+},
+{
+"word": "I",
+"start": 16.98,
+"end": 17.12
+},
+{
+"word": "got",
+"start": 17.12,
+"end": 17.42
+},
+{
+"word": "Pip.",
+"start": 17.42,
+"end": 17.68
+},
+{
+"word": "Pip",
+"start": 18.08,
+"end": 18.24
+},
+{
+"word": "is",
+"start": 18.24,
+"end": 18.44
+},
+{
+"word": "the",
+"start": 18.44,
+"end": 18.58
+},
+{
+"word": "size",
+"start": 18.58,
+"end": 18.78
+},
+{
+"word": "of",
+"start": 18.78,
+"end": 18.9
+},
+{
+"word": "a",
+"start": 18.9,
+"end": 19.0
+},
+{
+"word": "potato.",
+"start": 19.0,
+"end": 19.3
+},
+{
+"word": "He",
+"start": 19.68,
+"end": 19.76
+},
+{
+"word": "has",
+"start": 19.76,
+"end": 19.88
+},
+{
+"word": "one",
+"start": 19.88,
+"end": 20.12
+},
+{
+"word": "tooth",
+"start": 20.12,
+"end": 20.42
+},
+{
+"word": "and",
+"start": 20.48,
+"end": 20.66
+},
+{
+"word": "hides",
+"start": 20.66,
+"end": 20.9
+},
+{
+"word": "in",
+"start": 20.9,
+"end": 21.02
+},
+{
+"word": "my",
+"start": 21.02,
+"end": 21.16
+},
+{
+"word": "hood",
+"start": 21.16,
+"end": 21.34
+},
+{
+"word": "when",
+"start": 21.34,
+"end": 21.52
+},
+{
+"word": "a",
+"start": 21.52,
+"end": 21.62
+},
+{
+"word": "bird",
+"start": 21.62,
+"end": 21.76
+},
+{
+"word": "flies",
+"start": 21.76,
+"end": 22.0
+},
+{
+"word": "by.",
+"start": 22.0,
+"end": 22.26
+},
+{
+"word": "The",
+"start": 22.48,
+"end": 22.62
+},
+{
+"word": "whole",
+"start": 22.62,
+"end": 22.86
+},
+{
+"word": "class",
+"start": 22.86,
+"end": 23.16
+},
+{
+"word": "laughed",
+"start": 23.16,
+"end": 23.46
+},
+{
+"word": "at",
+"start": 23.46,
+"end": 23.62
+},
+{
+"word": "us",
+"start": 23.62,
+"end": 23.74
+},
+{
+"word": "for",
+"start": 23.74,
+"end": 23.92
+},
+{
+"word": "a",
+"start": 23.92,
+"end": 24.06
+},
+{
+"word": "week.",
+"start": 24.06,
+"end": 24.32
+},
+{
+"word": "\"Rock",
+"start": 24.76,
+"end": 24.88
+},
+{
+"word": "and",
+"start": 24.88,
+"end": 25.02
+},
+{
+"word": "roll!",
+"start": 25.02,
+"end": 25.34
+},
+{
+"word": "We're",
+"start": 25.5,
+"end": 25.66
+},
+{
+"word": "losing",
+"start": 25.66,
+"end": 25.92
+},
+{
+"word": "control!\"",
+"start": 25.92,
+"end": 26.42
+},
+{
+"word": "Monsters",
+"start": 26.87,
+"end": 27.15
+},
+{
+"word": "grow",
+"start": 27.15,
+"end": 27.51
+},
+{
+"word": "when",
+"start": 27.51,
+"end": 27.71
+},
+{
+"word": "their",
+"start": 27.71,
+"end": 27.85
+},
+{
+"word": "kid",
+"start": 27.85,
+"end": 28.01
+},
+{
+"word": "believes",
+"start": 28.01,
+"end": 28.31
+},
+{
+"word": "in",
+"start": 28.31,
+"end": 28.49
+},
+{
+"word": "them.",
+"start": 28.49,
+"end": 28.65
+},
+{
+"word": "Tootie's",
+"start": 28.78,
+"end": 29.23
+},
+{
+"word": "bear",
+"start": 29.23,
+"end": 29.33
+},
+{
+"word": "grew",
+"start": 29.33,
+"end": 29.57
+},
+{
+"word": "so",
+"start": 29.57,
+"end": 29.95
+},
+{
+"word": "big",
+"start": 29.95,
+"end": 30.19
+},
+{
+"word": "it",
+"start": 30.19,
+"end": 30.39
+},
+{
+"word": "sleeps",
+"start": 30.39,
+"end": 30.65
+},
+{
+"word": "on",
+"start": 30.65,
+"end": 30.85
+},
+{
+"word": "the",
+"start": 30.85,
+"end": 30.95
+},
+{
+"word": "roof.",
+"start": 30.95,
+"end": 31.23
+},
+{
+"word": "But",
+"start": 31.65,
+"end": 31.73
+},
+{
+"word": "Pip",
+"start": 31.73,
+"end": 31.93
+},
+{
+"word": "stayed",
+"start": 32.05,
+"end": 32.39
+},
+{
+"word": "tiny.",
+"start": 32.39,
+"end": 32.77
+},
+{
+"word": "Because",
+"start": 32.96,
+"end": 33.23
+},
+{
+"word": "I",
+"start": 33.23,
+"end": 33.39
+},
+{
+"word": "didn't",
+"start": 33.39,
+"end": 33.65
+},
+{
+"word": "believe",
+"start": 33.65,
+"end": 33.85
+},
+{
+"word": "in",
+"start": 33.85,
+"end": 34.01
+},
+{
+"word": "him.",
+"start": 34.01,
+"end": 34.21
+},
+{
+"word": "Not",
+"start": 34.43,
+"end": 34.55
+},
+{
+"word": "even",
+"start": 34.55,
+"end": 34.71
+},
+{
+"word": "a",
+"start": 34.71,
+"end": 34.85
+},
+{
+"word": "little.",
+"start": 34.85,
+"end": 35.03
+},
+{
+"word": "Then",
+"start": 35.41,
+"end": 35.55
+},
+{
+"word": "one",
+"start": 35.55,
+"end": 35.77
+},
+{
+"word": "night,",
+"start": 35.77,
+"end": 36.03
+},
+{
+"word": "the",
+"start": 36.13,
+"end": 36.33
+},
+{
+"word": "sirens",
+"start": 36.33,
+"end": 36.65
+},
+{
+"word": "went",
+"start": 36.65,
+"end": 36.87
+},
+{
+"word": "off.",
+"start": 36.87,
+"end": 37.17
+},
+{
+"word": "The",
+"start": 37.39,
+"end": 37.49
+},
+{
+"word": "Devourer",
+"start": 37.49,
+"end": 37.99
+},
+{
+"word": "came",
+"start": 37.99,
+"end": 38.23
+},
+{
+"word": "out",
+"start": 38.23,
+"end": 38.39
+},
+{
+"word": "of",
+"start": 38.39,
+"end": 38.49
+},
+{
+"word": "the",
+"start": 38.49,
+"end": 38.59
+},
+{
+"word": "forest,",
+"start": 38.59,
+"end": 38.89
+},
+{
+"word": "taller",
+"start": 39.15,
+"end": 39.41
+},
+{
+"word": "than",
+"start": 39.41,
+"end": 39.65
+},
+{
+"word": "the",
+"start": 39.65,
+"end": 39.77
+},
+{
+"word": "school,",
+"start": 39.77,
+"end": 40.15
+},
+{
+"word": "made",
+"start": 40.33,
+"end": 40.49
+},
+{
+"word": "of",
+"start": 40.49,
+"end": 40.65
+},
+{
+"word": "black",
+"start": 40.65,
+"end": 40.91
+},
+{
+"word": "smoke",
+"start": 40.91,
+"end": 41.29
+},
+{
+"word": "and",
+"start": 41.29,
+"end": 41.59
+},
+{
+"word": "teeth.",
+"start": 41.59,
+"end": 41.91
+},
+{
+"word": "It",
+"start": 42.23,
+"end": 42.39
+},
+{
+"word": "swallowed",
+"start": 42.39,
+"end": 42.71
+},
+{
+"word": "the",
+"start": 42.71,
+"end": 42.95
+},
+{
+"word": "fire",
+"start": 42.95,
+"end": 43.15
+},
+{
+"word": "lizard",
+"start": 43.15,
+"end": 43.37
+},
+{
+"word": "in",
+"start": 43.37,
+"end": 43.63
+},
+{
+"word": "one",
+"start": 43.63,
+"end": 43.91
+},
+{
+"word": "bite.",
+"start": 43.91,
+"end": 44.17
+},
+{
+"word": "Tootie's",
+"start": 44.62,
+"end": 44.86
+},
+{
+"word": "bear",
+"start": 44.86,
+"end": 45.0
+},
+{
+"word": "ran",
+"start": 45.0,
+"end": 45.28
+},
+{
+"word": "away",
+"start": 45.28,
+"end": 45.48
+},
+{
+"word": "screaming.",
+"start": 45.48,
+"end": 45.92
+},
+{
+"word": "Every",
+"start": 46.37,
+"end": 46.65
+},
+{
+"word": "monster",
+"start": 46.65,
+"end": 46.89
+},
+{
+"word": "in",
+"start": 46.89,
+"end": 47.17
+},
+{
+"word": "town",
+"start": 47.17,
+"end": 47.39
+},
+{
+"word": "ran.",
+"start": 47.39,
+"end": 47.67
+},
+{
+"word": "Every",
+"start": 48.03,
+"end": 48.35
+},
+{
+"word": "single",
+"start": 48.35,
+"end": 48.77
+},
+{
+"word": "one.",
+"start": 48.77,
+"end": 49.15
+},
+{
+"word": "Except",
+"start": 49.45,
+"end": 49.71
+},
+{
+"word": "Pip.",
+"start": 49.74,
+"end": 50.01
+},
+{
+"word": "He",
+"start": 50.37,
+"end": 50.49
+},
+{
+"word": "climbed",
+"start": 50.49,
+"end": 50.75
+},
+{
+"word": "out",
+"start": 50.75,
+"end": 50.95
+},
+{
+"word": "of",
+"start": 50.95,
+"end": 51.01
+},
+{
+"word": "my",
+"start": 51.01,
+"end": 51.13
+},
+{
+"word": "hood,",
+"start": 51.13,
+"end": 51.35
+},
+{
+"word": "jumped",
+"start": 51.59,
+"end": 51.75
+},
+{
+"word": "to",
+"start": 51.75,
+"end": 51.93
+},
+{
+"word": "the",
+"start": 51.93,
+"end": 52.03
+},
+{
+"word": "ground,",
+"start": 52.03,
+"end": 52.29
+},
+{
+"word": "and",
+"start": 52.43,
+"end": 52.57
+},
+{
+"word": "stood",
+"start": 52.57,
+"end": 52.83
+},
+{
+"word": "in",
+"start": 52.83,
+"end": 52.99
+},
+{
+"word": "front",
+"start": 52.99,
+"end": 53.13
+},
+{
+"word": "of",
+"start": 53.13,
+"end": 53.25
+},
+{
+"word": "me.",
+"start": 53.25,
+"end": 53.43
+},
+{
+"word": "Shaking,",
+"start": 53.71,
+"end": 54.01
+},
+{
+"word": "tiny,",
+"start": 54.29,
+"end": 54.51
+},
+{
+"word": "alone.",
+"start": 54.87,
+"end": 55.09
+},
+{
+"word": "The",
+"start": 55.37,
+"end": 55.47
+},
+{
+"word": "Devourer",
+"start": 55.47,
+"end": 55.89
+},
+{
+"word": "looked",
+"start": 55.89,
+"end": 56.09
+},
+{
+"word": "down",
+"start": 56.09,
+"end": 56.33
+},
+{
+"word": "at",
+"start": 56.33,
+"end": 56.45
+},
+{
+"word": "him",
+"start": 56.45,
+"end": 56.59
+},
+{
+"word": "and",
+"start": 56.59,
+"end": 56.81
+},
+{
+"word": "laughed.",
+"start": 56.81,
+"end": 57.17
+},
+{
+"word": "And",
+"start": 57.48,
+"end": 57.69
+},
+{
+"word": "Pip",
+"start": 57.69,
+"end": 57.91
+},
+{
+"word": "squeaked",
+"start": 57.91,
+"end": 58.33
+},
+{
+"word": "the",
+"start": 58.33,
+"end": 58.51
+},
+{
+"word": "bravest",
+"start": 58.6,
+"end": 59.03
+},
+{
+"word": "squeak",
+"start": 59.03,
+"end": 59.39
+},
+{
+"word": "I've",
+"start": 59.39,
+"end": 59.61
+},
+{
+"word": "ever",
+"start": 59.61,
+"end": 59.87
+},
+{
+"word": "heard.",
+"start": 59.87,
+"end": 60.19
+},
+{
+"word": "That's",
+"start": 60.45,
+"end": 60.67
+},
+{
+"word": "when",
+"start": 60.67,
+"end": 60.77
+},
+{
+"word": "I",
+"start": 60.77,
+"end": 60.89
+},
+{
+"word": "understood.",
+"start": 60.89,
+"end": 61.27
+},
+{
+"word": "He",
+"start": 61.63,
+"end": 61.75
+},
+{
+"word": "was",
+"start": 61.75,
+"end": 61.85
+},
+{
+"word": "never",
+"start": 61.85,
+"end": 62.15
+},
+{
+"word": "scared",
+"start": 62.15,
+"end": 62.41
+},
+{
+"word": "for",
+"start": 62.46,
+"end": 62.63
+},
+{
+"word": "himself.",
+"start": 62.63,
+"end": 62.95
+},
+{
+"word": "He",
+"start": 63.39,
+"end": 63.47
+},
+{
+"word": "was",
+"start": 63.47,
+"end": 63.57
+},
+{
+"word": "scared",
+"start": 63.57,
+"end": 63.81
+},
+{
+"word": "for",
+"start": 63.88,
+"end": 64.05
+},
+{
+"word": "me.",
+"start": 64.05,
+"end": 64.29
+},
+{
+"word": "So",
+"start": 64.67,
+"end": 64.81
+},
+{
+"word": "I",
+"start": 64.91,
+"end": 65.11
+},
+{
+"word": "believed",
+"start": 65.11,
+"end": 65.33
+},
+{
+"word": "in",
+"start": 65.33,
+"end": 65.51
+},
+{
+"word": "him.",
+"start": 65.51,
+"end": 65.69
+},
+{
+"word": "With",
+"start": 65.91,
+"end": 66.01
+},
+{
+"word": "everything",
+"start": 66.01,
+"end": 66.43
+},
+{
+"word": "I",
+"start": 66.43,
+"end": 66.67
+},
+{
+"word": "had,",
+"start": 66.67,
+"end": 66.91
+},
+{
+"word": "Pip",
+"start": 67.13,
+"end": 67.27
+},
+{
+"word": "started",
+"start": 67.27,
+"end": 67.65
+},
+{
+"word": "to",
+"start": 67.65,
+"end": 67.85
+},
+{
+"word": "grow.",
+"start": 67.85,
+"end": 68.09
+},
+{
+"word": "Bigger",
+"start": 68.43,
+"end": 68.61
+},
+{
+"word": "than",
+"start": 68.61,
+"end": 68.71
+},
+{
+"word": "a",
+"start": 68.71,
+"end": 68.85
+},
+{
+"word": "car.",
+"start": 68.85,
+"end": 69.13
+},
+{
+"word": "Bigger",
+"start": 69.49,
+"end": 69.69
+},
+{
+"word": "than",
+"start": 69.69,
+"end": 69.79
+},
+{
+"word": "a",
+"start": 69.79,
+"end": 69.97
+},
+{
+"word": "house.",
+"start": 69.97,
+"end": 70.23
+},
+{
+"word": "Bigger",
+"start": 70.61,
+"end": 70.87
+},
+{
+"word": "than",
+"start": 70.87,
+"end": 71.03
+},
+{
+"word": "the",
+"start": 71.03,
+"end": 71.17
+},
+{
+"word": "Devourer.",
+"start": 71.17,
+"end": 71.69
+},
+{
+"word": "He",
+"start": 72.01,
+"end": 72.13
+},
+{
+"word": "opened",
+"start": 72.13,
+"end": 72.39
+},
+{
+"word": "his",
+"start": 72.39,
+"end": 72.57
+},
+{
+"word": "mouth",
+"start": 72.57,
+"end": 72.77
+},
+{
+"word": "with",
+"start": 72.77,
+"end": 72.97
+},
+{
+"word": "one",
+"start": 72.97,
+"end": 73.33
+},
+{
+"word": "giant",
+"start": 73.33,
+"end": 73.75
+},
+{
+"word": "tooth",
+"start": 73.75,
+"end": 74.07
+},
+{
+"word": "and",
+"start": 74.09,
+"end": 74.31
+},
+{
+"word": "roared.",
+"start": 74.31,
+"end": 74.69
+},
+{
+"word": "The",
+"start": 75.07,
+"end": 75.19
+},
+{
+"word": "Devourer",
+"start": 75.19,
+"end": 75.59
+},
+{
+"word": "ran",
+"start": 75.59,
+"end": 75.83
+},
+{
+"word": "back",
+"start": 75.83,
+"end": 76.05
+},
+{
+"word": "to",
+"start": 76.05,
+"end": 76.17
+},
+{
+"word": "the",
+"start": 76.17,
+"end": 76.29
+},
+{
+"word": "forest",
+"start": 76.29,
+"end": 76.55
+},
+{
+"word": "and",
+"start": 76.55,
+"end": 76.79
+},
+{
+"word": "never",
+"start": 76.79,
+"end": 77.05
+},
+{
+"word": "came",
+"start": 77.05,
+"end": 77.29
+},
+{
+"word": "back.",
+"start": 77.29,
+"end": 77.55
+},
+{
+"word": "The",
+"start": 77.83,
+"end": 77.91
+},
+{
+"word": "next",
+"start": 77.91,
+"end": 78.07
+},
+{
+"word": "morning,",
+"start": 78.07,
+"end": 78.35
+},
+{
+"word": "Pip",
+"start": 78.57,
+"end": 78.67
+},
+{
+"word": "was",
+"start": 78.67,
+"end": 78.81
+},
+{
+"word": "tiny",
+"start": 78.81,
+"end": 79.07
+},
+{
+"word": "again,",
+"start": 79.07,
+"end": 79.39
+},
+{
+"word": "asleep",
+"start": 79.55,
+"end": 79.79
+},
+{
+"word": "in",
+"start": 79.79,
+"end": 79.97
+},
+{
+"word": "my",
+"start": 79.97,
+"end": 80.07
+},
+{
+"word": "hood.",
+"start": 80.07,
+"end": 80.25
+},
+{
+"word": "Nobody",
+"start": 80.65,
+"end": 80.87
+},
+{
+"word": "laughs",
+"start": 80.87,
+"end": 81.17
+},
+{
+"word": "at",
+"start": 81.17,
+"end": 81.31
+},
+{
+"word": "us",
+"start": 81.31,
+"end": 81.45
+},
+{
+"word": "anymore.",
+"start": 81.45,
+"end": 81.67
+}
+]
