@@ -7,3 +7,6 @@ roblox_render/videos/*/audio/*.wav
 roblox_render/videos/*/audio/*.m4a
 roblox_render/videos/*/audio/raw.mp3
 roblox_render/videos/*/render_log_*.txt
+roblox_render/videos/*/out/
+roblox_render/videos/*/*.png
+roblox_render/videos/*/parts.txt
