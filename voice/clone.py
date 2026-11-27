@@ -22,7 +22,7 @@ post("/models/install", headers=J, data=json.dumps({"repo_id": "k2-fsa/OmniVoice
 for _ in range(240):
     s = requests.get(B + "/models/install/status", timeout=30).json()
     print("install:", json.dumps(s)[:300], flush=True)
-    if not s.get("active") and not s.get("installing") and s.get("state") in (None, "idle", "done", "complete", "installed"):
+    if not any(j.get("state") in ("downloading", "queued", "installing", "verifying") for j in s.get("jobs", [])):
         break
     time.sleep(15)
 
@@ -31,9 +31,16 @@ with open(REF, "rb") as f:
     p = post("/profiles", data={"name": "Quentin", "kind": "clone"}, files={"ref_audio": f}).json()
 post(f"/profiles/{p['id']}/attestation", headers=J, data=json.dumps({"basis": "own_voice"}))
 
-# 3. generate
-with open(REF, "rb") as f:
-    r = post("/generate", data={"text": TEXT, "language": "Auto"}, files={"ref_audio": f}, timeout=3000)
+# 3. generate (accept the model licence on the 403 prompt: owner-approved, non-commercial use)
+def gen():
+    with open(REF, "rb") as f:
+        return post("/generate", data={"text": TEXT, "language": "Auto"}, files={"ref_audio": f}, timeout=3000)
+r = gen()
+if r.status_code == 403 and "model_licence_required" in r.text:
+    for m in r.json()["detail"]["models"]:
+        post("/models/licenses/accept", headers=J, data=json.dumps(
+            {"repo_id": m["repo_id"], "fingerprint": m["fingerprint"], "accepted": True}))
+    r = gen()
 r.raise_for_status()
 import os; os.makedirs("out", exist_ok=True)
 open(OUT, "wb").write(r.content)
