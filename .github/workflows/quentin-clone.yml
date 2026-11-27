@@ -1,0 +1,37 @@
+name: Quentin voice clone
+on:
+  workflow_dispatch:
+    inputs:
+      text:
+        description: Phrase to speak
+        default: "Hello, this is my cloned voice speaking."
+jobs:
+  clone:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with: { repository: debpalash/VoiceStudio, path: vs }
+      - uses: oven-sh/setup-bun@v2
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg libsndfile1
+      - run: pip install uv requests
+      - name: Setup VoiceStudio
+        working-directory: vs
+        run: bun install && bun run setup:api
+      - name: Start backend
+        working-directory: vs
+        run: |
+          nohup bun run dev:api > ../api.log 2>&1 &
+          for i in $(seq 60); do curl -sf localhost:3900/health && break; sleep 3; done
+      - name: Clone and generate
+        run: python voice/clone.py "${{ inputs.text }}"
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: quentin
+          path: |
+            out/
+            api.log
