@@ -3,7 +3,7 @@ import json, sys, time, requests
 
 B = "http://127.0.0.1:3900"
 TEXT = sys.argv[1]
-REF = "voice/quentin_ref_25s.wav"
+REF = "voice/quentin_ref_8s.wav"
 OUT = "out/quentin_test.wav"
 J = {"Content-Type": "application/json"}
 
