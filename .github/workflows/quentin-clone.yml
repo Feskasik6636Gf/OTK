@@ -1,5 +1,8 @@
 name: Quentin voice clone
 on:
+  push:
+    branches: [ccr-49b63a65-rpessl]
+    paths: ['.github/workflows/quentin-clone.yml', 'voice/**']
   workflow_dispatch:
     inputs:
       text:
@@ -27,7 +30,7 @@ jobs:
           nohup bun run dev:api > ../api.log 2>&1 &
           for i in $(seq 60); do curl -sf localhost:3900/health && break; sleep 3; done
       - name: Clone and generate
-        run: python voice/clone.py "${{ inputs.text }}"
+        run: python voice/clone.py "${{ inputs.text || 'Hello, this is my cloned voice speaking.' }}"
       - if: always()
         uses: actions/upload-artifact@v4
         with:
