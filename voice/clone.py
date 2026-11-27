@@ -12,19 +12,16 @@ def post(path, **kw):
     print(path, r.status_code, r.text[:300], flush=True)
     return r
 
-# 1. model install (reviewed flow: prepare -> acknowledge -> commit -> install)
-plan = post("/models/install/prepare", headers=J, data=json.dumps({"repo_id": "k2-fsa/OmniVoice"})).json()
-post("/models/install/commit", headers=J, data=json.dumps({
-    "plan_id": plan["plan_id"], "plan_digest": plan["plan_digest"],
-    "acknowledged_document_ids": [d.get("id") for d in plan.get("documents", [])],
-    "acknowledged": True}))
-post("/models/install", headers=J, data=json.dumps({"repo_id": "k2-fsa/OmniVoice"}))
-for _ in range(240):
-    s = requests.get(B + "/models/install/status", timeout=30).json()
-    print("install:", json.dumps(s)[:300], flush=True)
-    if not any(j.get("state") in ("downloading", "queued", "installing", "verifying") for j in s.get("jobs", [])):
-        break
-    time.sleep(15)
+# 1. model installs: TTS model + Whisper (to transcribe the reference clip)
+for repo in ("k2-fsa/OmniVoice", "Systran/faster-whisper-large-v3"):
+    post("/models/install", headers=J, data=json.dumps({"repo_id": repo}))
+    time.sleep(5)
+    for _ in range(240):
+        s = requests.get(B + "/models/install/status", timeout=30).json()
+        print("install:", json.dumps(s)[:300], flush=True)
+        if not any(j.get("state") in ("downloading", "queued", "installing", "verifying") for j in s.get("jobs", [])):
+            break
+        time.sleep(15)
 
 # 2. clone profile
 with open(REF, "rb") as f:
